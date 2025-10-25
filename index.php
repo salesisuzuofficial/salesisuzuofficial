@@ -60,7 +60,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="img/isuzu.webp" alt="Isuzu Logo" class="logo">
+        <img src="salesisuzuofficial.com/img/isuzu.webp" alt="Isuzu Logo" class="logo">
         <h1>Website Sedang Dalam Perawatan</h1>
         <p>Kami sedang melakukan pemeliharaan untuk meningkatkan layanan kami.</p>
         <p>Silakan hubungi kami melalui WhatsApp untuk informasi lebih lanjut:</p>
