@@ -27,17 +27,17 @@ function printUrl($loc, $lastmod, $changefreq = 'monthly', $priority = '0.7') {
 }
 
 // base
-$base_url = 'https://saleshinoindonesia.com';
+$base_url = 'https://official-hino.com';
 
 // selalunya kita cetak halaman index artikel
 printUrl("$base_url/artikel.php", date('Y-m-d'), 'weekly', '0.9');
 
 try {
     // koneksi DB (sesuaikan bila host bukan 'localhost')
-    $host = 'localhost';
-    $user = 'u429834259_hinoindonesia';
-    $pass = 'NatanaelH1no0504@@';
-    $db = 'u429834259_hino_indonesia';
+    $db_host = getenv('DB_HOST') ?: 'localhost';
+    $db_name = getenv('DB_NAME') ?: 'u142136422_officialhino';
+    $db_user = getenv('DB_USER') ?: 'u142136422_officialhino';
+    $db_pass = getenv('DB_PASS') ?: 'D3n15h1no35!';
 
     $conn = new mysqli($host, $user, $pass, $db);
     $conn->set_charset('utf8mb4');

@@ -57,11 +57,11 @@ img {
 }
 
 .nav a.active {
-  color: #c55858;
+  color: #b80000;
 }
 
 .nav a:hover {
-  color: #b80b0b;
+  color: #b80000;
 }
 
 .hamburger-menu {

@@ -1,5 +1,5 @@
 # ============================
-# robots.txt for saleshinoindonesia.com
+# robots.txt for official-hino.com
 # ============================
 
 User-agent: *
@@ -28,5 +28,5 @@ Allow: /hino500.html
 Allow: /hinobus.html
 
 # ⚙️ Sitemap utama
-Sitemap: https://saleshinoindonesia.com/sitemap-index.xml
-Sitemap: https://saleshinoindonesia.com/sitemap-artikel.php
+Sitemap: https://official-hino.com/sitemap-index.xml
+Sitemap: https://official-hino.com/sitemap-artikel.php

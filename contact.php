@@ -1,76 +1,71 @@
 <?php
-// ====== PHP Bagian Proses Form ======
+require_once 'admin/config.php'; // pastikan file ini memuat koneksi PDO
+
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-  // Koneksi ke database
-  $conn = new mysqli("localhost", "u868657420_root", "Natanael110405", "u868657420_db_dealer_hino");
+    // Ambil dan bersihkan input
+    $name = trim($_POST['name'] ?? '');
+    $phone = trim($_POST['phone'] ?? '');
+    $message = trim($_POST['message'] ?? '');
 
-  // Cek koneksi
-  if ($conn->connect_error) {
-    die("❌ Koneksi gagal: " . $conn->connect_error);
-  }
+    // Validasi sederhana
+    if ($name === '' || $phone === '' || $message === '') {
+        echo "❌ Semua field wajib diisi.";
+        exit;
+    }
 
-  // Tangkap data dan amankan
-  $name = $conn->real_escape_string($_POST['name']);
-  $phone = $conn->real_escape_string($_POST['phone']);
-  $message = $conn->real_escape_string($_POST['message']);
+    // Simpan ke database (tabel messages)
+    $sql = "INSERT INTO messages (name, phone, message) VALUES (:name, :phone, :message)";
+    $params = [
+        ':name' => $name,
+        ':phone' => $phone,
+        ':message' => $message
+    ];
 
-  // Query insert
-  $sql = "INSERT INTO contact_messages (name, phone, message) VALUES ('$name', '$phone', '$message')";
+    try {
+        $rowCount = execPrepared($pdo, $sql, $params);
+        if ($rowCount > 0) {
+            echo "✅ Pesan Anda berhasil dikirim.";
+        } else {
+            echo "❌ Gagal menyimpan pesan.";
+        }
+    } catch (Exception $e) {
+        error_log("Gagal insert pesan: " . $e->getMessage());
+        echo "❌ Terjadi kesalahan. Silakan coba lagi nanti.";
+    }
 
-  // Eksekusi
-  if ($conn->query($sql) === TRUE) {
-    echo "✅ Pesan Anda berhasil dikirim.";
-  } else {
-    echo "❌ Terjadi kesalahan: " . $conn->error;
-  }
-
-  // Tutup koneksi dan keluar agar tidak render HTML
-  $conn->close();
-  exit;
+    exit; // stop di sini agar tidak melanjutkan ke HTML
 }
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hubungi Kami | Dealer Truk Hino Resmi Jakarta</title>
+    <title>Hubungi Kami | Hino Official</title>
 
     <!-- Meta Description -->
     <meta
       name="description"
-      content="Dealer Resmi Hino Jakarta. Hubungi : 0859 7528 7684 / 0882 1392 5184 Untuk mendapatkan informasi produk Hino. Layanan Terbaik dan Jaminan Mutu."
+      content="Hino Official - Dealer Truck Hino Tangerang. Hubungi : 0812 1905 5571 Untuk mendapatkan informasi produk Hino. Layanan Terbaik dan Jaminan Mutu."
     />
 
     <!-- Meta Keywords -->
-    <meta name="keywords" content="sales Hino, sales Hino Jakarta, sales Hino Jabodetabek, sales Hino Tangerang, sales Hino Bekasi, sales Hino Depok, sales Hino Bogor, sales truck Hino, dealer Hino, dealer Hino Jabodetabek, dealer Hino Tangerang, dealer Hino Bekasi, dealer Hino Depok, dealer Hino Bogor, dealer truck Hino, dealer Hino resmi, dealer Hino Jakarta, dealer Hino Indonesia, jual truk Hino, kredit truk Hino, cicilan truk Hino, promo truk Hino, harga truk Hino terbaru, diskon truk Hino, truk Hino Dutro, truk Hino 300, truk Hino 500, Hino Dutro 136 HD, Hino Dutro 4x4, Hino Dutro box, Hino Dutro engkel, spesifikasi Hino Dutro, modifikasi truk Hino, gambar truk Hino, keunggulan truk Hino, truk Hino untuk bisnis, truk Hino untuk logistik, perbandingan truk Hino dan Isuzu Elf, dealer truk Hino termurah" />
+    <meta name="keywords" content="sales Hino, sales Hino Jakarta, sales Hino Jabodetabek, sales Hino Tangerang, sales Hino Bekasi, sales Hino Depok, sales Hino Bogor, sales truck Hino, dealer Hino, dealer Hino Jabodetabek, dealer Hino Tangerang, dealer Hino Bekasi, dealer Hino Depok, dealer Hino Bogor, dealer truck Hino, dealer Hino resmi, dealer Hino Jakarta, dealer Hino Indonesia, jual truk Hino, kredit truk Hino, cicilan truk Hino, promo truk Hino, harga truk Hino terbaru, diskon truk Hino, truk Hino Dutro, truk Hino 300, truk Hino 500, Hino Dutro 136 HD, Hino Dutro 4x4, Hino Dutro box, Hino Dutro engkel, spesifikasi Hino Dutro, modifikasi truk Hino, gambar truk Hino, keunggulan truk Hino, truk Hino untuk bisnis, truk Hino untuk logistik, perbandingan truk Hino dan Isuzu Elf, dealer truk Hino termurah, dealer truk hino tangerang, dealer hino cikupa, hino cikupa, dealer hino tangerang murah" />
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://saleshinoindonesia.com/contact.php" />
+    <link rel="canonical" href="https://official-hino.com/contact.php" />
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZY8E57Z99"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8BPF492E6Z"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-2ZY8E57Z99');
+      gtag('config', 'G-8BPF492E6Z');
     </script>
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="Dealer Hino Indonesia | Promo & Harga Truk Terbaik" />
-    <meta property="og:description" content="Dapatkan promo truk Hino terbaru di Jakarta. Konsultasi langsung dengan sales profesional. Gratis penawaran & layanan cepat!" />
-    <meta property="og:image" content="https://saleshinoindonesia.com/img/promohino1.jpg" />
-    <meta property="og:url" content="https://saleshinoindonesia.com/contact.php" />
-    <meta property="og:type" content="website" />
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Dealer Hino Indonesia | Promo & Harga Truk Terbaik" />
-    <meta name="twitter:description" content="Hubungi kami untuk mendapatkan penawaran terbaik truk Hino. Layanan cepat & profesional." />
-    <meta name="twitter:image" content="https://saleshinoindonesia.com/img/promohino1.jpg" />
 
     <meta name="robots" content="index, follow" />
     <link rel="icon" type="image/png" href="/img/favicon.png" />
@@ -83,35 +78,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <link rel="stylesheet" href="css/contact_css/contact.css" />
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
-
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "AutoDealer",
-        "name": "Dealer Hino Indonesia - Jakarta",
-        "image": "https://saleshinoindonesia.com/img/logo3.png",
-        "url": "https://saleshinoindonesia.com",
-        "logo": "https://saleshinoindonesia.com/img/logo3.png",
-        "telephone": "+62-859-7528-7684",
-        "email": "saleshinojabodetabek@gmail.com",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Golf Lake Ruko Venice, Jl. Lkr. Luar Barat No.78 Blok B, RT.9/RW.14, Cengkareng Tim.",
-          "addressLocality": "Jakarta Barat",
-          "addressRegion": "DKI Jakarta",
-          "postalCode": "11730",
-          "addressCountry": "ID"
-        },
-        "openingHours": "Mo-Sa 08:00-17:00",
-        "priceRange": "$$",
-        "sameAs": [
-          "https://www.instagram.com/saleshinojabodetabek",
-          "https://www.facebook.com/profile.php?id=61573843992250",
-          "https://wa.me/6285975287684"
-        ]
-      }
-    </script>
   </head>
 
   <body>
@@ -119,16 +85,16 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <header>
       <div class="container header-content navbar">
         <div class="header-title">
-          <a href="https://saleshinoindonesia.com">
+          <a href="https://official-hino.com">
             <img src="img/logo3.png" alt="Logo Hino" style="height: 60px" />
           </a>
         </div>
         <div class="hamburger-menu">&#9776;</div>
         <nav class="nav links">
           <a href="index.php">Home</a>
-          <a href="hino300.html">Hino 300 Series</a>
-          <a href="hino500.html">Hino 500 Series</a>
-          <a href="hinobus.html">Hino Bus Series</a>
+          <a href="hino300.php">Hino 300 Series</a>
+          <a href="hino500.php">Hino 500 Series</a>
+          <a href="hinobus.php">Hino Bus Series</a>
           <a href="artikel.php">Blog & Artikel</a>
           <a href="contact.php">Contact</a>
         </nav>
@@ -166,44 +132,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </div>
 
         <div class="map1">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63471.95288843176!2d106.65860738294855!3d-6.131096504333846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1d775401fa6d%3A0xc7e25a8d81b821ec!2sDealer%20Hino%20Jabodetabek%20Resmi!5e0!3m2!1sen!2sus!4v1760817261750!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4165925685147!2d106.4925165!3d-6.2086551000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e42014b1ba54cb5%3A0x8cbdfa3c0d9e5809!2sDealer%20Hino%20Cikupa!5e0!3m2!1sid!2sid!4v1761059143239!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
 
     <!-- Footer -->
-    <footer class="site-footer">
-      <div class="footer-container">
-        <div class="footer-section">
-          <img src="img/logo3.png" alt="Logo" class="footer-logo" />
-          <p>Nathan, Sales Hino Indonesia yang berpengalaman dan profesional, siap menjadi mitra terbaik Anda dalam memenuhi kebutuhan kendaraan niaga.</p>
-        </div>
-
-        <div class="footer-section">
-          <h4>HUBUNGI KAMI</h4>
-          <p>📞 0859-7528-7684</p>
-          <p>📧 saleshinojabodetabek@gmail.com</p>
-          <p>📍 Golf Lake Ruko Venice, Jl. Lkr. Luar Barat No.78 Blok B, RT.9/RW.14, Cengkareng Tim.</p>
-          <div class="footer-social" style="margin-top: 20px">
-            <h4>SOSIAL MEDIA</h4>
-            <div class="social-icons">
-              <a href="https://www.instagram.com/saleshinojabodetabek" target="_blank"><i data-feather="instagram"></i></a>
-              <a href="https://wa.me/+6285975287684" target="_blank"><i data-feather="phone"></i></a>
-              <a href="https://www.facebook.com/profile.php?id=61573843992250" target="_blank"><i data-feather="facebook"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="footer-section">
-          <div class="google-map-container" style="margin-top: 20px">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63471.95288843176!2d106.65860738294855!3d-6.131096504333846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1d775401fa6d%3A0xc7e25a8d81b821ec!2sDealer%20Hino%20Jabodetabek%20Resmi!5e0!3m2!1sen!2sus!4v1760817261750!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 Sales Hino Indonesia. All Rights Reserved.</p>
-      </div>
-    </footer>
+    <?php include 'footer.php'; ?>
 
     <!-- Elfsight WhatsApp -->
     <script src="https://static.elfsight.com/platform/platform.js" async></script>

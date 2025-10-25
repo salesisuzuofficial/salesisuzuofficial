@@ -1,17 +1,16 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+include "../config.php";
+header('Content-Type: application/json; charset=utf-8');
 
-header('Content-Type: application/json');
+try {
+    $stmt = $pdo->query("SELECT id, nama_kategori FROM kategori ORDER BY nama_kategori ASC");
+    $kategori = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-// Koneksi ke database
-$host = "localhost";
-$user = "u868657420_root";
-$pass = "Natanael110405";
-$db   = "u868657420_db_dealer_hino";
-
-$conn = new mysqli($host, $user, $pass, $db);
+    echo json_encode($kategori, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+} catch (Exception $e) {
+    error_log("Error get_kategori: " . $e->getMessage());
+    echo json_encode(["error" => "Terjadi kesalahan saat mengambil kategori."]);
+}
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -35,8 +34,8 @@ $kategori = [];
 while ($row = $result->fetch_assoc()) {
     // Buat format output: id dan nama (pakai alias agar frontend tetap bisa akses 'nama')
     $kategori[] = [
-        "id" => $row["id"],
-        "nama" => $row["nama_kategori"]
+    "id" => $row["id"],
+    "nama_kategori" => $row["nama_kategori"]
     ];
 }
 

@@ -1,0 +1,148 @@
+/* ============================
+   PRODUK & LAYANAN HINO BANDUNG
+   (Isolated CSS - aman dari bentrok)
+============================ */
+
+.hino-section-produk {
+  position: relative;
+  background: linear-gradient(180deg, #b80000 50%, #ffffff 50%);
+  padding: 80px 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+/* === Pola Titik Dekoratif === */
+.hino-section-produk::before,
+.hino-section-produk::after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: radial-gradient(white 2px, transparent 2px);
+  background-size: 10px 10px;
+  opacity: 0.5; /* sedikit lebih terang */
+  z-index: 1;
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.6)); /* bikin lebih pop */
+}
+
+/* Titik di kiri atas */
+.hino-section-produk::before {
+  top: 40px;
+  left: 40px;
+}
+
+/* Titik di kanan bawah */
+.hino-section-produk::after {
+  bottom: 40px;
+  right: 40px;
+}
+
+/* === Konten Utama === */
+.hino-container {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.hino-heading h5 {
+  color: #111;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.hino-heading h2 {
+  color: #fff;
+  font-size: 46px;
+  font-weight: 800;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.hino-heading p {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+/* === Kartu Produk === */
+.hino-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.hino-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  width: 340px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hino-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hino-card img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.hino-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0a2f14;
+  margin: 25px 0 10px;
+  text-transform: uppercase;
+}
+
+.hino-btn {
+  display: inline-block;
+  background: #b80000;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 25px;
+  transition: background 0.3s ease;
+}
+
+.hino-btn:hover {
+  background: #8c0000;
+}
+
+/* === Responsive === */
+@media (max-width: 992px) {
+  .hino-heading h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hino-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hino-card {
+    width: 90%;
+  }
+  .hino-section-produk::before,
+  .hino-section-produk::after {
+    width: 120px;
+    height: 120px;
+    background-size: 8px 8px;
+  }
+}
