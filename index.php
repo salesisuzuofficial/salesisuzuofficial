@@ -99,7 +99,7 @@ if (
       <div class="container header-content navbar">
         <div class="header-title">
           <a href="https://salesisuzuofficial.com">
-            <img src="img/astra-logo.png" alt="Logo Hino" style="height: 60px" />
+            <img src="img/isuzu.webp" alt="Logo Hino" style="height: 60px" />
           </a>
         </div>
         
