@@ -50,26 +50,26 @@ if (
     </script>
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://saleshinoindonesia.com/" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/" />
 
     <!-- Open Graph (Facebook, LinkedIn) -->
     <meta property="og:title" content="Dealer Hino Indonesia | Promo & Harga Truk Terbaik" />
     <meta property="og:description" content="Dapatkan promo truk Hino terbaru di Jakarta. Konsultasi langsung dengan sales profesional. Gratis penawaran & layanan cepat!" />
-    <meta property="og:image" content="https://saleshinoindonesia.com/img/promohino1.jpg" />
-    <meta property="og:url" content="https://saleshinoindonesia.com/" />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/promohino1.jpg" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/" />
     <meta property="og:type" content="website" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Dealer Hino Indonesia | Promo & Harga Truk Terbaik" />
     <meta name="twitter:description" content="Hubungi kami untuk mendapatkan penawaran terbaik truk Hino. Layanan cepat & profesional." />
-    <meta name="twitter:image" content="https://saleshinoindonesia.com/img/promohino1.jpg" />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/promohino1.jpg" />
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/img/favicon.png">
+    <link rel="icon" type="image/png" href="/img/astra-logo.png">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet" />
@@ -91,42 +91,15 @@ if (
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
 
-    <!-- Structured Data JSON-LD -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "AutoDealer",
-        "name": "Dealer Hino Indonesia - Jakarta",
-        "image": "https://saleshinoindonesia.com/img/logo3.png",
-        "url": "https://saleshinoindonesia.com",
-        "logo": "https://saleshinoindonesia.com/img/logo3.png",
-        "telephone": "+62-859-7528-7684",
-        "email": "saleshinojabodetabek@gmail.com",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Golf Lake Ruko Venice, Jl. Lkr. Luar Barat No.78 Blok B, RT.9/RW.14, Cengkareng Tim.",
-          "addressLocality": "Jakarta Barat",
-          "addressRegion": "DKI Jakarta",
-          "postalCode": "11730",
-          "addressCountry": "ID"
-        },
-        "openingHours": "Mo-Sa 08:00-17:00",
-        "priceRange": "$$",
-        "sameAs": [
-          "https://www.instagram.com/saleshinojabodetabek",
-          "https://www.facebook.com/profile.php?id=61573843992250",
-          "https://wa.me/6285975287684"
-        ]
-      }
-    </script>
+
   </head>
   <body>
     <!-- Header -->
     <header>
       <div class="container header-content navbar">
         <div class="header-title">
-          <a href="https://saleshinoindonesia.com">
-            <img src="img/logo3.png" alt="Logo Hino" style="height: 60px" />
+          <a href="https://salesisuzuofficial.com">
+            <img src="img/astra-logo.png" alt="Logo Hino" style="height: 60px" />
           </a>
         </div>
         
@@ -360,7 +333,7 @@ Hemat biaya, kendaraan lebih terawat, performa maksimal.
         <p>Dapatkan informasi terbaru seputar Truk Hino, perawatan, dan promo terbaik.</p>
         <div class="blog-grid">
           <?php
-            $artikelData = json_decode(file_get_contents("https://saleshinoindonesia.com/admin/api/get_artikel.php"), true);
+            $artikelData = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/get_artikel.php"), true);
             if (is_array($artikelData)) {
               $terbaru = array_slice($artikelData, 0, 3);
               foreach ($terbaru as $artikel):
