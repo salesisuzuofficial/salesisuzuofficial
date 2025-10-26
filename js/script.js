@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // === SLIDE BANNER (Jika pakai .slide class) ===
+  // === SLIDE BANNER ===
   const slides = document.querySelectorAll(".slide");
   if (slides.length > 0) {
     let currentSlide = 0;
@@ -141,23 +141,33 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // === FADE IN / OUT ===
   const faders = document.querySelectorAll(".fade-element");
+  if (faders.length > 0) {
+    const options = {
+      threshold: 0.1,
+      rootMargin: "0px 0px -50px 0px",
+    };
 
-  const options = {
-    threshold: 0.1,
-    rootMargin: "0px 0px -50px 0px",
-  };
+    const appearOnScroll = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        } else {
+          entry.target.classList.remove("visible");
+        }
+      });
+    }, options);
 
-  const appearOnScroll = new IntersectionObserver((entries, observer) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-      } else {
-        entry.target.classList.remove("visible"); // fade out saat hilang
-      }
+    faders.forEach((fader) => appearOnScroll.observe(fader));
+  }
+
+  // === FEATURE BOX ACTIVE EFFECT ===
+  const boxes = document.querySelectorAll(".feature-box");
+  if (boxes.length > 0) {
+    boxes.forEach((box) => {
+      box.addEventListener("click", () => {
+        boxes.forEach((b) => b.classList.remove("active"));
+        box.classList.add("active");
+      });
     });
-  }, options);
-
-  faders.forEach((fader) => {
-    appearOnScroll.observe(fader);
-  });
-});
+  }
+}); // ✅ Tutup DOMContentLoaded

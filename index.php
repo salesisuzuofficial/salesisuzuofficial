@@ -99,6 +99,37 @@ try {
       </div>
     </section>
 
+    <!-- Feature Section -->
+     <section class="features-section">
+  <div class="feature-box active">
+    <div class="icon">
+      <img src="icons/icon1.svg" alt="Icon 1">
+    </div>
+    <h3>Proses Cepat</h3>
+    <p>Kami mengutamakan pelayanan terhadap customer dengan tidak akan membuat rumit proses pembelian unit Isuzu.</p>
+    <span class="number">01</span>
+  </div>
+
+  <div class="feature-box">
+    <div class="icon">
+      <img src="icons/icon2.svg" alt="Icon 2">
+    </div>
+    <h3>Sales Berpengalaman</h3>
+    <p>Dibantu dengan sales executive kami yang akan menjelaskan kepada Anda mengenai detail produk Isuzu.</p>
+    <span class="number">02</span>
+  </div>
+
+  <div class="feature-box">
+    <div class="icon">
+      <img src="icons/icon3.svg" alt="Icon 3">
+    </div>
+    <h3>After Sales</h3>
+    <p>Kami siap menjawab pertanyaan anda seputar produk Isuzu untuk menentukan pilihan yang tepat.</p>
+    <span class="number">03</span>
+  </div>
+</section>
+
+
     <!-- Section: Promo Utama -->
     <section id="promo-utama" class="promo-section fade-element">
       <div class="promo-text">
@@ -120,36 +151,6 @@ try {
       <img src="img/hino.png" alt="Truk isuzu Hijau" loading="lazy" class="promo-main-image" />
     </section>
 
-    <!-- BAGIAN PRODUK & LAYANAN -->
-    <section class="hino-section-produk fade-element">
-      <div class="hino-container">
-        <div class="hino-heading">
-          <h5>PRODUK & LAYANAN</h5>
-          <h2>HINO TANGERANG</h2>
-          <p>Kami melayani jasa penyediaan unit Truk & Bus, layanan service dan penjualan spare part merk isuzu.</p>
-        </div>
-
-        <div class="hino-cards">
-          <div class="hino-card">
-            <img src="img/bannerpenjualan.jpg" alt="Penjualan Truk & Bis" />
-            <h3>PENJUALAN TRUK & BUS</h3>
-            <a href="#products-section" class="hino-btn">SELENGKAPNYA</a>
-          </div>
-
-          <div class="hino-card">
-            <img src="img/bannerservice.jpg" alt="Layanan Service" />
-            <h3>LAYANAN SERVICE</h3>
-            <a href="contact.php" class="hino-btn">SELENGKAPNYA</a>
-          </div>
-
-          <div class="hino-card">
-            <img src="img/bannersparepart.jpg" alt="Spare Part" />
-            <h3>SPARE PART</h3>
-            <a href="contact.php" class="hino-btn">SELENGKAPNYA</a>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Produk -->
     <section id="products-section" class="products-section fade-element">
