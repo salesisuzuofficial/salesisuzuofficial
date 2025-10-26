@@ -118,8 +118,8 @@ try {
                 Percayakan kebutuhan truk dan kendaraan niaga Anda kepada <strong>Dedy Chandra – Sales Astra Isuzu Daan Mogot Jakarta</strong>. Dapatkan pengalaman pembelian yang mudah, harga terbaik, dan layanan purna jual yang selalu siap membantu Anda setiap saat.
                 </p>
             <div class="contact-buttons">
-              <a href="https://wa.me/6281296632186" class="btn whatsapp-btn"><i class="fab fa-whatsapp"></i> +62 859-7528-7684</a>
-              <a href="mailto:salesisuzuofficial@gmail.com" class="btn email-btn"><i class="fas fa-envelope"></i> saleshinojabodetabek@gmail.com</a>
+              <a href="https://wa.me/6281296632186" class="btn whatsapp-btn"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+              <a href="mailto:salesisuzuofficial@gmail.com" class="btn email-btn"><i class="fas fa-envelope"></i> Gmail</a>
             </div>
           </div>
           <div class="image-gallery">
