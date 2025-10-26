@@ -37,7 +37,7 @@ if (!$message) {
 <title>Detail Pesan</title>
 
 <!-- Favicon -->
-<link rel="icon" href="../img/favicon.png" type="image/png" />
+<link rel="icon" href="../img/logo.png" type="image/png" />
 
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -52,7 +52,7 @@ if (!$message) {
 <!-- SIDEBAR -->
 <div class="sidebar">
     <div class="logo text-center">
-        <img src="../img/favicon.png" alt="Logo">
+        <img src="../img/logo.png" alt="Logo">
     </div>
     <a href="index.php"><i class="fa-solid fa-home"></i> Dashboard</a>
     <a href="produk.php"><i class="fa-solid fa-box"></i> Produk</a>

@@ -20,7 +20,7 @@ $totalPesanCustomer = fetchOnePrepared($pdo, $pesanQuery)['COUNT(*)'];
   <title>Dashboard Admin</title>
 
   <!-- Favicon -->
-  <link rel="icon" href="../img/favicon.png" type="image/png" />
+  <link rel="icon" href="../img/logo.png" type="image/png" />
 
   <!-- CSS & ICONS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +37,7 @@ $totalPesanCustomer = fetchOnePrepared($pdo, $pesanQuery)['COUNT(*)'];
   <!-- SIDEBAR -->
   <div class="sidebar">
     <div class="logo">
-      <img src="../img/favicon.png" alt="Logo">
+      <img src="../img/logo.png" alt="Logo">
     </div>
 
     <a href="index.php" class="active"><i class="fa-solid fa-house"></i> Dashboard</a>
@@ -51,7 +51,7 @@ $totalPesanCustomer = fetchOnePrepared($pdo, $pesanQuery)['COUNT(*)'];
   <div class="main-content">
     <div class="main-header mb-4">
       <h3>Selamat Datang, <span class="text-primary">Admin 👋</span></h3>
-      <p class="text-muted">Panel Admin Hino — Didesain untuk kemudahan & kecepatan kerja.</p>
+      <p class="text-muted">Panel Admin Isuzu — Didesain untuk kemudahan & kecepatan kerja.</p>
     </div>
 
     <div class="row g-4">

@@ -27,7 +27,7 @@ try {
 <title>Pesan Masuk</title>
 
 <!-- Favicon -->
-<link rel="icon" href="../img/favicon.png" type="image/png" />
+<link rel="icon" href="../img/logo.png" type="image/png" />
 
 <link rel="stylesheet" href="css/admin.css">
 
@@ -45,7 +45,7 @@ try {
 <!-- SIDEBAR -->
 <div class="sidebar">
     <div class="logo text-center">
-        <img src="../img/favicon.png" alt="Logo" />
+        <img src="../img/logo.png" alt="Logo" />
     </div>
     <a href="index.php"><i class="fa-solid fa-home"></i> Dashboard</a>
     <a href="artikel.php"><i class="fa-solid fa-file-alt"></i> Artikel</a>

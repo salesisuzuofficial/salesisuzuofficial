@@ -27,7 +27,7 @@ try {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manajemen Artikel</title>
-  <link rel="icon" href="../img/favicon.png" type="image/png" />
+  <link rel="icon" href="../img/logo.png" type="image/png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/admin.css?v=2">
@@ -41,7 +41,7 @@ try {
   <!-- SIDEBAR -->
   <div class="sidebar">
     <div class="logo text-center">
-      <img src="../img/favicon.png" alt="Logo">
+      <img src="../img/logo.png" alt="Logo">
     </div>
     <a href="index.php"><i class="fa-solid fa-home"></i> Dashboard</a>
     <a href="artikel.php" class="active"><i class="fa-solid fa-file-alt"></i> Artikel</a>
