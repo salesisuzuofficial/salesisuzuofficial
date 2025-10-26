@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gauge">
-  <path d="M12 14l2 2m8-2l-2 2m-4 4v2m-9 3a10 10 0 1 1 18 0m-9 0h0"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="url(#grad)">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5f2eea"></stop>
+      <stop offset="100%" stop-color="#ff0040"></stop>
+    </linearGradient>
+  </defs>
+  <path fill="#fff" d="M3 3h18v2H3zm3 4h12v2H6zm-3 4h18v2H3zm6 4h6v2H9zm-6 4h18v2H3z"></path>
 </svg>

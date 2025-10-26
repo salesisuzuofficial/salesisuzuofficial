@@ -1,4 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-headphones">
-  <path d="M3 18a9 9 0 0 1 18 0v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/>
-  <path d="M21 19v2a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-2a9 9 0 0 0-18 0v2a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="url(#grad)">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5f2eea"></stop>
+      <stop offset="100%" stop-color="#ff0040"></stop>
+    </linearGradient>
+  </defs>
+  <path fill="#fff" d="M22.7 19.3l-6.4-6.4c.5-1 .7-2.1.7-3.2C17 4.5 13.5 1 9 1 7.9 1 6.9 1.2 6 1.6l3.7 3.7-4.3 4.3L1.7 5.9C1.3 6.8 1 7.9 1 9c0 4.5 3.5 8 8 8 1.1 0 2.2-.2 3.2-.7l6.4 6.4c.4.4 1 .4 1.4 0l2.7-2.7c.4-.3.4-1 0-1.4z"></path>
 </svg>

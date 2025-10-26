@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-check">
-  <path d="M20 21v-2a4 4 0 0 0-8 0v2M2 21a9 9 0 0 1 18 0m-9 0v3m13-3 2 2 4-4"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="url(#grad)">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5f2eea"></stop>
+      <stop offset="100%" stop-color="#ff0040"></stop>
+    </linearGradient>
+  </defs>
+  <path fill="#fff" d="M12 12c2.2 0 4-1.8 4-4S14.2 4 12 4s-4 1.8-4 4 1.8 4 4 4zm0 2c-3.3 0-6 2.7-6 6h2a4 4 0 0 1 8 0h2c0-3.3-2.7-6-6-6zm6-8v6h2V6h-2zm-1 8v2h3v-2h-3z"></path>
 </svg>
