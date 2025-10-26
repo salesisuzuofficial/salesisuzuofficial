@@ -82,9 +82,10 @@ try {
       .about-company,
       .products-section,
       .promo-section,
+      .promo-utama,
       .features-section,
       .blog-section {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
       }
 
       /* Supaya gambar promo sejajar */
