@@ -46,8 +46,8 @@ try {
     </script> -->
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/img/favicon.png" />
-    <link rel="apple-touch-icon" href="images/favicon.png" />
+    <link rel="icon" type="image/png" href="/img/logo.png" />
+    <link rel="apple-touch-icon" href="images/logo.png" />
 
     <!-- Font & CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet" />
@@ -71,7 +71,7 @@ try {
       <div class="container header-content navbar">
         <div class="header-title">
           <a href="https://salesisuzuofficial.com">
-            <img src="img/logo3.png" alt="Logo isuzu" style="height: 55px" />
+            <img src="img/logo.png" alt="Logo isuzu" style="height: 55px" />
           </a>
         </div>
 
@@ -91,9 +91,10 @@ try {
     <!-- Hero -->
     <section class="hero">
       <div class="slider">
-        <img src="img/Euro 4 isuzu 300.jpeg" class="slide active" alt="Banner 1" />
-        <img src="img/Euro 4 isuzu 500.jpeg" class="slide" alt="Banner 2" />
-        <img src="img/Euro 4 isuzu Bus.jpeg" class="slide" alt="Banner 3" />
+        <img src="img/hero1.webp" class="slide active" alt="Banner 1" />
+        <img src="img/hero2.webp" class="slide" alt="Banner 2" />
+        <img src="img/hero3.webp" class="slide" alt="Banner 3" />
+        <img src="img/hero4.webp" class="slide" alt="Banner 4" />
       </div>
     </section>
 
