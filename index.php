@@ -153,11 +153,11 @@ try {
 
         <nav class="nav links">
           <a href="index.php">Home</a>
-          <a href="hino300.php">Produk</a>
-          <a href="hino500.php">Simulasi Kredit</a>
-          <a href="hinobus.php">Booking Service</a>
-          <a href="artikel.php">Blog & Artikel</a>
-          <a href="contact.php">Contact</a>
+          <a href="maintance.html">Produk</a>
+          <a href="maintance.html">Simulasi Kredit</a>
+          <a href="maintance.html">Booking Service</a>
+          <a href="maintance.html">Blog & Artikel</a>
+          <a href="maintance.html">Contact</a>
         </nav>
       </div>
     </header>
@@ -360,9 +360,9 @@ try {
       </div>
     </section>
 
-    <!-- WhatsApp Chat -->
-    <script src="https://static.elfsight.com/platform/platform.js" async></script>
-    <div class="elfsight-app-1c150e27-6597-4113-becd-79df393b9756" data-elfsight-app-lazy></div>
+    <!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
+    <script src="https://elfsightcdn.com/platform.js" async></script>
+    <div class="elfsight-app-f56c7d51-f2e3-421a-bdba-8f4071e20aba" data-elfsight-app-lazy></div>
 
     <!-- Footer -->
     <?php include 'footer.php'; ?>
