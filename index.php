@@ -164,7 +164,7 @@ try {
     <!-- Hero -->
     <section class="hero">
       <div class="slider">
-        <img src="img/hero3.jpg" class="slide" alt="Banner 3" />
+        <img src="img/isuzutraga.webp" class="slide" alt="Banner 3" />
         <img src="img/hero4.jpg" class="slide" alt="Banner 4" />
         <img src="img/hero5.jpg" class="slide" alt="Banner 5" />
       </div>
