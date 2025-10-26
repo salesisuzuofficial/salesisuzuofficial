@@ -66,3 +66,52 @@ html {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* ===============================
+   ✨ GLOBAL SECTION SPACING STYLE
+   =============================== */
+section {
+  padding: 80px 20px; /* Atas-bawah 80px, kiri-kanan 20px */
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 60px 16px; /* Sedikit lebih kecil di HP */
+  }
+}
+
+/* Jika section memiliki background abu atau warna berbeda, tetap sejajar */
+.about-company,
+.products-section,
+.features-section,
+.blog-section {
+  margin: 0 auto;
+  max-width: 1200px; /* agar tidak terlalu melebar di layar besar */
+}
+
+/* Agar jarak antar judul section dan isi seragam */
+.section-title,
+.about-company h2,
+.products-section h2,
+.features-section .section-title h2,
+.blog-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Jarak antar paragraf dalam setiap section */
+section p {
+  line-height: 1.7;
+  margin-bottom: 1em;
+}
+
+/* Jarak antar item di grid agar tidak dempet */
+.products,
+.features-container,
+.blog-grid {
+  gap: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
