@@ -196,74 +196,6 @@ try {
   </div>
 </section>
 
-
-
-
-
-
-    
-        <!-- Keunggulan Kami -->
-    <section class="advantages fade-element">
-        <div class="advantages-container">
-            <div class="advantages-image">
-          <img src="img/worker.png" alt="Worker Image" />
-        </div>
-
-        <div class="advantages-content">
-          <h2>Program Purna Jual</h2>
-
-          <div class="advantage-item">
-            <svg xmlns="https://w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="#0a1950" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-            </svg>
-            <div>
-              <h4>Program Service</h4>
-              <p>
-                Nikmati layanan gratis biaya jasa service berkala untuk setiap pembelian unit isuzu tertentu. Pemeriksaan dilakukan oleh teknisi bersertifikat menggunakan suku cadang asli isuzu.
-                Hemat biaya, kendaraan lebih terawat, performa maksimal.
-              </p>
-            </div>
-          </div>
-
-          <div class="advantage-item">
-            <svg xmlns="https://w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="#0a1950" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m6 5.87v-2a4 4 0 00-3-3.87M16 7a4 4 0 11-8 0 4 4 0 018 0z" />
-            </svg>
-            <div>
-              <h4>Program Suku Cadang</h4>
-              <p>
-                Dapatkan jaminan kualitas dan ketahanan terbaik untuk truk Anda dengan menggunakan suku cadang asli isuzu. Kami menyediakan layanan lengkap untuk memastikan setiap komponen kendaraan Anda bekerja secara optimal dan tahan lama.
-              </p>
-            </div>
-          </div>
-
-          <div class="advantage-item">
-            <svg xmlns="https://w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="#0a1950" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c1.657 0 3-1.343 3-3S13.657 2 12 2 9 3.343 9 5s1.343 3 3 3zm0 0v13m-3.5-3.5L12 21l3.5-3.5" />
-            </svg>
-            <div>
-              <h4>Program On Site Service</h4>
-              <p>
-                Kini, perawatan dan perbaikan truk isuzu menjadi lebih praktis dengan layanan On Site Service. Teknisi isuzu yang profesional akan datang langsung ke lokasi operasional Anda — menghemat waktu, tenaga, dan biaya operasional.
-              </p>
-            </div>
-          </div>
-
-          <div class="advantage-item">
-            <svg xmlns="https://w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="#0a1950" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 17H4a1 1 0 01-1-1V6a1 1 0 011-1h11a1 1 0 011 1v10a1 1 0 01-1 1h-1m5 0a2 2 0 100-4h-1m-4 4h6m-1 0a2 2 0 110 4 2 2 0 010-4zM6 17a2 2 0 100 4 2 2 0 000-4z" />
-            </svg>
-            <div>
-              <h4>Pelatihan & Konsultasi</h4>
-              <p>
-                isuzu tidak hanya menjual truk, tapi juga memastikan setiap pengguna memahami cara terbaik untuk mengoperasikan dan merawatnya. Melalui program Pelatihan & Konsultasi, kami membekali operator dan manajemen Anda dengan pengetahuan teknis, keselamatan, efisiensi pengoperasian, serta perawatan kendaraan.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Contact Section -->
     <div class="contact-container fade-element">
       <div class="contact-tabs">
@@ -275,7 +207,7 @@ try {
           <img src="img/cssupport.png" alt="WhatsApp" />
           <div>
             <strong>Whatsapp</strong><br />
-            +62 812-1905-5571
+            +62 812-9663-2186
           </div>
         </div>
 
@@ -285,7 +217,7 @@ try {
           <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" alt="Phone" />
           <div>
             <strong>Phone Call</strong><br />
-            +62 812-1905-5571
+            +62 812-9663-2186
           </div>
         </div>
 
@@ -295,7 +227,7 @@ try {
           <img src="https://img.icons8.com/ios-filled/50/000000/new-post.png" alt="Email" />
           <div>
             <strong>Email</strong><br />
-            denishinoindonesia@gmail.com
+            salesisuzuofficial@gmail.com
           </div>
         </div>
       </div>
