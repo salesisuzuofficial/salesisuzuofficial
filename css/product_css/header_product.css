@@ -24,8 +24,8 @@ header {
 .hero {
   position: relative;
   width: 100%;
-  height: 65vh; /* tinggi default */
-  max-height: 700px; /* tinggi maksimal untuk layar besar */
+  height: 65vh;
+  max-height: 700px;
   overflow: hidden;
   background-color: #000; /* fallback */
 }
@@ -43,8 +43,8 @@ header {
 .slider img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* selalu penuh, tidak gepeng */
-  object-position: center; /* fokus tengah gambar */
+  object-fit: cover;
+  object-position: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -81,9 +81,47 @@ header {
   line-height: 1.5;
 }
 
-/* ===================== RESPONSIVE ===================== */
+/* ===================== HERO PRODUK (Overlay + Shadow) ===================== */
+.hero-produk {
+  position: relative;
+}
 
-/* Laptop dan tablet landscape */
+.hero-produk::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hero-produk .hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  padding: 20px 40px;
+}
+
+.hero-produk .hero-content h1 {
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffd700;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  margin-bottom: 0;
+}
+
+/* ===================== RESPONSIVE ===================== */
+/* Laptop & tablet landscape */
 @media (max-width: 1024px) {
   .hero {
     height: 55vh;
@@ -107,16 +145,15 @@ header {
   .hero-content p {
     font-size: 14px;
   }
+  .hero-produk .hero-content h1 {
+    font-size: 36px;
+  }
 }
 
 /* HP kecil */
 @media (max-width: 480px) {
   .hero {
-    height: 45vh; /* tinggi pas untuk HP kecil */
-  }
-  .slider img {
-    object-fit: cover; /* gambar tetap penuh, tidak ada ruang sisa */
-    object-position: center; /* fokus di tengah */
+    height: 45vh;
   }
   .hero-content h1 {
     font-size: 22px;
@@ -124,12 +161,7 @@ header {
   .hero-content p {
     font-size: 13px;
   }
-}
-
-/* ===================== HERO PRODUK (Box Shadow) ===================== */
-.hero-produk .hero-content {
-  background: rgba(0, 0, 0, 0.5); /* overlay semi-transparan */
-  padding: 20px 30px;
-  border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  .hero-produk .hero-content h1 {
+    font-size: 26px;
+  }
 }
