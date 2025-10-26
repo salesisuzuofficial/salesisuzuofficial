@@ -21,14 +21,13 @@ header {
 }
 
 /* ===================== HERO SECTION ===================== */
-/* ===================== HERO SECTION ===================== */
 .hero {
   position: relative;
   width: 100%;
-  height: 65vh; /* tinggi disesuaikan agar tidak crop berlebihan */
-  max-height: 700px; /* biar tetap proporsional di layar besar */
+  height: 65vh; /* tinggi default */
+  max-height: 700px; /* tinggi maksimal untuk layar besar */
   overflow: hidden;
-  background-color: #000;
+  background-color: #000; /* fallback */
 }
 
 /* ===================== SLIDER ===================== */
@@ -44,14 +43,13 @@ header {
 .slider img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* tetap full, tapi tidak gepeng */
-  object-position: center center; /* fokus tengah gambar */
+  object-fit: cover; /* selalu penuh, tidak gepeng */
+  object-position: center; /* fokus tengah gambar */
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
   transition: opacity 1s ease-in-out;
-  background-color: #000;
 }
 
 .slider img.active {
@@ -88,13 +86,11 @@ header {
 /* Laptop dan tablet landscape */
 @media (max-width: 1024px) {
   .hero {
-    height: 55vh; /* agak lebih kecil agar tidak potong */
+    height: 55vh;
   }
-
   .hero-content h1 {
     font-size: 36px;
   }
-
   .hero-content p {
     font-size: 16px;
   }
@@ -103,18 +99,11 @@ header {
 /* Tablet & HP */
 @media (max-width: 768px) {
   .hero {
-    height: 50vh; /* sesuaikan tinggi untuk layar HP */
+    height: 50vh;
   }
-
-  .slider img {
-    object-fit: contain; /* ubah ke contain supaya tidak crop di HP */
-    background-color: #000; /* sisi belakang hitam biar rapi */
-  }
-
   .hero-content h1 {
     font-size: 26px;
   }
-
   .hero-content p {
     font-size: 14px;
   }
@@ -125,18 +114,22 @@ header {
   .hero {
     height: 45vh; /* tinggi pas untuk HP kecil */
   }
-
   .slider img {
-    object-fit: cover; /* penuh, tidak ada ruang sisa */
-    object-position: center center; /* fokus tengah gambar */
-    background-color: transparent; /* hilangkan warna latar hitam */
+    object-fit: cover; /* gambar tetap penuh, tidak ada ruang sisa */
+    object-position: center; /* fokus di tengah */
   }
-
   .hero-content h1 {
     font-size: 22px;
   }
-
   .hero-content p {
     font-size: 13px;
   }
+}
+
+/* ===================== HERO PRODUK (Box Shadow) ===================== */
+.hero-produk .hero-content {
+  background: rgba(0, 0, 0, 0.5); /* overlay semi-transparan */
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
