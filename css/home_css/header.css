@@ -123,11 +123,13 @@ header {
 /* HP kecil */
 @media (max-width: 480px) {
   .hero {
-    height: 45vh; /* pas untuk HP kecil */
+    height: 45vh; /* tinggi pas untuk HP kecil */
   }
 
   .slider img {
-    object-fit: contain; /* biar tidak potong gambar */
+    object-fit: cover; /* penuh, tidak ada ruang sisa */
+    object-position: center center; /* fokus tengah gambar */
+    background-color: transparent; /* hilangkan warna latar hitam */
   }
 
   .hero-content h1 {
