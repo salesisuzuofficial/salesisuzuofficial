@@ -21,35 +21,22 @@ try {
 }
 ?>
 
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dealer Isuzu Jakarta | Dapatkan Promo & Harga Terbaik Truck Isuzu  </title>
+    <title>Dealer Isuzu Jakarta | Dapatkan Promo & Harga Terbaik Truck Isuzu</title>
 
     <meta name="description" content="Dealer Isuzu Jakarta resmi – Dapatkan promo dan harga terbaik untuk truk, pick up, dan kendaraan niaga Isuzu. Hubungi kami untuk penawaran Isuzu Elf, Giga, dan Traga terbaru di Jakarta. Pelayanan cepat & terpercaya!" />
-
     <meta name="keywords" content="sales isuzu, sales isuzu Jakarta, sales isuzu Jabodetabek, sales isuzu Tangerang, sales isuzu Bekasi, sales isuzu Depok, sales isuzu Bogor, sales truck isuzu, dealer isuzu, dealer isuzu Jabodetabek, dealer isuzu Tangerang, dealer isuzu Bekasi, dealer isuzu Depok, dealer isuzu Bogor, dealer truck isuzu, dealer isuzu resmi, dealer isuzu Jakarta, dealer isuzu Indonesia, jual truk isuzu, kredit truk isuzu, cicilan truk isuzu, promo truk isuzu, harga truk isuzu terbaru, diskon truk isuzu, truk isuzu Dutro, truk isuzu 300, truk isuzu 500, isuzu Dutro 136 HD, isuzu Dutro 4x4, isuzu Dutro box, isuzu Dutro engkel, spesifikasi isuzu Dutro, modifikasi truk isuzu, gambar truk isuzu, keunggulan truk isuzu, truk isuzu untuk bisnis, truk isuzu untuk logistik, perbandingan truk isuzu dan Isuzu Elf, dealer truk isuzu termurah, dealer truk isuzu tangerang, dealer hino cikupa, hino cikupa, dealer hino tangerang murah" />
-
     <link rel="canonical" href="https://salesisuzuofficial.com/" />
-
-    <!-- Google tag (gtag.js)
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8BPF492E6Z"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-8BPF492E6Z');
-    </script> -->
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/logo.png" />
     <link rel="apple-touch-icon" href="images/logo.png" />
 
-    <!-- Font & CSS -->
+    <!-- Fonts & Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/navbar.css" />
@@ -71,7 +58,7 @@ try {
       <div class="container header-content navbar">
         <div class="header-title">
           <a href="https://salesisuzuofficial.com">
-            <img src="img/logo.png" alt="Logo isuzu" style="height: 55px" />
+            <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
           </a>
         </div>
 
@@ -106,95 +93,106 @@ try {
           <div class="text">
             <h2>Dealer Isuzu Jakarta</h2>
             <div class="divider"></div>
+
             <p>
-                <strong>Dedy Chandra</strong> adalah Sales Executive resmi dari <strong>Dealer Astra Isuzu Daan Mogot Jakarta</strong> yang berkomitmen memberikan pelayanan terbaik untuk setiap pelanggan. Dengan pengalaman luas di dunia otomotif, khususnya kendaraan niaga Isuzu, Dedy selalu siap membantu Anda menemukan solusi transportasi yang paling tepat — baik untuk kebutuhan bisnis maupun operasional perusahaan.
+              <strong>Dedy Chandra</strong> adalah Sales Executive resmi dari
+              <strong>Dealer Astra Isuzu Daan Mogot Jakarta</strong> yang berkomitmen memberikan pelayanan terbaik untuk setiap pelanggan. Dengan pengalaman luas di dunia otomotif, khususnya kendaraan niaga Isuzu, Dedy selalu siap membantu Anda menemukan solusi transportasi yang paling tepat — baik untuk kebutuhan bisnis maupun operasional perusahaan.
             </p>
-            
+
             <p>
-                Sebagai bagian dari jaringan resmi <strong>Astra Isuzu</strong>, Dedy Chandra menawarkan berbagai tipe kendaraan Isuzu seperti <em>Elf, Traga, Giga, dan Panther</em> dengan layanan konsultasi profesional, proses cepat, serta dukungan after-sales yang terjamin. Dedy tidak hanya fokus pada penjualan, tetapi juga pada kepuasan dan kepercayaan pelanggan melalui pelayanan yang ramah, informatif, dan transparan.
-                </p>
-                
-                <p>
-                    Percayakan kebutuhan truk dan kendaraan niaga Anda kepada <strong>Dedy Chandra – Sales Astra Isuzu Daan Mogot Jakarta</strong>. Dapatkan pengalaman pembelian yang mudah, harga terbaik, dan layanan purna jual yang selalu siap membantu Anda setiap saat.
-                </p>
-                <div class="contact-buttons">
-                    <a href="https://wa.me/6281296632186" class="btn whatsapp-btn"><i class="fab fa-whatsapp"></i> Whatsapp</a>
-                    <a href="mailto:salesisuzuofficial@gmail.com" class="btn email-btn"><i class="fas fa-envelope"></i> Gmail</a>
-                </div>
+              Sebagai bagian dari jaringan resmi <strong>Astra Isuzu</strong>, Dedy Chandra menawarkan berbagai tipe kendaraan Isuzu seperti
+              <em>Elf, Traga, Giga, dan Panther</em> dengan layanan konsultasi profesional, proses cepat, serta dukungan after-sales yang terjamin. Dedy tidak hanya fokus pada penjualan, tetapi juga pada kepuasan dan kepercayaan pelanggan melalui pelayanan yang ramah, informatif, dan transparan.
+            </p>
+
+            <p>
+              Percayakan kebutuhan truk dan kendaraan niaga Anda kepada
+              <strong>Dedy Chandra – Sales Astra Isuzu Daan Mogot Jakarta</strong>. Dapatkan pengalaman pembelian yang mudah, harga terbaik, dan layanan purna jual yang selalu siap membantu Anda setiap saat.
+            </p>
+
+            <div class="contact-buttons">
+              <a href="https://wa.me/6281296632186" class="btn whatsapp-btn">
+                <i class="fab fa-whatsapp"></i> Whatsapp
+              </a>
+              <a href="mailto:salesisuzuofficial@gmail.com" class="btn email-btn">
+                <i class="fas fa-envelope"></i> Gmail
+              </a>
             </div>
-            <div class="image-gallery">
-                <img src="img/dealer.webp" alt="Dealer Isuzu" />
+          </div>
+
+          <div class="image-gallery">
+            <img src="img/dealer.webp" alt="Dealer Isuzu" />
           </div>
         </div>
-    </div>
-        </section>
-
-        <!-- Produk -->
-        <section id="products-section" class="products-section fade-element">
-            <h2 class="section-title">Produk Truk Isuzu Unggulan</h2>
-            <div class="products">
-                <div class="product">
-                    <img src="img/product/Isuzu-Traga.webp" alt="Isuzu Traga" loading="lazy" />
-                    <h3>
-                        <a href="https://salesisuzuofficial.com/hino300.php" target="_blank" rel="noopener noreferrer">Isuzu Traga</a>
-                    </h3>
-                  <p>Truk ringan dan tangguh, cocok untuk usaha kecil dan menengah.</p>
-                </div>
-                
-                <div class="product">
-                    <img src="img/product/Isuzu-Elf-NLR.webp" alt="Isuzu Elf NLR" loading="lazy" />
-                    <h3>
-                        <a href="https://salesisuzuofficial.com/hino500.php" target="_blank" rel="noopener noreferrer">Isuzu ELF</a>
-                    </h3>
-                    <p>Performa handal untuk pengangkutan berat dan jarak jauh.</p>
-                </div>
-                
-                <div class="product">
-                    <img src="img/product/Isuzu-Giga-FTR.webp" alt="isuzu Bus Series" loading="lazy" />
-                    <h3>
-                        <a href="https://salesisuzuofficial.com/hinobus.php" target="_blank" rel="noopener noreferrer">Isuzu Giga</a>
-                    </h3>
-                    <p>Solusi transportasi truk dengan kenyamanan terbaik.</p>
-                </div>
-              </div>
-            </section>
-
-<!-- Feature Section -->
-<section class="features-section">
-  <div class="section-title">
-    <h2>Kenapa Harus Isuzu?</h2>
-    <p>Pilih Isuzu untuk performa tangguh, efisiensi bahan bakar tinggi, dan layanan purna jual terbaik di Indonesia.</p>
-  </div>
-
-  <div class="features-container">
-    <div class="feature-box">
-      <div class="icon">
-        <img src="img/icons/fast-process.svg" alt="Icon 1">
       </div>
-      <h3>Proses Cepat</h3>
-      <p>Kami mengutamakan pelayanan terhadap customer dengan tidak akan membuat rumit proses pembelian unit Isuzu.</p>
-      <span class="number">01</span>
-    </div>
+    </section>
 
-    <div class="feature-box">
-      <div class="icon">
-        <img src="img/icons/experienced-sales.svg" alt="Icon 2">
-      </div>
-      <h3>Sales Berpengalaman</h3>
-      <p>Dibantu dengan sales executive kami yang akan menjelaskan kepada Anda mengenai detail produk Isuzu.</p>
-      <span class="number">02</span>
-    </div>
+    <!-- Produk -->
+    <section id="products-section" class="products-section fade-element">
+      <h2 class="section-title">Produk Truk Isuzu Unggulan</h2>
 
-    <div class="feature-box">
-      <div class="icon">
-        <img src="img/icons/after-sales.svg" alt="Icon 3">
+      <div class="products">
+        <div class="product">
+          <img src="img/product/Isuzu-Traga.webp" alt="Isuzu Traga" loading="lazy" />
+          <h3>
+            <a href="https://salesisuzuofficial.com/hino300.php" target="_blank" rel="noopener noreferrer">Isuzu Traga</a>
+          </h3>
+          <p>Truk ringan dan tangguh, cocok untuk usaha kecil dan menengah.</p>
+        </div>
+
+        <div class="product">
+          <img src="img/product/Isuzu-Elf-NLR.webp" alt="Isuzu Elf NLR" loading="lazy" />
+          <h3>
+            <a href="https://salesisuzuofficial.com/hino500.php" target="_blank" rel="noopener noreferrer">Isuzu ELF</a>
+          </h3>
+          <p>Performa handal untuk pengangkutan berat dan jarak jauh.</p>
+        </div>
+
+        <div class="product">
+          <img src="img/product/Isuzu-Giga-FTR.webp" alt="Isuzu Giga" loading="lazy" />
+          <h3>
+            <a href="https://salesisuzuofficial.com/hinobus.php" target="_blank" rel="noopener noreferrer">Isuzu Giga</a>
+          </h3>
+          <p>Solusi transportasi truk dengan kenyamanan terbaik.</p>
+        </div>
       </div>
-      <h3>After Sales</h3>
-      <p>Kami siap menjawab pertanyaan anda seputar produk Isuzu untuk menentukan pilihan yang tepat.</p>
-      <span class="number">03</span>
-    </div>
-  </div>
-</section>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="features-section">
+      <div class="section-title">
+        <h2>Kenapa Harus Isuzu?</h2>
+        <p>Pilih Isuzu untuk performa tangguh, efisiensi bahan bakar tinggi, dan layanan purna jual terbaik di Indonesia.</p>
+      </div>
+
+      <div class="features-container">
+        <div class="feature-box">
+          <div class="icon">
+            <img src="img/icons/fast-process.svg" alt="Proses Cepat" />
+          </div>
+          <h3>Proses Cepat</h3>
+          <p>Kami mengutamakan pelayanan terhadap customer dengan tidak akan membuat rumit proses pembelian unit Isuzu.</p>
+          <span class="number">01</span>
+        </div>
+
+        <div class="feature-box">
+          <div class="icon">
+            <img src="img/icons/experienced-sales.svg" alt="Sales Berpengalaman" />
+          </div>
+          <h3>Sales Berpengalaman</h3>
+          <p>Dibantu dengan sales executive kami yang akan menjelaskan kepada Anda mengenai detail produk Isuzu.</p>
+          <span class="number">02</span>
+        </div>
+
+        <div class="feature-box">
+          <div class="icon">
+            <img src="img/icons/after-sales.svg" alt="After Sales" />
+          </div>
+          <h3>After Sales</h3>
+          <p>Kami siap menjawab pertanyaan anda seputar produk Isuzu untuk menentukan pilihan yang tepat.</p>
+          <span class="number">03</span>
+        </div>
+      </div>
+    </section>
 
     <!-- Contact Section -->
     <div class="contact-container fade-element">
@@ -237,16 +235,16 @@ try {
     <section class="blog-section fade-element">
       <div class="container">
         <h2>Blog & Artikel</h2>
-        <p>Dapatkan informasi terbaru seputar Truk isuzu, perawatan, dan promo terbaik.</p>
+        <p>Dapatkan informasi terbaru seputar truk Isuzu, perawatan, dan promo terbaik.</p>
 
         <div class="blog-grid">
           <?php if (!empty($artikelData)): ?>
             <?php foreach ($artikelData as $artikel): ?>
               <div class="blog-card">
                 <img 
-                  src="https://salesisuzuofficial.com/admin/uploads/artikel/<?= htmlspecialchars($artikel['gambar']) ?>"
+                  src="https://salesisuzuofficial.com/admin/uploads/artikel/<?= htmlspecialchars($artikel['gambar']) ?>" 
                   alt="<?= htmlspecialchars($artikel['judul']) ?>" 
-                  loading="lazy"
+                  loading="lazy" 
                 />
                 <div class="blog-card-content">
                   <h3>
@@ -254,12 +252,8 @@ try {
                       <?= htmlspecialchars($artikel['judul']) ?>
                     </a>
                   </h3>
-
                   <p><?= htmlspecialchars(mb_strimwidth(strip_tags($artikel['isi']), 0, 100, '...')) ?></p>
-
-                  <a href="detail_artikel.php?id=<?= urlencode($artikel['id']) ?>" class="read-more">
-                    Baca Selengkapnya
-                  </a>
+                  <a href="detail_artikel.php?id=<?= urlencode($artikel['id']) ?>" class="read-more">Baca Selengkapnya</a>
                 </div>
               </div>
             <?php endforeach; ?>
