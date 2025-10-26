@@ -123,20 +123,37 @@ header {
 /* HP kecil */
 @media (max-width: 480px) {
   .hero {
-    height: 45vh; /* tinggi pas untuk HP kecil */
+    height: 38vh; /* sedikit lebih kecil agar pas di layar kecil */
+    position: relative;
+    overflow: hidden;
   }
 
   .slider img {
-    object-fit: cover; /* penuh, tidak ada ruang sisa */
-    object-position: center center; /* fokus tengah gambar */
-    background-color: transparent; /* hilangkan warna latar hitam */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* gambar penuh, tanpa ruang sisa */
+    object-position: center; /* fokus di tengah */
+    display: block;
+  }
+
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    padding: 0 10px;
   }
 
   .hero-content h1 {
-    font-size: 22px;
+    font-size: 20px; /* lebih kecil biar proporsional */
+    line-height: 1.3;
+    margin-bottom: 8px;
   }
 
   .hero-content p {
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 1.4;
   }
 }
