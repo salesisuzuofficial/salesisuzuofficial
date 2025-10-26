@@ -101,7 +101,7 @@
 
 .image-gallery img {
   width: 100%;
-  max-width: 300px;
+  max-width: 550px;
   border-radius: 0; /* hilangkan lengkungan jika perlu */
   box-shadow: none; /* hilangkan bayangan jika ingin benar-benar rapat */
   margin: 0;
