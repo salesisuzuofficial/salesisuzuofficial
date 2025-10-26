@@ -125,7 +125,7 @@
         <div class="product-label">ISUZU FVZ (TRONTON DUMP TRUCK)</div>
       </div>
       <div class="product-item">
-        <img src="img/product/Isuzu-Tracktor-Head.webp" alt="Isuzu Tractor Head" />
+        <img src="img/product/Isuzu-Tractor-Head.webp" alt="Isuzu Tractor Head" />
         <div class="product-label">ISUZU GVR, GVZ, GXZ (TRAILER/TRACTOR HEAD)</div>
       </div>
       <div class="product-item">
@@ -139,8 +139,6 @@
     </div>
   </div>
 </section>
-
-
 
   </body>
 </html>
