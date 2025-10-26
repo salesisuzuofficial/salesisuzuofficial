@@ -18,6 +18,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   cursor: pointer;
+  position: relative;
 }
 
 .product-item:hover {
@@ -43,6 +44,29 @@
   user-select: none;
 }
 
+/* Link WhatsApp "cek selengkapnya" */
+.whatsapp-link {
+  position: absolute;
+  bottom: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #25d366;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(37, 211, 102, 0.4);
+  transition: background-color 0.3s ease;
+  user-select: none;
+  z-index: 10;
+}
+
+.whatsapp-link:hover {
+  background-color: #1ebe57;
+}
+
 /* Responsif untuk ukuran layar kecil */
 @media (max-width: 480px) {
   .product-item img {
@@ -51,5 +75,10 @@
   .product-label {
     font-size: 12px;
     padding: 10px 0;
+  }
+  .whatsapp-link {
+    bottom: 40px;
+    font-size: 12px;
+    padding: 6px 12px;
   }
 }
