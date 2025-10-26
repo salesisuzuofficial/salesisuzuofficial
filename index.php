@@ -153,7 +153,7 @@ try {
 
         <nav class="nav links">
           <a href="index.php">Home</a>
-          <a href="maintance.html">Produk</a>
+          <a href="produk.php">Produk</a>
           <a href="maintance.html">Simulasi Kredit</a>
           <a href="maintance.html">Booking Service</a>
           <a href="maintance.html">Blog & Artikel</a>
