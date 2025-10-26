@@ -84,5 +84,61 @@
         <h1>Produk Isuzu</h1>
     </div>
     </section>
+
+
+    <!-- Product Section -->
+     <section class="product-section">
+  <div class="container">
+    <div class="product-grid">
+      <div class="product-item">
+        <img src="img/product/Isuzu-Traga.webp" alt="Isuzu Traga" />
+        <div class="product-label">ISUZU TRAGA</div>
+      </div>
+      <div class="product-item">
+        <img src="img/product/Isuzu-Elf-NLR.webp" alt="Isuzu NLR (Engkel)" />
+        <div class="product-label">ISUZU NLR (ENGKEL)</div>
+      </div>
+      <div class="product-item">
+        <img src="img/product/Isuzu-Elf-NMR.webp" alt="Isuzu NMR (Dobel)" />
+        <div class="product-label">ISUZU NMR (DOBEL)</div>
+      </div>
+      <div class="product-item">
+        <img src="img/product/Isuzu-Giga-FRR.webp" alt="Isuzu FRR (Fuso 190 PS)" />
+        <div class="product-label">ISUZU FRR (FUSO 190 PS)</div>
+      </div>
+      <div class="product-item">
+        <img src="img/product/Isuzu-Giga-FTR.webp" alt="Isuzu FTR (Fuso 210 PS)" />
+        <div class="product-label">ISUZU FTR (FUSO 210 PS)</div>
+      </div>
+      <div class="product-item">
+        <img src="img/product/Isuzu-Giga-FVR.webp" alt="Isuzu FVR (Fuso 245 PS)" />
+        <div class="product-label">ISUZU FVR (FUSO 245 PS)</div>
+      </div>
+      <div class="product-item">
+        <img src="img/product/Isuzu-Giga-FVM.webp" alt="ISUZU FVM (TRONTON WINGBOX))" />
+        <div class="product-label">ISUZU FVM (TRONTON WINGBOX)</div>
+      </div>
+      <div class="product-item">
+        <img src="img/product/Isuzu-Giga-FVZ.webp" alt="ISUZU FVZ (TRONTON DUMP TRUCK)" />
+        <div class="product-label">ISUZU FVZ (TRONTON DUMP TRUCK)</div>
+      </div>
+      <div class="product-item">
+        <img src="img/product/Isuzu-Tracktor-Head.webp" alt="Isuzu Tractor Head" />
+        <div class="product-label">ISUZU GVR, GVZ, GXZ (TRAILER/TRACTOR HEAD)</div>
+      </div>
+      <div class="product-item">
+        <img src="img/product/Isuzu-MUX.webp" alt="ISUZU MUX (SUV 4x2 & 4x4)" />
+        <div class="product-label">ISUZU MUX (SUV 4x2 & 4x4)</div>
+      </div>
+      <div class="product-item">
+        <img src="img/product/Isuzu-Dmax.webp" alt="ISUZU D-MAX (DOUBLE CABIN 4x4)" />
+        <div class="product-label">ISUZU D-MAX (DOUBLE CABIN 4x4)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
   </body>
 </html>
