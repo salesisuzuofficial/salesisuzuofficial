@@ -1,87 +1,55 @@
-/* Service Section */
-.service-section {
-  padding: 40px 15px;
-  max-width: 1000px;
-  margin: auto;
+.product-section {
+  padding: 40px 20px;
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* Service Row (Umum untuk semua baris) */
-.service-row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 40px; /* Menjaga jarak antar baris */
-  align-items: center;
-  gap: 15px;
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
 }
 
-/* Baris dengan gambar di kiri */
-.service-row.reverse {
-  flex-direction: row-reverse;
-}
-
-/* Text section pada setiap baris */
-.service-text {
-  flex: 1;
-  padding: 15px;
-}
-
-.service-text h2 {
-  font-size: 20px;
-  margin-bottom: 15px;
-  color: #444;
-}
-
-.service-text p {
-  margin-bottom: 15px;
-  color: #666;
-}
-
-/* Tombol (jika ada) */
-.btn {
-  display: inline-block;
-  background-color: #0074d9;
-  color: #fff;
-  padding: 8px 14px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #005fa3;
-}
-
-/* Gambar Section */
-.service-image {
-  flex: 1;
-  padding: 15px;
-}
-
-.service-image img {
-  width: 100%;
-  height: auto;
+.product-item {
   border-radius: 8px;
-  object-fit: cover;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
-/* Responsif */
-@media (max-width: 768px) {
-  .service-row,
-  .service-row.reverse {
-    flex-direction: column;
-  }
+.product-item:hover {
+  transform: translateY(-5px);
+}
 
-  .service-text,
-  .service-image {
-    padding: 8px;
-  }
+.product-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
 
-  .service-text h2 {
-    font-size: 18px;
-  }
+.product-label {
+  background-color: #e60000; /* merah cerah */
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  user-select: none;
+}
 
-  .service-image img {
-    width: 90%;
+/* Responsif untuk ukuran layar kecil */
+@media (max-width: 480px) {
+  .product-item img {
+    height: 140px;
+  }
+  .product-label {
+    font-size: 12px;
+    padding: 10px 0;
   }
 }
