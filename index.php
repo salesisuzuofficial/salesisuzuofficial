@@ -155,7 +155,6 @@ try {
           <a href="index.php">Home</a>
           <a href="produk.php">Produk</a>
           <a href="maintance.html">Simulasi Kredit</a>
-          <a href="maintance.html">Booking Service</a>
           <a href="maintance.html">Blog & Artikel</a>
           <a href="maintance.html">Contact</a>
         </nav>
