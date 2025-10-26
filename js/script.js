@@ -48,7 +48,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // === CAROUSEL APLIKASI ===
-  const appCarousel = document.querySelector(".applications-carousel .carousel");
+  const appCarousel = document.querySelector(
+    ".applications-carousel .carousel"
+  );
   const appBtnLeft = document.querySelector(
     ".applications-carousel .carousel-btn.left"
   );
@@ -168,38 +170,4 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   }
-
-  // === WHATSAPP LINK UNTUK PRODUCT ITEM ===
-  const productItems = document.querySelectorAll('.product-item');
-  productItems.forEach(item => {
-    const img = item.querySelector('img');
-    const whatsappLink = item.querySelector('.whatsapp-link');
-    const productName = item.dataset.product;
-
-    if(img && whatsappLink && productName) {
-      img.addEventListener('click', (e) => {
-        e.stopPropagation();
-
-        // Sembunyikan semua link WA dulu
-        document.querySelectorAll('.whatsapp-link').forEach(link => {
-          link.style.display = 'none';
-        });
-
-        // Tampilkan link WA di produk ini
-        whatsappLink.style.display = 'block';
-
-        // Set URL WA dengan pesan sesuai produk
-        const phoneNumber = '6281296632186';
-        const message = encodeURIComponent(`Halo saya ingin menanyakan tentang ${productName}`);
-        whatsappLink.href = `https://wa.me/${phoneNumber}?text=${message}`;
-      });
-    }
-  });
-
-  // Klik di luar sembunyikan semua link WA
-  document.addEventListener('click', () => {
-    document.querySelectorAll('.whatsapp-link').forEach(link => {
-      link.style.display = 'none';
-    });
-  });
 }); // ✅ Tutup DOMContentLoaded
