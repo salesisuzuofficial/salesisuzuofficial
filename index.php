@@ -159,9 +159,14 @@ try {
               </div>
             </section>
 
-        <!-- Feature Section -->
-        <section class="features-section">
-            <div class="feature-box active">
+<!-- Feature Section -->
+<section class="features-section">
+  <div class="section-title">
+    <h2>Kenapa Harus Isuzu?</h2>
+    <p>Pilih Isuzu untuk performa tangguh, efisiensi bahan bakar tinggi, dan layanan purna jual terbaik di Indonesia.</p>
+  </div>
+
+  <div class="feature-box active">
     <div class="icon">
       <img src="img/icons/fast-process.svg" alt="Icon 1">
     </div>
@@ -181,13 +186,8 @@ try {
 
   <div class="feature-box">
     <div class="icon">
-      <img src="img/icons/after-sales.svg" alt="Icon 3">
-    </div>
-    <h3>After Sales</h3>
-    <p>Kami siap menjawab pertanyaan anda seputar produk Isuzu untuk menentukan pilihan yang tepat.</p>
-    <span class="number">03</span>
-  </div>
-</section>
+      <img src="img/icons/after-
+
 
 
 
