@@ -1,8 +1,15 @@
+/* ===============================
+   🌐 RESET & DASAR
+   =============================== */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -21,41 +28,110 @@ img {
   display: block;
 }
 
-/* Container */
+/* ===============================
+   🧱 CONTAINER
+   =============================== */
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 20px;
 }
 
-/* Media Queries */
-
-/* Small devices (mobile) */
+/* Responsif */
 @media (max-width: 767px) {
   .container {
-    padding: 0 8px; /* Adjust container padding on smaller screens */
+    padding: 0 12px;
   }
 }
 
-/* Medium devices (tablets) */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .container {
-    padding: 0 12px; /* Adjust container padding on medium screens */
+/* ===============================
+   ✨ GLOBAL SECTION SPACING
+   =============================== */
+section {
+  padding: 80px 0; /* jarak vertikal antar section */
+}
+
+section + section {
+  margin-top: 40px; /* beri jarak antar section biar ga nabrak */
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 60px 0;
+  }
+
+  section + section {
+    margin-top: 30px;
   }
 }
 
-/* Large devices (desktops) */
-@media (min-width: 1025px) {
-  .container {
-    padding: 0 16px; /* Default padding for larger screens */
-  }
+/* ===============================
+   🧱 LAYOUT SECTION YANG TERPUSAT
+   =============================== */
+.about-company,
+.products-section,
+.features-section,
+.blog-section,
+.promo-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-html {
-  scroll-behavior: smooth;
+/* ===============================
+   🏷️ SECTION TITLE
+   =============================== */
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-/* Efek fade in */
+.section-title h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.section-title p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* ===============================
+   📄 PARAGRAF & TEKS GLOBAL
+   =============================== */
+section p {
+  line-height: 1.7;
+  margin-bottom: 1.2em;
+}
+
+/* ===============================
+   🧩 GRID & FLEX ITEM
+   =============================== */
+.products,
+.features-container,
+.blog-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.products > *,
+.features-container > *,
+.blog-grid > * {
+  margin-bottom: 20px;
+}
+
+/* ===============================
+   ✨ FADE IN ANIMATION
+   =============================== */
 .fade-element {
   opacity: 0;
   transform: translateY(20px);
@@ -68,49 +144,32 @@ html {
 }
 
 /* ===============================
-   ✨ GLOBAL SECTION SPACING STYLE
+   📱 RESPONSIVE FINE-TUNE
    =============================== */
-section {
-  padding: 80px 20px; /* Atas-bawah 80px, kiri-kanan 20px */
-  box-sizing: border-box;
-}
+@media (max-width: 1024px) {
+  .section-title h2 {
+    font-size: 1.8rem;
+  }
 
-@media (max-width: 768px) {
-  section {
-    padding: 60px 16px; /* Sedikit lebih kecil di HP */
+  .section-title p {
+    font-size: 0.95rem;
   }
 }
 
-/* Jika section memiliki background abu atau warna berbeda, tetap sejajar */
-.about-company,
-.products-section,
-.features-section,
-.blog-section {
-  margin: 0 auto;
-  max-width: 1200px; /* agar tidak terlalu melebar di layar besar */
-}
+@media (max-width: 600px) {
+  .section-title h2 {
+    font-size: 1.5rem;
+  }
 
-/* Agar jarak antar judul section dan isi seragam */
-.section-title,
-.products-section h2,
-.features-section .section-title h2,
-.blog-section h2 {
-  text-align: center;
-  margin-bottom: 40px;
-}
+  .section-title p {
+    font-size: 0.9rem;
+  }
 
-/* Jarak antar paragraf dalam setiap section */
-section p {
-  line-height: 1.7;
-  margin-bottom: 1em;
-}
+  section {
+    padding: 50px 0;
+  }
 
-/* Jarak antar item di grid agar tidak dempet */
-.products,
-.features-container,
-.blog-grid {
-  gap: 32px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  section + section {
+    margin-top: 20px;
+  }
 }
