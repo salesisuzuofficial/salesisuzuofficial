@@ -1,8 +1,8 @@
 <?php
 $db_host = getenv('DB_HOST') ?: 'localhost';
-$db_name = getenv('DB_NAME') ?: 'u142136422_officialhino';
-$db_user = getenv('DB_USER') ?: 'u142136422_officialhino';
-$db_pass = getenv('DB_PASS') ?: 'D3n15h1no35!';
+$db_name = getenv('DB_NAME') ?: 'u142136422_isuzuoffc';
+$db_user = getenv('DB_USER') ?: 'u142136422_isuzuoffc';
+$db_pass = getenv('DB_PASS') ?: 'Isuzuoff1c1al22!""';
 
 $dsn = "mysql:host={$db_host};dbname={$db_name};charset=utf8mb4";
 
