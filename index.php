@@ -136,7 +136,7 @@ try {
                 <div class="product">
                     <img src="img/product/Isuzu-Traga.webp" alt="Isuzu Traga" loading="lazy" />
                     <h3>
-                        <a href="https://salesisuzuofficial.com/hino300.php" target="_blank" rel="noopener noreferrer">isuzu 300 Series (Dutro)</a>
+                        <a href="https://salesisuzuofficial.com/hino300.php" target="_blank" rel="noopener noreferrer">Isuzu Traga</a>
                     </h3>
                   <p>Truk ringan dan tangguh, cocok untuk usaha kecil dan menengah.</p>
                 </div>
@@ -144,7 +144,7 @@ try {
                 <div class="product">
                     <img src="img/product/Isuzu-Elf-NLR.webp" alt="Isuzu Elf NLR" loading="lazy" />
                     <h3>
-                        <a href="https://salesisuzuofficial.com/hino500.php" target="_blank" rel="noopener noreferrer">isuzu 500 Series (Ranger)</a>
+                        <a href="https://salesisuzuofficial.com/hino500.php" target="_blank" rel="noopener noreferrer">Isuzu ELF</a>
                     </h3>
                     <p>Performa handal untuk pengangkutan berat dan jarak jauh.</p>
                 </div>
@@ -152,9 +152,9 @@ try {
                 <div class="product">
                     <img src="img/product/Isuzu-Giga-FTR.webp" alt="isuzu Bus Series" loading="lazy" />
                     <h3>
-                        <a href="https://salesisuzuofficial.com/hinobus.php" target="_blank" rel="noopener noreferrer">isuzu Bus Series</a>
+                        <a href="https://salesisuzuofficial.com/hinobus.php" target="_blank" rel="noopener noreferrer">Isuzu Giga</a>
                     </h3>
-                    <p>Solusi transportasi penumpang dengan kenyamanan terbaik.</p>
+                    <p>Solusi transportasi truk dengan kenyamanan terbaik.</p>
                 </div>
               </div>
             </section>
