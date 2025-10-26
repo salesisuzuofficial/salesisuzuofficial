@@ -172,7 +172,7 @@ try {
           <a href="https://wa.me/6285975287684" class="btn-primary" target="_blank" rel="noopener noreferrer">Konsultasi Pembelian</a>
         </div>
       </div>
-      <img src="images/hino.png" alt="Truk Hino Hijau" loading="lazy" class="promo-main-image"/>
+      <img src="img/product/Isuzu-Giga-FVM.webp" alt="Truk Hino Hijau" loading="lazy" class="promo-main-image"/>
     </section>
 
     <!-- Feature Section -->
