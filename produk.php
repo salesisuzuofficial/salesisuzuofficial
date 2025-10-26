@@ -81,7 +81,7 @@
 
     <!-- Teks Overlay -->
     <div class="hero-content">
-        <h1>Produk</h1>
+        <h1>Produk Isuzu</h1>
     </div>
     </section>
   </body>
