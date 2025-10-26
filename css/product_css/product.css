@@ -3,10 +3,7 @@
 ================================ */
 .product-section {
   padding: 60px 20px;
-  background-color: #f9f9f9;
-}
-
-.product-section .container {
+  background-color: #fff;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -14,32 +11,24 @@
 /* GRID PRODUK */
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 25px;
-  justify-content: center;
-  align-items: stretch;
 }
 
 /* CARD PRODUK */
 .product-item {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background: #fff;
+  background-color: #fff;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  text-decoration: none;
-  color: #333;
-  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: all 0.35s ease;
+  cursor: pointer;
 }
 
-/* EFEK HOVER */
 .product-item:hover {
   transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 /* GAMBAR PRODUK */
@@ -47,56 +36,99 @@
   width: 100%;
   height: 200px;
   object-fit: cover;
+  display: block;
   transition: transform 0.4s ease;
 }
 
 .product-item:hover img {
-  transform: scale(1.05);
+  transform: scale(1.06);
 }
 
 /* LABEL PRODUK */
 .product-label {
-  padding: 15px;
-  font-weight: 600;
-  font-size: 16px;
-  color: #002b5c; /* biru Isuzu */
+  background-color: #e60000; /* merah khas */
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding: 14px 0;
+  font-size: 15px;
   text-transform: uppercase;
-  border-top: 1px solid #eee;
-  background-color: #fff;
+  letter-spacing: 0.8px;
+  user-select: none;
+  transition: background-color 0.3s ease;
 }
 
-/* RESPONSIVE */
-@media (max-width: 992px) {
-  .product-item img {
-    height: 180px;
-  }
+.product-item:hover .product-label {
+  background-color: #cc0000;
 }
 
+/* LINK WHATSAPP DI ATAS GAMBAR */
+.whatsapp-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background-color: rgba(37, 211, 102, 0.95);
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+  z-index: 10;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+}
+
+.product-item:hover .whatsapp-link {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.whatsapp-link:hover {
+  background-color: #1ebe57;
+  box-shadow: 0 6px 14px rgba(30, 190, 87, 0.5);
+}
+
+/* ================================
+   RESPONSIVE DESIGN
+================================ */
 @media (max-width: 768px) {
   .product-section {
     padding: 40px 15px;
   }
 
-  .product-label {
-    font-size: 14px;
+  .product-item img {
+    height: 180px;
   }
 
-  .product-item img {
-    height: 160px;
+  .product-label {
+    font-size: 14px;
+    padding: 12px 0;
+  }
+
+  .whatsapp-link {
+    font-size: 14px;
+    padding: 8px 18px;
   }
 }
 
 @media (max-width: 480px) {
-  .product-item {
-    border-radius: 10px;
-  }
-
   .product-item img {
     height: 150px;
   }
 
   .product-label {
+    font-size: 12.5px;
+    padding: 10px 0;
+  }
+
+  .whatsapp-link {
     font-size: 13px;
-    padding: 10px;
+    padding: 7px 16px;
   }
 }
