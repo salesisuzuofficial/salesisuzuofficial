@@ -54,7 +54,7 @@ try {
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/home_css/header.css" />
-    <link rel="stylesheet" href="css/home_css/promoutama.css" />
+    <link rel="stylesheet" href="css/home_css/companyprofile.css" />
     <link rel="stylesheet" href="css/home_css/layanan.css" />
     <link rel="stylesheet" href="css/home_css/produk.css" />
     <link rel="stylesheet" href="css/home_css/keunggulankami.css" />
@@ -98,6 +98,36 @@ try {
         <img src="img/hero5.jpg" class="slide" alt="Banner 5" />
       </div>
     </section>
+
+    <!-- About Company -->
+    <section class="about-company">
+      <div class="container">
+        <div class="about-content">
+          <div class="text">
+            <h2>Dealer Isuzu Jakarta</h2>
+            <div class="divider"></div>
+                <p>
+                <strong>Dedy Chandra</strong> adalah Sales Executive resmi dari <strong>Dealer Astra Isuzu Daan Mogot Jakarta</strong> yang berkomitmen memberikan pelayanan terbaik untuk setiap pelanggan. Dengan pengalaman luas di dunia otomotif, khususnya kendaraan niaga Isuzu, Dedy selalu siap membantu Anda menemukan solusi transportasi yang paling tepat — baik untuk kebutuhan bisnis maupun operasional perusahaan.
+                </p>
+
+                <p>
+                Sebagai bagian dari jaringan resmi <strong>Astra Isuzu</strong>, Dedy Chandra menawarkan berbagai tipe kendaraan Isuzu seperti <em>Elf, Traga, Giga, dan Panther</em> dengan layanan konsultasi profesional, proses cepat, serta dukungan after-sales yang terjamin. Dedy tidak hanya fokus pada penjualan, tetapi juga pada kepuasan dan kepercayaan pelanggan melalui pelayanan yang ramah, informatif, dan transparan.
+                </p>
+
+                <p>
+                Percayakan kebutuhan truk dan kendaraan niaga Anda kepada <strong>Dedy Chandra – Sales Astra Isuzu Daan Mogot Jakarta</strong>. Dapatkan pengalaman pembelian yang mudah, harga terbaik, dan layanan purna jual yang selalu siap membantu Anda setiap saat.
+                </p>
+            <div class="contact-buttons">
+              <a href="https://wa.me/6281296632186" class="btn whatsapp-btn"><i class="fab fa-whatsapp"></i> +62 859-7528-7684</a>
+              <a href="mailto:salesisuzuofficial@gmail.com" class="btn email-btn"><i class="fas fa-envelope"></i> saleshinojabodetabek@gmail.com</a>
+            </div>
+          </div>
+          <div class="image-gallery">
+            <img src="img/dealer.webp" alt="Dealer Isuzu" />
+          </div>
+          </div>
+        </div>
+        </section>
 
     <!-- Feature Section -->
      <section class="features-section">
