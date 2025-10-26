@@ -188,12 +188,12 @@ try {
 
             <p>
               Sebagai bagian dari jaringan resmi <strong>Astra Isuzu</strong>, Dedy Chandra menawarkan berbagai tipe kendaraan Isuzu seperti
-              <em>Elf, Traga, Giga, dan Panther</em> dengan layanan konsultasi profesional, proses cepat, serta dukungan after-sales yang terjamin.
+              <em>Elf, Traga Dan Giga</em> dengan layanan konsultasi profesional, proses cepat, serta dukungan after-sales yang terjamin.
             </p>
 
             <p>
               Percayakan kebutuhan truk dan kendaraan niaga Anda kepada
-              <strong>Dedy Chandra – Sales Astra Isuzu Daan Mogot Jakarta</strong>. Dapatkan pengalaman pembelian yang mudah, harga terbaik, dan layanan purna jual yang selalu siap membantu Anda setiap saat.
+              <strong>Dedy Chandra Sales Astra Isuzu Daan Mogot Jakarta</strong>. Dapatkan pengalaman pembelian yang mudah, harga terbaik, dan layanan purna jual yang selalu siap membantu Anda setiap saat.
             </p>
 
             <div class="contact-buttons">
