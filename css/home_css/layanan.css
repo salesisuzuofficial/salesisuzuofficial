@@ -1,6 +1,14 @@
+/* BAGIAN UTAMA */
+.features-section {
+  padding: 60px 20px;
+  background-color: #f8f9fb;
+  font-family: sans-serif;
+}
+
+/* JUDUL SECTION */
 .section-title {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .section-title h2 {
@@ -18,13 +26,12 @@
   line-height: 1.6;
 }
 
-.features-section {
+/* WRAPPER UNTUK SEMUA BOX */
+.features-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
-  padding: 60px 20px;
-  background-color: #f8f9fb;
 }
 
 /* BOX UTAMA */
@@ -49,7 +56,7 @@
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 
-/* ICON WRAPPER */
+/* ICON */
 .feature-box .icon {
   width: 60px;
   height: 60px;
@@ -59,23 +66,21 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 16px;
-  overflow: hidden; /* pastikan icon tidak keluar dari lingkaran */
+  overflow: hidden;
   transition: all 0.4s ease;
 }
 
-/* Icon di dalam lingkaran tetap proporsional dan center */
 .feature-box .icon img {
   width: 28px;
   height: 28px;
   object-fit: contain;
 }
 
-/* Saat box di-hover, ubah warna lingkaran icon */
 .feature-box:hover .icon {
   background: rgba(255, 255, 255, 0.25);
 }
 
-/* TEXT */
+/* TEKS */
 .feature-box h3 {
   font-size: 20px;
   font-weight: 700;
@@ -89,7 +94,7 @@
   transition: color 0.3s ease;
 }
 
-/* NOMOR DI POJOK */
+/* NOMOR */
 .feature-box .number {
   position: absolute;
   bottom: 16px;
@@ -101,17 +106,17 @@
   transition: color 0.3s ease;
 }
 
-/* Warna nomor berubah ketika hover */
 .feature-box:hover .number {
   color: rgba(255, 255, 255, 0.25);
 }
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
-  .features-section {
+  .features-container {
     flex-direction: column;
     align-items: center;
   }
+
   .feature-box {
     width: 90%;
     max-width: 500px;

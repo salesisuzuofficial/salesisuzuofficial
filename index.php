@@ -166,27 +166,36 @@ try {
     <p>Pilih Isuzu untuk performa tangguh, efisiensi bahan bakar tinggi, dan layanan purna jual terbaik di Indonesia.</p>
   </div>
 
-  <div class="feature-box active">
-    <div class="icon">
-      <img src="img/icons/fast-process.svg" alt="Icon 1">
+  <div class="features-container">
+    <div class="feature-box">
+      <div class="icon">
+        <img src="img/icons/fast-process.svg" alt="Icon 1">
+      </div>
+      <h3>Proses Cepat</h3>
+      <p>Kami mengutamakan pelayanan terhadap customer dengan tidak akan membuat rumit proses pembelian unit Isuzu.</p>
+      <span class="number">01</span>
     </div>
-    <h3>Proses Cepat</h3>
-    <p>Kami mengutamakan pelayanan terhadap customer dengan tidak akan membuat rumit proses pembelian unit Isuzu.</p>
-    <span class="number">01</span>
-  </div>
 
-  <div class="feature-box">
-    <div class="icon">
-      <img src="img/icons/experienced-sales.svg" alt="Icon 2">
+    <div class="feature-box">
+      <div class="icon">
+        <img src="img/icons/experienced-sales.svg" alt="Icon 2">
+      </div>
+      <h3>Sales Berpengalaman</h3>
+      <p>Dibantu dengan sales executive kami yang akan menjelaskan kepada Anda mengenai detail produk Isuzu.</p>
+      <span class="number">02</span>
     </div>
-    <h3>Sales Berpengalaman</h3>
-    <p>Dibantu dengan sales executive kami yang akan menjelaskan kepada Anda mengenai detail produk Isuzu.</p>
-    <span class="number">02</span>
-  </div>
 
-  <div class="feature-box">
-    <div class="icon">
-      <img src="img/icons/after-
+    <div class="feature-box">
+      <div class="icon">
+        <img src="img/icons/after-sales.svg" alt="Icon 3">
+      </div>
+      <h3>After Sales</h3>
+      <p>Kami siap menjawab pertanyaan anda seputar produk Isuzu untuk menentukan pilihan yang tepat.</p>
+      <span class="number">03</span>
+    </div>
+  </div>
+</section>
+
 
 
 
