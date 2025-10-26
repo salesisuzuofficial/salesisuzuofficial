@@ -103,7 +103,7 @@ try {
      <section class="features-section">
   <div class="feature-box active">
     <div class="icon">
-      <img src="icons/icon1.svg" alt="Icon 1">
+      <img src="img/icons/fast-process.svg" alt="Icon 1">
     </div>
     <h3>Proses Cepat</h3>
     <p>Kami mengutamakan pelayanan terhadap customer dengan tidak akan membuat rumit proses pembelian unit Isuzu.</p>
@@ -112,7 +112,7 @@ try {
 
   <div class="feature-box">
     <div class="icon">
-      <img src="icons/icon2.svg" alt="Icon 2">
+      <img src="img/icons/experienced-sales.svg" alt="Icon 2">
     </div>
     <h3>Sales Berpengalaman</h3>
     <p>Dibantu dengan sales executive kami yang akan menjelaskan kepada Anda mengenai detail produk Isuzu.</p>
@@ -121,7 +121,7 @@ try {
 
   <div class="feature-box">
     <div class="icon">
-      <img src="icons/icon3.svg" alt="Icon 3">
+      <img src="img/icons/after-sales.svg" alt="Icon 3">
     </div>
     <h3>After Sales</h3>
     <p>Kami siap menjawab pertanyaan anda seputar produk Isuzu untuk menentukan pilihan yang tepat.</p>
