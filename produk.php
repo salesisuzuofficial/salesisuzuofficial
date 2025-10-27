@@ -4,9 +4,7 @@
     <!-- ========== META BASIC ========== -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Dealer Isuzu Jakarta | Dapatkan Promo & Harga Terbaik Truck Isuzu
-    </title>
+    <title>Dealer Isuzu Jakarta | Dapatkan Promo & Harga Terbaik Truck Isuzu</title>
 
     <!-- ========== META SEO ========== -->
     <meta
@@ -48,11 +46,7 @@
         <!-- Logo -->
         <div class="header-title">
           <a href="https://salesisuzuofficial.com">
-            <img
-              src="img/logo.png"
-              alt="Logo Isuzu"
-              style="height: 55px"
-            />
+            <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
           </a>
         </div>
 
@@ -72,102 +66,143 @@
 
     <!-- ========== HERO SECTION ========== -->
     <section class="hero hero-produk">
-    <div class="slider">
+      <div class="slider">
         <img src="img/hero3.jpg" class="slide" alt="Banner 1" />
         <img src="img/hero4.jpg" class="slide" alt="Banner 2" />
         <img src="img/hero5.jpg" class="slide" alt="Banner 3" />
-    </div>
+      </div>
 
-    <!-- Teks Overlay -->
-    <div class="hero-content">
+      <!-- Teks Overlay -->
+      <div class="hero-content">
         <h1>Produk Isuzu</h1>
-    </div>
+      </div>
     </section>
 
+    <!-- ========== PRODUCT SECTION ========== -->
+    <section class="product-section">
+      <div class="container">
+        <div class="product-grid">
+          <a
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20TRAGA"
+            target="_blank"
+            rel="noopener"
+            class="product-item"
+          >
+            <img src="img/product/Isuzu-Traga.webp" alt="Isuzu Traga" />
+            <div class="product-label">ISUZU TRAGA</div>
+          </a>
 
-<!-- Product Section -->
-<section class="product-section">
-  <div class="container">
-    <div class="product-grid">
-      
-      <a href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20TRAGA" 
-         target="_blank" rel="noopener" class="product-item">
-        <img src="img/product/Isuzu-Traga.webp" alt="Isuzu Traga" />
-        <div class="product-label">ISUZU TRAGA</div>
-      </a>
+          <a
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20NLR%20(ENGKEL)"
+            target="_blank"
+            rel="noopener"
+            class="product-item"
+          >
+            <img src="img/product/Isuzu-Elf-NLR.webp" alt="Isuzu NLR (Engkel)" />
+            <div class="product-label">ISUZU NLR (ENGKEL)</div>
+          </a>
 
-      <a href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20NLR%20(ENGKEL)" 
-         target="_blank" rel="noopener" class="product-item">
-        <img src="img/product/Isuzu-Elf-NLR.webp" alt="Isuzu NLR (Engkel)" />
-        <div class="product-label">ISUZU NLR (ENGKEL)</div>
-      </a>
+          <a
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20NMR%20(DOBEL)"
+            target="_blank"
+            rel="noopener"
+            class="product-item"
+          >
+            <img src="img/product/Isuzu-Elf-NMR.webp" alt="Isuzu NMR (Dobel)" />
+            <div class="product-label">ISUZU NMR (DOBEL)</div>
+          </a>
 
-      <a href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20NMR%20(DOBEL)" 
-         target="_blank" rel="noopener" class="product-item">
-        <img src="img/product/Isuzu-Elf-NMR.webp" alt="Isuzu NMR (Dobel)" />
-        <div class="product-label">ISUZU NMR (DOBEL)</div>
-      </a>
+          <a
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FRR%20(FUSO%20190%20PS)"
+            target="_blank"
+            rel="noopener"
+            class="product-item"
+          >
+            <img src="img/product/Isuzu-Giga-FRR.webp" alt="Isuzu FRR (Fuso 190 PS)" />
+            <div class="product-label">ISUZU FRR (FUSO 190 PS)</div>
+          </a>
 
-      <a href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FRR%20(FUSO%20190%20PS)" 
-         target="_blank" rel="noopener" class="product-item">
-        <img src="img/product/Isuzu-Giga-FRR.webp" alt="Isuzu FRR (Fuso 190 PS)" />
-        <div class="product-label">ISUZU FRR (FUSO 190 PS)</div>
-      </a>
+          <a
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FTR%20(FUSO%20210%20PS)"
+            target="_blank"
+            rel="noopener"
+            class="product-item"
+          >
+            <img src="img/product/Isuzu-Giga-FTR.webp" alt="Isuzu FTR (Fuso 210 PS)" />
+            <div class="product-label">ISUZU FTR (FUSO 210 PS)</div>
+          </a>
 
-      <a href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FTR%20(FUSO%20210%20PS)" 
-         target="_blank" rel="noopener" class="product-item">
-        <img src="img/product/Isuzu-Giga-FTR.webp" alt="Isuzu FTR (Fuso 210 PS)" />
-        <div class="product-label">ISUZU FTR (FUSO 210 PS)</div>
-      </a>
+          <a
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FVR%20(FUSO%20245%20PS)"
+            target="_blank"
+            rel="noopener"
+            class="product-item"
+          >
+            <img src="img/product/Isuzu-Giga-FVR.webp" alt="Isuzu FVR (Fuso 245 PS)" />
+            <div class="product-label">ISUZU FVR (FUSO 245 PS)</div>
+          </a>
 
-      <a href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FVR%20(FUSO%20245%20PS)" 
-         target="_blank" rel="noopener" class="product-item">
-        <img src="img/product/Isuzu-Giga-FVR.webp" alt="Isuzu FVR (Fuso 245 PS)" />
-        <div class="product-label">ISUZU FVR (FUSO 245 PS)</div>
-      </a>
+          <a
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FVM%20(TRONTON%20WINGBOX)"
+            target="_blank"
+            rel="noopener"
+            class="product-item"
+          >
+            <img src="img/product/Isuzu-Giga-FVM.webp" alt="ISUZU FVM (TRONTON WINGBOX)" />
+            <div class="product-label">ISUZU FVM (TRONTON WINGBOX)</div>
+          </a>
 
-      <a href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FVM%20(TRONTON%20WINGBOX)" 
-         target="_blank" rel="noopener" class="product-item">
-        <img src="img/product/Isuzu-Giga-FVM.webp" alt="ISUZU FVM (TRONTON WINGBOX)" />
-        <div class="product-label">ISUZU FVM (TRONTON WINGBOX)</div>
-      </a>
+          <a
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FVZ%20(TRONTON%20DUMP%20TRUCK)"
+            target="_blank"
+            rel="noopener"
+            class="product-item"
+          >
+            <img src="img/product/Isuzu-Giga-FVZ.webp" alt="ISUZU FVZ (TRONTON DUMP TRUCK)" />
+            <div class="product-label">ISUZU FVZ (TRONTON DUMP TRUCK)</div>
+          </a>
 
-      <a href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FVZ%20(TRONTON%20DUMP%20TRUCK)" 
-         target="_blank" rel="noopener" class="product-item">
-        <img src="img/product/Isuzu-Giga-FVZ.webp" alt="ISUZU FVZ (TRONTON DUMP TRUCK)" />
-        <div class="product-label">ISUZU FVZ (TRONTON DUMP TRUCK)</div>
-      </a>
+          <a
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20GVR,%20GVZ,%20GXZ%20(TRAILER%2FTRACTOR%20HEAD)"
+            target="_blank"
+            rel="noopener"
+            class="product-item"
+          >
+            <img src="img/product/Isuzu-Tractor-Head.webp" alt="Isuzu Tractor Head" />
+            <div class="product-label">ISUZU GVR, GVZ, GXZ (TRAILER/TRACTOR HEAD)</div>
+          </a>
 
-      <a href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20GVR,%20GVZ,%20GXZ%20(TRAILER%2FTRACTOR%20HEAD)" 
-         target="_blank" rel="noopener" class="product-item">
-        <img src="img/product/Isuzu-Tractor-Head.webp" alt="Isuzu Tractor Head" />
-        <div class="product-label">ISUZU GVR, GVZ, GXZ (TRAILER/TRACTOR HEAD)</div>
-      </a>
+          <a
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20MUX%20(SUV%204x2%20&%204x4)"
+            target="_blank"
+            rel="noopener"
+            class="product-item"
+          >
+            <img src="img/product/Isuzu-MUX.webp" alt="ISUZU MUX (SUV 4x2 & 4x4)" />
+            <div class="product-label">ISUZU MUX (SUV 4x2 & 4x4)</div>
+          </a>
 
-      <a href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20MUX%20(SUV%204x2%20&%204x4)" 
-         target="_blank" rel="noopener" class="product-item">
-        <img src="img/product/Isuzu-MUX.webp" alt="ISUZU MUX (SUV 4x2 & 4x4)" />
-        <div class="product-label">ISUZU MUX (SUV 4x2 & 4x4)</div>
-      </a>
+          <a
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20D-MAX%20(DOUBLE%20CABIN%204x4)"
+            target="_blank"
+            rel="noopener"
+            class="product-item"
+          >
+            <img src="img/product/Isuzu-Dmax.webp" alt="ISUZU D-MAX (DOUBLE CABIN 4x4)" />
+            <div class="product-label">ISUZU D-MAX (DOUBLE CABIN 4x4)</div>
+          </a>
+        </div>
+      </div>
+    </section>
 
-      <a href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20D-MAX%20(DOUBLE%20CABIN%204x4)" 
-         target="_blank" rel="noopener" class="product-item">
-        <img src="img/product/Isuzu-Dmax.webp" alt="ISUZU D-MAX (DOUBLE CABIN 4x4)" />
-        <div class="product-label">ISUZU D-MAX (DOUBLE CABIN 4x4)</div>
-      </a>
-
-    </div>
-  </div>
-</section>
-
-    <!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
+    <!-- ========== WHATSAPP CHAT (ELFSIGHT) ========== -->
     <script src="https://elfsightcdn.com/platform.js" async></script>
-    <div class="elfsight-app-f56c7d51-f2e3-421a-bdba-8f4071e20aba" data-elfsight-app-lazy></div>
+    <div
+      class="elfsight-app-f56c7d51-f2e3-421a-bdba-8f4071e20aba"
+      data-elfsight-app-lazy
+    ></div>
 
-
-    <!-- Footer -->
+    <!-- ========== FOOTER ========== -->
     <?php include 'footer.php'; ?>
-     
-
   </body>
 </html>

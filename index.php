@@ -205,10 +205,10 @@ try {
           </p>
 
           <div class="contact-buttons">
-            <a href="https://wa.me/6281296632186" class="btn whatsapp-btn">
+            <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20%3A%20salesisuzuofficial.com%0ABisa%20bantu%20jelaskan%20lebih%20lanjut%20tentang%20unit%2C%20harga%2C%20dan%20promo%20yang%20sedang%20berlaku%20%3F" class="btn whatsapp-btn">
               <i class="fab fa-whatsapp"></i> Whatsapp
             </a>
-            <a href="mailto:salesisuzuofficial@gmail.com" class="btn email-btn">
+            <a href="mailto:dedychandra99@gmail.com" class="btn email-btn">
               <i class="fas fa-envelope"></i> Gmail
             </a>
           </div>

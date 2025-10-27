@@ -1,13 +1,13 @@
 <?php
-require_once 'admin/config.php'; // koneksi database
+require_once 'admin/config.php'; // Koneksi database
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $nama       = trim($_POST['nama'] ?? '');
-    $telepon    = trim($_POST['telepon'] ?? '');
-    $mobil      = trim($_POST['mobil'] ?? '');
-    $tenor      = trim($_POST['tenor'] ?? '');
-    $budget     = trim($_POST['budget'] ?? '');
-    $message    = trim($_POST['message'] ?? '');
+    $nama    = trim($_POST['nama'] ?? '');
+    $telepon = trim($_POST['telepon'] ?? '');
+    $mobil   = trim($_POST['mobil'] ?? '');
+    $tenor   = trim($_POST['tenor'] ?? '');
+    $budget  = trim($_POST['budget'] ?? '');
+    $message = trim($_POST['message'] ?? '');
 
     // ✅ Bersihkan budget: hilangkan "Rp", titik, spasi, koma, dsb
     $budget = preg_replace('/[^0-9]/', '', $budget);
@@ -17,22 +17,24 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $budget = 0;
     }
 
+    // Validasi input
     if ($nama === '' || $telepon === '' || $mobil === '' || $tenor === '' || $message === '') {
         echo "❌ Semua field wajib diisi.";
         exit;
     }
 
+    // Query simpan data
     $sql = "INSERT INTO simulasi_kredit 
             (nama, no_telepon, jenis_tipe_mobil, tenor, budget_dp, messages, tanggal_input)
             VALUES (:nama, :no_telepon, :jenis_tipe_mobil, :tenor, :budget_dp, :messages, NOW())";
 
     $params = [
-        ':nama'            => $nama,
-        ':no_telepon'      => $telepon,
-        ':jenis_tipe_mobil'=> $mobil,
-        ':tenor'           => $tenor,
-        ':budget_dp'       => $budget,
-        ':messages'        => $message
+        ':nama'             => $nama,
+        ':no_telepon'       => $telepon,
+        ':jenis_tipe_mobil' => $mobil,
+        ':tenor'            => $tenor,
+        ':budget_dp'        => $budget,
+        ':messages'         => $message
     ];
 
     try {
@@ -48,7 +50,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 }
 ?>
 
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -58,107 +59,116 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     <meta name="description" content="Isi formulir simulasi kredit Isuzu untuk mendapatkan estimasi cicilan kendaraan impian Anda. Dapatkan promo menarik dari Dealer Isuzu Jakarta." />
     <meta name="keywords" content="simulasi kredit isuzu, cicilan isuzu, kredit isuzu elf, kredit isuzu giga, kredit isuzu traga" />
-
     <link rel="canonical" href="https://salesisuzuofficial.com/simulasi_kredit.php" />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/logo.png" />
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet" />
 
-    <!-- CSS -->
+    <!-- Styles -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/product_css/header_product.css" />
     <link rel="stylesheet" href="css/simulasikredit_css/simulasi.css" />
 
+    <!-- Scripts -->
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="js/script.js" defer></script>
-    <script src="js/simulasi_kredit.js" defer></script> <!-- File JS baru -->
+    <script src="js/simulasi_kredit.js" defer></script> <!-- File JS terpisah -->
 </head>
+
 <body>
-<header>
-    <div class="container header-content navbar">
-        <div class="header-title">
-            <a href="https://salesisuzuofficial.com">
-                <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
-            </a>
+    <!-- Header -->
+    <header>
+        <div class="container header-content navbar">
+            <div class="header-title">
+                <a href="https://salesisuzuofficial.com">
+                    <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
+                </a>
+            </div>
+
+            <div class="hamburger-menu">&#9776;</div>
+
+            <nav class="nav links">
+                <a href="index.php">Home</a>
+                <a href="produk.php">Produk</a>
+                <a href="simulasi_kredit.php">Simulasi Kredit</a>
+                <a href="artikel.php">Blog & Artikel</a>
+                <a href="contact.php">Contact</a>
+            </nav>
         </div>
-        <div class="hamburger-menu">&#9776;</div>
-        <nav class="nav links">
-            <a href="index.php">Home</a>
-            <a href="produk.php">Produk</a>
-            <a href="simulasi_kredit.php">Simulasi Kredit</a>
-            <a href="artikel.php">Blog & Artikel</a>
-            <a href="contact.php">Contact</a>
-        </nav>
-    </div>
-</header>
+    </header>
 
-<section class="hero hero-produk">
-    <div class="slider">
-        <img src="img/hero3.jpg" class="slide" alt="Banner 1" />
-        <img src="img/hero4.jpg" class="slide" alt="Banner 2" />
-        <img src="img/hero5.jpg" class="slide" alt="Banner 3" />
-    </div>
-    <div class="hero-content">
-        <h1>Simulasi Kredit</h1>
-    </div>
-</section>
+    <!-- Hero Section -->
+    <section class="hero hero-produk">
+        <div class="slider">
+            <img src="img/hero3.jpg" class="slide" alt="Banner 1" />
+            <img src="img/hero4.jpg" class="slide" alt="Banner 2" />
+            <img src="img/hero5.jpg" class="slide" alt="Banner 3" />
+        </div>
+        <div class="hero-content">
+            <h1>Simulasi Kredit</h1>
+        </div>
+    </section>
 
-<!-- Simulasi Kredit -->
-<form id="simulasiForm" class="simulasi-form">
-  <p class="form-description">
-    Jika Anda sudah menentukan jenis dan tipe mobil yang Anda inginkan, silakan isi form berikut dengan data yang benar.
-    Kami akan segera merespon pesan Anda dalam waktu maksimal 1 x 24 jam.
-  </p>
+    <!-- Simulasi Kredit Form -->
+    <form id="simulasiForm" class="simulasi-form">
+        <p class="form-description">
+            Jika Anda sudah menentukan jenis dan tipe mobil yang Anda inginkan, silakan isi form berikut dengan data yang benar.
+            Kami akan segera merespon pesan Anda dalam waktu maksimal 1 x 24 jam.
+        </p>
 
-  <div class="form-row">
-    <div class="form-group">
-      <label for="nama">NAMA</label>
-      <input type="text" id="nama" name="nama" placeholder="Nama Lengkap" required />
-    </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="nama">NAMA</label>
+                <input type="text" id="nama" name="nama" placeholder="Nama Lengkap" required />
+            </div>
 
-    <div class="form-group">
-      <label for="telepon">NOMOR TELEPON</label>
-      <input type="tel" id="telepon" name="telepon" placeholder="Nomor Yang Bisa Di Hubungi" required />
-    </div>
-  </div>
+            <div class="form-group">
+                <label for="telepon">NOMOR TELEPON</label>
+                <input type="tel" id="telepon" name="telepon" placeholder="Nomor Yang Bisa Di Hubungi" required />
+            </div>
+        </div>
 
-  <div class="form-row">
-    <div class="form-group">
-      <label for="mobil">JENIS & TIPE MOBIL</label>
-      <input type="text" id="mobil" name="mobil" placeholder="Jenis & Tipe Mobil" required />
-    </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="mobil">JENIS & TIPE MOBIL</label>
+                <input type="text" id="mobil" name="mobil" placeholder="Jenis & Tipe Mobil" required />
+            </div>
 
-    <div class="form-group">
-      <label for="tenor">TENOR</label>
-      <select id="tenor" name="tenor" required>
-        <option value="" disabled selected>Pilih Tenor</option>
-        <option value="12">12 Bulan</option>
-        <option value="24">24 Bulan</option>
-        <option value="48">48 Bulan</option>
-        <option value="60">60 Bulan</option>
-      </select>
-    </div>
-  </div>
+            <div class="form-group">
+                <label for="tenor">TENOR</label>
+                <select id="tenor" name="tenor" required>
+                    <option value="" disabled selected>Pilih Tenor</option>
+                    <option value="12">12 Bulan</option>
+                    <option value="24">24 Bulan</option>
+                    <option value="48">48 Bulan</option>
+                    <option value="60">60 Bulan</option>
+                </select>
+            </div>
+        </div>
 
-  <div class="form-group">
-    <label for="budget">BUDGET DP</label>
-    <input type="text" id="budget" name="budget" placeholder="Rp." required />
-  </div>
+        <div class="form-group">
+            <label for="budget">BUDGET DP</label>
+            <input type="text" id="budget" name="budget" placeholder="Rp." required />
+        </div>
 
-  <div class="form-group">
-    <label for="message">MESSAGE</label>
-    <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini ..." required></textarea>
-  </div>
+        <div class="form-group">
+            <label for="message">MESSAGE</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini ..." required></textarea>
+        </div>
 
-  <button type="submit" class="btn-submit">KIRIM PESAN</button>
-</form>
+        <button type="submit" class="btn-submit">KIRIM PESAN</button>
+    </form>
 
-    <!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
+    <!-- Elfsight WhatsApp Chat -->
     <script src="https://elfsightcdn.com/platform.js" async></script>
     <div class="elfsight-app-f56c7d51-f2e3-421a-bdba-8f4071e20aba" data-elfsight-app-lazy></div>
 
-
-<?php include 'footer.php'; ?>
+    <!-- Footer -->
+    <?php include 'footer.php'; ?>
 </body>
 </html>
