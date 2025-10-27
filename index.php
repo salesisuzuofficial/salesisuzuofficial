@@ -52,7 +52,7 @@ try {
     <style>
       /* ======== GLOBAL SECTION SPACING ======== */
       section {
-        padding: 80px 0;
+        padding: 60px 0;
         margin: 0 auto;
       }
 
@@ -96,7 +96,7 @@ try {
         justify-content: space-between;
         gap: 32px;
         max-width: 1200px;
-        margin: 0 auto 80px auto;
+        margin: 0 auto 60px auto;
         padding: 60px 20px;
       }
 
