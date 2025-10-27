@@ -1,34 +1,34 @@
 <?php
 session_start();
 
-require 'config.php'; // pastikan path ini benar dan $pdo tersedia
-
-// Cek session login
+// 🔐 Cek login admin
 if (!isset($_SESSION['admin_id'])) {
     header("Location: login.php");
     exit;
 }
 
-$id = $_GET['id'] ?? null;
+require 'config.php'; // Pastikan file ini mendefinisikan $pdo (PDO connection)
 
+// ✅ Validasi ID dari URL
+$id = $_GET['id'] ?? null;
 if (!$id || !ctype_digit($id)) {
     $_SESSION['message'] = ['type' => 'danger', 'text' => 'Permintaan tidak valid.'];
     header("Location: kredit.php");
     exit;
 }
+$id = (int)$id;
 
-$id = (int) $id;
-
-// Fungsi helper optional (jika belum ada di projectmu)
+// 🧩 Fungsi helper ambil 1 data
 if (!function_exists('fetchOnePrepared')) {
-    function fetchOnePrepared($pdo, $query, $params = []) {
+    function fetchOnePrepared($pdo, $query, $params = [])
+    {
         $stmt = $pdo->prepare($query);
         $stmt->execute($params);
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 }
 
-// Ambil data simulasi kredit dari database
+// 🎯 Ambil data simulasi kredit
 $kredit = fetchOnePrepared($pdo, "SELECT * FROM simulasi_kredit WHERE id = ?", [$id]);
 
 if (!$kredit) {
@@ -37,7 +37,6 @@ if (!$kredit) {
     exit;
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -57,6 +56,7 @@ if (!$kredit) {
 </head>
 <body>
 
+<!-- Tombol menu untuk mode mobile -->
 <button class="menu-toggle"><i class="fa-solid fa-bars"></i></button>
 <div class="overlay"></div>
 
@@ -81,41 +81,49 @@ if (!$kredit) {
         <i class="fa-solid fa-car me-2"></i> Detail Simulasi Kredit
     </h3>
 
-    <div class="card p-4">
+    <div class="card p-4 shadow-sm border-0">
         <div class="mb-3">
             <label class="fw-semibold">Nama:</label>
             <p><?= htmlspecialchars($kredit['nama'] ?? '-') ?></p>
         </div>
+
         <div class="mb-3">
             <label class="fw-semibold">No Telepon:</label>
             <p><?= htmlspecialchars($kredit['no_telepon'] ?? '-') ?></p>
         </div>
+
         <div class="mb-3">
             <label class="fw-semibold">Jenis dan Tipe Mobil:</label>
             <p><?= htmlspecialchars($kredit['jenis_tipe_mobil'] ?? '-') ?></p>
         </div>
+
         <div class="mb-3">
             <label class="fw-semibold">Tenor:</label>
             <p><?= htmlspecialchars($kredit['tenor'] ?? '-') ?> Bulan</p>
         </div>
+
         <div class="mb-3">
             <label class="fw-semibold">Budget DP:</label>
-            <p>Rp <?= number_format($kredit['budget_dp'] ?? 0, 0, ',', '.') ?></p>
+            <p>Rp <?= number_format((float)($kredit['budget_dp'] ?? 0), 0, ',', '.') ?></p>
         </div>
+
         <div class="mb-3">
             <label class="fw-semibold">Pesan:</label>
-            <p>Rp <?= number_format($kredit['messages'] ?? 0, 0, ',', '.') ?></p>
+            <p><?= nl2br(htmlspecialchars($kredit['messages'] ?? '-')) ?></p>
         </div>
+
         <div class="mb-3">
             <label class="fw-semibold">Tanggal Input:</label>
             <p><?= !empty($kredit['tanggal_input']) ? date("d M Y H:i", strtotime($kredit['tanggal_input'])) : '-' ?></p>
         </div>
+
         <a href="kredit.php" class="btn btn-primary">
             <i class="fa fa-arrow-left me-1"></i> Kembali ke Data Kredit
         </a>
     </div>
 </div>
 
+<!-- JS -->
 <script src="js/admin.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

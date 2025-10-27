@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'config.php'; // Pastikan $pdo sudah terdefinisi (PDO connection)
+require 'config.php'; // pastikan file ini berisi koneksi PDO ($pdo)
 
 // Cek session login admin
 if (!isset($_SESSION['admin_id'])) {
@@ -9,7 +9,7 @@ if (!isset($_SESSION['admin_id'])) {
 }
 
 try {
-    // Ambil data simulasi kredit dari database (urut terbaru)
+    // Ambil data simulasi kredit (urut terbaru)
     $stmt = $pdo->query("SELECT * FROM simulasi_kredit ORDER BY tanggal_input DESC");
     $kredits = $stmt->fetchAll(PDO::FETCH_ASSOC);
 } catch (PDOException $e) {
@@ -70,9 +70,9 @@ try {
 
     <div class="card p-3">
         <div class="table-responsive">
-            <table class="table table-bordered align-middle">
-                <thead>
-                    <tr class="text-center">
+            <table class="table table-bordered align-middle table-striped">
+                <thead class="table-dark text-center">
+                    <tr>
                         <th width="5%">No</th>
                         <th>Nama</th>
                         <th>No Telepon</th>
@@ -81,13 +81,15 @@ try {
                         <th>Budget DP</th>
                         <th>Pesan</th>
                         <th>Tanggal</th>
-                        <th width="15%">Aksi</th>
+                        <th width="12%">Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
                     <?php if (count($kredits) === 0): ?>
                     <tr>
-                        <td colspan="8" class="text-center text-muted">Belum ada data simulasi kredit.</td>
+                        <td colspan="9" class="text-center text-muted py-4">
+                            Belum ada data simulasi kredit.
+                        </td>
                     </tr>
                     <?php else: ?>
                     <?php $no = 1; foreach ($kredits as $row): ?>
@@ -98,6 +100,7 @@ try {
                         <td><?= htmlspecialchars($row['jenis_tipe_mobil']); ?></td>
                         <td class="text-center"><?= htmlspecialchars($row['tenor']); ?></td>
                         <td>Rp <?= number_format($row['budget_dp'], 0, ',', '.'); ?></td>
+                        <td><?= htmlspecialchars($row['messages']); ?></td>
                         <td><?= date("d M Y H:i", strtotime($row['tanggal_input'])); ?></td>
                         <td class="text-center">
                             <a href="kredit_detail.php?id=<?= $row['id']; ?>" 
