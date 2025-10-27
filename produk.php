@@ -73,9 +73,9 @@
     <!-- ========== HERO SECTION ========== -->
     <section class="hero hero-produk">
     <div class="slider">
-        <img src="img/hero3.jpg" class="slide" alt="Banner 3" />
-        <img src="img/hero4.jpg" class="slide" alt="Banner 4" />
-        <img src="img/hero5.jpg" class="slide" alt="Banner 5" />
+        <img src="img/hero3.jpg" class="slide" alt="Banner 1" />
+        <img src="img/hero4.jpg" class="slide" alt="Banner 2" />
+        <img src="img/hero5.jpg" class="slide" alt="Banner 3" />
     </div>
 
     <!-- Teks Overlay -->
