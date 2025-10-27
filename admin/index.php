@@ -24,10 +24,9 @@ $totalPesanCustomer = fetchOnePrepared($pdo, $pesanQuery)['COUNT(*)'];
 
   <!-- CSS & ICONS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kzwf9l4Vh2WPPz9uCj7q8LUs9k4SmTgDKHfIMuStbPIfJzZ6smt5jKjZDU+0QeRf3XQh7gEMc0wL3mHhZjO7xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/admin.css?v=2">
 </head>
-
 <body>
 
   <!-- HAMBURGER TOGGLE & OVERLAY -->
