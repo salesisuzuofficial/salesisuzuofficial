@@ -136,7 +136,7 @@ $artikel = array_slice($artikelData, $offset, $perPage);
 
     <!-- Teks Overlay -->
     <div class="hero-content">
-        <h1>Produk Isuzu</h1>
+        <h1>Artikel</h1>
     </div>
     </section>
 
