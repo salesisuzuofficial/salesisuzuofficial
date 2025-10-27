@@ -1,32 +1,32 @@
 /* ===============================
-   💳 FORM SIMULASI KREDIT - ISUZU STYLE
+   💳 FORM SIMULASI KREDIT - ISUZU STYLE (RAPIH & SEIMBANG)
    =============================== */
 
 .simulasi-form {
   max-width: 800px;
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
-  padding: 20px 15px;
+  padding: 30px 20px;
   background: #fff;
 }
 
 .form-description {
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   font-size: 14px;
   color: #222;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 /* === Layout Grid === */
 .form-row {
   display: flex;
-  gap: 20px;
+  gap: 25px;
   flex-wrap: wrap;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-/* === Label === */
+/* === Label & Form Group === */
 .form-group {
   flex: 1;
   min-width: 250px;
@@ -38,8 +38,9 @@
   font-weight: 700;
   text-transform: uppercase;
   font-size: 12px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   color: #111;
+  letter-spacing: 0.3px;
 }
 
 /* === Input, Select, Textarea === */
@@ -47,13 +48,14 @@
 .form-group select,
 .form-group textarea {
   width: 100%;
-  padding: 10px 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 12px 14px;
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
   font-size: 14px;
   color: #333;
-  background: #fff;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  transition: all 0.25s ease;
+  box-sizing: border-box;
 }
 
 .form-group input::placeholder,
@@ -65,37 +67,60 @@
 .form-group select:focus,
 .form-group textarea:focus {
   border-color: #ff0000;
-  box-shadow: 0 0 5px rgba(255, 0, 0, 0.2);
+  box-shadow: 0 0 6px rgba(255, 0, 0, 0.15);
   outline: none;
+}
+
+/* === Spesifik untuk textarea agar tidak terlalu tinggi === */
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
 }
 
 /* === Tombol Kirim === */
 .btn-submit {
+  display: block;
   width: 100%;
   background-color: #ff0000;
   color: #fff;
-  padding: 12px 0;
+  padding: 14px 0;
   font-weight: 700;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
   font-size: 15px;
-  transition: background-color 0.3s ease;
-  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
 }
 
 .btn-submit:hover {
   background-color: #d40000;
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.25);
 }
 
-/* === Responsif === */
+/* === Jarak antar blok form terakhir === */
+.form-group:last-of-type {
+  margin-bottom: 25px;
+}
+
+/* === Responsif (Mobile Friendly) === */
 @media (max-width: 768px) {
+  .simulasi-form {
+    padding: 20px 15px;
+  }
+
   .form-row {
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
+  }
+
+  .form-group label {
+    font-size: 11.5px;
   }
 
   .btn-submit {
     font-size: 14px;
+    padding: 12px 0;
   }
 }
