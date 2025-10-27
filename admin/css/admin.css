@@ -537,14 +537,20 @@ img.article-image {
   }
 }
 
+/* ICON KREDIT SESUAI DESAIN LAIN */
 .icon-kredit {
-  background-color: #e0f7fa; /* warna biru muda untuk box */
-  color: #00bcd4; /* warna icon mobil */
+  background: linear-gradient(
+    135deg,
+    #17a2b8,
+    #5bc0de
+  ); /* gradien keren biru aqua */
+  color: white; /* icon tetap putih */
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
-  width: 60px;
-  height: 60px;
-  border-radius: 0.75rem;
+  font-size: 30px; /* sama dengan icon-artikel & icon-messages */
+  width: 70px; /* sama dengan icon-artikel & icon-messages */
+  height: 70px; /* sama dengan icon-artikel & icon-messages */
+  border-radius: 18px; /* sama seperti yang lain */
+  flex-shrink: 0;
 }
