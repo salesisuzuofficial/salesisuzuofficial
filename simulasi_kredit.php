@@ -104,24 +104,24 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
   <div class="form-row">
     <div class="form-group">
-      <label for="nama">Nama</label>
+      <label for="nama">NAMA</label>
       <input type="text" id="nama" name="nama" placeholder="Nama Lengkap" required />
     </div>
 
     <div class="form-group">
-      <label for="telepon">Nomor Telepon</label>
+      <label for="telepon">NOMOR TELEPON</label>
       <input type="tel" id="telepon" name="telepon" placeholder="Nomor Yang Bisa Di Hubungi" required />
     </div>
   </div>
 
   <div class="form-row">
     <div class="form-group">
-      <label for="mobil">Jenis & Tipe Mobil</label>
+      <label for="mobil">JENIS & TIPE MOBIL</label>
       <input type="text" id="mobil" name="mobil" placeholder="Jenis & Tipe Mobil" required />
     </div>
 
     <div class="form-group">
-      <label for="tenor">Tenor</label>
+      <label for="tenor">TENOR</label>
       <select id="tenor" name="tenor" required>
         <option value="" disabled selected>Pilih Tenor</option>
         <option value="12">12 Bulan</option>
@@ -133,12 +133,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   </div>
 
   <div class="form-group">
-    <label for="budget">Budget DP</label>
-    <input type="text" id="budget" name="budget" placeholder="Rp. 50.000.000" required />
+    <label for="budget">BUDGET DP</label>
+    <input type="text" id="budget" name="budget" placeholder="Rp." required />
   </div>
 
   <div class="form-group">
-    <label for="message">Message</label>
+    <label for="message">MESSAGE</label>
     <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini ..." required></textarea>
   </div>
 
