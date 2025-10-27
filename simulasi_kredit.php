@@ -9,7 +9,15 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $budget     = trim($_POST['budget'] ?? '');
     $message    = trim($_POST['message'] ?? '');
 
-    if ($nama === '' || $telepon === '' || $mobil === '' || $tenor === '' || $budget === '' || $message === '') {
+    // ✅ Bersihkan budget: hilangkan "Rp", titik, spasi, koma, dsb
+    $budget = preg_replace('/[^0-9]/', '', $budget);
+
+    // Jika kosong, set jadi 0
+    if ($budget === '') {
+        $budget = 0;
+    }
+
+    if ($nama === '' || $telepon === '' || $mobil === '' || $tenor === '' || $message === '') {
         echo "❌ Semua field wajib diisi.";
         exit;
     }
@@ -39,6 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     exit;
 }
 ?>
+
 
 <!DOCTYPE html>
 <html lang="id">

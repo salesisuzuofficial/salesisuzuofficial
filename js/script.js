@@ -7,47 +7,49 @@ document.addEventListener("DOMContentLoaded", function () {
   const btnRight = document.querySelector(".carousel-btn.right");
 
   if (carousel && btnLeft && btnRight) {
-    const productItems = document.querySelectorAll(".product-item");
-    const itemWidth = productItems[0].offsetWidth + 20; // termasuk margin/gap
-    const visibleItems = 1;
-    let currentIndex = 0;
+    const productItems = carousel.querySelectorAll(".product-item");
+    if (productItems.length > 0) {
+      const itemWidth = productItems[0].offsetWidth + 20; // termasuk margin/gap
+      const visibleItems = 1;
+      let currentIndex = 0;
 
-    function moveCarousel() {
-      currentIndex++;
-      if (currentIndex > productItems.length - visibleItems) currentIndex = 0;
-      carousel.scrollTo({
-        left: currentIndex * itemWidth,
-        behavior: "smooth",
+      function moveCarousel() {
+        currentIndex++;
+        if (currentIndex > productItems.length - visibleItems) currentIndex = 0;
+        carousel.scrollTo({
+          left: currentIndex * itemWidth,
+          behavior: "smooth",
+        });
+      }
+
+      // Auto slide tiap 3 detik
+      let autoSlide = setInterval(moveCarousel, 3000);
+
+      function restartInterval() {
+        clearInterval(autoSlide);
+        autoSlide = setInterval(moveCarousel, 3000);
+      }
+
+      // Tombol navigasi kiri & kanan
+      btnLeft.addEventListener("click", () => {
+        currentIndex =
+          currentIndex === 0
+            ? productItems.length - visibleItems
+            : currentIndex - 1;
+
+        carousel.scrollTo({
+          left: currentIndex * itemWidth,
+          behavior: "smooth",
+        });
+
+        restartInterval();
+      });
+
+      btnRight.addEventListener("click", () => {
+        moveCarousel();
+        restartInterval();
       });
     }
-
-    // Auto slide tiap 3 detik
-    let autoSlide = setInterval(moveCarousel, 3000);
-
-    function restartInterval() {
-      clearInterval(autoSlide);
-      autoSlide = setInterval(moveCarousel, 3000);
-    }
-
-    // Tombol navigasi kiri & kanan
-    btnLeft.addEventListener("click", () => {
-      currentIndex =
-        currentIndex === 0
-          ? productItems.length - visibleItems
-          : currentIndex - 1;
-
-      carousel.scrollTo({
-        left: currentIndex * itemWidth,
-        behavior: "smooth",
-      });
-
-      restartInterval();
-    });
-
-    btnRight.addEventListener("click", () => {
-      moveCarousel();
-      restartInterval();
-    });
   }
 
   /* ==========================================================
@@ -64,44 +66,45 @@ document.addEventListener("DOMContentLoaded", function () {
   );
 
   if (appCarousel && appBtnLeft && appBtnRight) {
-    const appItems = document.querySelectorAll(
-      ".applications-carousel .product-item"
-    );
-    const itemWidth = appItems[0].offsetWidth + 20;
-    const visibleItems = 1;
-    let appIndex = 0;
+    const appItems = appCarousel.querySelectorAll(".product-item");
+    if (appItems.length > 0) {
+      const itemWidth = appItems[0].offsetWidth + 20;
+      const visibleItems = 1;
+      let appIndex = 0;
 
-    function moveAppCarousel() {
-      appIndex++;
-      if (appIndex > appItems.length - visibleItems) appIndex = 0;
-      appCarousel.scrollTo({
-        left: appIndex * itemWidth,
-        behavior: "smooth",
+      function moveAppCarousel() {
+        appIndex++;
+        if (appIndex > appItems.length - visibleItems) appIndex = 0;
+        appCarousel.scrollTo({
+          left: appIndex * itemWidth,
+          behavior: "smooth",
+        });
+      }
+
+      let autoAppSlide = setInterval(moveAppCarousel, 3000);
+
+      function restartAppInterval() {
+        clearInterval(autoAppSlide);
+        autoAppSlide = setInterval(moveAppCarousel, 3000);
+      }
+
+      appBtnLeft.addEventListener("click", () => {
+        appIndex =
+          appIndex === 0 ? appItems.length - visibleItems : appIndex - 1;
+
+        appCarousel.scrollTo({
+          left: appIndex * itemWidth,
+          behavior: "smooth",
+        });
+
+        restartAppInterval();
+      });
+
+      appBtnRight.addEventListener("click", () => {
+        moveAppCarousel();
+        restartAppInterval();
       });
     }
-
-    let autoAppSlide = setInterval(moveAppCarousel, 3000);
-
-    function restartAppInterval() {
-      clearInterval(autoAppSlide);
-      autoAppSlide = setInterval(moveAppCarousel, 3000);
-    }
-
-    appBtnLeft.addEventListener("click", () => {
-      appIndex = appIndex === 0 ? appItems.length - visibleItems : appIndex - 1;
-
-      appCarousel.scrollTo({
-        left: appIndex * itemWidth,
-        behavior: "smooth",
-      });
-
-      restartAppInterval();
-    });
-
-    appBtnRight.addEventListener("click", () => {
-      moveAppCarousel();
-      restartAppInterval();
-    });
   }
 
   /* ==========================================================
@@ -141,6 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
       showSlide(currentSlide);
     }
 
+    showSlide(currentSlide);
     setInterval(nextSlide, 4000);
   }
 
