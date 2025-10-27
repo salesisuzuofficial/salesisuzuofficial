@@ -9,6 +9,11 @@ $totalArtikel = fetchOnePrepared($pdo, $artikelQuery)['COUNT(*)'];
 // Ambil jumlah pesan customer
 $pesanQuery = "SELECT COUNT(*) FROM messages";
 $totalPesanCustomer = fetchOnePrepared($pdo, $pesanQuery)['COUNT(*)'];
+
+// Ambil jumlah simulasi kredit
+$kreditQuery = "SELECT COUNT(*) FROM simulasi_kredit";
+$totalKredit = fetchOnePrepared($pdo, $kreditQuery)['COUNT(*)'];
+
 ?>
 
 
