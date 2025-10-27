@@ -136,7 +136,7 @@ $artikel = array_slice($artikelData, $offset, $perPage);
 
     <!-- Teks Overlay -->
     <div class="hero-content">
-        <h1>Artikel</h1>
+        <h1>Blog & Artikel</h1>
     </div>
     </section>
 
