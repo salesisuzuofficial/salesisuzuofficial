@@ -39,76 +39,89 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
+    <!-- ========== META BASIC ========== -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hubungi Kami | Hino Official</title>
+    <title>
+      Dealer Isuzu Jakarta | Dapatkan Promo & Harga Terbaik Truck Isuzu
+    </title>
 
-    <!-- Meta Description -->
+    <!-- ========== META SEO ========== -->
     <meta
       name="description"
-      content="Hino Official - Dealer Truck Hino Tangerang. Hubungi : 0812 1905 5571 Untuk mendapatkan informasi produk Hino. Layanan Terbaik dan Jaminan Mutu."
+      content="Dealer Isuzu Jakarta resmi – Dapatkan promo dan harga terbaik untuk truk, pick up, dan kendaraan niaga Isuzu. Hubungi kami untuk penawaran Isuzu Elf, Giga, dan Traga terbaru di Jakarta. Pelayanan cepat & terpercaya!"
+    />
+    <meta
+      name="keywords"
+      content="sales isuzu, dealer isuzu jakarta, promo isuzu, harga truk isuzu terbaru, isuzu elf, isuzu giga, isuzu traga"
+    />
+    <link rel="canonical" href="https://salesisuzuofficial.com/" />
+
+    <!-- ========== FAVICON ========== -->
+    <link rel="icon" type="image/png" href="/img/logo.png" />
+    <link rel="apple-touch-icon" href="/img/logo.png" />
+
+    <!-- ========== FONTS ========== -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
     />
 
-    <!-- Meta Keywords -->
-    <meta name="keywords" content="sales Hino, sales Hino Jakarta, sales Hino Jabodetabek, sales Hino Tangerang, sales Hino Bekasi, sales Hino Depok, sales Hino Bogor, sales truck Hino, dealer Hino, dealer Hino Jabodetabek, dealer Hino Tangerang, dealer Hino Bekasi, dealer Hino Depok, dealer Hino Bogor, dealer truck Hino, dealer Hino resmi, dealer Hino Jakarta, dealer Hino Indonesia, jual truk Hino, kredit truk Hino, cicilan truk Hino, promo truk Hino, harga truk Hino terbaru, diskon truk Hino, truk Hino Dutro, truk Hino 300, truk Hino 500, Hino Dutro 136 HD, Hino Dutro 4x4, Hino Dutro box, Hino Dutro engkel, spesifikasi Hino Dutro, modifikasi truk Hino, gambar truk Hino, keunggulan truk Hino, truk Hino untuk bisnis, truk Hino untuk logistik, perbandingan truk Hino dan Isuzu Elf, dealer truk Hino termurah, dealer truk hino tangerang, dealer hino cikupa, hino cikupa, dealer hino tangerang murah" />
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://salesisuzuofficial.com/contact.php" />
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8BPF492E6Z"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-8BPF492E6Z');
-    </script>
-
-    <meta name="robots" content="index, follow" />
-    <link rel="icon" type="image/png" href="/img/favicon.png" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet" />
-    <link rel="icon" type="image/png" href="img/logo.png" />
+    <!-- ========== STYLES ========== -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/contact_css/header_contact.css" />
+    <link rel="stylesheet" href="css/product_css/header_product.css" />
     <link rel="stylesheet" href="css/contact_css/contact.css" />
-    <script src="js/script.js"></script>
+
+    <!-- ========== SCRIPTS ========== -->
     <script src="https://unpkg.com/feather-icons"></script>
+    <script src="js/script.js" defer></script>
   </head>
 
   <body>
-    <!-- Header -->
+    <!-- ========== HEADER ========== -->
     <header>
       <div class="container header-content navbar">
+        <!-- Logo -->
         <div class="header-title">
           <a href="https://salesisuzuofficial.com">
-            <img src="img/logo3.png" alt="Logo Hino" style="height: 60px" />
+            <img
+              src="img/logo.png"
+              alt="Logo Isuzu"
+              style="height: 55px"
+            />
           </a>
         </div>
+
+        <!-- Hamburger Menu (Mobile) -->
         <div class="hamburger-menu">&#9776;</div>
+
+        <!-- Navigation -->
         <nav class="nav links">
           <a href="index.php">Home</a>
-          <a href="hino300.php">Hino 300 Series</a>
-          <a href="hino500.php">Hino 500 Series</a>
-          <a href="hinobus.php">Hino Bus Series</a>
-          <a href="artikel.php">Blog & Artikel</a>
+          <a href="produk.php">Produk</a>
+          <a href="simulasi_kredit.php">Simulasi Kredit</a>
+          <a href="maintance.html">Blog & Artikel</a>
           <a href="contact.php">Contact</a>
         </nav>
       </div>
     </header>
 
-    <!-- Contact Hero -->
-    <section class="about-hero" style="background-image: url('img/Euro 4 Hino 300.jpeg'); background-size: cover; background-position: center;">
-      <div class="about-hero-overlay">
-        <div class="about-hero-content container">
-          <h1>Contact Us</h1>
-          <p>Jika Anda membutuhkan bantuan atau informasi lebih lanjut, kami siap membantu Anda dengan solusi terbaik. Hubungi kami sekarang!.</p>
-        </div>
-      </div>
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero hero-produk">
+    <div class="slider">
+        <img src="img/hero3.jpg" class="slide" alt="Banner 3" />
+        <img src="img/hero4.jpg" class="slide" alt="Banner 4" />
+        <img src="img/hero5.jpg" class="slide" alt="Banner 5" />
+    </div>
+
+    <!-- Teks Overlay -->
+    <div class="hero-content">
+        <h1>Contact</h1>
+    </div>
     </section>
 
     <!-- Contact Form -->

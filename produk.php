@@ -62,10 +62,10 @@
         <!-- Navigation -->
         <nav class="nav links">
           <a href="index.php">Home</a>
-          <a href="maintance.html">Produk</a>
-          <a href="maintance.html">Simulasi Kredit</a>
+          <a href="produk.php">Produk</a>
+          <a href="simulasi_kredit.php">Simulasi Kredit</a>
           <a href="maintance.html">Blog & Artikel</a>
-          <a href="maintance.html">Contact</a>
+          <a href="contact.php">Contact</a>
         </nav>
       </div>
     </header>
