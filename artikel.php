@@ -47,7 +47,7 @@ $artikel = array_slice($artikelData, $offset, $perPage);
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/home_css/header.css" />
+    <link rel="stylesheet" href="css/product_css/header_product.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/home_css/blogcard.css" />
     <link rel="stylesheet" href="css/blog.css" />
@@ -98,44 +98,46 @@ $artikel = array_slice($artikelData, $offset, $perPage);
 
   </head>
   <body>
-    <!-- Header -->
+    <!-- ========== HEADER ========== -->
     <header>
       <div class="container header-content navbar">
-    <!-- Logo -->
-    <div class="header-title">
-      <a href="https://salesisuzuofficial.com">
-        <img src="img/logo3.png" alt="Logo Hino" style="height: 60px" />
-      </a>
-    </div>
+        <!-- Logo -->
+        <div class="header-title">
+          <a href="https://salesisuzuofficial.com">
+            <img
+              src="img/logo.png"
+              alt="Logo Isuzu"
+              style="height: 55px"
+            />
+          </a>
+        </div>
 
+        <!-- Hamburger Menu (Mobile) -->
         <div class="hamburger-menu">&#9776;</div>
+
+        <!-- Navigation -->
         <nav class="nav links">
           <a href="index.php">Home</a>
-          <a href="hino300.php">Hino 300 Series</a>
-          <a href="hino500.php">Hino 500 Series</a>
-          <a href="hinobus.php">Hino Bus Series</a>
-          <a href="artikel.php">Blog & Artikel</a>
+          <a href="produk.php">Produk</a>
+          <a href="simulasi_kredit.php">Simulasi Kredit</a>
+          <a href="maintance.html">Blog & Artikel</a>
           <a href="contact.php">Contact</a>
         </nav>
       </div>
     </header>
 
-    <!-- Hero Banner -->
-    <section class="hero-banner" style="position: relative; overflow: hidden;">
-      <img src="img/Euro 4 Hino 300.jpeg" alt="Banner Artikel Hino" style="width: 100%; height: auto; max-height: 400px; object-fit: cover;">
-      <div style="
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      ">
-        <h1 style="color: white; font-size: 36px; font-weight: bold;">Blog & Artikel Hino Indonesia</h1>
-      </div>
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero hero-produk">
+    <div class="slider">
+        <img src="img/hero3.jpg" class="slide" alt="Banner 1" />
+        <img src="img/hero4.jpg" class="slide" alt="Banner 2" />
+        <img src="img/hero5.jpg" class="slide" alt="Banner 3" />
+    </div>
+
+    <!-- Teks Overlay -->
+    <div class="hero-content">
+        <h1>Produk Isuzu</h1>
+    </div>
     </section>
 
 
