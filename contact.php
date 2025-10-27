@@ -104,7 +104,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
           <a href="index.php">Home</a>
           <a href="produk.php">Produk</a>
           <a href="simulasi_kredit.php">Simulasi Kredit</a>
-          <a href="maintance.html">Blog & Artikel</a>
+          <a href="artikel.php">Blog & Artikel</a>
           <a href="contact.php">Contact</a>
         </nav>
       </div>
