@@ -103,6 +103,10 @@ if (!$kredit) {
             <p>Rp <?= number_format($kredit['budget_dp'] ?? 0, 0, ',', '.') ?></p>
         </div>
         <div class="mb-3">
+            <label class="fw-semibold">Pesan:</label>
+            <p>Rp <?= number_format($kredit['messages'] ?? 0, 0, ',', '.') ?></p>
+        </div>
+        <div class="mb-3">
             <label class="fw-semibold">Tanggal Input:</label>
             <p><?= !empty($kredit['tanggal_input']) ? date("d M Y H:i", strtotime($kredit['tanggal_input'])) : '-' ?></p>
         </div>

@@ -79,6 +79,7 @@ try {
                         <th>Jenis & Tipe Mobil</th>
                         <th>Tenor (Bulan)</th>
                         <th>Budget DP</th>
+                        <th>Pesan</th>
                         <th>Tanggal</th>
                         <th width="15%">Aksi</th>
                     </tr>
