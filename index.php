@@ -85,7 +85,7 @@ try {
       .promo-utama,
       .features-section,
       .blog-section {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
       }
 
       /* Supaya gambar promo sejajar */
