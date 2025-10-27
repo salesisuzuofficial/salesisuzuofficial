@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/product_css/header_product.css" />
-    <link rel="stylesheet" href="css/product_css/product.css" />
+    <link rel="stylesheet" href="css/simulasikredit_css/simulasi.css" />
 
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="js/script.js" defer></script>
@@ -95,56 +95,56 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </div>
 </section>
 
-<form id="simulasiForm" style="max-width: 800px; margin: 0 auto; font-family: Poppins, sans-serif;">
-    <p style="text-align: center; margin-bottom: 20px; font-size: 14px; color: #333;">
-        Jika Anda sudah menentukan jenis dan tipe mobil yang Anda inginkan, silakan isi form berikut dengan data yang benar.
-        Kami akan segera merespon pesan Anda dalam waktu maksimal 1 x 24 jam.
-    </p>
+<!-- Simulasi Kredit -->
+<form id="simulasiForm" class="simulasi-form">
+  <p class="form-description">
+    Jika Anda sudah menentukan jenis dan tipe mobil yang Anda inginkan, silakan isi form berikut dengan data yang benar.
+    Kami akan segera merespon pesan Anda dalam waktu maksimal 1 x 24 jam.
+  </p>
 
-    <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 15px;">
-        <div style="flex: 1; min-width: 250px;">
-            <label for="nama" style="font-weight: 600; font-size: 13px;">Nama</label><br />
-            <input type="text" id="nama" name="nama" placeholder="Nama Lengkap" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ccc;" required />
-        </div>
-
-        <div style="flex: 1; min-width: 250px;">
-            <label for="telepon" style="font-weight: 600; font-size: 13px;">Nomor Telepon</label><br />
-            <input type="tel" id="telepon" name="telepon" placeholder="Nomor Yang Bisa Di Hubungi" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ccc;" required />
-        </div>
+  <div class="form-row">
+    <div class="form-group">
+      <label for="nama">Nama</label>
+      <input type="text" id="nama" name="nama" placeholder="Nama Lengkap" required />
     </div>
 
-    <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 15px;">
-        <div style="flex: 1; min-width: 250px;">
-            <label for="mobil" style="font-weight: 600; font-size: 13px;">Jenis & Tipe Mobil</label><br />
-            <input type="text" id="mobil" name="mobil" placeholder="Jenis & Tipe Mobil" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ccc;" required />
-        </div>
+    <div class="form-group">
+      <label for="telepon">Nomor Telepon</label>
+      <input type="tel" id="telepon" name="telepon" placeholder="Nomor Yang Bisa Di Hubungi" required />
+    </div>
+  </div>
 
-        <div style="flex: 1; min-width: 250px;">
-            <label for="tenor" style="font-weight: 600; font-size: 13px;">Tenor</label><br />
-            <select id="tenor" name="tenor" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ccc;" required>
-                <option value="" disabled selected>Pilih Tenor</option>
-                <option value="12">12 Bulan</option>
-                <option value="24">24 Bulan</option>
-                <option value="48">48 Bulan</option>
-                <option value="60">60 Bulan</option>
-            </select>
-        </div>
+  <div class="form-row">
+    <div class="form-group">
+      <label for="mobil">Jenis & Tipe Mobil</label>
+      <input type="text" id="mobil" name="mobil" placeholder="Jenis & Tipe Mobil" required />
     </div>
 
-    <div style="margin-bottom: 15px;">
-        <label for="budget" style="font-weight: 600; font-size: 13px;">Budget DP</label><br />
-        <input type="text" id="budget" name="budget" placeholder="Rp. 50.000.000" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ccc;" required />
+    <div class="form-group">
+      <label for="tenor">Tenor</label>
+      <select id="tenor" name="tenor" required>
+        <option value="" disabled selected>Pilih Tenor</option>
+        <option value="12">12 Bulan</option>
+        <option value="24">24 Bulan</option>
+        <option value="48">48 Bulan</option>
+        <option value="60">60 Bulan</option>
+      </select>
     </div>
+  </div>
 
-    <div style="margin-bottom: 20px;">
-        <label for="message" style="font-weight: 600; font-size: 13px;">Message</label><br />
-        <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini ..." style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ccc;" required></textarea>
-    </div>
+  <div class="form-group">
+    <label for="budget">Budget DP</label>
+    <input type="text" id="budget" name="budget" placeholder="Rp. 50.000.000" required />
+  </div>
 
-    <button type="submit" style="width: 100%; background-color: #dc3545; color: white; padding: 12px 0; font-weight: 600; border: none; border-radius: 8px; cursor: pointer; font-size: 16px;">
-        KIRIM PESAN
-    </button>
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini ..." required></textarea>
+  </div>
+
+  <button type="submit" class="btn-submit">KIRIM PESAN</button>
 </form>
+
 
 <?php include 'footer.php'; ?>
 </body>
