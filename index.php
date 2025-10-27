@@ -116,9 +116,9 @@ try {
 
       /* Konsisten antar section */
       .contact-container {
-        padding: 60px 20px;
+        padding: 50px 20px;
         max-width: 1200px;
-        margin: 0 auto 80px auto;
+        margin: 0 auto 40px auto;
       }
 
       .blog-section {
