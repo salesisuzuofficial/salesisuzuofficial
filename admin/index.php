@@ -43,6 +43,7 @@ $totalPesanCustomer = fetchOnePrepared($pdo, $pesanQuery)['COUNT(*)'];
     <a href="index.php" class="active"><i class="fa-solid fa-house"></i> Dashboard</a>
     <a href="artikel.php"><i class="fa-solid fa-file-lines"></i> Artikel</a>
     <a href="messages.php"><i class="fa-solid fa-envelope"></i> Pesan</a>
+    <a href="kredit.php"><i class="fa-solid fa-envelope"></i> Simulasi Kredit</a>
 
     <a href="logout.php" class="logout-link"><i class="fa-solid fa-right-from-bracket"></i> Log Out</a>
   </div>
@@ -55,9 +56,12 @@ $totalPesanCustomer = fetchOnePrepared($pdo, $pesanQuery)['COUNT(*)'];
     </div>
 
     <div class="row g-4">
+      <!-- Total Artikel -->
       <div class="col-md-4">
         <div class="stat-card">
-          <div class="stat-icon icon-artikel"><i class="fa-solid fa-file-lines"></i></div>
+          <div class="stat-icon icon-artikel">
+            <i class="fa-solid fa-file-lines"></i>
+          </div>
           <div class="stat-info">
             <h6>Total Artikel</h6>
             <h3><?php echo $totalArtikel; ?></h3>
@@ -65,9 +69,25 @@ $totalPesanCustomer = fetchOnePrepared($pdo, $pesanQuery)['COUNT(*)'];
         </div>
       </div>
 
+      <!-- Total Simulasi Kredit -->
       <div class="col-md-4">
         <div class="stat-card">
-          <div class="stat-icon icon-messages"><i class="fa-solid fa-envelope"></i></div>
+          <div class="stat-icon icon-kredit">
+            <i class="fa-solid fa-car"></i>
+          </div>
+          <div class="stat-info">
+            <h6>Total Simulasi Kredit</h6>
+            <h3><?php echo $totalKredit; ?></h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Total Pesan Customer -->
+      <div class="col-md-4">
+        <div class="stat-card">
+          <div class="stat-icon icon-messages">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
           <div class="stat-info">
             <h6>Pesan Customer</h6>
             <h3><?php echo $totalPesanCustomer; ?></h3>
@@ -76,6 +96,7 @@ $totalPesanCustomer = fetchOnePrepared($pdo, $pesanQuery)['COUNT(*)'];
       </div>
     </div>
   </div>
+
 
   <!-- JS -->
   <script src="js/admin.js"></script>
