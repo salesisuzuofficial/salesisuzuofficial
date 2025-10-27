@@ -109,7 +109,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         <div style="flex: 1; min-width: 250px;">
             <label for="telepon" style="font-weight: 600; font-size: 13px;">Nomor Telepon</label><br />
-            <input type="tel" id="telepon" name="telepon" placeholder="+62 821 1212 1212" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ccc;" required />
+            <input type="tel" id="telepon" name="telepon" placeholder="Nomor Yang Bisa Di Hubungi" style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ccc;" required />
         </div>
     </div>
 
