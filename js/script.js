@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // === CAROUSEL UTAMA ===
+  /* ==========================================================
+     🧭 1. CAROUSEL UTAMA
+  ========================================================== */
   const carousel = document.querySelector(".carousel");
   const btnLeft = document.querySelector(".carousel-btn.left");
   const btnRight = document.querySelector(".carousel-btn.right");
@@ -12,15 +14,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function moveCarousel() {
       currentIndex++;
-      if (currentIndex > productItems.length - visibleItems) {
-        currentIndex = 0;
-      }
+      if (currentIndex > productItems.length - visibleItems) currentIndex = 0;
       carousel.scrollTo({
         left: currentIndex * itemWidth,
         behavior: "smooth",
       });
     }
 
+    // Auto slide tiap 3 detik
     let autoSlide = setInterval(moveCarousel, 3000);
 
     function restartInterval() {
@@ -28,16 +29,18 @@ document.addEventListener("DOMContentLoaded", function () {
       autoSlide = setInterval(moveCarousel, 3000);
     }
 
+    // Tombol navigasi kiri & kanan
     btnLeft.addEventListener("click", () => {
-      if (currentIndex === 0) {
-        currentIndex = productItems.length - visibleItems;
-      } else {
-        currentIndex--;
-      }
+      currentIndex =
+        currentIndex === 0
+          ? productItems.length - visibleItems
+          : currentIndex - 1;
+
       carousel.scrollTo({
         left: currentIndex * itemWidth,
         behavior: "smooth",
       });
+
       restartInterval();
     });
 
@@ -47,7 +50,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // === CAROUSEL APLIKASI ===
+  /* ==========================================================
+     🚚 2. CAROUSEL APLIKASI
+  ========================================================== */
   const appCarousel = document.querySelector(
     ".applications-carousel .carousel"
   );
@@ -68,9 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function moveAppCarousel() {
       appIndex++;
-      if (appIndex > appItems.length - visibleItems) {
-        appIndex = 0;
-      }
+      if (appIndex > appItems.length - visibleItems) appIndex = 0;
       appCarousel.scrollTo({
         left: appIndex * itemWidth,
         behavior: "smooth",
@@ -85,15 +88,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     appBtnLeft.addEventListener("click", () => {
-      if (appIndex === 0) {
-        appIndex = appItems.length - visibleItems;
-      } else {
-        appIndex--;
-      }
+      appIndex = appIndex === 0 ? appItems.length - visibleItems : appIndex - 1;
+
       appCarousel.scrollTo({
         left: appIndex * itemWidth,
         behavior: "smooth",
       });
+
       restartAppInterval();
     });
 
@@ -103,7 +104,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // === HAMBURGER MENU ===
+  /* ==========================================================
+     🍔 3. HAMBURGER MENU RESPONSIVE
+  ========================================================== */
   const hamburger = document.querySelector(".hamburger-menu");
   const navLinks = document.querySelector(".nav.links");
 
@@ -120,7 +123,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // === SLIDE BANNER ===
+  /* ==========================================================
+     🖼️ 4. SLIDE BANNER OTOMATIS
+  ========================================================== */
   const slides = document.querySelectorAll(".slide");
   if (slides.length > 0) {
     let currentSlide = 0;
@@ -139,28 +144,27 @@ document.addEventListener("DOMContentLoaded", function () {
     setInterval(nextSlide, 4000);
   }
 
-  // === FADE IN / OUT ===
+  /* ==========================================================
+     🌟 5. EFEK FADE-IN SAAT SCROLL
+  ========================================================== */
   const faders = document.querySelectorAll(".fade-element");
-  if (faders.length > 0) {
-    const options = {
-      threshold: 0.1,
-      rootMargin: "0px 0px -50px 0px",
-    };
 
-    const appearOnScroll = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-        } else {
-          entry.target.classList.remove("visible");
-        }
-      });
-    }, options);
+  if (faders.length > 0) {
+    const appearOnScroll = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          entry.target.classList.toggle("visible", entry.isIntersecting);
+        });
+      },
+      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
+    );
 
     faders.forEach((fader) => appearOnScroll.observe(fader));
   }
 
-  // === FEATURE BOX ACTIVE EFFECT ===
+  /* ==========================================================
+     💡 6. AKTIFKAN FEATURE BOX
+  ========================================================== */
   const boxes = document.querySelectorAll(".feature-box");
   if (boxes.length > 0) {
     boxes.forEach((box) => {
@@ -170,4 +174,31 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   }
-}); // ✅ Tutup DOMContentLoaded
+
+  /* ==========================================================
+     💰 7. FORM SIMULASI KREDIT
+  ========================================================== */
+  const form = document.getElementById("simulasiForm");
+
+  if (form) {
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();
+
+      const formData = new FormData(form);
+
+      try {
+        const res = await fetch("simulasi_kredit.php", {
+          method: "POST",
+          body: formData,
+        });
+
+        const data = await res.text();
+        alert(data);
+        form.reset();
+      } catch (err) {
+        console.error("Gagal mengirim data:", err);
+        alert("❌ Terjadi kesalahan saat mengirim data.");
+      }
+    });
+  }
+});
