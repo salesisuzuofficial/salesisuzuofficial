@@ -13,7 +13,6 @@ $totalPesanCustomer = fetchOnePrepared($pdo, $pesanQuery)['COUNT(*)'];
 // Ambil jumlah simulasi kredit
 $kreditQuery = "SELECT COUNT(*) FROM simulasi_kredit";
 $totalKredit = fetchOnePrepared($pdo, $kreditQuery)['COUNT(*)'];
-
 ?>
 
 
