@@ -160,6 +160,10 @@
   </div>
 </section>
 
+    <!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
+    <script src="https://elfsightcdn.com/platform.js" async></script>
+    <div class="elfsight-app-f56c7d51-f2e3-421a-bdba-8f4071e20aba" data-elfsight-app-lazy></div>
+
 
     <!-- Footer -->
     <?php include 'footer.php'; ?>
