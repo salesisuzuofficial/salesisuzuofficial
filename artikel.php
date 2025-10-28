@@ -2,10 +2,10 @@
 // Ambil data kategori dan artikel dari API
 $kategoriData = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/get_kategori.php"), true);
 
-$search = $_GET['search'] ?? '';
-$selectedKategori = $_GET['kategori'] ?? '';
-$page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
-$perPage = 6;
+$search            = $_GET['search'] ?? '';
+$selectedKategori  = $_GET['kategori'] ?? '';
+$page              = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+$perPage           = 6;
 
 // Bangun URL API dengan filter
 $apiUrl = "https://salesisuzuofficial.com/admin/api/get_artikel.php";
@@ -21,30 +21,59 @@ if (!empty($params)) {
     $apiUrl .= '?' . implode('&', $params);
 }
 
-$artikelData = json_decode(file_get_contents($apiUrl), true);
-$totalArtikel = is_array($artikelData) ? count($artikelData) : 0;
-$totalPages = ceil($totalArtikel / $perPage);
-$offset = ($page - 1) * $perPage;
-$artikel = array_slice($artikelData, $offset, $perPage);
+$artikelData   = json_decode(file_get_contents($apiUrl), true);
+$totalArtikel  = is_array($artikelData) ? count($artikelData) : 0;
+$totalPages    = ceil($totalArtikel / $perPage);
+$offset        = ($page - 1) * $perPage;
+$artikel       = array_slice($artikelData, $offset, $perPage);
 ?>
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){
+            w[l]=w[l]||[];
+            w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+            var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),
+                dl=l!='dataLayer'?'&l='+l:'';
+            j.async=true;
+            j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+            f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-K58SQXH7');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog & Artikel Isuzu Indonesia | Sales Isuzu Official</title>
+
     <meta name="description" content="Temukan berbagai artikel dan promo menarik seputar kendaraan Isuzu. Dapatkan update berita terbaru dari Dealer Isuzu Jakarta." />
     <meta name="keywords" content="dealer isuzu jakarta, artikel isuzu, promo isuzu, berita isuzu, simulasi kredit isuzu, isuzu elf, isuzu giga, isuzu traga, dealer resmi isuzu" />
+    <meta name="robots" content="index, follow" />
     <link rel="icon" type="image/png" href="/img/favicon.png" />
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8BPF492E6Z"></script>
+    <!-- Open Graph -->
+    <meta property="og:title" content="Dealer Isuzu Jakarta | Promo & Harga Truk Isuzu Terbaik Di Jakarta" />
+    <meta property="og:description" content="Dapatkan promo truk Isuzu terbaru di Jakarta. Konsultasi langsung dengan sales profesional. Gratis penawaran & layanan cepat!" />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dealer Isuzu Jakarta | Promo & Harga Truk Isuzu Terbaik Di Jakarta" />
+    <meta name="twitter:description" content="Hubungi kami untuk mendapatkan penawaran terbaik truk Isuzu. Layanan cepat & profesional." />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+
+    <!-- Google Tag -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-      gtag('js', new Date());
-      gtag('config', 'G-8BPF492E6Z');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-TV2MJHYKCB');
     </script>
 
     <!-- CSS -->
@@ -103,7 +132,17 @@ $artikel = array_slice($artikelData, $offset, $perPage);
 </head>
 
 <body>
-    <!-- ========== HEADER ========== -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe 
+            src="https://www.googletagmanager.com/ns.html?id=GTM-K58SQXH7"
+            height="0" width="0"
+            style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- HEADER -->
     <header>
         <div class="container header-content navbar">
             <div class="header-title">
@@ -124,7 +163,7 @@ $artikel = array_slice($artikelData, $offset, $perPage);
         </div>
     </header>
 
-    <!-- ========== HERO SECTION ========== -->
+    <!-- HERO SECTION -->
     <section class="hero hero-produk">
         <div class="slider">
             <img src="img/hero3.jpg" class="slide" alt="Banner 1" />
@@ -137,11 +176,11 @@ $artikel = array_slice($artikelData, $offset, $perPage);
         </div>
     </section>
 
-    <!-- ========== BLOG CONTENT ========== -->
+    <!-- BLOG CONTENT -->
     <section class="content-section">
         <div class="container">
-
-            <!-- Filter Form -->
+            
+            <!-- Filter -->
             <form method="get" class="blog-filter">
                 <input 
                     type="text" 
@@ -149,21 +188,24 @@ $artikel = array_slice($artikelData, $offset, $perPage);
                     placeholder="Cari artikel..." 
                     value="<?= htmlspecialchars($search) ?>" 
                 />
+
                 <select name="kategori" onchange="this.form.submit()">
                     <option value="">Semua Kategori</option>
                     <?php if (is_array($kategoriData)): ?>
                         <?php foreach ($kategoriData as $kat): ?>
-                            <option value="<?= htmlspecialchars($kat['nama_kategori']) ?>" 
+                            <option 
+                                value="<?= htmlspecialchars($kat['nama_kategori']) ?>" 
                                 <?= $selectedKategori === $kat['nama_kategori'] ? 'selected' : '' ?>>
                                 <?= htmlspecialchars($kat['nama_kategori']) ?>
                             </option>
                         <?php endforeach; ?>
                     <?php endif; ?>
                 </select>
+
                 <button type="submit">Filter</button>
             </form>
 
-            <!-- Artikel Grid -->
+            <!-- Artikel -->
             <div class="blog-grid">
                 <?php if (is_array($artikel) && count($artikel) > 0): ?>
                     <?php foreach ($artikel as $row): ?>
@@ -188,8 +230,9 @@ $artikel = array_slice($artikelData, $offset, $perPage);
             <!-- Pagination -->
             <div class="pagination">
                 <?php for ($i = 1; $i <= $totalPages; $i++): ?>
-                    <a class="<?= $i === $page ? 'active' : '' ?>" 
-                       href="?search=<?= urlencode($search) ?>&kategori=<?= urlencode($selectedKategori) ?>&page=<?= $i ?>">
+                    <a 
+                        class="<?= $i === $page ? 'active' : '' ?>" 
+                        href="?search=<?= urlencode($search) ?>&kategori=<?= urlencode($selectedKategori) ?>&page=<?= $i ?>">
                         <?= $i ?>
                     </a>
                 <?php endfor; ?>
@@ -197,13 +240,17 @@ $artikel = array_slice($artikelData, $offset, $perPage);
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <?php include 'footer.php'; ?>
 
     <!-- WhatsApp Widget -->
     <script src="https://elfsightcdn.com/platform.js" async></script>
-    <div class="elfsight-app-f56c7d51-f2e3-421a-bdba-8f4071e20aba" data-elfsight-app-lazy></div>
+    <div 
+        class="elfsight-app-f56c7d51-f2e3-421a-bdba-8f4071e20aba" 
+        data-elfsight-app-lazy>
+    </div>
 
+    <!-- JS -->
     <script src="js/script.js"></script>
     <script>feather.replace();</script>
 </body>

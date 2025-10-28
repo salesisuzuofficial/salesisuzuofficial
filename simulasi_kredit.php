@@ -24,9 +24,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 
     // Query simpan data
-    $sql = "INSERT INTO simulasi_kredit 
-            (nama, no_telepon, jenis_tipe_mobil, tenor, budget_dp, messages, tanggal_input)
-            VALUES (:nama, :no_telepon, :jenis_tipe_mobil, :tenor, :budget_dp, :messages, NOW())";
+    $sql = "
+        INSERT INTO simulasi_kredit 
+        (nama, no_telepon, jenis_tipe_mobil, tenor, budget_dp, messages, tanggal_input)
+        VALUES (:nama, :no_telepon, :jenis_tipe_mobil, :tenor, :budget_dp, :messages, NOW())
+    ";
 
     $params = [
         ':nama'             => $nama,
@@ -53,6 +55,31 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <!DOCTYPE html>
 <html lang="id">
 <head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){
+            w[l]=w[l]||[];
+            w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+            var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),
+                dl=l!='dataLayer'?'&l='+l:'';
+            j.async=true;
+            j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+            f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-K58SQXH7');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-TV2MJHYKCB');
+    </script>
+    <!-- End Google Analytics -->
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dealer Isuzu Jakarta | Simulasi Kredit</title>
@@ -77,10 +104,21 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <!-- Scripts -->
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="js/script.js" defer></script>
-    <script src="js/simulasi_kredit.js" defer></script> <!-- File JS terpisah -->
+    <script src="js/simulasi_kredit.js" defer></script>
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe 
+            src="https://www.googletagmanager.com/ns.html?id=GTM-K58SQXH7"
+            height="0"
+            width="0"
+            style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- Header -->
     <header>
         <div class="container header-content navbar">
@@ -95,7 +133,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <nav class="nav links">
                 <a href="index.php">Home</a>
                 <a href="produk.php">Produk</a>
-                <a href="simulasi_kredit.php">Simulasi Kredit</a>
+                <a href="simulasi_kredit.php" class="active">Simulasi Kredit</a>
                 <a href="artikel.php">Blog & Artikel</a>
                 <a href="contact.php">Contact</a>
             </nav>
@@ -166,7 +204,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     <!-- Elfsight WhatsApp Chat -->
     <script src="https://elfsightcdn.com/platform.js" async></script>
-    <div class="elfsight-app-f56c7d51-f2e3-421a-bdba-8f4071e20aba" data-elfsight-app-lazy></div>
+    <div 
+        class="elfsight-app-f56c7d51-f2e3-421a-bdba-8f4071e20aba"
+        data-elfsight-app-lazy>
+    </div>
 
     <!-- Footer -->
     <?php include 'footer.php'; ?>

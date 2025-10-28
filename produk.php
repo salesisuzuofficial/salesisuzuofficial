@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html lang="id">
   <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-K58SQXH7');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-TV2MJHYKCB');
+    </script>
+
     <!-- ========== META BASIC ========== -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -40,6 +64,17 @@
   </head>
 
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-K58SQXH7"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- ========== HEADER ========== -->
     <header>
       <div class="container header-content navbar">
@@ -72,7 +107,6 @@
         <img src="img/hero5.jpg" class="slide" alt="Banner 3" />
       </div>
 
-      <!-- Teks Overlay -->
       <div class="hero-content">
         <h1>Produk Isuzu</h1>
       </div>
@@ -82,6 +116,7 @@
     <section class="product-section">
       <div class="container">
         <div class="product-grid">
+          <!-- Produk List -->
           <a
             href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20TRAGA"
             target="_blank"

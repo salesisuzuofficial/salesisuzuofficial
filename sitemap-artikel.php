@@ -27,7 +27,7 @@ function printUrl($loc, $lastmod, $changefreq = 'monthly', $priority = '0.7') {
 }
 
 // base
-$base_url = 'https://official-hino.com';
+$base_url = 'https://salesisuzuofficial.com';
 
 // selalunya kita cetak halaman index artikel
 printUrl("$base_url/artikel.php", date('Y-m-d'), 'weekly', '0.9');
@@ -35,9 +35,10 @@ printUrl("$base_url/artikel.php", date('Y-m-d'), 'weekly', '0.9');
 try {
     // koneksi DB (sesuaikan bila host bukan 'localhost')
     $db_host = getenv('DB_HOST') ?: 'localhost';
-    $db_name = getenv('DB_NAME') ?: 'u142136422_officialhino';
-    $db_user = getenv('DB_USER') ?: 'u142136422_officialhino';
-    $db_pass = getenv('DB_PASS') ?: 'D3n15h1no35!';
+    $db_name = getenv('DB_NAME') ?: 'u142136422_isuzuoffc';
+    $db_user = getenv('DB_USER') ?: 'u142136422_isuzuoffc';
+    $db_pass = getenv('DB_PASS') ?: 'Isuzuoff1c1al22!""';
+
 
     $conn = new mysqli($host, $user, $pass, $db);
     $conn->set_charset('utf8mb4');
