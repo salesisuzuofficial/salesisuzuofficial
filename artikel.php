@@ -52,7 +52,7 @@ $artikel       = array_slice($artikelData, $offset, $perPage);
     <meta name="description" content="Temukan berbagai artikel dan promo menarik seputar kendaraan Isuzu. Dapatkan update berita terbaru dari Dealer Isuzu Jakarta." />
     <meta name="keywords" content="dealer isuzu jakarta, artikel isuzu, promo isuzu, berita isuzu, simulasi kredit isuzu, isuzu elf, isuzu giga, isuzu traga, dealer resmi isuzu" />
     <meta name="robots" content="index, follow" />
-    <link rel="icon" type="image/png" href="/img/favicon.png" />
+    <link rel="icon" type="image/png" href="/img/favicon.jpeg" />
 
     <!-- Open Graph -->
     <meta property="og:title" content="Dealer Isuzu Jakarta | Promo & Harga Truk Isuzu Terbaik Di Jakarta" />
@@ -166,9 +166,9 @@ $artikel       = array_slice($artikelData, $offset, $perPage);
     <!-- HERO SECTION -->
     <section class="hero hero-produk">
         <div class="slider">
-            <img src="img/hero3.jpg" class="slide" alt="Banner 1" />
-            <img src="img/hero4.jpg" class="slide" alt="Banner 2" />
-            <img src="img/hero5.jpg" class="slide" alt="Banner 3" />
+            <img src="img/hero3.webp" class="slide" alt="Banner 1" />
+            <img src="img/hero4.webp" class="slide" alt="Banner 2" />
+            <img src="img/hero5.webp" class="slide" alt="Banner 3" />
         </div>
 
         <div class="hero-content">

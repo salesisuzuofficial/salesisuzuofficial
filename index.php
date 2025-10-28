@@ -53,8 +53,8 @@ try {
     <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, promo isuzu, harga truk isuzu terbaru, isuzu elf, isuzu giga, isuzu traga" />
     <link rel="canonical" href="https://salesisuzuofficial.com/" />
 
-    <link rel="icon" type="image/png" href="/img/logo.png" />
-    <link rel="apple-touch-icon" href="/img/logo.png" />
+    <link rel="icon" type="image/png" href="/img/favicon.jpeg" />
+    <link rel="apple-touch-icon" href="/img/favicon.jpeg" />
 
     <!-- Fonts & Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet" />
@@ -206,9 +206,9 @@ try {
     <!-- Hero -->
     <section class="hero">
         <div class="slider">
-            <img src="img/hero3.jpg" class="slide" alt="Banner 1" />
-            <img src="img/hero4.jpg" class="slide" alt="Banner 2" />
-            <img src="img/hero5.jpg" class="slide" alt="Banner 3" />
+            <img src="img/hero3.webp" class="slide" alt="Banner 1" />
+            <img src="img/hero4.webp" class="slide" alt="Banner 2" />
+            <img src="img/hero5.webp" class="slide" alt="Banner 3" />
         </div>
     </section>
 

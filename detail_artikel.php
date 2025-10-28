@@ -28,7 +28,7 @@ if ($id && is_array($data)) {
 
   <title>Official Isuzu | Sales Truck Isuzu Terbaik di Tangerang</title>
   <meta name="description" content="Isuzu Official - Dealer Truck Isuzu Tangerang. Hubungi : 0812 1905 5571 Untuk mendapatkan informasi produk Isuzu. Layanan Terbaik dan Jaminan Mutu." />
-  <link rel="icon" type="image/png" href="/img/logo.png">
+  <link rel="icon" type="image/png" href="/img/favicon.jpeg">
 
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet" />
