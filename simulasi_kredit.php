@@ -211,5 +211,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     <!-- Footer -->
     <?php include 'footer.php'; ?>
+
+    <!-- Feather Icons -->
+    <script>feather.replace();</script>
+
 </body>
 </html>

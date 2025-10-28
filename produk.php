@@ -237,6 +237,9 @@
       data-elfsight-app-lazy
     ></div>
 
+      <!-- Feather Icons -->
+      <script>feather.replace();</script>
+
     <!-- ========== FOOTER ========== -->
     <?php include 'footer.php'; ?>
   </body>
