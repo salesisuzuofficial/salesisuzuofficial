@@ -5,7 +5,6 @@ session_start();
 require_once 'config.php';
 
 
-session_start();
 // Cek login
 if (!isset($_SESSION['admin_id'])) {
     header("Location: login.php");
