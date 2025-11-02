@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 // Ambil data kategori dan artikel dari API
 $kategoriData = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/get_kategori.php"), true);
 
