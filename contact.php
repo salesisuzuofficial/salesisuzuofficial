@@ -70,7 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <!-- META SEO -->
   <meta name="description" content="Dealer Isuzu Jakarta resmi – Dapatkan promo dan harga terbaik untuk truk, pick up, dan kendaraan niaga Isuzu. Hubungi kami untuk penawaran Isuzu Elf, Giga, dan Traga terbaru di Jakarta. Pelayanan cepat & terpercaya!" />
   <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, promo isuzu, harga truk isuzu terbaru, isuzu elf, isuzu giga, isuzu traga" />
-  <link rel="canonical" href="https://salesisuzuofficial.com/" />
+  <link rel="canonical" href="https://salesisuzuofficial.com/contact" />
 
   <!-- FAVICON -->
   <link rel="icon" type="image/png" href="/img/favicon.jpeg" />

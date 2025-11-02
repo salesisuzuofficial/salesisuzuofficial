@@ -86,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     <meta name="description" content="Isi formulir simulasi kredit Isuzu untuk mendapatkan estimasi cicilan kendaraan impian Anda. Dapatkan promo menarik dari Dealer Isuzu Jakarta." />
     <meta name="keywords" content="simulasi kredit isuzu, cicilan isuzu, kredit isuzu elf, kredit isuzu giga, kredit isuzu traga" />
-    <link rel="canonical" href="https://salesisuzuofficial.com/simulasi_kredit.php" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/simulasi_kredit" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/favicon.jpeg" />

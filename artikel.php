@@ -53,6 +53,7 @@ $artikel       = array_slice($artikelData, $offset, $perPage);
     <meta name="keywords" content="dealer isuzu jakarta, artikel isuzu, promo isuzu, berita isuzu, simulasi kredit isuzu, isuzu elf, isuzu giga, isuzu traga, dealer resmi isuzu" />
     <meta name="robots" content="index, follow" />
     <link rel="icon" type="image/png" href="/img/favicon.jpeg" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/artikel" />
 
     <!-- Open Graph -->
     <meta property="og:title" content="Dealer Isuzu Jakarta | Promo & Harga Truk Isuzu Terbaik Di Jakarta" />

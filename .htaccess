@@ -141,3 +141,21 @@ RewriteCond %{QUERY_STRING} detail/ [NC,OR]
 RewriteCond %{REQUEST_URI} index\.php\?detail/ [NC,OR]
 RewriteCond %{REQUEST_URI} /detail/ [NC]
 RewriteRule .* - [G,L]
+
+# =============================
+# 🌐 HILANGKAN .PHP DARI URL
+# =============================
+
+# Aktifkan rewrite
+RewriteEngine On
+RewriteBase /
+
+# Jika file atau folder tidak ada, tapi ada file .php dengan nama sama,
+# maka tampilkan file .php itu
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^/]+)$ $1.php [L]
+
+# Redirect dari versi .php ke versi tanpa .php (biar SEO konsisten)
+RewriteCond %{THE_REQUEST} \s/([^.]+)\.php[\s?] [NC]
+RewriteRule ^ %1 [R=301,L]

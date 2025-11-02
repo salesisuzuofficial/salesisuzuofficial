@@ -39,7 +39,7 @@
       name="keywords"
       content="sales isuzu, dealer isuzu jakarta, promo isuzu, harga truk isuzu terbaru, isuzu elf, isuzu giga, isuzu traga"
     />
-    <link rel="canonical" href="https://salesisuzuofficial.com/" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/produk" />
 
     <!-- ========== FAVICON ========== -->
     <link rel="icon" type="image/png" href="/img/favicon.jpeg" />
