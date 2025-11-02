@@ -48,7 +48,7 @@ if ($id && is_array($data)) {
       var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
       j.async=true;
-      j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+      j.src='https://googletagmanager.com/gtm.js?id='+i+dl;
       f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-K58SQXH7');
   </script>
@@ -62,14 +62,14 @@ if ($id && is_array($data)) {
 
   <!-- Google Tag Manager (noscript) -->
   <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K58SQXH7"
+    <iframe src="https://googletagmanager.com/ns.html?id=GTM-K58SQXH7"
             height="0" width="0"
             style="display:none;visibility:hidden"></iframe>
   </noscript>
   <!-- End Google Tag Manager (noscript) -->
 
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
+  <script async src="https://googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}

@@ -39,7 +39,7 @@ $artikel       = array_slice($artikelData, $offset, $perPage);
                 j=d.createElement(s),
                 dl=l!='dataLayer'?'&l='+l:'';
             j.async=true;
-            j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+            j.src='https://googletagmanager.com/gtm.js?id='+i+dl;
             f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-K58SQXH7');
     </script>
@@ -69,7 +69,7 @@ $artikel       = array_slice($artikelData, $offset, $perPage);
     <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
 
     <!-- Google Tag -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
+    <script async src="https://googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -136,7 +136,7 @@ $artikel       = array_slice($artikelData, $offset, $perPage);
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe 
-            src="https://www.googletagmanager.com/ns.html?id=GTM-K58SQXH7"
+            src="https://googletagmanager.com/ns.html?id=GTM-K58SQXH7"
             height="0" width="0"
             style="display:none;visibility:hidden">
         </iframe>

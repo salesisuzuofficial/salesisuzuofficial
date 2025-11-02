@@ -47,14 +47,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
       j.async=true;
-      j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+      j.src='https://googletagmanager.com/gtm.js?id='+i+dl;
       f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-K58SQXH7');
   </script>
   <!-- End Google Tag Manager -->
 
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
+  <script async src="https://googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -94,7 +94,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <body>
   <!-- Google Tag Manager (noscript) -->
   <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K58SQXH7"
+    <iframe src="https://googletagmanager.com/ns.html?id=GTM-K58SQXH7"
             height="0" width="0"
             style="display:none;visibility:hidden"></iframe>
   </noscript>
@@ -163,7 +163,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       <!-- Map -->
       <div class="map1">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31734.59389305134!2d106.69774901083984!3d-6.154289500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7f2195f5fad%3A0x5a8498a332c8de14!2sASTRA%20ISUZU%20DAAN%20MOGOT!5e0!3m2!1sen!2sid!4v1761570863745!5m2!1sen!2sid"
+          src="https://google.com/maps/embed?pb=!1m18!1m12!1m3!1d31734.59389305134!2d106.69774901083984!3d-6.154289500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7f2195f5fad%3A0x5a8498a332c8de14!2sASTRA%20ISUZU%20DAAN%20MOGOT!5e0!3m2!1sen!2sid!4v1761570863745!5m2!1sen!2sid"
           width="600"
           height="450"
           style="border:0;"
