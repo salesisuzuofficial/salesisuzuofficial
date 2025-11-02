@@ -1,0 +1,4 @@
+# Matikan semua rewrite di folder Admin
+<IfModule mod_rewrite.c>
+    RewriteEngine Off
+</IfModule>
