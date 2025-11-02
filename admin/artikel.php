@@ -1,7 +1,4 @@
 <?php
-session_start();
-require 'config.php'; // pastikan sudah ada koneksi $pdo
-
 // Cek login
 if (!isset($_SESSION['admin_id'])) {
     header("Location: login.php");
