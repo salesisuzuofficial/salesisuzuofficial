@@ -214,7 +214,7 @@
             class="product-item"
           >
             <img src="img/product/Isuzu-MUX.webp" alt="ISUZU MUX (SUV 4x2 & 4x4)" />
-            <div class="product-label">ISUZU MUX (SUV 4x2 & 4x4)</div>
+            <div class="product-label">ISUZU MUX (SUV 4x4)</div>
           </a>
 
           <a
