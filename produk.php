@@ -148,53 +148,53 @@
           </a>
 
           <a
-            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FRR%20(FUSO%20190%20PS)"
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FRR%20(Giga%20190%20PS)"
             target="_blank"
             rel="noopener"
             class="product-item"
           >
-            <img src="img/product/Isuzu-Giga-FRR.webp" alt="Isuzu FRR (Fuso 190 PS)" />
-            <div class="product-label">ISUZU FRR (FUSO 190 PS)</div>
+            <img src="img/product/Isuzu-Giga-FRR.webp" alt="Isuzu FRR (Giga 190 PS)" />
+            <div class="product-label">ISUZU FRR (Giga 190 PS)</div>
           </a>
 
           <a
-            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FTR%20(FUSO%20210%20PS)"
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FTR%20(Giga%20210%20PS)"
             target="_blank"
             rel="noopener"
             class="product-item"
           >
-            <img src="img/product/Isuzu-Giga-FTR.webp" alt="Isuzu FTR (Fuso 210 PS)" />
-            <div class="product-label">ISUZU FTR (FUSO 210 PS)</div>
+            <img src="img/product/Isuzu-Giga-FTR.webp" alt="Isuzu FTR (Giga 210 PS)" />
+            <div class="product-label">ISUZU FTR (Giga 210 PS)</div>
           </a>
 
           <a
-            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FVR%20(FUSO%20245%20PS)"
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FVR%20(Giga%20245%20PS)"
             target="_blank"
             rel="noopener"
             class="product-item"
           >
-            <img src="img/product/Isuzu-Giga-FVR.webp" alt="Isuzu FVR (Fuso 245 PS)" />
-            <div class="product-label">ISUZU FVR (FUSO 245 PS)</div>
+            <img src="img/product/Isuzu-Giga-FVR.webp" alt="Isuzu FVR (Giga 245 PS)" />
+            <div class="product-label">ISUZU FVR (Giga 245 PS)</div>
           </a>
 
           <a
-            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FVM%20(TRONTON%20WINGBOX)"
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FVM%20(GIGA%20WINGBOX)"
             target="_blank"
             rel="noopener"
             class="product-item"
           >
-            <img src="img/product/Isuzu-Giga-FVM.webp" alt="ISUZU FVM (TRONTON WINGBOX)" />
-            <div class="product-label">ISUZU FVM (TRONTON WINGBOX)</div>
+            <img src="img/product/Isuzu-Giga-FVM.webp" alt="ISUZU FVM (GIGA WINGBOX)" />
+            <div class="product-label">ISUZU FVM (GIGA WINGBOX)</div>
           </a>
 
           <a
-            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FVZ%20(TRONTON%20DUMP%20TRUCK)"
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FVZ%20(GIGA%20DUMP%20TRUCK)"
             target="_blank"
             rel="noopener"
             class="product-item"
           >
-            <img src="img/product/Isuzu-Giga-FVZ.webp" alt="ISUZU FVZ (TRONTON DUMP TRUCK)" />
-            <div class="product-label">ISUZU FVZ (TRONTON DUMP TRUCK)</div>
+            <img src="img/product/Isuzu-Giga-FVZ.webp" alt="ISUZU FVZ (GIGA DUMP TRUCK)" />
+            <div class="product-label">ISUZU FVZ (GIGA DUMP TRUCK)</div>
           </a>
 
           <a
