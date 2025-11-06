@@ -1,5 +1,5 @@
 # =====================================
-# 🔒 SECURITY CONFIG FOR SALES Isuzu SITE (FINAL)
+# 🔒 SECURITY CONFIG FOR SALES Isuzu SITE (FINAL FIXED)
 # =====================================
 
 # 1️⃣ Nonaktifkan directory listing
@@ -149,6 +149,10 @@ RewriteRule .* - [G,L]
 # Aktifkan rewrite
 RewriteEngine On
 RewriteBase /
+
+# ⚙️ IZINKAN file PHP tertentu agar tidak di-redirect (penting untuk AJAX)
+RewriteCond %{REQUEST_URI} (simulasi_kredit\.php|contact\.php|admin/api/.*\.php)$ [NC]
+RewriteRule .* - [L]
 
 # Jika file atau folder tidak ada, tapi ada file .php dengan nama sama,
 # maka tampilkan file .php itu
