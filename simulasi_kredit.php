@@ -85,7 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <title>Dealer Isuzu Jakarta | Simulasi Kredit</title>
 
     <meta name="description" content="Isi formulir simulasi kredit Isuzu untuk mendapatkan estimasi cicilan kendaraan impian Anda. Dapatkan promo menarik dari Dealer Isuzu Jakarta." />
-    <meta name="keywords" content="simulasi kredit isuzu, cicilan isuzu, kredit isuzu elf, kredit isuzu giga, kredit isuzu traga" />
+    <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, dealer isuzu resmi, promo isuzu terbaru, harga truk isuzu terbaru, harga isuzu traga, isuzu traga pick up, isuzu traga box, isuzu microbus, isuzu elf, isuzu elf box, isuzu elf engkel, isuzu elf double, isuzu cdd long, isuzu cde long, isuzu nlr, isuzu nmr, isuzu giga, isuzu truk ringan, isuzu truk medium, cicilan truk isuzu, kredit truk isuzu, isuzu jabodetabek, dealer truk isuzu, jual truk isuzu" />
     <link rel="canonical" href="https://salesisuzuofficial.com/simulasi_kredit" />
 
     <!-- Favicon -->

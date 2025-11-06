@@ -50,7 +50,7 @@ try {
     <title>Dealer Isuzu Jakarta | Dapatkan Promo & Harga Terbaik Truck Isuzu</title>
 
     <meta name="description" content="Dealer Isuzu Jakarta resmi – Dapatkan promo dan harga terbaik untuk truk, pick up, dan kendaraan niaga Isuzu. Hubungi kami untuk penawaran Isuzu Elf, Giga, dan Traga terbaru di Jakarta. Pelayanan cepat & terpercaya!" />
-    <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, promo isuzu, harga truk isuzu terbaru, isuzu elf, isuzu giga, isuzu traga" />
+    <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, dealer isuzu resmi, promo isuzu terbaru, harga truk isuzu terbaru, harga isuzu traga, isuzu traga pick up, isuzu traga box, isuzu microbus, isuzu elf, isuzu elf box, isuzu elf engkel, isuzu elf double, isuzu cdd long, isuzu cde long, isuzu nlr, isuzu nmr, isuzu giga, isuzu truk ringan, isuzu truk medium, cicilan truk isuzu, kredit truk isuzu, isuzu jabodetabek, dealer truk isuzu, jual truk isuzu" />
     <link rel="canonical" href="https://salesisuzuofficial.com/" />
 
     <link rel="icon" type="image/png" href="/img/favicon.jpeg" />
