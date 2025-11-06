@@ -205,6 +205,16 @@
           </a>
 
           <a
+            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20MICROBUS"
+            target="_blank"
+            rel="noopener"
+            class="product-item"
+          >
+            <img src="img/product/microbus.webp" alt="ISUZU MICROBUS" />
+            <div class="product-label">ISUZU MICROBUS</div>
+          </a>
+          
+          <a
             href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20MUX%20(SUV%204x2%20&%204x4)"
             target="_blank"
             rel="noopener"
@@ -214,15 +224,6 @@
             <div class="product-label">ISUZU MUX (SUV 4x4)</div>
           </a>
 
-          <a
-            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20MICROBUS"
-            target="_blank"
-            rel="noopener"
-            class="product-item"
-          >
-            <img src="img/product/microbus.webp" alt="ISUZU MICROBUS" />
-            <div class="product-label">ISUZU MICROBUS</div>
-          </a>
 
           <a
             href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20D-MAX%20(DOUBLE%20CABIN%204x4)"
