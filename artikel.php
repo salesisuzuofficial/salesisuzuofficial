@@ -71,13 +71,15 @@ $artikel       = array_slice($artikelData, $offset, $perPage);
     <meta name="twitter:description" content="Hubungi kami untuk mendapatkan penawaran terbaik truk Isuzu. Layanan cepat & profesional." />
     <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
 
-    <!-- Google Tag -->
-    <script async src="https://googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV2MJHYKCB">
+    </script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-TV2MJHYKCB');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TV2MJHYKCB');
     </script>
 
     <!-- CSS -->
