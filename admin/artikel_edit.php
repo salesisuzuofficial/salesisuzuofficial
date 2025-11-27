@@ -8,6 +8,15 @@ if (!isset($_SESSION['admin_id'])) {
     exit;
 }
 
+// Fungsi untuk membuat slug
+function buatSlug($text) {
+    $text = strtolower($text);
+    $text = preg_replace('/[^a-z0-9\s-]/', '', $text);
+    $text = preg_replace('/\s+/', '-', $text);
+    $text = preg_replace('/-+/', '-', $text);
+    return trim($text, '-');
+}
+
 // Ambil ID
 $id = intval($_GET['id'] ?? 0);
 
@@ -29,11 +38,12 @@ $kategoriList = $kategoriStmt->fetchAll(PDO::FETCH_ASSOC);
 // Update data
 if (isset($_POST['update'])) {
     $judul = trim($_POST['judul']);
+    $slug = buatSlug($judul); // SLUG BARU OTOMATIS
     $isi = trim($_POST['isi']);
     $kategori_id = intval($_POST['kategori_id']);
-    $gambar = $article['gambar']; // gunakan gambar lama jika tidak upload baru
+    $gambar = $article['gambar'];
 
-    // Upload gambar baru
+    // Upload gambar baru jika ada
     if (!empty($_FILES['gambar']['name'])) {
         $targetDir = "uploads/artikel/";
         if (!is_dir($targetDir)) mkdir($targetDir, 0755, true);
@@ -48,10 +58,10 @@ if (isset($_POST['update'])) {
 
     try {
         $sql = "UPDATE artikel 
-                SET judul = ?, isi = ?, gambar = ?, kategori_id = ? 
+                SET judul = ?, slug = ?, isi = ?, gambar = ?, kategori_id = ?
                 WHERE id = ?";
         $stmt = $pdo->prepare($sql);
-        $stmt->execute([$judul, $isi, $gambar, $kategori_id, $id]);
+        $stmt->execute([$judul, $slug, $isi, $gambar, $kategori_id, $id]);
 
         $_SESSION['message'] = ['type' => 'success', 'text' => 'Artikel berhasil diperbarui!'];
     } catch (Exception $e) {
@@ -62,6 +72,7 @@ if (isset($_POST['update'])) {
     exit;
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>

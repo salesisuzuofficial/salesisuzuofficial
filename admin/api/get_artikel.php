@@ -10,6 +10,7 @@ $kategori = isset($_GET['kategori']) ? trim($_GET['kategori']) : null;
 $sql = "
     SELECT 
         a.id, 
+        a.slug, 
         a.judul, 
         a.isi, 
         a.gambar, 
@@ -33,12 +34,10 @@ if ($kategori) {
     $params[':kategori'] = $kategori;
 }
 
-// Tambahkan kondisi jika ada
 if (!empty($conditions)) {
     $sql .= " WHERE " . implode(" AND ", $conditions);
 }
 
-// Urutkan artikel terbaru
 $sql .= " ORDER BY a.id DESC";
 
 try {
@@ -54,8 +53,8 @@ try {
     }
 
     echo json_encode($artikel, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+
 } catch (Exception $e) {
-    // Error handling
     error_log("Error get_artikel: " . $e->getMessage());
     echo json_encode(['error' => 'Terjadi kesalahan saat mengambil data artikel.']);
 }

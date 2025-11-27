@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'config.php'; // pastikan koneksi PDO ($pdo) sudah benar
+require 'config.php';
 
 // Cek session login
 if (!isset($_SESSION['admin_id'])) {
@@ -19,10 +19,23 @@ try {
 }
 
 // =============================
+//  FUNGSI BUAT SLUG
+// =============================
+function buatSlug($text) {
+    $text = strtolower($text);
+    $text = preg_replace('/[^a-z0-9\s-]/', '', $text); // hapus simbol
+    $text = preg_replace('/\s+/', '-', $text); // spasi -> -
+    $text = preg_replace('/-+/', '-', $text); // ---- -> -
+    return trim($text, '-');
+}
+
+// =============================
 //  Proses Simpan Artikel Baru
 // =============================
 if (isset($_POST['submit'])) {
+
     $title = trim($_POST['title']);
+    $slug = buatSlug($title);  // <-- SLUG DIBUAT DI SINI
     $description = trim($_POST['description']);
     $kategori_id = $_POST['kategori_id'] ?? null;
     $image = '';
@@ -35,7 +48,6 @@ if (isset($_POST['submit'])) {
         $fileName = time() . '_' . basename($_FILES['image']['name']);
         $targetFilePath = $targetDir . $fileName;
 
-        // Validasi ekstensi file
         $allowedTypes = ['jpg', 'jpeg', 'png', 'webp'];
         $fileType = strtolower(pathinfo($fileName, PATHINFO_EXTENSION));
 
@@ -46,15 +58,16 @@ if (isset($_POST['submit'])) {
         }
     }
 
-    // Simpan data artikel
+    // Simpan artikel ke database
     try {
-        $sql = "INSERT INTO artikel (judul, isi, gambar, tanggal, kategori_id) 
-                VALUES (:judul, :isi, :gambar, NOW(), :kategori_id)";
+        $sql = "INSERT INTO artikel (judul, slug, isi, gambar, tanggal, kategori_id) 
+                VALUES (:judul, :slug, :isi, :gambar, NOW(), :kategori_id)";
         $stmt = $pdo->prepare($sql);
         $stmt->execute([
             ':judul' => $title,
-            ':isi' => $description,
-            ':gambar' => $image,
+            ':slug'  => $slug,
+            ':isi'   => $description,
+            ':gambar'=> $image,
             ':kategori_id' => $kategori_id
         ]);
 

@@ -217,14 +217,17 @@ $artikel       = array_slice($artikelData, $offset, $perPage);
                     <?php foreach ($artikel as $row): ?>
                         <div class="blog-post">
                             <img src="<?= htmlspecialchars($row['gambar']) ?>" alt="<?= htmlspecialchars($row['judul']) ?>">
+                            
                             <h2>
-                                <a href="detail_artikel.php?id=<?= urlencode($row['id']) ?>">
+                                <a href="artikel/<?= urlencode($row['slug']) ?>">
                                     <?= htmlspecialchars($row['judul']) ?>
                                 </a>
                             </h2>
+                            
                             <p><?= substr(strip_tags($row['isi']), 0, 120) ?>...</p>
+                            
                             <div class="card-footer">
-                                <a href="detail_artikel.php?id=<?= urlencode($row['id']) ?>">Baca Selengkapnya</a>
+                                <a href="artikel/<?= urlencode($row['slug']) ?>">Baca Selengkapnya</a>
                             </div>
                         </div>
                     <?php endforeach; ?>

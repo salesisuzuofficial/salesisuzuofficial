@@ -72,3 +72,9 @@ RewriteRule ^ %1 [R=301,L]
     ExpiresByType application/javascript "access plus 1 week"
     ExpiresDefault "access plus 3 days"
 </IfModule>
+
+# -------------------
+# 🚀 SEO Friendly URL for Artikel
+# -------------------
+RewriteRule ^artikel/([a-zA-Z0-9\-]+)$ detail_artikel.php?slug=$1 [L,QSA]
+

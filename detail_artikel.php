@@ -1,19 +1,34 @@
 <?php
-// Ambil ID artikel dari URL
-$id = $_GET['id'] ?? null;
+// Ambil slug dari URL, contoh: /artikel/slug-artikel
+$slug = $_GET['slug'] ?? null;
+
+// Ambil semua artikel dari API
 $data = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/get_artikel.php"), true);
+
 $artikel = null;
 
-// Cari artikel berdasarkan ID
-if ($id && is_array($data)) {
-  foreach ($data as $item) {
-    if ($item['id'] == $id) {
-      $artikel = $item;
-      break;
+// Cari artikel berdasarkan slug
+if ($slug && is_array($data)) {
+    foreach ($data as $item) {
+        if (isset($item['slug']) && $item['slug'] === $slug) {
+            $artikel = $item;
+            break;
+        }
     }
-  }
+}
+
+// Jika slug tidak ditemukan, fallback ke artikel pertama atau tampilkan not found
+if (!$artikel) {
+    $artikel = [
+        "judul" => "Artikel tidak ditemukan",
+        "isi" => "Maaf, artikel yang Anda cari tidak tersedia.",
+        "gambar" => "img/default.jpg",
+        "tanggal" => date("Y-m-d"),
+        "kategori" => "",
+    ];
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -142,11 +157,11 @@ if ($id && is_array($data)) {
               foreach (array_slice($data, 0, 5) as $recent) {
                 if ($recent['id'] != $id) {
                   echo '<div class="recent-post-item" style="display:flex; align-items:center; gap:12px; margin-bottom:15px;">';
-                  echo '<a href="detail_artikel.php?id=' . $recent['id'] . '" style="flex-shrink:0;">';
+                  echo '<a href="artikel/' . urlencode($rel['slug']) . '" style="flex-shrink:0;">';
                   echo '<img src="' . htmlspecialchars($recent['gambar']) . '" alt="' . htmlspecialchars($recent['judul']) . '" style="width:80px; height:60px; object-fit:cover; border-radius:6px;">';
                   echo '</a>';
                   echo '<div style="flex:1;">';
-                  echo '<a href="detail_artikel.php?id=' . $recent['id'] . '" style="font-weight:600; text-decoration:none; color:#333; line-height:1.3; display:block;">' . htmlspecialchars($recent['judul']) . '</a>';
+                  echo '<a href="artikel/' . urlencode($rel['slug']) . '" style="font-weight:600; text-decoration:none; color:#333; line-height:1.3; display:block;">' . htmlspecialchars($recent['judul']) . '</a>';
                   echo '</div></div>';
                 }
               }
@@ -188,7 +203,7 @@ if ($id && is_array($data)) {
               $rel['kategori'] === $artikel['kategori']
             ) {
               echo '<div class="related-item" style="background:#fff; border:1px solid #ddd; border-radius:8px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.05);">';
-              echo '<a href="detail_artikel.php?id=' . $rel['id'] . '" style="text-decoration:none; color:#333;">';
+              echo '<a href="artikel/' . urlencode($rel['slug']) . '" style="text-decoration:none; color:#333;">';
               echo '<img src="' . htmlspecialchars($rel['gambar']) . '" alt="' . htmlspecialchars($rel['judul']) . '" style="width:100%; height:160px; object-fit:cover;">';
               echo '<div style="padding:15px;">';
               echo '<h4 style="font-size:16px; font-weight:600; margin:0 0 10px 0;">' . htmlspecialchars($rel['judul']) . '</h4>';

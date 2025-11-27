@@ -8,21 +8,21 @@ if (!isset($_SESSION['admin_id'])) {
     exit;
 }
 
-// Validasi ID
-$id = $_GET['id'] ?? null;
-if (!$id || !ctype_digit($id)) {
-    $_SESSION['message'] = ['type' => 'danger', 'text' => 'ID artikel tidak valid.'];
+// Validasi slug
+$slug = $_GET['slug'] ?? null;
+if (!$slug) {
+    $_SESSION['message'] = ['type' => 'danger', 'text' => 'Slug artikel tidak valid.'];
     header("Location: artikel.php");
     exit;
 }
 
-// Ambil data artikel + kategori
+// Ambil data artikel + kategori berdasarkan slug, bukan ID
 $sql = "SELECT a.*, k.nama_kategori 
         FROM artikel a 
         LEFT JOIN kategori k ON a.kategori_id = k.id 
-        WHERE a.id = ?";
+        WHERE a.slug = ?";
 $stmt = $pdo->prepare($sql);
-$stmt->execute([$id]);
+$stmt->execute([$slug]);
 $article = $stmt->fetch(PDO::FETCH_ASSOC);
 
 if (!$article) {
@@ -86,8 +86,6 @@ if (!$article) {
 </div>
 
 <script src="js/admin.js"></script>
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
