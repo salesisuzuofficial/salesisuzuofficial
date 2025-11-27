@@ -76,5 +76,5 @@ RewriteRule ^ %1 [R=301,L]
 # -------------------
 # 🚀 SEO Friendly URL for Artikel
 # -------------------
-RewriteRule ^artikel/([a-zA-Z0-9\-]+)$ detail_artikel.php?slug=$1 [L,QSA]
+RewriteRule ^artikel/([a-zA-Z0-9\-]+)/?$ detail_artikel.php?slug=$1 [L,QSA]
 
