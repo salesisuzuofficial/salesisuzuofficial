@@ -2,17 +2,19 @@
 // Ambil SLUG artikel dari URL
 $slug = $_GET['slug'] ?? null;
 
-// Ambil data artikel berdasarkan slug
-$artikel = null;
-if ($slug) {
-  $artikel = json_decode(
-    file_get_contents("https://salesisuzuofficial.com/admin/api/get_artikel.php?slug=" . urlencode($slug)), 
-    true
-  );
-}
-
-// Ambil semua artikel untuk recent & related
+// Ambil semua artikel
 $data = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/get_artikel.php"), true);
+$artikel = null;
+
+// Cari artikel berdasarkan SLUG
+if ($slug && is_array($data)) {
+  foreach ($data as $item) {
+    if ($item['slug'] == $slug) {
+      $artikel = $item;
+      break;
+    }
+  }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,15 +22,14 @@ $data = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <!-- Meta SEO -->
   <meta name="keywords" content="<?= htmlspecialchars($artikel['judul']) ?>, Isuzu, Truk, Dealer Isuzu, Jabodetabek, Isuzu Indonesia" />
   <meta property="og:title" content="<?= htmlspecialchars($artikel['judul']) ?>" />
   <meta property="og:description" content="<?= substr(strip_tags($artikel['isi']), 0, 150) ?>..." />
   <meta property="og:image" content="<?= htmlspecialchars($artikel['gambar']) ?>" />
-  <meta property="og:url" content="https://salesisuzuofficial.com/detail_artikel.php?slug=<?= htmlspecialchars($artikel['slug']) ?>" />
+  <meta property="og:url" content="https://salesisuzuofficial.com/detail_artikel.php?slug=<?= $artikel['slug'] ?>" />
 
-  <title><?= htmlspecialchars($artikel['judul'] ?? "Artikel") ?></title>
-
+  <title>Official Isuzu | Sales Truck Isuzu Terbaik di Tangerang</title>
+  <meta name="description" content="Isuzu Official - Dealer Truck Isuzu Tangerang. Hubungi : 0812 1905 5571 Untuk mendapatkan informasi produk Isuzu. Layanan Terbaik dan Jaminan Mutu." />
   <link rel="icon" type="image/png" href="/img/favicon.jpeg">
 
   <!-- Font -->
@@ -48,27 +49,8 @@ $data = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/
 <body>
 
   <!-- Header -->
-  <header>
-    <div class="container header-content navbar">
-      <div class="header-title">
-        <a href="https://salesisuzuofficial.com">
-          <img src="img/logo.png" alt="Logo Isuzu" style="height: 60px" />
-        </a>
-      </div>
+  <?php /* HEADER ANDA TETAP */ ?>
 
-      <div class="hamburger-menu">&#9776;</div>
-
-      <nav class="nav links">
-        <a href="index.php">Home</a>
-        <a href="produk.php">Produk</a>
-        <a href="simulasi_kredit.php">Simulasi Kredit</a>
-        <a href="artikel.php">Blog & Artikel</a>
-        <a href="contact.php">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Konten Artikel -->
   <section class="detail-artikel">
     <div class="container">
       <div class="artikel-wrapper" style="display: flex; flex-wrap: wrap; gap: 30px;">
@@ -77,14 +59,13 @@ $data = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/
         <div class="artikel-main" style="flex: 1 1 65%;">
           <?php if ($artikel): ?>
             <h1><?= htmlspecialchars($artikel['judul']) ?></h1>
-
             <p style="color:#888; font-size:14px; margin-bottom:15px;">
               Diposting oleh <strong><?= htmlspecialchars($artikel['author'] ?? 'Dedy Chandra Isuzu') ?></strong>
               pada <?= date('d M Y', strtotime($artikel['tanggal'] ?? 'now')) ?>
             </p>
-
             <img src="<?= htmlspecialchars($artikel['gambar']) ?>"
                  alt="<?= htmlspecialchars($artikel['judul']) ?>"
+                 class="featured-image"
                  style="width:100%; height:auto; margin-bottom:20px;">
 
             <div class="isi-artikel">
@@ -94,7 +75,6 @@ $data = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/
             <a href="artikel.php" class="btn-kembali" style="display:inline-block; margin-top:20px;">
               Kembali ke Daftar Artikel
             </a>
-
           <?php else: ?>
             <p>Artikel tidak ditemukan.</p>
           <?php endif; ?>
@@ -102,8 +82,6 @@ $data = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/
 
         <!-- Sidebar -->
         <aside class="artikel-sidebar" style="flex: 1 1 30%;">
-
-          <!-- Recent Posts -->
           <div class="sidebar-section">
             <h3>Recent Posts</h3>
             <div class="recent-posts-list">
@@ -111,10 +89,10 @@ $data = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/
               foreach (array_slice($data, 0, 5) as $recent) {
                 if ($recent['slug'] !== $slug) {
                   echo '<div class="recent-post-item" style="display:flex; align-items:center; gap:12px; margin-bottom:15px;">';
-                  echo '<a href="detail_artikel.php?slug=' . $recent['slug'] . '">';
+                  echo '<a href="detail_artikel.php?slug=' . $recent['slug'] . '" style="flex-shrink:0;">';
                   echo '<img src="' . htmlspecialchars($recent['gambar']) . '" style="width:80px; height:60px; object-fit:cover; border-radius:6px;">';
                   echo '</a>';
-                  echo '<div>';
+                  echo '<div style="flex:1;">';
                   echo '<a href="detail_artikel.php?slug=' . $recent['slug'] . '" style="font-weight:600; color:#333;">' . htmlspecialchars($recent['judul']) . '</a>';
                   echo '</div></div>';
                 }
@@ -132,7 +110,7 @@ $data = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/
               foreach ($kategori as $kat) {
                 if (!empty($kat)) {
                   echo '<li style="margin-bottom:8px;">';
-                  echo '<a href="artikel.php?kategori=' . urlencode($kat) . '" style="color:#333; font-weight:500;">• ' . htmlspecialchars($kat) . '</a>';
+                  echo '<a href="artikel.php?kategori=' . urlencode($kat) . '" style="text-decoration:none; color:#333;">• ' . htmlspecialchars($kat) . '</a>';
                   echo '</li>';
                 }
               }
@@ -154,12 +132,11 @@ $data = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/
             if ($rel['slug'] !== $slug && $rel['kategori'] === $artikel['kategori']) {
               echo '<div class="related-item" style="background:#fff; border:1px solid #ddd; border-radius:8px; overflow:hidden;">';
               echo '<a href="detail_artikel.php?slug=' . $rel['slug'] . '">';
-              echo '<img src="' . $rel['gambar'] . '" style="width:100%; height:160px; object-fit:cover;">';
+              echo '<img src="' . htmlspecialchars($rel['gambar']) . '" style="width:100%; height:160px; object-fit:cover;">';
               echo '<div style="padding:15px;">';
               echo '<h4 style="font-size:16px; font-weight:600;">' . htmlspecialchars($rel['judul']) . '</h4>';
               echo '<p style="font-size:14px; color:#666;">' . substr(strip_tags($rel['isi']), 0, 100) . '...</p>';
               echo '</div></a></div>';
-
               if (++$related_count >= 3) break;
             }
           }
@@ -167,13 +144,10 @@ $data = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/
         </div>
       </div>
       <?php endif; ?>
+
     </div>
   </section>
 
   <?php include 'footer.php'; ?>
-
-  <script>
-    feather.replace();
-  </script>
 </body>
 </html>
