@@ -10,6 +10,7 @@ $sql = "
     SELECT 
         a.id, 
         a.judul, 
+        a.slug, 
         a.isi, 
         a.gambar, 
         a.tanggal, 
