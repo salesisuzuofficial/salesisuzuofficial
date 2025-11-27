@@ -251,7 +251,7 @@ $artikel       = array_slice($artikelData, $offset, $perPage);
             <div class="hamburger-menu">&#9776;</div>
 
             <nav class="nav links">
-                <a href="index.php">Home</a>
+                <a href="/">Home</a>
                 <a href="produk.php">Produk</a>
                 <a href="simulasi_kredit.php">Simulasi Kredit</a>
                 <a href="artikel.php" class="active">Blog & Artikel</a>

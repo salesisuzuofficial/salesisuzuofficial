@@ -234,7 +234,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <div class="hamburger-menu">&#9776;</div>
 
             <nav class="nav links">
-                <a href="index.php">Home</a>
+                <a href="/">Home</a>
                 <a href="produk.php">Produk</a>
                 <a href="simulasi_kredit.php" class="active">Simulasi Kredit</a>
                 <a href="artikel.php">Blog & Artikel</a>

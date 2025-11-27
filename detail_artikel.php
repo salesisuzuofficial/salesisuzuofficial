@@ -202,7 +202,7 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
       <div class="hamburger-menu">&#9776;</div>
 
       <nav class="nav links">
-        <a href="index.php">Home</a>
+        <a href="/">Home</a>
         <a href="produk.php">Produk</a>
         <a href="simulasi_kredit.php">Simulasi Kredit</a>
         <a href="artikel.php">Blog & Artikel</a>
