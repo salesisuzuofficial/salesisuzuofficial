@@ -48,10 +48,10 @@ try {
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dealer Isuzu Jakarta | Dapatkan Promo & Harga Terbaik Truck Isuzu</title>
+    <title>Dealer Isuzu Jakarta – Astra Isuzu Jakarta Resmi</title>
 
-    <meta name="description" content="Dealer Isuzu Jakarta resmi – Dapatkan promo dan harga terbaik untuk truk, pick up, dan kendaraan niaga Isuzu. Hubungi kami untuk penawaran Isuzu Elf, Giga, dan Traga terbaru di Jakarta. Pelayanan cepat & terpercaya!" />
-    <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, dealer isuzu resmi, promo isuzu terbaru, harga truk isuzu terbaru, harga isuzu traga, isuzu traga pick up, isuzu traga box, isuzu microbus, isuzu elf, isuzu elf box, isuzu elf engkel, isuzu elf double, isuzu cdd long, isuzu cde long, isuzu nlr, isuzu nmr, isuzu giga, isuzu truk ringan, isuzu truk medium, cicilan truk isuzu, kredit truk isuzu, isuzu jabodetabek, dealer truk isuzu, jual truk isuzu" />
+    <meta name="description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman. Konsultasi gratis & siap melayani seluruh Jakarta." />
+    <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, dealer isuzu resmi, promo isuzu terbaru, harga isuzu, harga isuzu traga, isuzu traga pick up, isuzu traga box, isuzu microbus, isuzu elf, isuzu elf box, isuzu elf engkel, isuzu elf double, isuzu cdd long, isuzu cde long, isuzu nlr, isuzu nmr, isuzu giga, isuzu jabodetabek, astra isuzu, jual truk isuzu" />
     <link rel="canonical" href="https://salesisuzuofficial.com/" />
 
     <link rel="icon" type="image/png" href="/img/favicon.jpeg" />
@@ -69,18 +69,105 @@ try {
     <link rel="stylesheet" href="css/home_css/contact.css" />
     <link rel="stylesheet" href="css/home_css/blogcard.css" />
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Dealer Isuzu Jakarta | Promo & Harga Truk Isuzu Terbaik Di Jakarta" />
-    <meta property="og:description" content="Dapatkan promo truk Isuzu terbaru di Jakarta. Konsultasi langsung dengan sales profesional. Gratis penawaran & layanan cepat!" />
+    <!-- Schema JSON -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+        "@type": "Organization",
+        "name": "Dealer Astra Isuzu Jakarta Resmi",
+        "url": "https://salesisuzuofficial.com/",
+        "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+        },
+        {
+        "@type": "WebSite",
+        "url": "https://salesisuzuofficial.com/",
+        "name": "Dealer Astra Isuzu Jakarta Resmi",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Dealer Astra Isuzu Jakarta Resmi",
+            "logo": {
+            "@type": "ImageObject",
+            "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+            }
+        }
+        },
+        {
+        "@type": "AutoDealer",
+        "name": "Dealer Astra Isuzu Jakarta Resmi",
+        "url": "https://salesisuzuofficial.com/",
+        "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+        "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+        "description": "Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman. Konsultasi gratis & siap melayani seluruh Jakarta dan Jabodetabek.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
+            "addressLocality": "Jakarta Barat",
+            "addressRegion": "DKI Jakarta",
+            "postalCode": "11730",
+            "addressCountry": "ID"
+        },
+        "telephone": "+6281296632186"",
+        "email": "salesisuzuofficial@gmail.com",
+        "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"],
+        "makesOffer": [
+            {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Product",
+                "name": "Isuzu Elf",
+                "description": "Isuzu Elf – Box, Engkel, Double, Microbus. Dealer resmi Astra Isuzu Jakarta."
+            }
+            },
+            {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Product",
+                "name": "Isuzu Giga",
+                "description": "Isuzu Giga – Truk Medium & Berat. Dealer resmi Astra Isuzu Jakarta."
+            }
+            },
+            {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Product",
+                "name": "Isuzu Traga",
+                "description": "Isuzu Traga – Pick Up & Box. Promo dan kredit ringan tersedia."
+            }
+            },
+            {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Product",
+                "name": "Isuzu NLR / NMR",
+                "description": "Isuzu NLR & NMR – Truk Ringan & Medium. Dealer resmi Astra Isuzu Jakarta."
+            }
+            }
+        ]
+        }
+    ]
+    }
+    </script>
+
+    <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:title" content="Dealer Isuzu Jakarta – Astra Isuzu Jakarta Resmi" />
+    <meta property="og:description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman. Konsultasi gratis & siap melayani seluruh Jakarta." />
     <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+    <meta property="og:image:alt" content="Dealer Resmi Isuzu Jakarta - Astra Isuzu" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:url" content="https://salesisuzuofficial.com/" />
+    <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="id_ID" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Dealer Isuzu Jakarta | Promo & Harga Truk Isuzu Terbaik Di Jakarta" />
-    <meta name="twitter:description" content="Hubungi kami untuk mendapatkan penawaran terbaik truk Isuzu. Layanan cepat & profesional." />
+    <meta name="twitter:title" content="Dealer Isuzu Jakarta – Astra Isuzu Jakarta Resmi" />
+    <meta name="twitter:description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman." />
     <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+    <meta name="twitter:image:alt" content="Dealer Resmi Isuzu Jakarta - Astra Isuzu" />
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
