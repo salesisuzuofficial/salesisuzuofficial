@@ -17,16 +17,6 @@ if ($slug && is_array($data)) {
     }
 }
 
-// Jika slug tidak ditemukan, fallback ke artikel pertama atau tampilkan not found
-if (!$artikel) {
-    $artikel = [
-        "judul" => "Artikel tidak ditemukan",
-        "isi" => "Maaf, artikel yang Anda cari tidak tersedia.",
-        "gambar" => "img/default.jpg",
-        "tanggal" => date("Y-m-d"),
-        "kategori" => "",
-    ];
-}
 ?>
 
 <!DOCTYPE html>
