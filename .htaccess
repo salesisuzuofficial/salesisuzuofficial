@@ -1,74 +1,67 @@
-# =====================================
-# 🔒 SECURITY CONFIG FOR SALES Isuzu SITE (FINAL FIXED)
-# =====================================
+# ============================
+# 🔒 SECURITY CONFIG FINAL
+# ============================
 
-# 1️⃣ Nonaktifkan directory listing
 Options -Indexes
 
-# 2️⃣ Aktifkan Rewrite Engine dan paksa HTTPS
 RewriteEngine On
+RewriteBase /
+
+# Paksa HTTPS
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# 3️⃣ Blokir akses ke file sensitif (diperbaiki)
-<FilesMatch "(^\.|config\.php|koneksi\.php)">
+# Blokir akses file sensitif
+<FilesMatch "(^\.|config\.php|koneksi\.php|composer\.json|composer\.lock|package\.json|yarn\.lock|\.env|\.git|\.htpasswd)">
     Order allow,deny
     Deny from all
 </FilesMatch>
 
-# Izinkan file login & proses login
-<FilesMatch "(cek_login\.php|proses_login\.php|hapus_.*\.php|edit_.*\.php|tambah_.*\.php)">
-    Order allow,deny
-    Allow from all
-</FilesMatch>
-
-# 4️⃣ Cegah eksekusi PHP di folder upload
-RewriteCond %{REQUEST_URI} ^/admin/api/uploads [NC]
-RewriteCond %{REQUEST_FILENAME} \.(php|php3|php4|php5|phtml|html|htm)$ [NC]
-RewriteRule .* - [F,L]
-
-# 5️⃣ Lindungi file konfigurasi & sistem
-<FilesMatch "(composer\.json|composer\.lock|package\.json|yarn\.lock|\.env|\.git|\.htpasswd)">
-    Order allow,deny
-    Deny from all
-</FilesMatch>
-
-# 6️⃣ Cegah file berbahaya di-upload
+# Lindungi file berbahaya
 <FilesMatch "\.(phps|php5|phtml|exe|sh|bat|pl|py|jsp|asp)$">
     Order allow,deny
     Deny from all
 </FilesMatch>
 
-# 7️⃣ Lindungi hanya folder upload agar PHP tidak dieksekusi
-<Directory "admin/api/uploads">
-    <FilesMatch "\.(php|php3|php4|php5|phtml|phps)$">
-        Order allow,deny
-        Deny from all
-    </FilesMatch>
-</Directory>
-
-# 8️⃣ Proteksi file .htaccess
+# Proteksi .htaccess
 <Files ".htaccess">
     Order allow,deny
     Deny from all
 </Files>
 
-# 9️⃣ Blokir query mencurigakan (LFI, RFI, command injection)
+# Blokir query injection
 RewriteCond %{QUERY_STRING} (\.\./|\.\.\\|/etc/passwd|/bin/bash|base64_encode|eval\(|system\(|shell_exec\() [NC]
 RewriteRule .* - [F,L]
 
 
-# 12️⃣ Header keamanan tambahan
+# -------------------
+# 🚀 REMOVE .PHP FROM URL
+# -------------------
+
+# Jalankan file .php secara otomatis
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^/]+)$ $1.php [L]
+
+# Redirect dari .php ke tanpa .php (SEO friendly)
+RewriteCond %{THE_REQUEST} \s/([^.]+)\.php[\s?] [NC]
+RewriteRule ^ %1 [R=301,L]
+
+
+# -------------------
+# 🛡️ Security Headers
+# -------------------
 <IfModule mod_headers.c>
-Header set X-Content-Type-Options "nosniff"
-Header set X-Frame-Options "SAMEORIGIN"
-Header set X-XSS-Protection "1; mode=block"
-Header always set Referrer-Policy "strict-origin-when-cross-origin"
-Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
 </IfModule>
 
-
-# 14️⃣ Cache control (optional untuk kecepatan)
+# -------------------
+# ⚡ Caching
+# -------------------
 <IfModule mod_expires.c>
     ExpiresActive On
     ExpiresByType image/jpg "access plus 1 month"
@@ -79,26 +72,3 @@ Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
     ExpiresByType application/javascript "access plus 1 week"
     ExpiresDefault "access plus 3 days"
 </IfModule>
-
-
-# =============================
-# 🌐 HILANGKAN .PHP DARI URL
-# =============================
-
-# Aktifkan rewrite
-RewriteEngine On
-RewriteBase /
-
-# ⚙️ IZINKAN file PHP tertentu agar tidak di-redirect (penting untuk AJAX)
-RewriteCond %{REQUEST_URI} (simulasi_kredit\.php|contact\.php|admin/api/.*\.php)$ [NC]
-RewriteRule .* - [L]
-
-# Jika file atau folder tidak ada, tapi ada file .php dengan nama sama,
-# maka tampilkan file .php itu
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^([^/]+)$ $1.php [L]
-
-# Redirect dari versi .php ke versi tanpa .php (biar SEO konsisten)
-RewriteCond %{THE_REQUEST} \s/([^.]+)\.php[\s?] [NC]
-RewriteRule ^ %1 [R=301,L]

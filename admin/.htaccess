@@ -1,4 +1,67 @@
-# Matikan semua rewrite di folder Admin
-<IfModule mod_rewrite.c>
-    RewriteEngine Off
+# ============================
+
+# 🔐 ADMIN PANEL SECURITY FINAL
+
+# ============================
+
+Options -Indexes
+RewriteEngine On
+
+# ============================
+
+# 1️⃣ Blokir file sensitif
+
+# ============================
+
+<FilesMatch "(^\.|config\.php|\.env|composer\.json|composer\.lock|package\.json|yarn\.lock|\.git|\.htpasswd)">
+Order allow,deny
+Deny from all
+</FilesMatch>
+
+# ============================
+
+# 2️⃣ Izinkan semua file backend .php
+
+# ============================
+
+<FilesMatch "\.php$">
+Order allow,deny
+Allow from all
+</FilesMatch>
+
+# ============================
+
+# 3️⃣ Cegah eksekusi PHP di folder uploads
+
+# ============================
+
+RewriteRule ^uploads/.\*\.(php|php3|php4|php5|phtml|phps)$ - [F,L]
+
+<Directory "uploads">
+<FilesMatch "\.(php|php3|php4|php5|phtml|phps)$">
+Order allow,deny
+Deny from all
+</FilesMatch>
+</Directory>
+
+# ============================
+
+# 4️⃣ Security Headers
+
+# ============================
+
+<IfModule mod_headers.c>
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>
+
+# ============================
+
+# 5️⃣ Blokir request berbahaya
+
+# ============================
+
+RewriteCond %{QUERY_STRING} (\.\./|\.\.\\|/etc/passwd|/bin/bash|eval\(|system\(|shell_exec\() [NC]
+RewriteRule .\* - [F,L]
