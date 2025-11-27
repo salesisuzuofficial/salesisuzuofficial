@@ -384,12 +384,12 @@ try {
                             />
                             <div class="blog-card-content">
                                 <h3>
-                                    <a href="artikel/<?= urlencode($artikel['slug']) ?>">
+                                    <a href="detail_artikel.php?slug=<?= urlencode($artikel['slug']) ?>">
                                         <?= htmlspecialchars($artikel['judul']) ?>
                                     </a>
                                 </h3>
                                 <p><?= htmlspecialchars(mb_strimwidth(strip_tags($artikel['isi']), 0, 100, '...')) ?></p>
-                                <a href="artikel/<?= urlencode($artikel['slug']) ?>" class="read-more">Baca Selengkapnya</a>
+                                <a href="detail_artikel.php?slug=<?= urlencode($artikel['slug']) ?>" class="read-more">Baca Selengkapnya</a>
                             </div>
                         </div>
                     <?php endforeach; ?>
