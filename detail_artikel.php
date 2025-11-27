@@ -34,11 +34,11 @@ if ($slug && is_array($data)) {
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet" />
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/navbar.css" />
-  <link rel="stylesheet" href="css/home_css/header.css" />
-  <link rel="stylesheet" href="css/footer.css" />
-  <link rel="stylesheet" href="css/artikel.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/navbar.css" />
+  <link rel="stylesheet" href="/css/home_css/header.css" />
+  <link rel="stylesheet" href="/css/footer.css" />
+  <link rel="stylesheet" href="/css/artikel.css" />
 
   <!-- Google Tag Manager -->
   <script>
@@ -55,7 +55,7 @@ if ($slug && is_array($data)) {
   <!-- End Google Tag Manager -->
 
   <!-- JS -->
-  <script src="js/script.js"></script>
+  <script src="/js/script.js"></script>
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
