@@ -1,32 +1,18 @@
 <?php
-// Ambil slug dari URL
+// Ambil SLUG artikel dari URL
 $slug = $_GET['slug'] ?? null;
 
-// Ambil semua artikel
-$data = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/get_artikel.php"), true);
+// Ambil data artikel berdasarkan slug
 $artikel = null;
-
-// Cari berdasarkan slug
-if ($slug && is_array($data)) {
-  foreach ($data as $item) {
-    if ($item['slug'] === $slug) {
-      $artikel = $item;
-      break;
-    }
-  }
+if ($slug) {
+  $artikel = json_decode(
+    file_get_contents("https://salesisuzuofficial.com/admin/api/get_artikel.php?slug=" . urlencode($slug)), 
+    true
+  );
 }
 
-// Jika tidak ditemukan
-if (!$artikel) {
-    http_response_code(404);
-    $artikel = [
-        "judul" => "Artikel tidak ditemukan",
-        "isi" => "Maaf, artikel yang Anda cari tidak tersedia.",
-        "gambar" => "/img/default.jpg",
-        "tanggal" => date("Y-m-d"),
-        "kategori" => "",
-    ];
-}
+// Ambil semua artikel untuk recent & related
+$data = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/get_artikel.php"), true);
 ?>
 
 <!DOCTYPE html>
