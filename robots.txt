@@ -1,31 +1,22 @@
 # ============================
-# robots.txt for salesisuzuofficial.com
+# robots.txt (FINAL)
+# salesisuzuofficial.com
 # ============================
 
 User-agent: *
-# ❌ Batasi akses ke area sensitif
+
+# ❌ Blokir area sensitif admin (folder & subfolder)
 Disallow: /admin/
-Disallow: /admin/api/
-Disallow: /uploads/
-Disallow: /.vscode/
-Disallow: /css/
-Disallow: /js/
-Disallow: /img/
-Disallow: /config.php
-Disallow: /koneksi.php
-Disallow: /proses_*
-Disallow: /edit_*
-Disallow: /hapus_*
-Disallow: /tambah_*
 
-# ✅ Izinkan konten publik
-Allow: /artikel.php
-Allow: /detail_artikel.php
-Allow: /contact.php
-Allow: /index.php
-Allow: /produk.php
-Allow: /simulasi_kredit.php
+# ⚠️ Izinkan semua resource agar Google bisa render halaman
+Allow: /css/
+Allow: /js/
+Allow: /img/
+Allow: /uploads/
 
-# ⚙️ Sitemap utama
+# ✔ Izinkan semua halaman frontend publik
+Allow: /
+
+# 📌 Sitemap utama (xml)
 Sitemap: https://salesisuzuofficial.com/sitemap-index.xml
-Sitemap: https://salesisuzuofficial.com/sitemap-artikel.php
+Sitemap: https://salesisuzuofficial.com/sitemap-artikel.xml

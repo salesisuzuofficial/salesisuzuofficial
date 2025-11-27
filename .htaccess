@@ -57,34 +57,6 @@ RewriteRule .* - [F,L]
 RewriteCond %{QUERY_STRING} (\.\./|\.\.\\|/etc/passwd|/bin/bash|base64_encode|eval\(|system\(|shell_exec\() [NC]
 RewriteRule .* - [F,L]
 
-# 🔟 Blok referer spam & user-agent bot scanner
-SetEnvIfNoCase Referer "semalt\.com" bad_ref=1
-SetEnvIfNoCase Referer "buttons\-for\-website" bad_ref=1
-SetEnvIfNoCase Referer "darodar\.com" bad_ref=1
-SetEnvIfNoCase Referer "crawler" bad_ref=1
-SetEnvIfNoCase Referer "scan" bad_ref=1
-Order allow,deny
-Allow from all
-Deny from env=bad_ref
-
-BrowserMatchNoCase "curl" bad_bot
-BrowserMatchNoCase "wget" bad_bot
-BrowserMatchNoCase "python" bad_bot
-BrowserMatchNoCase "nikto" bad_bot
-BrowserMatchNoCase "fimap" bad_bot
-BrowserMatchNoCase "sqlmap" bad_bot
-Order allow,deny
-Allow from all
-Deny from env=bad_bot
-
-# 11️⃣ Blok IP mencurigakan (bisa ditambah nanti)
-<Limit GET POST>
-    Order Allow,Deny
-    Allow from all
-    Deny from 45.146.165.0/24
-    Deny from 185.220.100.0/22
-    Deny from 91.240.118.0/23
-</Limit>
 
 # 12️⃣ Header keamanan tambahan
 <IfModule mod_headers.c>
@@ -95,10 +67,6 @@ Header always set Referrer-Policy "strict-origin-when-cross-origin"
 Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
 </IfModule>
 
-# 13️⃣ Cegah hotlink gambar
-RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^https://(www\.)?salesisuzuofficial\.com [NC]
-RewriteRule \.(jpg|jpeg|png|gif|webp)$ - [F,L]
 
 # 14️⃣ Cache control (optional untuk kecepatan)
 <IfModule mod_expires.c>
@@ -112,35 +80,6 @@ RewriteRule \.(jpg|jpeg|png|gif|webp)$ - [F,L]
     ExpiresDefault "access plus 3 days"
 </IfModule>
 
-# =============================
-# 🔒 PROTEKSI UNTUK robots.txt
-# =============================
-<Files "robots.txt">
-    # Hanya izinkan bot resmi (Google, Bing, Yandex, DuckDuck)
-    SetEnvIfNoCase User-Agent "Googlebot" allowed_bot
-    SetEnvIfNoCase User-Agent "Googlebot-Image" allowed_bot
-    SetEnvIfNoCase User-Agent "Bingbot" allowed_bot
-    SetEnvIfNoCase User-Agent "YandexBot" allowed_bot
-    SetEnvIfNoCase User-Agent "DuckDuckBot" allowed_bot
-
-    Order deny,allow
-    Deny from all
-    Allow from env=allowed_bot
-
-    # Fallback jika ditolak — tetap arahkan ke robots.txt (agar tidak error di Google)
-    ErrorDocument 403 /robots.txt
-</Files>
-
-# ============================================
-# 🚫 BLOKIR LINK MALWARE DETAIL FIX (HTACCESS)
-# ============================================
-
-# Blok semua request yang mengandung "index.php?detail/"
-RewriteCond %{THE_REQUEST} \?detail/ [NC,OR]
-RewriteCond %{QUERY_STRING} detail/ [NC,OR]
-RewriteCond %{REQUEST_URI} index\.php\?detail/ [NC,OR]
-RewriteCond %{REQUEST_URI} /detail/ [NC]
-RewriteRule .* - [G,L]
 
 # =============================
 # 🌐 HILANGKAN .PHP DARI URL
