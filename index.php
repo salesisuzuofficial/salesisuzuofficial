@@ -376,6 +376,12 @@ try {
             <div class="blog-grid">
                 <?php if (!empty($artikelData)): ?>
                     <?php foreach ($artikelData as $artikel): ?>
+                        <?php
+                            // Pakai slug kalau ada, fallback ke id
+                            $artikelLink = !empty($artikel['slug'])
+                                ? 'detail_artikel.php?slug=' . urlencode($artikel['slug'])
+                                : 'detail_artikel.php?id=' . urlencode($artikel['id']);
+                        ?>
                         <div class="blog-card">
                             <img 
                                 src="https://salesisuzuofficial.com/admin/uploads/artikel/<?= htmlspecialchars($artikel['gambar']) ?>" 
@@ -384,12 +390,12 @@ try {
                             />
                             <div class="blog-card-content">
                                 <h3>
-                                    <a href="detail_artikel.php?slug=<?= urlencode($artikel['slug']) ?>">
+                                    <a href="<?= $artikelLink ?>">
                                         <?= htmlspecialchars($artikel['judul']) ?>
                                     </a>
                                 </h3>
                                 <p><?= htmlspecialchars(mb_strimwidth(strip_tags($artikel['isi']), 0, 100, '...')) ?></p>
-                                <a href="detail_artikel.php?slug=<?= urlencode($artikel['slug']) ?>" class="read-more">Baca Selengkapnya</a>
+                                <a href="<?= $artikelLink ?>" class="read-more">Baca Selengkapnya</a>
                             </div>
                         </div>
                     <?php endforeach; ?>
