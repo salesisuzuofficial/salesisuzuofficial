@@ -48,21 +48,124 @@ try {
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dealer Isuzu Jakarta – Astra Isuzu Jakarta Resmi</title>
 
-    <!-- FIXED: Title khusus halaman Contact -->
-    <title>Kontak Dealer Isuzu Jakarta – Hubungi Astra Isuzu Resmi</title>
+    <meta name="description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman. Konsultasi gratis & siap melayani seluruh Jakarta." />
+    <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, dealer isuzu resmi, promo isuzu terbaru, harga isuzu, harga isuzu traga, isuzu traga pick up, isuzu traga box, isuzu microbus, isuzu elf, isuzu elf box, isuzu elf engkel, isuzu elf double, isuzu cdd long, isuzu cde long, isuzu nlr, isuzu nmr, isuzu giga, isuzu jabodetabek, astra isuzu, jual truk isuzu" />
 
-    <!-- FIXED: Description khusus Contact -->
-    <meta name="description" content="Hubungi Dealer Astra Isuzu Jakarta untuk konsultasi harga, promo, dan kredit mobil Isuzu. Layanan cepat & resmi. CS siap melayani Anda setiap hari." />
+    <link rel="canonical" href="https://salesisuzuofficial.com/" />
 
-    <!-- FIXED: Canonical khusus halaman Contact -->
-    <link rel="canonical" href="https://salesisuzuofficial.com/contact" />
-
-    <!-- Favicon -->
     <link rel="icon" type="image/png" href="/img/favicon.jpeg" />
     <link rel="apple-touch-icon" href="/img/favicon.jpeg" />
 
-    <!-- Fonts & Styles -->
+    <!-- Schema JSON FIXED -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "url": "https://salesisuzuofficial.com/",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+        },
+        {
+          "@type": "WebSite",
+          "url": "https://salesisuzuofficial.com/",
+          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Dealer Astra Isuzu Jakarta Resmi",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+            }
+          }
+        },
+        {
+          "@type": "AutoDealer",
+          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "url": "https://salesisuzuofficial.com/",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "description": "Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
+            "addressLocality": "Jakarta Barat",
+            "addressRegion": "DKI Jakarta",
+            "postalCode": "11730",
+            "addressCountry": "ID"
+          },
+          "telephone": "+6281296632186",
+          "email": "salesisuzuofficial@gmail.com",
+          "areaServed": ["Jakarta","Bekasi","Depok","Tangerang","Bogor"],
+          "makesOffer": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Isuzu Elf",
+                "description": "Isuzu Elf – Box, Engkel, Double, Microbus."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Isuzu Giga",
+                "description": "Isuzu Giga – Truk Medium & Berat."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Isuzu Traga",
+                "description": "Isuzu Traga – Pick Up & Box."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Isuzu NLR / NMR",
+                "description": "Isuzu NLR & NMR – Truk Ringan & Medium."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Dealer Isuzu Jakarta – Astra Isuzu Jakarta Resmi" />
+    <meta property="og:description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru dan promo khusus mobil Isuzu." />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/" />
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="id_ID">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dealer Isuzu Jakarta – Astra Isuzu Jakarta Resmi" />
+    <meta name="twitter:description" content="Promo resmi Astra Isuzu Jakarta. Dapatkan harga & kredit mobil Isuzu terbaru." />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-TV2MJHYKCB');
+    </script>
+
+    <!-- Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/navbar.css" />
@@ -74,58 +177,11 @@ try {
     <link rel="stylesheet" href="css/home_css/contact.css" />
     <link rel="stylesheet" href="css/home_css/blogcard.css" />
 
-    <!-- FIXED: JSON-LD Error + Disesuaikan untuk Contact (tetap aman) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "AutoDealer",
-      "name": "Dealer Astra Isuzu Jakarta Resmi",
-      "url": "https://salesisuzuofficial.com/",
-      "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-      "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-      "description": "Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman.",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
-        "addressLocality": "Jakarta Barat",
-        "addressRegion": "DKI Jakarta",
-        "postalCode": "11730",
-        "addressCountry": "ID"
-      },
-      "telephone": "+6281296632186",
-      "email": "salesisuzuofficial@gmail.com",
-      "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
-    }
-    </script>
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="Kontak Dealer Isuzu Jakarta – Hubungi Astra Isuzu Resmi" />
-    <meta property="og:description" content="Hubungi Dealer Astra Isuzu Jakarta untuk tanya harga, promo, dan kredit. CS siap membantu kapan saja." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/contact" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="id_ID" />
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Kontak Dealer Isuzu Jakarta – Hubungi Astra Isuzu Resmi" />
-    <meta name="twitter:description" content="Butuh info promo Isuzu? Hubungi kami sekarang." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-
-    <meta name="robots" content="index, follow" />
-
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-TV2MJHYKCB');
-    </script>
-
+    <!-- Scripts -->
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="js/script.js"></script>
-        <style>
+
+    <style>
         /* ======== GLOBAL SECTION SPACING ======== */
         section {
             padding: 60px 0;
