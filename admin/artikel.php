@@ -94,7 +94,7 @@ try {
             <td class="text-center"><?= $no++; ?></td>
             <td class="text-center">
               <?php if (!empty($row['gambar'])): ?>
-                <img src="https://salesisuzuofficial.com/uploads/artikel/<?= htmlspecialchars($row['gambar']) ?>" alt="<?= htmlspecialchars($row['judul']) ?>" width="60">
+                <img src="../uploads/artikel/<?= htmlspecialchars($row['gambar']) ?>" alt="<?= htmlspecialchars($row['judul']) ?>" width="60">
               <?php else: ?>
                 <img src="https://via.placeholder.com/60?text=No+Image" alt="no image">
               <?php endif; ?>
