@@ -21,7 +21,7 @@ if (isset($_GET['id']) && ctype_digit($_GET['id'])) {
 
             // Hapus file gambar jika ada dan valid
             if (!empty($imageFile)) {
-                $filePath = __DIR__ . "/uploads/artikel/" . basename($imageFile);
+                $filePath = __DIR__ . "../uploads/artikel/" . basename($imageFile);
                 if (file_exists($filePath) && is_file($filePath)) {
                     unlink($filePath);
                 }

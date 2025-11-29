@@ -45,7 +45,7 @@ if (isset($_POST['update'])) {
 
     // Upload gambar baru jika ada
     if (!empty($_FILES['gambar']['name'])) {
-        $targetDir = "uploads/artikel/";
+        $targetDir = "../uploads/artikel/";
         if (!is_dir($targetDir)) mkdir($targetDir, 0755, true);
 
         $fileName = time() . '_' . basename($_FILES['gambar']['name']);
@@ -130,7 +130,7 @@ if (isset($_POST['update'])) {
       <div class="mb-3">
         <label class="form-label">Gambar Saat Ini</label><br>
         <?php if (!empty($article['gambar'])): ?>
-          <img src="uploads/artikel/<?= htmlspecialchars($article['gambar']) ?>" style="width:120px;border-radius:8px;">
+          <img src="../uploads/artikel/<?= htmlspecialchars($article['gambar']) ?>" style="width:120px;border-radius:8px;">
         <?php else: ?>
           <img src="https://via.placeholder.com/120?text=No+Image" style="width:120px;border-radius:8px;">
         <?php endif; ?>
