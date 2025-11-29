@@ -187,8 +187,13 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
     <link rel="stylesheet" href="css/home_css/blogcard.css" />
     <link rel="stylesheet" href="css/blog.css" />
 
-    <!-- Feather Icons -->
-    <script src="https://unpkg.com/feather-icons"></script>
+  <!-- Feather Icons (NON-BLOCKING) -->
+  <script src="https://unpkg.com/feather-icons" defer></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          feather.replace();
+      });
+  </script>
 
     <!-- Custom Style -->
     <style>

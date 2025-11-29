@@ -209,8 +209,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <link rel="stylesheet" href="/css/product_css/header_product.css" />
     <link rel="stylesheet" href="/css/simulasikredit_css/simulasi.css" />
 
-    <!-- Scripts -->
-    <script src="https://unpkg.com/feather-icons"></script>
+  <!-- Feather Icons (NON-BLOCKING) -->
+  <script src="https://unpkg.com/feather-icons" defer></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          feather.replace();
+      });
+  </script>
+  
     <script src="/js/script.js" defer></script>
     <script src="/js/simulasi_kredit.js" defer></script>
 </head>

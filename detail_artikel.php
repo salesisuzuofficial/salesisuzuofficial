@@ -164,8 +164,14 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
     })(window,document,'script','dataLayer','GTM-K58SQXH7');
   </script>
 
-  <!-- SCRIPTS (DEFER AGAR CEPAT) -->
+  <!-- Feather Icons (NON-BLOCKING) -->
   <script src="https://unpkg.com/feather-icons" defer></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          feather.replace();
+      });
+  </script>
+  
   <script src="/js/script.js" defer></script>
 </head>
 <body>
