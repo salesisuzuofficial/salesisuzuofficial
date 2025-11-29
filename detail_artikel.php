@@ -33,18 +33,27 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- TITLE -->
   <title><?= htmlspecialchars($judul, ENT_QUOTES); ?> – Astra Isuzu Jakarta Resmi</title>
 
-  <meta name="description" content="<?= htmlspecialchars($deskripsi, ENT_QUOTES); ?>" />
-  <link rel="canonical" href="<?= $canonical; ?>" />
+  <!-- META DESCRIPTION -->
+  <meta name="description" content="<?= htmlspecialchars($deskripsi, ENT_QUOTES); ?>">
 
-  <link rel="icon" type="image/png" href="/img/favicon.jpeg" />
-  <link rel="apple-touch-icon" href="/img/favicon.jpeg" />
+  <!-- CANONICAL -->
+  <link rel="canonical" href="<?= $canonical; ?>">
 
-  <!-- Schema JSON (PERBAIKAN TELEPHONE DAN FORMAT) -->
+  <!-- ICON -->
+  <link rel="icon" type="image/png" href="/img/favicon.jpeg">
+  <link rel="apple-touch-icon" href="/img/favicon.jpeg">
+
+  <!-- PERFORMANCE BOOST -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- JSON-LD (VALID & RAPIH) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -74,7 +83,7 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
         "url": "https://salesisuzuofficial.com/",
         "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
         "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-        "description": "Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu.",
+        "description": "Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga, promo, dan kredit mobil Isuzu.",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
@@ -86,37 +95,57 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
         "telephone": "+6281296632186",
         "email": "salesisuzuofficial@gmail.com",
         "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
+      },
+      {
+        "@type": "Article",
+        "headline": "<?= htmlspecialchars($judul, ENT_QUOTES); ?>",
+        "description": "<?= htmlspecialchars($deskripsi, ENT_QUOTES); ?>",
+        "image": "<?= $og_image; ?>",
+        "url": "<?= $canonical; ?>",
+        "author": {
+          "@type": "Organization",
+          "name": "Dealer Astra Isuzu Jakarta Resmi"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+          }
+        }
       }
     ]
   }
   </script>
 
-  <!-- Open Graph (PERBAIKAN OG:URL) -->
-  <meta property="og:title" content="<?= htmlspecialchars($judul); ?>" />
-  <meta property="og:description" content="<?= htmlspecialchars($deskripsi); ?>" />
-  <meta property="og:image" content="<?= $og_image; ?>" />
-  <meta property="og:url" content="<?= $canonical; ?>" />
-  <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
-  <meta property="og:type" content="article" />
-  <meta property="og:locale" content="id_ID" />
+  <!-- OPEN GRAPH -->
+  <meta property="og:title" content="<?= htmlspecialchars($judul, ENT_QUOTES); ?>">
+  <meta property="og:description" content="<?= htmlspecialchars($deskripsi, ENT_QUOTES); ?>">
+  <meta property="og:image" content="<?= $og_image; ?>">
+  <meta property="og:url" content="<?= $canonical; ?>">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi">
+  <meta property="og:locale" content="id_ID">
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="<?= htmlspecialchars($judul); ?>" />
-  <meta name="twitter:description" content="<?= htmlspecialchars($deskripsi); ?>" />
-  <meta name="twitter:image" content="<?= $og_image; ?>" />
+  <!-- TWITTER CARD -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="<?= htmlspecialchars($judul, ENT_QUOTES); ?>">
+  <meta name="twitter:description" content="<?= htmlspecialchars($deskripsi, ENT_QUOTES); ?>">
+  <meta name="twitter:image" content="<?= $og_image; ?>">
 
-  <meta name="robots" content="index, follow" />
+  <!-- ROBOTS -->
+  <meta name="robots" content="index, follow">
 
-  <!-- Fonts & CSS -->
+  <!-- FONTS & STYLES -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css" />
-  <link rel="stylesheet" href="/css/navbar.css" />
-  <link rel="stylesheet" href="/css/home_css/header.css" />
-  <link rel="stylesheet" href="/css/footer.css" />
-  <link rel="stylesheet" href="/css/artikel.css" />
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/home_css/header.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/artikel.css">
 
-  <!-- GTM -->
+  <!-- GOOGLE TAG MANAGER -->
   <script>
     (function(w,d,s,l,i){
       w[l]=w[l]||[];
@@ -129,8 +158,9 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
     })(window,document,'script','dataLayer','GTM-K58SQXH7');
   </script>
 
-  <script src="/js/script.js"></script>
-  <script src="https://unpkg.com/feather-icons"></script>
+  <!-- SCRIPTS (DEFER AGAR CEPAT) -->
+  <script src="https://unpkg.com/feather-icons" defer></script>
+  <script src="/js/script.js" defer></script>
 </head>
 <body>
 
