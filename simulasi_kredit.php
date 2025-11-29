@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <html lang="id">
 <head>
     <!-- Google Analytics -->
-    <script async src="https://googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){ dataLayer.push(arguments); }
@@ -190,7 +190,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <!-- Styles -->
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/navbar.css" />
-    <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/product_css/header_product.css" />
     <link rel="stylesheet" href="/css/simulasikredit_css/simulasi.css" />
 
