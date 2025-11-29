@@ -5,7 +5,7 @@
       <div class="footer-container">
         <div class="footer-section">
           <img src="/img/logo.png" alt="Logo" class="footer-logo" />
-          <p>Dealer Isuzu Official – Mitra Terpercaya untuk Kebutuhan Kendaraan Niaga Anda.</p>
+          <p>Dealer Astra Isuzu Jakarta melayani kebutuhan pembelian kendaraan niaga Isuzu untuk wilayah Jakarta, Tangerang, dan Bekasi dengan menyediakan pelayanan profesional dari Sales Isuzu berpengalaman. Kami menawarkan berbagai pilihan kendaraan seperti Isuzu Traga, Isuzu Elf, dan Isuzu Giga yang siap mendukung operasional bisnis Anda. Sebagai dealer resmi Isuzu, kami memberikan layanan konsultasi lengkap, proses pemesanan yang mudah, serta dukungan purna jual yang terpercaya dari jaringan Astra Isuzu. Komitmen kami adalah memberikan pengalaman pembelian kendaraan yang aman, nyaman, dan sesuai dengan kebutuhan usaha Anda, sehingga setiap pelanggan mendapatkan solusi terbaik untuk armada Isuzu yang mereka butuhkan.</p>
         </div>
         <div class="footer-section">
           <h4>HUBUNGI KAMI</h4>

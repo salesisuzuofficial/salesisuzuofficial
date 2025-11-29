@@ -38,7 +38,7 @@ try {
 
     <!-- TIDAK DIUBAH sesuai permintaan -->
     <title>Dealer Isuzu Jakarta – Astra Isuzu Jakarta Resmi</title>
-    <meta name="description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman. Konsultasi gratis & siap melayani seluruh Jakarta, Tangerang & Bekasi." />
+    <meta name="description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman. Konsultasi gratis & siap melayani seluruh Jakarta" />
     <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, dealer isuzu resmi, promo isuzu terbaru, harga isuzu, harga isuzu traga, isuzu traga pick up, isuzu traga box, isuzu elf, isuzu giga, isuzu jabodetabek, astra isuzu" />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://salesisuzuofficial.com/" />
