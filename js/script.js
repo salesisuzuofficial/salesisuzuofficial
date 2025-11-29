@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const formData = new FormData(form);
 
       try {
-        const res = await fetch("simulasi_kredit.php", {
+        const res = await fetch("/simulasi_kredit", {
           method: "POST",
           body: formData,
         });
