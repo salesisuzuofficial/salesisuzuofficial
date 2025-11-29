@@ -1,7 +1,6 @@
 <?php
 // footer.php
 ?>
-    <!-- Footer -->
     <footer class="site-footer">
       <div class="footer-container">
         <div class="footer-section">
@@ -38,9 +37,6 @@
         <p>&copy; 2025 Official Isuzu. All Rights Reserved.</p>
       </div>
     </footer>
-
-    <!-- CSS Footer -->
-    <link rel="stylesheet" href="/css/footer.css" />
-
+    
   </body>
 </html>
