@@ -217,10 +217,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       <!-- Navigation -->
       <nav class="nav links">
         <a href="/">Home</a>
-        <a href="produk.php">Produk</a>
-        <a href="simulasi_kredit.php">Simulasi Kredit</a>
-        <a href="artikel.php">Blog & Artikel</a>
-        <a href="contact.php">Contact</a>
+        <a href="/produk">Produk</a>
+        <a href="/simulasi_kredit">Simulasi Kredit</a>
+        <a href="/artikel">Blog & Artikel</a>
+        <a href="/contact">Contact</a>
       </nav>
     </div>
   </header>
