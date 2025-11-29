@@ -125,8 +125,13 @@ try {
         });
     </script>
 
-    <!-- Feather icons diperbaiki (tidak blocking) -->
-    <script defer src="https://unpkg.com/feather-icons"></script>
+    <!-- Feather Icons (NON-BLOCKING) -->
+    <script src="https://unpkg.com/feather-icons" defer></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            feather.replace();
+        });
+    </script>
 
     <!-- JS utama dipindah ke bawah (tidak blocking) -->
     <script defer src="/js/script.js"></script>
