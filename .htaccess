@@ -7,6 +7,18 @@ Options -Indexes
 RewriteEngine On
 RewriteBase /
 
+# ============================
+# 🚀 SEO Friendly URL (detail_artikel)
+# ============================
+
+# Redirect dari ?slug= ke /detail_artikel/slug
+RewriteCond %{THE_REQUEST} \s/detail_artikel\?slug=([^\s&]+) [NC]
+RewriteRule ^detail_artikel$ detail_artikel/%1? [R=301,L]
+
+# Routing URL baru ke file PHP lama
+RewriteRule ^detail_artikel/([^/]+)/?$ detail_artikel.php?slug=$1 [L,QSA]
+
+
 # Paksa HTTPS
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
