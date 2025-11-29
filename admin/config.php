@@ -7,44 +7,55 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 // =======================
-// Koneksi database
+// Konfigurasi Database
 // =======================
 $db_host = getenv('DB_HOST') ?: 'localhost';
 $db_name = getenv('DB_NAME') ?: 'u142136422_isuzuoffc';
 $db_user = getenv('DB_USER') ?: 'u142136422_isuzuoffc';
-$db_pass = getenv('DB_PASS') ?: 'Isuzuoff1c1al22!""';
+$db_pass = getenv('DB_PASS') ?: 'Isuzuoff1c1al22!""'; // ✔ tetap hanya sebagai fallback
 
 $dsn = "mysql:host={$db_host};dbname={$db_name};charset=utf8mb4";
 
 $options = [
-    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
-    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-    PDO::ATTR_EMULATE_PREPARES   => false,
+    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION, // Selalu throw exception
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,       // Return array asosiatif
+    PDO::ATTR_EMULATE_PREPARES   => false,                  // Gunakan prepared statements asli
 ];
 
 try {
     $pdo = new PDO($dsn, $db_user, $db_pass, $options);
 } catch (PDOException $e) {
     error_log("Database connection failed: " . $e->getMessage());
-    exit('Koneksi ke database gagal. Silakan coba lagi nanti.');
+    http_response_code(500);
+    exit('Koneksi database gagal.'); // Jangan tampilkan detail error ke user
 }
 
 // =======================
 // Helper functions
 // =======================
+
+/**
+ * Fetch multiple rows
+ */
 function fetchAllPrepared(PDO $pdo, string $sql, array $params = []): array {
     $stmt = $pdo->prepare($sql);
     $stmt->execute($params);
     return $stmt->fetchAll();
 }
 
+/**
+ * Fetch single row
+ */
 function fetchOnePrepared(PDO $pdo, string $sql, array $params = []): ?array {
     $stmt = $pdo->prepare($sql);
     $stmt->execute($params);
     $row = $stmt->fetch();
-    return $row === false ? null : $row;
+    return $row ?: null;
 }
 
+/**
+ * Execute insert/update/delete
+ */
 function execPrepared(PDO $pdo, string $sql, array $params = []): int {
     $stmt = $pdo->prepare($sql);
     $stmt->execute($params);

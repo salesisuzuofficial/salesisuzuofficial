@@ -1,21 +1,21 @@
 <?php
-require_once 'admin/config.php'; // Pastikan ini berisi $pdo dan execPrepared()
+require_once 'admin/config.php';
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
-    // Ambil input dan bersihkan
+    // Supaya respon fetch() tidak bercampur HTML
+    header("Content-Type: text/plain; charset=utf-8");
+
     $name    = trim($_POST['name'] ?? '');
     $phone   = trim($_POST['phone'] ?? '');
     $message = trim($_POST['message'] ?? '');
 
-    // Validasi input
     if ($name === '' || $phone === '' || $message === '') {
         echo "❌ Semua field wajib diisi.";
         exit;
     }
 
-    // Query insert
-    $sql = "INSERT INTO messages (name, phone, message) 
+    $sql = "INSERT INTO messages (name, phone, message)
             VALUES (:name, :phone, :message)";
 
     $params = [
@@ -25,7 +25,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     ];
 
     try {
-        // Gunakan execPrepared dari config.php
         $rowCount = execPrepared($pdo, $sql, $params);
 
         if ($rowCount > 0) {
@@ -35,10 +34,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
     } catch (Exception $e) {
         error_log("ERROR INSERT messages: " . $e->getMessage());
-        echo "❌ Terjadi kesalahan server. Silakan coba lagi.";
+        echo "❌ Terjadi kesalahan server.";
     }
 
-    exit;
+    exit; // PASTI exit agar HTML tidak ikut terkirim
 }
 ?>
 
