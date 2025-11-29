@@ -2,6 +2,8 @@
 require_once 'admin/config.php'; // Koneksi database
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
+
+    // Ambil & bersihkan input
     $nama    = trim($_POST['nama'] ?? '');
     $telepon = trim($_POST['telepon'] ?? '');
     $mobil   = trim($_POST['mobil'] ?? '');
@@ -9,10 +11,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $budget  = trim($_POST['budget'] ?? '');
     $message = trim($_POST['message'] ?? '');
 
-    // ✅ Bersihkan budget: hilangkan "Rp", titik, spasi, koma, dsb
+    // Bersihkan angka budget
     $budget = preg_replace('/[^0-9]/', '', $budget);
-
-    // Jika kosong, set jadi 0
     if ($budget === '') {
         $budget = 0;
     }
@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         exit;
     }
 
-    // Query simpan data
+    // Query INSERT
     $sql = "
         INSERT INTO simulasi_kredit 
         (nama, no_telepon, jenis_tipe_mobil, tenor, budget_dp, messages, tanggal_input)
