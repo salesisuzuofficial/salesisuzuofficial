@@ -216,9 +216,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
           feather.replace();
       });
   </script>
-  
+
     <script src="/js/script.js" defer></script>
-    <script src="/js/simulasi_kredit.js" defer></script>
 </head>
 
 <body>
