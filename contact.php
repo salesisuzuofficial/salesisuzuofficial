@@ -1,41 +1,47 @@
 <?php
-require_once 'admin/config.php'; // Pastikan file ini memuat koneksi PDO
+require_once 'admin/config.php'; // Pastikan ini berisi $pdo dan execPrepared()
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    // Ambil dan bersihkan input
+
+    // Ambil input dan bersihkan
     $name    = trim($_POST['name'] ?? '');
     $phone   = trim($_POST['phone'] ?? '');
     $message = trim($_POST['message'] ?? '');
 
-    // Validasi sederhana
+    // Validasi input
     if ($name === '' || $phone === '' || $message === '') {
         echo "❌ Semua field wajib diisi.";
         exit;
     }
 
-    // Simpan ke database (tabel messages)
-    $sql = "INSERT INTO messages (name, phone, message) VALUES (:name, :phone, :message)";
+    // Query insert
+    $sql = "INSERT INTO messages (name, phone, message) 
+            VALUES (:name, :phone, :message)";
+
     $params = [
-        ':name'    => $name,
-        ':phone'   => $phone,
-        ':message' => $message
+        ':name'    => htmlspecialchars($name, ENT_QUOTES, 'UTF-8'),
+        ':phone'   => htmlspecialchars($phone, ENT_QUOTES, 'UTF-8'),
+        ':message' => htmlspecialchars($message, ENT_QUOTES, 'UTF-8')
     ];
 
     try {
+        // Gunakan execPrepared dari config.php
         $rowCount = execPrepared($pdo, $sql, $params);
+
         if ($rowCount > 0) {
             echo "✅ Pesan Anda berhasil dikirim.";
         } else {
             echo "❌ Gagal menyimpan pesan.";
         }
     } catch (Exception $e) {
-        error_log("Gagal insert pesan: " . $e->getMessage());
-        echo "❌ Terjadi kesalahan. Silakan coba lagi nanti.";
+        error_log("ERROR INSERT messages: " . $e->getMessage());
+        echo "❌ Terjadi kesalahan server. Silakan coba lagi.";
     }
 
-    exit; // Hentikan agar tidak melanjutkan ke HTML
+    exit;
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>

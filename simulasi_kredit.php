@@ -204,7 +204,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     <script src="/js/script.js" defer></script>
 </head>
-
 <body>
     <!-- Header -->
     <header>
