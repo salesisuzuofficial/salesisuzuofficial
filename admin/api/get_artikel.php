@@ -57,7 +57,7 @@ try {
     if ($slug) {
         $artikel = $stmt->fetch();
         if ($artikel && !empty($artikel['gambar'])) {
-            $artikel['gambar'] = 'https://salesisuzuofficial.com/uploads/artikel/' . $artikel['gambar'];
+            $artikel['gambar'] = '../uploads/artikel/' . $artikel['gambar'];
         }
         echo json_encode($artikel, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
         exit;
@@ -69,7 +69,7 @@ try {
     // Ubah path gambar ke URL lengkap
     foreach ($artikel as &$row) {
         if (!empty($row['gambar'])) {
-            $row['gambar'] = 'https://salesisuzuofficial.com/uploads/artikel/' . $row['gambar'];
+            $row['gambar'] = '../uploads/artikel/' . $row['gambar'];
         }
     }
 
