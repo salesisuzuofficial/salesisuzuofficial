@@ -278,9 +278,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <script src="https://elfsightcdn.com/platform.js" async></script>
   <div class="elfsight-app-f56c7d51-f2e3-421a-bdba-8f4071e20aba" data-elfsight-app-lazy></div>
 
-  <!-- Feather Icons -->
-  <script>feather.replace();</script>
-
   <!-- FORM HANDLER SCRIPT -->
   <script>
     document.getElementById("contactForm").addEventListener("submit", function (e) {
@@ -288,7 +285,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       const form = e.target;
       const formData = new FormData(form);
 
-      fetch("https://salesisuzuofficial.com/contact", {
+      fetch("contact.php", {
         method: "POST",
         body: formData
       })
