@@ -5,7 +5,7 @@
     <footer class="site-footer">
       <div class="footer-container">
         <div class="footer-section">
-          <img src="img/logo.png" alt="Logo" class="footer-logo" />
+          <img src="/img/logo.png" alt="Logo" class="footer-logo" />
           <p>Dealer Isuzu Official – Mitra Terpercaya untuk Kebutuhan Kendaraan Niaga Anda.</p>
         </div>
         <div class="footer-section">
