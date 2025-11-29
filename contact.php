@@ -184,14 +184,15 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <!-- Scripts -->
   <script src="js/script.js" defer></script>
 
-  <!-- Feather Icons (NON-BLOCKING) -->
-  <script src="https://unpkg.com/feather-icons" defer></script>
+  <!-- Feather Icons FIX (Anti-Error) -->
+  <script src="https://unpkg.com/feather-icons"></script>
   <script>
-      document.addEventListener("DOMContentLoaded", function () {
-          feather.replace();
+      window.addEventListener("load", function () {
+          if (window.feather) {
+              feather.replace();
+          }
       });
   </script>
-
 </head>
 
 <body>
