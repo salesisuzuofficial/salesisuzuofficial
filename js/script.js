@@ -180,18 +180,18 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   /* ==========================================================
-     💰 7. FORM SIMULASI KREDIT
-  ========================================================== */
+   💰 7. FORM SIMULASI KREDIT (AJAX hanya untuk halaman ini)
+========================================================== */
   const form = document.getElementById("simulasiForm");
 
-  if (form) {
+  if (form && window.location.pathname.includes("simulasi_kredit")) {
     form.addEventListener("submit", async function (e) {
       e.preventDefault();
 
       const formData = new FormData(form);
 
       try {
-        const res = await fetch("/simulasi_kredit", {
+        const res = await fetch("simulasi_kredit.php", {
           method: "POST",
           body: formData,
         });
