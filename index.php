@@ -29,7 +29,6 @@ try {
     die("Gagal mengambil data artikel: " . $e->getMessage());
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -39,24 +38,23 @@ try {
 
     <!-- TIDAK DIUBAH sesuai permintaan -->
     <title>Dealer Isuzu Jakarta – Astra Isuzu Jakarta Resmi</title>
-    <meta name="description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman. Konsultasi gratis & siap melayani seluruh Jakarta." />
-    <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, dealer isuzu resmi, promo isuzu terbaru, harga isuzu, harga isuzu traga, isuzu traga pick up, isuzu traga box, isuzu microbus, isuzu elf, isuzu elf box, isuzu elf engkel, isuzu elf double, isuzu cdd long, isuzu cde long, isuzu nlr, isuzu nmr, isuzu giga, isuzu jabodetabek, astra isuzu, jual truk isuzu" />
-
+    <meta name="description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman. Konsultasi gratis & siap melayani seluruh Jakarta, Tangerang & Bekasi." />
+    <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, dealer isuzu resmi, promo isuzu terbaru, harga isuzu, harga isuzu traga, isuzu traga pick up, isuzu traga box, isuzu elf, isuzu giga, isuzu jabodetabek, astra isuzu" />
+    <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://salesisuzuofficial.com/" />
 
-    <!-- Favicon FIX (tidak error) -->
+    <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/faviconisuzu.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/faviconisuzu.png">
     <link rel="icon" type="image/x-icon" href="/faviconisuzu.ico">
     <link rel="apple-touch-icon" href="/faviconisuzu.png">
 
-    <!-- Preload FONT (mempercepat) -->
+    <!-- Preload FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
 
-    <!-- CSS (Tidak diubah isinya, hanya load diperbaiki) -->
+    <!-- CSS (Non-blocking preload + stylesheet) -->
     <link rel="preload" href="/css/style.css" as="style" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/navbar.css" />
@@ -69,18 +67,117 @@ try {
     <link rel="stylesheet" href="/css/home_css/contact.css" />
     <link rel="stylesheet" href="/css/home_css/blogcard.css" />
 
-    <!-- Schema FIXED (valid JSON-LD) -->
+    <!-- Organization Schema (existing) + LocalBusiness + Product + FAQ (added) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Dealer Astra Isuzu Jakarta Resmi",
-      "url": "https://salesisuzuofficial.com/",
-      "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "url": "https://salesisuzuofficial.com/",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+        },
+        {
+          "@type": "AutoDealer",
+          "name": "Dealer Astra Isuzu Jakarta - Dedy Chandra",
+          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "telephone": "+6281296632186",
+          "email": "salesisuzuofficial@gmail.com",
+          "priceRange": "IDR",
+          "url": "https://salesisuzuofficial.com/",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Daan Mogot / Cabang Astra Isuzu (lihat contact page)",
+            "addressLocality": "Jakarta",
+            "addressRegion": "DKI Jakarta",
+            "postalCode": "",
+            "addressCountry": "ID"
+          },
+          "sameAs": [
+            "https://www.facebook.com/",
+            "https://www.instagram.com/"
+          ],
+          "areaServed": ["Jakarta","Tangerang","Bekasi","Jabodetabek"]
+        },
+        {
+          "@type": "Product",
+          "name": "Isuzu Traga",
+          "description": "Isuzu Traga - pick up andalan usaha. Kapasitas muat kuat, irit bahan bakar.",
+          "brand": "Isuzu",
+          "url": "https://salesisuzuofficial.com/produk.php",
+          "image": "https://salesisuzuofficial.com/img/product/Isuzu-Traga.webp",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "IDR",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "Isuzu ELF",
+          "description": "Isuzu ELF - truk ringan serbaguna untuk angkutan komersial.",
+          "brand": "Isuzu",
+          "url": "https://salesisuzuofficial.com/produk.php",
+          "image": "https://salesisuzuofficial.com/img/product/Isuzu-Elf-NLR.webp",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "IDR",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "Isuzu Giga",
+          "description": "Isuzu Giga - truk berat untuk kebutuhan transportasi besar.",
+          "brand": "Isuzu",
+          "url": "https://salesisuzuofficial.com/produk.php",
+          "image": "https://salesisuzuofficial.com/img/product/Isuzu-Giga-FTR.webp",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "IDR",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
     }
     </script>
 
-    <!-- Open Graph (Tidak diubah) -->
+    <!-- FAQ Schema (example common questions for dealer) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Bagaimana cara membeli mobil Isuzu di Dealer Astra Isuzu Jakarta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hubungi Sales kami via WhatsApp atau telepon, konsultasikan kebutuhan Anda, pilih unit, dan kami bantu proses kredit atau pembelian tunai sampai serah terima."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apakah Dealer Isuzu melayani wilayah Tangerang dan Bekasi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ya. Dealer kami melayani pembelian, pengecekan stok, dan pengiriman serta layanan after-sales di wilayah Jakarta, Tangerang, dan Bekasi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apakah tersedia paket kredit untuk Isuzu Traga dan ELF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tersedia berbagai paket kredit dan simulasi cicilan. Silakan hubungi Sales untuk perhitungan custom sesuai tenor dan DP."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Open Graph -->
     <meta property="og:title" content="Dealer Isuzu Jakarta – Astra Isuzu Jakarta Resmi" />
     <meta property="og:description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru dan promo khusus mobil Isuzu." />
     <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
@@ -94,10 +191,7 @@ try {
     <meta name="twitter:description" content="Promo resmi Astra Isuzu Jakarta. Dapatkan harga & kredit mobil Isuzu terbaru." />
     <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
 
-    <!-- Robots -->
-    <meta name="robots" content="index, follow" />
-
-    <!-- Google Analytics DIPINDAHKAN agar tidak bentrok dengan GTM -->
+    <!-- Google Analytics (non-blocking) -->
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){ dataLayer.push(arguments); }
@@ -113,7 +207,7 @@ try {
         });
     </script>
 
-    <!-- Feather Icons (NON-BLOCKING) -->
+    <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons" defer></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -126,94 +220,98 @@ try {
 
 </head>
 
-
 <body>
     <!-- Header -->
     <header>
         <div class="container header-content navbar">
             <div class="header-title">
                 <a href="https://salesisuzuofficial.com">
-                    <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
+                    <img src="img/logo.png" alt="Logo Dealer Isuzu Astra Jakarta" style="height: 55px" />
                 </a>
             </div>
 
-            <div class="hamburger-menu">&#9776;</div>
+            <div class="hamburger-menu" aria-label="Menu">&#9776;</div>
 
-            <nav class="nav links">
-                <a href="/">Home</a>
-                <a href="produk.php">Produk</a>
-                <a href="simulasi_kredit.php">Simulasi Kredit</a>
-                <a href="artikel.php">Blog & Artikel</a>
-                <a href="contact.php">Contact</a>
+            <nav class="nav links" aria-label="Main Navigation">
+                <a href="/" title="Beranda Dealer Isuzu">Home</a>
+                <a href="produk.php" title="Produk Isuzu">Produk</a>
+                <a href="simulasi_kredit.php" title="Simulasi Kredit Isuzu">Simulasi Kredit</a>
+                <a href="artikel.php" title="Blog & Artikel Isuzu">Blog & Artikel</a>
+                <a href="contact.php" title="Kontak Dealer Isuzu">Contact</a>
             </nav>
         </div>
     </header>
 
     <!-- Hero -->
-    <section class="hero">
-        <div class="slider">
-            <img src="img/hero3.webp" class="slide" alt="Banner 1" />
-            <img src="img/hero4.webp" class="slide" alt="Banner 2" />
-            <img src="img/hero5.webp" class="slide" alt="Banner 3" />
+    <section class="hero" aria-label="Hero banner">
+        <div class="slider" role="region" aria-roledescription="carousel">
+            <img src="img/hero3.webp" class="slide" alt="Promo Dealer Isuzu Jakarta - Harga & Kredit" loading="lazy" />
+            <img src="img/hero4.webp" class="slide" alt="Penawaran Khusus Sales Isuzu Jakarta" loading="lazy" />
+            <img src="img/hero5.webp" class="slide" alt="Isuzu Traga, ELF dan Giga - Dealer Resmi" loading="lazy" />
         </div>
     </section>
 
     <!-- About Company -->
-    <section class="about-company">
+    <section class="about-company" id="about-company">
         <div class="container">
             <div class="about-content">
                 <div class="text">
-                    <h2>Dealer Isuzu Jakarta</h2>
+                    <!-- H1 (only one H1 on page) -->
+                    <h1>Dealer Isuzu Jakarta Resmi | Sales Astra Isuzu Terpercaya</h1>
                     <div class="divider"></div>
                     <p>
-                        <strong>Dedy Chandra</strong> adalah Sales Executive resmi dari
-                        <strong>Dealer Astra Isuzu Daan Mogot Jakarta</strong> yang berkomitmen memberikan pelayanan terbaik untuk setiap pelanggan.
-                        Dengan pengalaman luas di dunia otomotif, khususnya kendaraan niaga Isuzu, Dedy selalu siap membantu Anda menemukan solusi transportasi yang paling tepat — baik untuk kebutuhan bisnis maupun operasional perusahaan.
+                        <strong>Dedy Chandra</strong> adalah Sales Executive resmi dari 
+                        <strong>Astra Isuzu Jakarta</strong> yang melayani pembelian unit Isuzu untuk wilayah 
+                        <strong>Jakarta, Tangerang, dan Bekasi</strong>. Dengan pengalaman profesional dalam penjualan kendaraan niaga, 
+                        Dedy siap membantu Anda memilih unit Isuzu terbaik mulai dari <em>Isuzu Traga, ELF, hingga Giga</em> sesuai kebutuhan bisnis Anda.
                     </p>
+
                     <p>
-                        Sebagai bagian dari jaringan resmi <strong>Astra Isuzu</strong>, Dedy Chandra menawarkan berbagai tipe kendaraan Isuzu seperti
-                        <em>Elf, Traga dan Giga</em> dengan layanan konsultasi profesional, proses cepat, serta dukungan after-sales yang terjamin.
+                        Sebagai bagian dari jaringan <strong>Dealer Isuzu Resmi</strong>, kami menawarkan harga terbaru, promo khusus, 
+                        serta paket kredit yang fleksibel. Proses cepat, konsultasi jelas, dan pelayanan ramah menjadi komitmen utama kami 
+                        untuk memberikan pengalaman pembelian yang mudah dan aman.
                     </p>
+
                     <p>
-                        Percayakan kebutuhan truk dan kendaraan niaga Anda kepada
-                        <strong>Dedy Chandra Sales Astra Isuzu Daan Mogot Jakarta</strong>. Dapatkan pengalaman pembelian yang mudah, harga terbaik, dan layanan purna jual yang selalu siap membantu Anda setiap saat.
+                        Jika Anda mencari <strong>Dealer Isuzu di Jakarta, Tangerang, atau Bekasi</strong>, percayakan kebutuhan kendaraan niaga 
+                        Anda kepada <strong>Dedy Chandra – Sales Astra Isuzu Daan Mogot</strong>. Hubungi kami untuk mendapatkan penawaran terbaik hari ini.
                     </p>
 
                     <div class="contact-buttons">
-                        <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" class="btn whatsapp-btn">
-                            <i class="fab fa-whatsapp"></i> Whatsapp
+                        <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" class="btn whatsapp-btn" aria-label="Hubungi via WhatsApp">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i> Whatsapp
                         </a>
-                        <a href="mailto:dedychandra99@gmail.com" class="btn email-btn">
-                            <i class="fas fa-envelope"></i> Gmail
+                        <a href="mailto:dedychandra99@gmail.com" class="btn email-btn" aria-label="Kirim Email">
+                            <i class="fas fa-envelope" aria-hidden="true"></i> Gmail
                         </a>
                     </div>
                 </div>
 
                 <div class="image-gallery">
-                    <img src="img/dealer.webp" alt="Dealer Isuzu" />
+                    <img src="img/salesisuzuu.webp" alt="Sales Isuzu Dedy Chandra - Dealer Astra Isuzu Jakarta" loading="lazy" />
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Produk -->
-    <section id="products-section" class="products-section fade-element">
-        <h2 class="section-title">Produk Truk Isuzu Unggulan</h2>
+    <section id="products-section" class="products-section fade-element" aria-labelledby="products-title">
+        <h2 id="products-title" class="section-title">Produk Truk Isuzu Unggulan</h2>
         <div class="products">
-            <a href="produk.php" class="product">
-                <img src="img/product/Isuzu-Traga.webp" alt="Isuzu Traga" loading="lazy" />
+            <a href="produk.php" class="product" aria-label="Isuzu Traga">
+                <img src="img/product/Isuzu-Traga.webp" alt="Isuzu Traga - Harga & Spesifikasi" loading="lazy" />
                 <h3>Isuzu Traga</h3>
                 <p>Truk ringan dan tangguh, cocok untuk usaha kecil dan menengah.</p>
             </a>
 
-            <a href="produk.php" class="product">
-                <img src="img/product/Isuzu-Elf-NLR.webp" alt="Isuzu Elf NLR" loading="lazy" />
+            <a href="produk.php" class="product" aria-label="Isuzu ELF">
+                <img src="img/product/Isuzu-Elf-NLR.webp" alt="Isuzu ELF NLR - Truk Niaga" loading="lazy" />
                 <h3>Isuzu ELF</h3>
                 <p>Performa handal untuk pengangkutan berat dan jarak jauh.</p>
             </a>
 
-            <a href="produk.php" class="product">
-                <img src="img/product/Isuzu-Giga-FTR.webp" alt="Isuzu Giga" loading="lazy" />
+            <a href="produk.php" class="product" aria-label="Isuzu Giga">
+                <img src="img/product/Isuzu-Giga-FTR.webp" alt="Isuzu Giga - Truk Berat" loading="lazy" />
                 <h3>Isuzu Giga</h3>
                 <p>Solusi transportasi truk dengan kenyamanan terbaik.</p>
             </a>
@@ -221,9 +319,9 @@ try {
     </section>
 
     <!-- Promo Utama -->
-    <section id="promo-utama" class="promo-section fade-element">
+    <section id="promo-utama" class="promo-section fade-element" aria-labelledby="promo-title">
         <div class="promo-text">
-            <h2>Dapatkan Harga & Penawaran Terbaik Langsung dari Dealer Resmi Isuzu Indonesia</h2>
+            <h2 id="promo-title">Dapatkan Harga & Penawaran Terbaik Langsung dari Dealer Resmi Isuzu Indonesia</h2>
             <ul>
                 <li>Ingin harga terbaik untuk semua jenis truk Isuzu?</li>
                 <li>Bingung memilih kendaraan yang tepat untuk bisnis Anda?</li>
@@ -237,13 +335,13 @@ try {
                 <a href="https://wa.me/6281296632186" class="btn-primary" target="_blank" rel="noopener noreferrer">Konsultasi Pembelian</a>
             </div>
         </div>
-        <img src="img/product/Isuzu-Giga-FVM.webp" alt="Truk Isuzu Giga" loading="lazy" class="promo-main-image" />
+        <img src="img/product/Isuzu-Giga-FVM.webp" alt="Truk Isuzu Giga - Promo & Harga" loading="lazy" class="promo-main-image" />
     </section>
 
     <!-- Feature Section -->
-    <section class="features-section">
+    <section class="features-section" aria-labelledby="why-title">
         <div class="section-title">
-            <h2>Kenapa Harus Isuzu?</h2>
+            <h2 id="why-title">Kenapa Harus Isuzu?</h2>
             <p>Pilih Isuzu untuk performa tangguh, efisiensi bahan bakar tinggi, dan layanan purna jual terbaik di Indonesia.</p>
         </div>
 
@@ -275,14 +373,14 @@ try {
     </section>
 
     <!-- Contact -->
-    <div class="contact-container fade-element">
+    <div class="contact-container fade-element" role="region" aria-label="Kontak Dealer">
         <div class="contact-tabs">
             <div class="tab active">Hubungi Kami</div>
         </div>
 
         <div class="contact-info">
             <div class="contact-item">
-                <img src="img/cssupport.png" alt="WhatsApp" />
+                <img src="img/cssupport.png" alt="WhatsApp Isuzu" />
                 <div>
                     <strong>Whatsapp</strong><br />
                     +62 812-9663-2186
@@ -292,7 +390,7 @@ try {
             <div class="divider"></div>
 
             <div class="contact-item">
-                <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" alt="Phone" />
+                <img src="https://img.icons8.com/ios-filled/50/000000/phone.png" alt="Telepon Isuzu" />
                 <div>
                     <strong>Phone Call</strong><br />
                     +62 812-9663-2186
@@ -302,7 +400,7 @@ try {
             <div class="divider"></div>
 
             <div class="contact-item">
-                <img src="https://img.icons8.com/ios-filled/50/000000/new-post.png" alt="Email" />
+                <img src="https://img.icons8.com/ios-filled/50/000000/new-post.png" alt="Email Isuzu" />
                 <div>
                     <strong>Email</strong><br />
                     salesisuzuofficial@gmail.com
@@ -312,9 +410,9 @@ try {
     </div>
 
     <!-- Blog -->
-    <section class="blog-section fade-element">
+    <section class="blog-section fade-element" aria-labelledby="blog-title">
         <div class="container">
-            <h2>Blog & Artikel</h2>
+            <h2 id="blog-title">Blog & Artikel</h2>
             <p>Dapatkan informasi terbaru seputar truk Isuzu, perawatan, dan promo terbaik.</p>
 
             <div class="blog-grid">
@@ -349,7 +447,6 @@ try {
             </div>
         </div>
     </section>
-
 
     <!-- WhatsApp Widget -->
     <script src="https://elfsightcdn.com/platform.js" async></script>
