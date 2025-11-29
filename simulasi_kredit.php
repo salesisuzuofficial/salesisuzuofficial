@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, dealer isuzu resmi, promo isuzu terbaru, harga isuzu, harga isuzu traga, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr, astra isuzu" />
 
-    <link rel="canonical" href="https://salesisuzuofficial.com/simulasi_kredit.php" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/simulasi_kredit" />
 
     <!-- Favicon utama -->
     <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
@@ -170,7 +170,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <meta property="og:title" content="Simulasi Kredit – Astra Isuzu Jakarta Resmi" />
     <meta property="og:description" content="Simulasi kredit Isuzu – Hitung cicilan dan dapatkan promo resmi dari Astra Isuzu Jakarta." />
     <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/simulasi_kredit.php" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/simulasi_kredit" />
     <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="id_ID" />
@@ -218,10 +218,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
             <nav class="nav links">
                 <a href="/">Home</a>
-                <a href="produk.php">Produk</a>
-                <a href="simulasi_kredit.php" class="active">Simulasi Kredit</a>
-                <a href="artikel.php">Blog & Artikel</a>
-                <a href="contact.php">Contact</a>
+                <a href="/produk">Produk</a>
+                <a href="/simulasi_kredit" class="active">Simulasi Kredit</a>
+                <a href="/artikel">Blog & Artikel</a>
+                <a href="/contact">Contact</a>
             </nav>
         </div>
     </header>
