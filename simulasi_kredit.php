@@ -82,114 +82,112 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simulasi Kredit – Astra Isuzu Jakarta Resmi</title>
 
+    <title>Simulasi Kredit – Astra Isuzu Jakarta Resmi</title>
     <meta name="description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman. Konsultasi gratis & siap melayani seluruh Jakarta." />
-    <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, dealer isuzu resmi, promo isuzu terbaru, harga isuzu, harga isuzu traga, isuzu traga pick up, isuzu traga box, isuzu microbus, isuzu elf, isuzu elf box, isuzu elf engkel, isuzu elf double, isuzu cdd long, isuzu cde long, isuzu nlr, isuzu nmr, isuzu giga, isuzu jabodetabek, astra isuzu, jual truk isuzu" />
+
+    <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, dealer isuzu resmi, promo isuzu terbaru, harga isuzu, harga isuzu traga, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr, astra isuzu" />
+
     <link rel="canonical" href="https://salesisuzuofficial.com/simulasi_kredit.php" />
 
     <link rel="icon" type="image/png" href="/img/favicon.jpeg" />
     <link rel="apple-touch-icon" href="/img/favicon.jpeg" />
 
-        <!-- Schema JSON -->
+    <!-- Schema JSON-LD -->
     <script type="application/ld+json">
     {
-    "@context": "https://schema.org",
-    "@graph": [
+      "@context": "https://schema.org",
+      "@graph": [
         {
-        "@type": "Organization",
-        "name": "Dealer Astra Isuzu Jakarta Resmi",
-        "url": "https://salesisuzuofficial.com/",
-        "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+          "@type": "Organization",
+          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "url": "https://salesisuzuofficial.com/",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
         },
         {
-        "@type": "WebSite",
-        "url": "https://salesisuzuofficial.com/",
-        "name": "Dealer Astra Isuzu Jakarta Resmi",
-        "publisher": {
+          "@type": "WebSite",
+          "url": "https://salesisuzuofficial.com/",
+          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "publisher": {
             "@type": "Organization",
             "name": "Dealer Astra Isuzu Jakarta Resmi",
             "logo": {
-            "@type": "ImageObject",
-            "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+              "@type": "ImageObject",
+              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
             }
-        }
+          }
         },
         {
-        "@type": "AutoDealer",
-        "name": "Dealer Astra Isuzu Jakarta Resmi",
-        "url": "https://salesisuzuofficial.com/",
-        "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-        "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-        "description": "Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman. Konsultasi gratis & siap melayani seluruh Jakarta dan Jabodetabek.",
-        "address": {
+          "@type": "AutoDealer",
+          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "url": "https://salesisuzuofficial.com/",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "description": "Dealer Isuzu Jakarta resmi dari Astra. Promo, harga terbaru, dan kredit mobil Isuzu.",
+          "address": {
             "@type": "PostalAddress",
             "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
             "addressLocality": "Jakarta Barat",
             "addressRegion": "DKI Jakarta",
             "postalCode": "11730",
             "addressCountry": "ID"
-        },
-        "telephone": "+6281296632186"",
-        "email": "salesisuzuofficial@gmail.com",
-        "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"],
-        "makesOffer": [
+          },
+          "telephone": "+6281296632186",
+          "email": "salesisuzuofficial@gmail.com",
+          "areaServed": ["Jakarta","Bekasi","Depok","Tangerang","Bogor"],
+          "makesOffer": [
             {
-            "@type": "Offer",
-            "itemOffered": {
+              "@type": "Offer",
+              "itemOffered": {
                 "@type": "Product",
                 "name": "Isuzu Elf",
-                "description": "Isuzu Elf – Box, Engkel, Double, Microbus. Dealer resmi Astra Isuzu Jakarta."
-            }
+                "description": "Isuzu Elf – Box, Engkel, Double, Microbus."
+              }
             },
             {
-            "@type": "Offer",
-            "itemOffered": {
+              "@type": "Offer",
+              "itemOffered": {
                 "@type": "Product",
                 "name": "Isuzu Giga",
-                "description": "Isuzu Giga – Truk Medium & Berat. Dealer resmi Astra Isuzu Jakarta."
-            }
+                "description": "Isuzu Giga – Truk Medium & Berat."
+              }
             },
             {
-            "@type": "Offer",
-            "itemOffered": {
+              "@type": "Offer",
+              "itemOffered": {
                 "@type": "Product",
                 "name": "Isuzu Traga",
-                "description": "Isuzu Traga – Pick Up & Box. Promo dan kredit ringan tersedia."
-            }
+                "description": "Isuzu Traga – Pick Up & Box."
+              }
             },
             {
-            "@type": "Offer",
-            "itemOffered": {
+              "@type": "Offer",
+              "itemOffered": {
                 "@type": "Product",
                 "name": "Isuzu NLR / NMR",
-                "description": "Isuzu NLR & NMR – Truk Ringan & Medium. Dealer resmi Astra Isuzu Jakarta."
+                "description": "Isuzu NLR & NMR – Truk Ringan & Medium."
+              }
             }
-            }
-        ]
+          ]
         }
-    ]
+      ]
     }
     </script>
 
-    <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+    <!-- Open Graph -->
     <meta property="og:title" content="Simulasi Kredit – Astra Isuzu Jakarta Resmi" />
-    <meta property="og:description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman. Konsultasi gratis & siap melayani seluruh Jakarta." />
+    <meta property="og:description" content="Simulasi kredit Isuzu – Hitung cicilan dan dapatkan promo resmi dari Astra Isuzu Jakarta." />
     <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-    <meta property="og:image:alt" content="Dealer Resmi Isuzu Jakarta - Astra Isuzu" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/simulasi_kredit.php" />
     <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="id_ID" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Dealer Isuzu Jakarta – Astra Isuzu Jakarta Resmi" />
-    <meta name="twitter:description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman." />
+    <meta name="twitter:title" content="Simulasi Kredit – Astra Isuzu Jakarta Resmi" />
+    <meta name="twitter:description" content="Hitung cicilan & dapatkan promo kredit mobil Isuzu resmi Astra." />
     <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-    <meta name="twitter:image:alt" content="Dealer Resmi Isuzu Jakarta - Astra Isuzu" />
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
@@ -198,16 +196,16 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/product_css/header_product.css" />
-    <link rel="stylesheet" href="css/simulasikredit_css/simulasi.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/product_css/header_product.css" />
+    <link rel="stylesheet" href="/css/simulasikredit_css/simulasi.css" />
 
     <!-- Scripts -->
     <script src="https://unpkg.com/feather-icons"></script>
-    <script src="js/script.js" defer></script>
-    <script src="js/simulasi_kredit.js" defer></script>
+    <script src="/js/script.js" defer></script>
+    <script src="/js/simulasi_kredit.js" defer></script>
 </head>
 
 <body>
