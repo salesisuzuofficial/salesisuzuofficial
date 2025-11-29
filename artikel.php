@@ -92,8 +92,15 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
     <link rel="next" href="<?= htmlspecialchars($nextHref, ENT_QUOTES); ?>" />
     <?php endif; ?>
 
-    <link rel="icon" type="image/png" href="/img/favicon.jpeg" />
-    <link rel="apple-touch-icon" href="/img/favicon.jpeg" />
+    <!-- Favicon utama -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/faviconisuzu.png">
+
+    <!-- Favicon untuk browser (ICO multi-size) -->
+    <link rel="icon" type="image/x-icon" href="/faviconisuzu.ico">
+
+    <!-- Apple Touch Icon (iPhone/iPad) -->
+    <link rel="apple-touch-icon" href="/faviconisuzu.png">
 
     <!-- Schema JSON (TELEPHONE FIXED & CLEAN) -->
     <script type="application/ld+json">

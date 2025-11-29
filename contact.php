@@ -72,9 +72,15 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <!-- Canonical fixed -->
   <link rel="canonical" href="https://salesisuzuofficial.com/contact" />
 
-  <!-- Icons -->
-  <link rel="icon" type="image/png" href="https://salesisuzuofficial.com/img/favicon.jpeg" />
-  <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/img/favicon.jpeg" />
+  <!-- Favicon utama -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/faviconisuzu.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/faviconisuzu.png">
+
+  <!-- Favicon untuk browser (ICO multi-size) -->
+  <link rel="icon" type="image/x-icon" href="/faviconisuzu.ico">
+
+  <!-- Apple Touch Icon (iPhone/iPad) -->
+  <link rel="apple-touch-icon" href="/faviconisuzu.png">
 
   <!-- Preconnect for speed -->
   <link rel="preconnect" href="https://fonts.googleapis.com">

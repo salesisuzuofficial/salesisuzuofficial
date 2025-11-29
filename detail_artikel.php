@@ -45,9 +45,15 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
   <!-- CANONICAL -->
   <link rel="canonical" href="<?= $canonical; ?>">
 
-  <!-- ICON -->
-  <link rel="icon" type="image/png" href="/img/favicon.jpeg">
-  <link rel="apple-touch-icon" href="/img/favicon.jpeg">
+  <!-- Favicon utama -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/faviconisuzu.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/faviconisuzu.png">
+
+  <!-- Favicon untuk browser (ICO multi-size) -->
+  <link rel="icon" type="image/x-icon" href="/faviconisuzu.ico">
+
+  <!-- Apple Touch Icon (iPhone/iPad) -->
+  <link rel="apple-touch-icon" href="/faviconisuzu.png">
 
   <!-- PERFORMANCE BOOST -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
