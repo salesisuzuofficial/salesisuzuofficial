@@ -173,3 +173,86 @@ section p {
     margin-top: 20px;
   }
 }
+
+/* ======== GLOBAL SECTION SPACING ======== */
+section {
+  padding: 60px 0;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 60px 0;
+  }
+}
+
+/* Container width */
+.about-company .container,
+.products-section .container,
+.features-section .container,
+.blog-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-company,
+.products-section,
+.promo-section,
+.promo-utama,
+.features-section,
+.blog-section {
+  margin-bottom: 20px;
+}
+
+/* Promo layout */
+.promo-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto 60px auto;
+  padding: 60px 20px;
+}
+
+.promo-text {
+  flex: 1 1 500px;
+}
+.promo-main-image {
+  flex: 1 1 500px;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.promo-buttons {
+  margin-top: 20px;
+}
+
+.contact-container {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+}
+
+.blog-section {
+  padding-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+  .promo-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 16px;
+    margin-bottom: 60px;
+  }
+  .promo-main-image {
+    margin-top: 20px;
+  }
+}
