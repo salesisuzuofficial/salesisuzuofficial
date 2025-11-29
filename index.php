@@ -60,6 +60,7 @@ try {
     <link rel="preload" href="/css/style.css" as="style" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/home_css/header.css" />
     <link rel="stylesheet" href="/css/home_css/companyprofile.css" />
     <link rel="stylesheet" href="/css/home_css/layanan.css" />
