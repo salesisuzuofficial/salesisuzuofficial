@@ -290,7 +290,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       const form = e.target;
       const formData = new FormData(form);
 
-      fetch("contact.php", {
+      fetch("/contact", {
         method: "POST",
         body: formData
       })
