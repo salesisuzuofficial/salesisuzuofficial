@@ -41,14 +41,14 @@
     <link rel="canonical" href="https://salesisuzuofficial.com/produk" />
 
     <!-- Favicon utama -->
-    <link rel="icon" type="image/png" sizes="32x32" href="/faviconisuzu.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
     <!-- Favicon untuk browser (ICO multi-size) -->
-    <link rel="icon" type="image/x-icon" href="/faviconisuzu.ico">
+    <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
 
     <!-- Apple Touch Icon (iPhone/iPad) -->
-    <link rel="apple-touch-icon" href="/faviconisuzu.png">
+    <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
 
     <!-- FIXED JSON-LD (NO ERROR) -->
