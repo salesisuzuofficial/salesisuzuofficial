@@ -74,7 +74,7 @@ if (!$article) {
     <p class="text-muted">Tanggal Dibuat: <?= date("d M Y", strtotime($article['tanggal'])) ?></p>
 
     <?php if (!empty($article['gambar'])): ?>
-        <img src="../uploads/artikel/<?= htmlspecialchars($article['gambar']) ?>" class="article-image" alt="<?= htmlspecialchars($article['judul']) ?>">
+        <img src="./uploads/artikel/<?= htmlspecialchars($article['gambar']) ?>" class="article-image" alt="<?= htmlspecialchars($article['judul']) ?>">
     <?php else: ?>
         <img src="https://via.placeholder.com/400x250?text=No+Image" class="article-image" alt="No Image">
     <?php endif; ?>
