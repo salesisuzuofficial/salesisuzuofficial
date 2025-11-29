@@ -140,7 +140,7 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
   <div class="container header-content navbar">
     <div class="header-title">
       <a href="https://salesisuzuofficial.com">
-        <img src="img/logo.png" alt="Logo Isuzu" style="height:60px">
+        <img src="/img/logo.png" alt="Logo Isuzu" style="height:60px">
       </a>
     </div>
     <div class="hamburger-menu">&#9776;</div>
