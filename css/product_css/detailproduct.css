@@ -136,7 +136,18 @@ RESPONSIVE (TABLET)
 ================================ */
 @media (max-width: 992px) {
   .promo-grid {
-    gap: 48px;
+    grid-template-columns: 1fr; /* ✅ JADI 1 KOLOM */
+    gap: 42px;
+    margin-bottom: 70px;
+  }
+
+  /* ✅ MATIKAN SELANG-SELING TOTAL */
+  .promo-grid .promo-image {
+    order: 1; /* GAMBAR SELALU DI ATAS */
+  }
+
+  .promo-grid .promo-text {
+    order: 2; /* TEKS SELALU DI BAWAH */
   }
 
   .promo-header h1 {
@@ -152,16 +163,16 @@ RESPONSIVE (TABLET)
     font-size: 15px;
   }
 
-  /* ✅ FIX GAMBAR TABLET */
+  /* ✅ GAMBAR TABLET TETAP BESAR */
   .promo-image {
-    min-height: 300px; /* BESAR di tablet */
+    min-height: 300px;
     border-radius: 18px;
   }
 
   .promo-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Biar tidak kecil */
+    object-fit: cover;
   }
 }
 
@@ -175,13 +186,17 @@ RESPONSIVE (HP)
 
   .promo-grid {
     grid-template-columns: 1fr;
-    gap: 34px;
+    gap: 32px;
     margin-bottom: 60px;
   }
 
-  .promo-grid.reverse .promo-text,
-  .promo-grid.reverse .promo-image {
-    order: unset;
+  /* ✅ MATIKAN SELANG-SELING TOTAL */
+  .promo-grid .promo-image {
+    order: 1; /* GAMBAR SELALU DI ATAS */
+  }
+
+  .promo-grid .promo-text {
+    order: 2; /* TEKS SELALU DI BAWAH */
   }
 
   .promo-header {
@@ -209,7 +224,7 @@ RESPONSIVE (HP)
     font-size: 14.5px;
   }
 
-  /* ✅ FIX GAMBAR HP AGAR BESAR */
+  /* ✅ GAMBAR HP TETAP BESAR */
   .promo-image {
     min-height: 240px;
     border-radius: 16px;
