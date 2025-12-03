@@ -155,7 +155,7 @@
       </div>
 
       <div class="hero-content">
-        <h1>Traga Pick Up</h1>
+        <h1>Traga Box</h1>
       </div>
     </section>
 
