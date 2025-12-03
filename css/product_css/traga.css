@@ -1,0 +1,98 @@
+/* ---------------- SECTION CTA ---------------- */
+.cta-section {
+  background: #f1f1f1;
+  padding: 40px 20px;
+}
+
+.cta-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.cta-text p {
+  margin-top: 10px;
+  color: #666;
+  font-size: 18px;
+}
+
+.cta-button {
+  background: #e61212;
+  color: #fff;
+  padding: 15px 35px;
+  font-size: 20px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background: #c70f0f;
+}
+
+/* ---------------- SECTION PILIHAN TIPE ---------------- */
+.tipe-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.tipe-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.tipe-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.tipe-card {
+  width: 300px;
+  text-align: center;
+}
+
+.tipe-card img {
+  width: 100%;
+}
+
+.tipe-card h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.mulai {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.harga {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.detail-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 25px;
+  border: 2px solid #e61212;
+  color: #e61212;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.detail-btn:hover {
+  background: #e61212;
+  color: #fff;
+}
