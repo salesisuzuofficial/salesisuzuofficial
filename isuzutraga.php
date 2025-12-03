@@ -168,7 +168,7 @@
 
             <!-- Item 1 -->
             <div class="tipe-card">
-                <img src="traga-pickup.png" alt="Traga Pickup">
+                <img src="/img/product/traga/tragapickup.png" alt="Traga Pickup">
                 <h3>TRAGA PICK UP</h3>
                 <p class="mulai">Mulai Dari</p>
                 <p class="harga">Rp. 271.000.000</p>
@@ -177,7 +177,7 @@
 
             <!-- Item 2 -->
             <div class="tipe-card">
-                <img src="traga-box.png" alt="Traga Box">
+                <img src="/img/product/traga/tragabox.png" alt="Traga Box">
                 <h3>TRAGA BOX</h3>
                 <p class="mulai">Mulai Dari</p>
                 <p class="harga">Rp. 311.000.000</p>
@@ -187,7 +187,16 @@
         </div>
     </section>
 
-
+    <!-- CTA -->
+     <section class="cta-section">
+    <div class="cta-container">
+        <div class="cta-text">
+            <h2>Konsultasikan Pembelian Anda Dengan Tim Kami</h2>
+            <p>Dapatkan Penawaran Khusus Untuk Pembelian Tunai Maupun Kredit</p>
+        </div>
+        <a href="#" class="cta-button">CHAT SEKARANG</a>
+    </div>
+</section>
 
     <!-- ========== WHATSAPP CHAT (ELFSIGHT) ========== -->
     <script src="https://elfsightcdn.com/platform.js" async></script>
