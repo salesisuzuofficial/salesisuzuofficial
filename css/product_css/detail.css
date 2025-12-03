@@ -7,35 +7,41 @@ SECTION CTA (WRAPPER LUAR)
 }
 
 /* ================================
-KOTAK CTA ABU-ABU
+KOTAK CTA ABU-ABU (FIXED SIZE)
 ================================ */
 .cta-box {
-  max-width: 1200px;
+  max-width: 1080px; /* ✅ PANJANG DISAMAKAN PERSIS */
+  width: 100%;
   margin: 0 auto;
-  background: #f1f1f1; /* ✅ ABU-ABU KOTAK */
-  border: 1px solid #ddd;
-  padding: 40px 50px;
+  background: #f3f3f3; /* ✅ ABU-ABU PERSIS */
+  border: 1px solid #dddddd;
+  padding: 42px 55px; /* ✅ TINGGI & DALAM BOX PAS */
 
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06); /* ✅ SHADOW HALUS */
 }
 
 /* ================================
-TEXT
+TEXT KIRI
 ================================ */
 .cta-text h2 {
-  font-size: 32px;
+  font-size: 34px; /* ✅ UKURAN JUDUL DISAMAKAN */
   font-weight: 800;
   color: #1a1a1a;
-  line-height: 1.25;
-  margin-bottom: 8px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  max-width: 720px;
 }
 
 .cta-text p {
-  font-size: 18px;
+  font-size: 17px; /* ✅ UKURAN DESKRIPSI PAS */
   color: #666;
+  line-height: 1.6;
+  max-width: 620px;
 }
 
 /* ================================
@@ -44,17 +50,18 @@ BUTTON MERAH KANAN
 .cta-button {
   background: #ff1a1a;
   color: #fff;
-  padding: 16px 42px;
+  padding: 18px 46px; /* ✅ UKURAN TOMBOL DISAMAKAN */
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
-  border-radius: 2px; /* ✅ KOTAK TAJAM */
+  border-radius: 2px;
   white-space: nowrap;
-  transition: background 0.25s ease;
+  transition: background 0.25s ease, transform 0.25s ease;
 }
 
 .cta-button:hover {
   background: #cc0f0f;
+  transform: translateY(-2px);
 }
 
 /* ================================
@@ -64,7 +71,7 @@ RESPONSIVE (HP)
   .cta-box {
     flex-direction: column;
     text-align: center;
-    padding: 32px 24px;
+    padding: 34px 24px;
   }
 
   .cta-text h2 {
@@ -76,7 +83,7 @@ RESPONSIVE (HP)
   }
 
   .cta-button {
-    margin-top: 16px;
+    margin-top: 18px;
     font-size: 16px;
     padding: 14px 34px;
   }
