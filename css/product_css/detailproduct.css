@@ -20,16 +20,27 @@ body {
 SECTION CONTAINER
 ================================ */
 .promo-section {
-  max-width: 1180px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 120px 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* ✅ INI KUNCI UTAMA */
 }
 
 /* ================================
 HEADER
 ================================ */
 .promo-header {
-  text-align: center;
+  width: 100%;
+  text-align: center; /* ✅ Pusatkan teks */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* ✅ Pusatkan elemen */
+  justify-content: center;
   margin-bottom: 120px;
 }
 
@@ -47,13 +58,16 @@ HEADER
   font-weight: 700;
   margin-bottom: 20px;
   letter-spacing: 0.3px;
+  text-align: center;
+  max-width: 900px;
 }
 
 .promo-desc {
-  max-width: 680px;
+  max-width: 720px;
   margin: 0 auto;
   color: #666;
   font-size: 16px;
+  text-align: center;
 }
 
 /* ================================
