@@ -164,6 +164,7 @@
     <!-- ========== DETAIL SECTION ========== -->
     <section class="promo-section">
 
+    <!-- HEADER -->
     <div class="promo-header">
         <p class="promo-tag">#ProdukSiapKerja</p>
         <h1>Bertenaga untuk Keuntungan Usaha Anda</h1>
@@ -172,47 +173,77 @@
         </p>
     </div>
 
+    <!-- 1 -->
     <div class="promo-grid">
         <div class="promo-text">
         <h2>Fungsional dan Siap Digunakan</h2>
         <p>Dirancang dengan kabin luas, visibilitas tinggi, serta kemudahan perawatan untuk meningkatkan produktivitas bisnis Anda.</p>
         </div>
-        <div class="promo-image">Area Gambar Kendaraan</div>
+        <div class="promo-image">
+        <img src="/img/product/traga/traga-engine1.webp" alt="Kendaraan">
+        </div>
     </div>
 
+    <!-- 2 -->
     <div class="promo-grid reverse">
-        <div class="promo-image">Area Gambar Bak Kargo</div>
+        <div class="promo-image">
+        <img src="/img/product/traga/traga-euro2.webp" alt="Bak Kargo">
+        </div>
         <div class="promo-text">
         <h2>Kargo Terluas di Kelasnya</h2>
         <p>Kapasitas angkut optimal memungkinkan pengiriman lebih banyak dalam satu perjalanan sehingga menekan biaya operasional.</p>
         </div>
     </div>
 
+    <!-- 3 -->
     <div class="promo-grid">
         <div class="promo-text">
         <h2>Mudah Bermanuver</h2>
         <p>Radius putar kecil memudahkan kendaraan bermanuver di jalan sempit maupun area padat.</p>
         </div>
-        <div class="promo-image">Ilustrasi Radius Putar</div>
+        <div class="promo-image">
+        <img src="/img/product/traga/Isuzu-Traga-Mudah-Bermanuver.webp" alt="Radius Putar">
+        </div>
     </div>
 
+    <!-- 4 -->
     <div class="promo-grid reverse">
-        <div class="promo-image">Interior Kabin</div>
+        <div class="promo-image">
+        <img src="/img/product/traga/Traga-kabin-lega.webp" alt="Interior">
+        </div>
         <div class="promo-text">
         <h2>Kenyamanan dan Keamanan Prioritas</h2>
         <p>Dilengkapi fitur keselamatan, dashboard ergonomis, serta posisi duduk nyaman untuk penggunaan jangka panjang.</p>
         </div>
     </div>
 
+    <!-- 5 -->
+    <div class="promo-grid reverse">
+        <div class="promo-image">
+        <img src="/img/product/traga/traga-kargo.webp" alt="Interior">
+        </div>
+        <div class="promo-text">
+        <h2>Kargo Terluas di Kelasnya</h2>
+        <p>Isuzu TRAGA dirancang dengan dimensi kargo yang luas untuk memaksimalkan daya angkut. Dengan panjang 2,8 meter dan lebar 1,6 meter, Isuzu TRAGA terbukti memiliki kargo terluas di kelasnya, sehingga mampu mengangkut lebih banyak muatan. Hal ini membuat bisnis Anda lebih menguntungkan serta membantu memaksimalkan efisiensi biaya operasional.</p>
+            <p class="note">
+            *Isuzu TRAGA Pick Up FD mampu membawa 60 galon dalam satu kali angkut, sedangkan Isuzu TRAGA Box mampu membawa hingga 300 kardus mi instan dalam satu kali angkut.
+            </p>
+        </div>
+    </div>
+
+    <!-- 6 -->
     <div class="promo-grid">
         <div class="promo-text">
         <h2>Kemudahan Service & Suku Cadang</h2>
         <p>Didukung jaringan bengkel luas serta ketersediaan suku cadang yang mudah sehingga operasional bisnis lebih tenang.</p>
         </div>
-        <div class="promo-image">Peta Jaringan Service</div>
+        <div class="promo-image">
+        <img src="/img/product/traga/service-dan-suku-cadang.webp" alt="Service & Sparepart">
+        </div>
     </div>
 
     </section>
+
 
     <!-- CTA -->
      <section class="cta-section">
