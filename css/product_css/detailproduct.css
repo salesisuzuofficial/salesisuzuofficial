@@ -1,114 +1,90 @@
-/* ================================
-PROMO SECTION - CENTER & ALTERNATING
-================================ */
-
-.promo-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 100px 20px;
-  font-family: Arial, sans-serif;
+/* Reset dan box-sizing agar konsisten */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* ===== HEADER ===== */
+/* Typography & base line-height */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
 
+/* Container section */
+.promo-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 80px 15px;
+}
+
+/* Header spacing */
 .promo-header {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
-.promo-tag {
-  color: #d60000;
-  font-weight: bold;
-  letter-spacing: 1px;
-  margin-bottom: 12px;
-}
-
-.promo-header h1 {
-  font-size: 38px;
-  margin-bottom: 18px;
-}
-
-.promo-desc {
-  max-width: 640px;
-  margin: 0 auto;
-  color: #666;
-  line-height: 1.7;
-}
-
-/* ===== GRID KONTEN UTAMA ===== */
-
+/* Grid content */
 .promo-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 70px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 60px;
   align-items: center;
-  margin-bottom: 110px;
+  margin-bottom: 80px;
 }
 
-/* === SELANG SELING KIRI KANAN === */
+/* Alternating layout */
 .promo-grid.reverse {
-  direction: rtl;
+  direction: ltr; /* agar responsive tetap konsisten */
+}
+.promo-grid.reverse .promo-text {
+  order: 2;
+}
+.promo-grid.reverse .promo-image {
+  order: 1;
 }
 
-.promo-grid.reverse > * {
-  direction: ltr;
-}
-
-/* ===== TEKS ===== */
-
+/* Text & image styling */
 .promo-text {
-  max-width: 500px;
+  padding: 0 10px;
 }
-
 .promo-text h2 {
-  font-size: 26px;
-  margin-bottom: 14px;
+  font-size: 24px;
+  margin-bottom: 12px;
 }
-
 .promo-text p {
-  color: #666;
-  line-height: 1.8;
+  margin-bottom: 0;
 }
-
-/* ===== GAMBAR ===== */
 
 .promo-image {
   width: 100%;
-  height: 300px;
-  background: #e5e5e5;
-  border-radius: 18px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-size: 14px;
-  color: #999;
+}
+.promo-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
-/* ===== RESPONSIVE (HP) ===== */
-
+/* Responsive tweaks */
 @media (max-width: 768px) {
-  .promo-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
-  .promo-grid.reverse {
-    direction: ltr;
+  .promo-section {
+    padding: 40px 15px;
   }
 
   .promo-header h1 {
     font-size: 28px;
   }
 
-  .promo-text {
-    max-width: 100%;
+  .promo-grid {
+    gap: 40px;
   }
-}
-.promo-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 18px;
+
+  .promo-text {
+    padding: 0;
+  }
 }
