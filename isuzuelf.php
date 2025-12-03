@@ -167,19 +167,19 @@
 
             <!-- Item 1 -->
             <div class="tipe-card">
-                <img src="/img/product/traga/tragapickup.png" alt="Traga Pickup">
-                <h3>TRAGA PICK UP</h3>
+                <img src="/img/product/nmr/isuzunmr1.png" alt="Isuzu NMR">
+                <h3>ELF NMR</h3>
                 <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 271.000.000</p>
+                <p class="harga">Rp. 474.000.000</p>
                 <a href="/tragapickup" class="detail-btn">DETAIL</a>
             </div>
 
             <!-- Item 2 -->
             <div class="tipe-card">
-                <img src="/img/product/traga/tragabox.png" alt="Traga Box">
-                <h3>TRAGA BOX</h3>
+                <img src="/img/product/nlr/isuzunlr1.png" alt="Isuzu NLR">
+                <h3>ELF NLR</h3>
                 <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 311.000.000</p>
+                <p class="harga">Rp. 400.000.000</p>
                 <a href="/tragabox" class="detail-btn">DETAIL</a>
             </div>
 
