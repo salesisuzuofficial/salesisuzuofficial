@@ -110,6 +110,7 @@
     <link rel="stylesheet" href="css/product_css/header_product.css" />
     <link rel="stylesheet" href="css/product_css/product.css" />
     <link rel="stylesheet" href="css/product_css/detail.css" />
+    <link rel="stylesheet" href="css/product_css/detailproduct.css" />
 
   <!-- Feather Icons (NON-BLOCKING) -->
   <script src="https://unpkg.com/feather-icons" defer></script>
@@ -150,12 +151,83 @@
     <!-- ========== HERO SECTION ========== -->
     <section class="hero hero-produk">
       <div class="slider">
-        <img src="img/hero5.webp" class="slide" alt="Isuzu Elf NMR" />
+        <img src="img/product/frr/headerfrr.webp" class="slide" alt="Isuzu Giga FRR" />
       </div>
 
       <div class="hero-content">
-        <h1>Isuzu Giga</h1>
+        <h1>Isuzu Giga FRR</h1>
       </div>
+    </section>
+
+    <!-- ========== DETAIL SECTION ========== -->
+    <section class="promo-section">
+
+    <!-- HEADER -->
+    <div class="promo-header">
+        <p class="promo-tag">#IsuzuEuro4Ready</p>
+        <h1>Bertenaga untuk Keuntungan Usaha Anda</h1>
+        <p class="promo-desc">
+        Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional harian Anda.
+        </p>
+    </div>
+
+    <!-- 1 -->
+    <div class="promo-grid">
+        <div class="promo-text">
+        <h2>Efisien untuk Bisnis</h2>
+        <p>
+        Isuzu GIGA FRR dilengkapi dengan teknologi mesin Heavy Duty Common Rail 4HK1-TCC 4 silinder yang dilengkapi Exhaust Gas Recirculation (EGR) dan Diesel Oxidation Catalyst (DOC), sehingga mampu menghasilkan emisi gas buang berstandar EURO4. Memiliki mesin bertenaga 190 PS dan dirancang dengan kombinasi rasio transmisi yang tepat guna menghasilkan performa yang baik dan irit bahan bakar. Kendaraan yang satu ini siap dijadikan andalan untuk keuntungan bisnis yang optimal.
+        </p>
+        </div>
+        <div class="promo-image">
+        <img src="/img/product/frr/mesin-isuzu-giga-frr.webp" alt="Mesin Isuzu Giga FRR">
+        </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="promo-grid reverse">
+        <div class="promo-image">
+        <img src="/img/product/frr/isuzu-giga-fvr-dashboard.webp" alt="Tampilan Isuzu Giga FRR">
+        </div>
+        <div class="promo-text">
+        <h2>Tampilan Futuristik dan Fungsional</h2>
+        <p>Isuzu GIGA FRR hadir dengan tampilan meter cluster dan Multi Information Display baru yang tidak hanya menambah kesan modern tetapi meningkatkan kemudahan visibilitas pengemudi terhadap indikator maupun informasi penting saat berkendara. Untuk meningkatkan kenyamanan dan kegunaan fitur dalam kabin, kini Isuzu GIGA FRR dilengkapi dengan slot USB charger, sehingga pengemudi dapat menikmati perjalanan tanpa khawatir kondisi baterai ponsel pengemudi. Isuzu GIGA FRR kini dilengkapi dengan Roof Marker Lamp pada kedua sisi atap yang berguna memaksimalkan penerangan dan keamanan pada malam hari serta menjadikan tampilan kendaraan niaga Anda menjadi lebih modern. Dengan Reverse Warning Buzzer, truk akan berbunyi saat mundur sehingga meningkatkan kewaspadaan kendaraan sekitar.</p>
+        </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="promo-grid">
+        <div class="promo-text">
+        <h2>Keamanan yang Maksimal</h2>
+        <p>Isuzu GIGA FRR dilengkapi dengan APAR (Alat Pemadam Api Ringan) untuk memaksimalkan keamanan pada kondisi genting (kebakaran).</p>
+        </div>
+        <div class="promo-image">
+        <img src="/img/product/frr/isuzu-giga-frr-kabin.webp" alt="Kabin Isuzu Giga FRR">
+        </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="promo-grid reverse">
+        <div class="promo-image">
+        <img src="/img/product/frr/isuzu-giga-FVR-gallery1.webp" alt="Daya Angkut Isuzu Giga FRR">
+        </div>
+        <div class="promo-text">
+        <h2>Daya Angkut Luas, Untung Meningkat</h2>
+        <p>Isuzu GIGA FRR tipe FRR 90Q, hadir dengan panjang cabin to end hingga 6.9 meter yang cocok untuk aplikasi wing box, bak besi dan box aluminium. Hal ini tentu menjadikan Isuzu GIGA FRR unggul sebagai angkutan bervolume besar (GVW 10 ton) yang juga teruji hemat bahan bakar sehingga mampu meningkatkan keuntungan bisnis.</p>
+        </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="promo-grid">
+        <div class="promo-text">
+        <h2>Kemudahan Service dan Suku Cadang</h2>
+        <p>Jaringan layanan purna jual yang luas dan lengkap, mulai dari bengkel resmi Isuzu, Bengkel Berjalan Isuzu hingga Bengkel Mitra Isuzu yang telah berpengalaman dengan mesin common rail sejak tahun 2011, mampu membantu Anda mempercepat proses perbaikan dan meningkatkan efisiensi bisnis Anda karena mampu meminimalisir downtime atau kerusakan. Suku cadang dapat dengan mudah didapatkan melalui dukungan bengkel resmi, mini depo, toko suku cadang (part shop), Bengkel Mitra Isuzu hingga Bengkel Isuzu Berjalan yang tersebar di seluruh kota di Indonesia.</p>
+        </div>
+        <div class="promo-image">
+        <img src="/img/product/frr/service-dan-suku-cadang.png" alt="Service dan Suku Cadang">
+        </div>
+    </div>
+    
     </section>
 
     <!-- ========== PRODUCT SECTION ========== -->
@@ -166,73 +238,28 @@
 
             <!-- Item 1 -->
             <div class="tipe-card">
-                <img src="/img/product/frr/isuzu-giga-frr.png" alt="Isuzu Giga FRR">
-                <h3>GIGA FRR</h3>
+                <img src="/img/product/frr/isuzu-giga-frr.png" alt="GIGA FRR Q">
+                <h3>GIGA FRR Q</h3>
                 <p class="mulai">Mulai Dari</p>
                 <p class="harga">Rp. 621.000.000</p>
-                <a href="/isuzu-frr" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 2 -->
-            <div class="tipe-card">
-                <img src="/img/product/ftr/isuzu-giga-ftr.png" alt="Isuzu Giga FTR">
-                <h3>GIGA FTR</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 693.000.000</p>
-                <a href="/isuzu-nlr" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 3 -->
-            <div class="tipe-card">
-                <img src="/img/product/fvr/isuzugigafvr.png" alt="Isuzu Giga FVR">
-                <h3>GIGA FVR</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 773.000.000</p>
-                <a href="/isuzu-nlr" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 4 -->
-            <div class="tipe-card">
-                <img src="/img/product/fvm/isuzugigafvm.png" alt="Isuzu Giga FVM">
-                <h3>GIGA FVM</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 912.000.000</p>
-                <a href="/isuzu-nlr" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 5 -->
-            <div class="tipe-card">
-                <img src="/img/product/fvz/isuzugigafvz.png" alt="Isuzu Giga FVZ">
-                <h3>GIGA FVZ</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 1.140.000.000</p>
-                <a href="/isuzu-nlr" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 6 -->
-            <div class="tipe-card">
-                <img src="/img/product/th/isuzugigath.png" alt="Isuzu Giga Tractor Head">
-                <h3>GIGA TRACTOR HEAD</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 813.000.000</p>
-                <a href="/isuzu-nlr" class="detail-btn">DETAIL</a>
+                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
             </div>
 
         </div>
     </section>
+
 
     <!-- CTA -->
     <section class="cta-section">
-    <div class="cta-box">
+      <div class="cta-box">
         <div class="cta-text">
-        <h2>Konsultasikan Pembelian Anda Dengan Tim Kami</h2>
-        <p>Dapatkan Penawaran Khusus Untuk Pembelian Tunai Maupun Kredit</p>
+          <h2>Konsultasikan Pembelian Anda Dengan Tim Kami</h2>
+          <p>Dapatkan Penawaran Khusus Untuk Pembelian Tunai Maupun Kredit</p>
         </div>
 
         <a href="/kontak" class="cta-button">CHAT SEKARANG</a>
-    </div>
+      </div>
     </section>
-
 
     <!-- ========== WHATSAPP CHAT (ELFSIGHT) ========== -->
     <script src="https://elfsightcdn.com/platform.js" async></script>

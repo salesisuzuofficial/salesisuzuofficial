@@ -186,7 +186,6 @@
 
           <a
             href="/isuzu-nmr.php"
-            target="_blank"
             rel="noopener"
             class="product-item"
           >
@@ -195,8 +194,7 @@
           </a>
 
           <a
-            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FRR%20(Giga%20190%20PS)"
-            target="_blank"
+            href="/isuzu-frr.php"
             rel="noopener"
             class="product-item"
           >

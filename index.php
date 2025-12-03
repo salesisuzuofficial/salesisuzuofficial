@@ -270,19 +270,19 @@ try {
     <section id="products-section" class="products-section fade-element" aria-labelledby="products-title">
         <h2 id="products-title" class="section-title">Produk Truk Isuzu Unggulan</h2>
         <div class="products">
-            <a href="isuzutraga.php" class="product" aria-label="Isuzu Traga">
+            <a href="/isuzutraga" class="product" aria-label="Isuzu Traga">
                 <img src="img/product/Isuzu-Traga.webp" alt="Isuzu Traga - Harga & Spesifikasi" loading="lazy" />
                 <h3>Isuzu Traga</h3>
                 <p>Truk ringan dan tangguh, cocok untuk usaha kecil dan menengah.</p>
             </a>
 
-            <a href="produk.php" class="product" aria-label="Isuzu ELF">
+            <a href="/isuzuelf" class="product" aria-label="Isuzu ELF">
                 <img src="img/product/Isuzu-Elf-NLR.webp" alt="Isuzu ELF NLR - Truk Niaga" loading="lazy" />
                 <h3>Isuzu ELF</h3>
                 <p>Performa handal untuk pengangkutan berat dan jarak jauh.</p>
             </a>
 
-            <a href="produk.php" class="product" aria-label="Isuzu Giga">
+            <a href="/isuzugiga" class="product" aria-label="Isuzu Giga">
                 <img src="img/product/Isuzu-Giga-FTR.webp" alt="Isuzu Giga - Truk Berat" loading="lazy" />
                 <h3>Isuzu Giga</h3>
                 <p>Solusi transportasi truk dengan kenyamanan terbaik.</p>
