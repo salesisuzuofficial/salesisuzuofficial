@@ -255,15 +255,16 @@
 
 
     <!-- CTA -->
-     <section class="cta-section">
-    <div class="cta-container">
+    <section class="cta-section">
+    <div class="cta-box">
         <div class="cta-text">
-            <h2>Konsultasikan Pembelian Anda Dengan Tim Kami</h2>
-            <p>Dapatkan Penawaran Khusus Untuk Pembelian Tunai Maupun Kredit</p>
+        <h2>Konsultasikan Pembelian Anda Dengan Tim Kami</h2>
+        <p>Dapatkan Penawaran Khusus Untuk Pembelian Tunai Maupun Kredit</p>
         </div>
-        <a href="#" class="cta-button">CHAT SEKARANG</a>
+
+        <a href="/kontak" class="cta-button">CHAT SEKARANG</a>
     </div>
-</section>
+    </section>
 
     <!-- ========== WHATSAPP CHAT (ELFSIGHT) ========== -->
     <script src="https://elfsightcdn.com/platform.js" async></script>
