@@ -224,7 +224,7 @@
         <p>Jaringan layanan purna jual yang luas dan lengkap, mulai dari bengkel resmi Isuzu, Bengkel Berjalan Isuzu hingga Bengkel Mitra Isuzu yang telah berpengalaman dengan mesin common rail sejak tahun 2011, mampu membantu Anda mempercepat proses perbaikan dan meningkatkan efisiensi bisnis Anda karena mampu meminimalisir downtime atau kerusakan. Suku cadang dapat dengan mudah didapatkan melalui dukungan bengkel resmi, mini depo, toko suku cadang (part shop), Bengkel Mitra Isuzu hingga Bengkel Isuzu Berjalan yang tersebar di seluruh kota di Indonesia.</p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/frr/service-dan-suku-cadang.png" alt="Service dan Suku Cadang">
+        <img src="/img/product/frr/service-dan-suku-cadang.webp" alt="Service dan Suku Cadang">
         </div>
     </div>
     
