@@ -109,7 +109,7 @@
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/product_css/header_product.css" />
     <link rel="stylesheet" href="css/product_css/product.css" />
-    <link rel="stylesheet" href="css/product_css/traga.css" />
+    <link rel="stylesheet" href="css/product_css/detail.css" />
     <link rel="stylesheet" href="css/product_css/detailproduct.css" />
 
   <!-- Feather Icons (NON-BLOCKING) -->
