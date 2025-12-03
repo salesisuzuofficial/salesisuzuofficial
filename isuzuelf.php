@@ -150,11 +150,11 @@
     <!-- ========== HERO SECTION ========== -->
     <section class="hero hero-produk">
       <div class="slider">
-        <img src="img/product/traga/traga-slide-01.jpg" class="slide" alt="Isuzu Traga" />
+        <img src="img/product/nlr/nlrbanner.webp" class="slide" alt="Isuzu Traga" />
       </div>
 
       <div class="hero-content">
-        <h1>Isuzu Traga</h1>
+        <h1>Isuzu ELF</h1>
       </div>
     </section>
 
