@@ -150,8 +150,8 @@
     <!-- ========== HERO SECTION ========== -->
     <section class="hero hero-produk">
       <div class="slider">
-        <img src="img/hero4.webp" class="slide" alt="Isuzu Traga" />
-        <img src="img/product/nlr/nlrbanner.webp" class="slide" alt="Isuzu Traga" />
+        <img src="img/product/nmr/nmrhead.webp" class="slide" alt="Isuzu Elf NMR" />
+        <img src="img/product/nlr/nlrbanner.webp" class="slide" alt="Isuzu ELF NLR" />
       </div>
 
       <div class="hero-content">
@@ -171,7 +171,7 @@
                 <h3>ELF NMR</h3>
                 <p class="mulai">Mulai Dari</p>
                 <p class="harga">Rp. 474.000.000</p>
-                <a href="/tragapickup" class="detail-btn">DETAIL</a>
+                <a href="/isuzu-nmr" class="detail-btn">DETAIL</a>
             </div>
 
             <!-- Item 2 -->

@@ -185,7 +185,7 @@
           </a>
 
           <a
-            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20NMR%20(DOBEL)"
+            href="/isuzu-nmr.php"
             target="_blank"
             rel="noopener"
             class="product-item"
