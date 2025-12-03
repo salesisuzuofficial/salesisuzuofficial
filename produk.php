@@ -176,8 +176,7 @@
           </a>
 
           <a
-            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20NLR%20(ENGKEL)"
-            target="_blank"
+            href="/isuzu-nlr"
             rel="noopener"
             class="product-item"
           >
