@@ -228,6 +228,17 @@
     </div>
 
     <!-- 5 -->
+    <div class="promo-grid">
+        <div class="promo-text">
+        <h2>Kemudahan Service & Suku Cadang</h2>
+        <p>Didukung jaringan bengkel luas serta ketersediaan suku cadang yang mudah sehingga operasional bisnis lebih tenang.</p>
+        </div>
+        <div class="promo-image">
+        <img src="/img/product/traga/service-dan-suku-cadang.webp" alt="Service & Sparepart">
+        </div>
+    </div>
+
+    <!-- 6 -->
     <div class="promo-grid reverse">
         <div class="promo-image">
         <img src="/img/product/traga/traga-kargo.webp" alt="Interior">
@@ -241,16 +252,6 @@
         </div>
     </div>
 
-    <!-- 6 -->
-    <div class="promo-grid">
-        <div class="promo-text">
-        <h2>Kemudahan Service & Suku Cadang</h2>
-        <p>Didukung jaringan bengkel luas serta ketersediaan suku cadang yang mudah sehingga operasional bisnis lebih tenang.</p>
-        </div>
-        <div class="promo-image">
-        <img src="/img/product/traga/service-dan-suku-cadang.webp" alt="Service & Sparepart">
-        </div>
-    </div>
 
     </section>
 
