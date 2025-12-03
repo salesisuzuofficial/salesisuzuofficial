@@ -174,79 +174,68 @@
     <!-- 1 -->
     <div class="promo-grid">
         <div class="promo-text">
-        <h2>Fungsional dan Siap Digunakan</h2>
+        <h2>Untung Maksimal: Lebih Irit dan Lebih Bertenaga</h2>
         <p>
-        Isuzu TRAGA Pick Up FD dan Isuzu TRAGA Box kini menggunakan teknologi mesin Common Rail 4 silinder 4JA1-CR yang dilengkapi dengan VGT Turbo Intercooler, Exhaust Gas Recirculation (EGR), serta Diesel Oxidation Catalyst (DOC). Kombinasi teknologi ini membuat emisi gas buang yang dihasilkan telah memenuhi standar EURO 4.
-        </p>
-
-        <p>
-        Isuzu TRAGA hadir dengan kapasitas mesin 2.500 cc yang mampu menghasilkan tenaga sebesar 80 PS serta torsi maksimal 19,5 kg.m pada putaran 1.800–2.400 rpm. Dilengkapi dengan sistem injeksi Common Rail, performa mesin tetap bertenaga sekaligus efisien dalam konsumsi bahan bakar.
-        </p>
-
-        <p>
-        Isuzu TRAGA Pick Up FD dan Isuzu TRAGA Box juga menggunakan timing gear yang lebih presisi dan tahan lama, sehingga mampu memperpanjang usia pakai kendaraan serta menjaga keandalan dalam penggunaan jangka panjang.
+        Isuzu ELF NLR dan Isuzu ELF NLR L kini menggunakan teknologi mesin Common Rail 4JJ1-TC yang dilengkapi Exhaust Gas Recirculation (EGR) dan Diesel Oxidation Catalyst (DOC), sehingga mampu menghasilkan emisi gas buang berstandar Euro4. Dengan Engine Control Unit (ECU) yang terdapat pada mesin common rail, kini Isuzu ELF NLR mampu menghasilkan tenaga dan torsi yang lebih besar (120 PS/2.600 rpm dan 36 kg.m/1.500 rpm) namun lebih irit dan mampu mengoptimalkan efisiensi bisnis Anda.
         </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/traga/traga-engine1.webp" alt="Kendaraan">
+        <img src="/img/product/nlr/mesinnlr.webp" alt="Isuzu Elf NLR Mesin">
         </div>
     </div>
 
     <!-- 2 -->
     <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/traga/traga-euro2.webp" alt="Bak Kargo">
+        <img src="/img/product/nlr/nlrjalan.webp" alt="ELF NLR">
         </div>
         <div class="promo-text">
-        <h2>Varian Terbaik Pada Isuzu Traga</h2>
-        <p>Isuzu TRAGA hadir dengan dua pilihan varian, Isuzu TRAGA Pick Up FD dan Isuzu TRAGA Box yang siap digunakan untuk menunjang bisnis Anda, sehingga mampu meningkatkan efektivitas dan efisiensi proses operasional bisnis Anda. </p>
+        <h2>Handal di Perkotaan</h2>
+        <p>Isuzu ELF NLR hadir dengan panjang yang optimal sehingga memiliki kapasitas dan daya angkut yang sesuai untuk penggunaan di perkotaan, cocok untuk aplikasi box alumunium & bak besi. Hal ini tentu menjadikan Isuzu ELF NLR unggul sebagai truk ringan 4 ban yang juga teruji hemat bahan bakar sehingga mampu meningkatkan keuntungan bisnis. </p>
         </div>
     </div>
 
     <!-- 3 -->
     <div class="promo-grid">
         <div class="promo-text">
-        <h2>Mudah Bermanuver</h2>
-        <p>Radius putar kecil memudahkan kendaraan bermanuver di jalan sempit maupun area padat.</p>
+        <h2>Daya Angkut Luas, Untung Meningkat</h2>
+        <p>Isuzu ELF NLR L hadir dengan panjang wheelbase 3,360 mm, sehingga memiliki kapasitas dan daya angkut yang luas, cocok untuk aplikasi box alumunium & bak besi. Hal ini tentu menjadikan Isuzu ELF NLR L unggul sebagai truk ringan 4 ban yang juga teruji hemat bahan bakar sehingga mampu meningkatkan keuntungan bisnis.</p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/traga/Isuzu-Traga-Mudah-Bermanuver.webp" alt="Radius Putar">
+        <img src="/img/product/nlr/nlrtoko.webp" alt="Radius Putar">
         </div>
     </div>
 
     <!-- 4 -->
     <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/traga/Traga-kabin-lega.webp" alt="Interior">
+        <img src="/img/product/nlr/nlrtransmisi.webp" alt="Interior">
         </div>
         <div class="promo-text">
-        <h2>Kenyamanan dan Keamanan Prioritas</h2>
-        <p>Dilengkapi fitur keselamatan, dashboard ergonomis, serta posisi duduk nyaman untuk penggunaan jangka panjang.</p>
+        <h2>Transmisi Baru dengan 6 Tingkat Percepatan</h2>
+        <p>Kini Isuzu ELF NLR dan Isuzu ELF NLR L menggunakan transmisi MYY6S dengan 6 tingkat percepatan yang mampu memaksimalkan efisiensi bahan bakar, serta memiliki first gear ratio yang lebih besar, sehingga menghasilkan tenaga lebih besar. Waktu tempuh lebih cepat, ritase meningkat dan tentunya biaya operasional makin efisien.</p>
         </div>
     </div>
 
     <!-- 5 -->
     <div class="promo-grid">
         <div class="promo-text">
-        <h2>Kemudahan Service & Suku Cadang</h2>
-        <p>Didukung jaringan bengkel luas serta ketersediaan suku cadang yang mudah sehingga operasional bisnis lebih tenang.</p>
+        <h2>Lebih Aman dan Nyaman Dengan Fitur-fitur Fungsional</h2>
+        <p>Isuzu ELF NLR dan Isuzu ELF NLR L memiliki kaca depan yang lebih tegak dan besar, membuat jarak pandang lebih luas, siap memberikan rasa aman dan nyaman yang ekstra bagi pengemudi. Juga dilengkapi dengan sensor Cabin Lock Warning Buzzer yang memberikan tanda peringatan saat kabin belum terkunci, sehingga membantu memaksimalkan keselamatan pengemudi saat berkendara. Fan blower guna meningkatkan sirkulasi udara di dalam kabin, dengan slot USB charger pengemudi dapat menikmati perjalanan tanpa khawatir kondisi baterai ponsel. Isuzu ELF NLR dan Isuzu ELF NLR L juga dilengkapi dengan APAR (Alat Pemadam Api Ringan) untuk memaksimalkan keamanan pada kondisi genting (kebakaran) serta kamera mundur agar pengemudi dapat melihat kondisi dibagian belakang kendaraan, sehingga memudahkan pengemudi saat mundur atau memarkir kendaraan.</p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/traga/service-dan-suku-cadang.webp" alt="Service & Sparepart">
+        <img src="/img/product/nlr/kabinnlr.webp" alt="Service & Sparepart">
         </div>
     </div>
 
     <!-- 6 -->
     <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/traga/traga-kargo.webp" alt="Interior">
+        <img src="/img/product/nlr/map.webp" alt="Interior">
         </div>
         <div class="promo-text">
-        <h2>Kargo Terluas di Kelasnya</h2>
-        <p>Isuzu TRAGA dirancang dengan dimensi kargo yang luas untuk memaksimalkan daya angkut. Dengan panjang 2,8 meter dan lebar 1,6 meter, Isuzu TRAGA terbukti memiliki kargo terluas di kelasnya, sehingga mampu mengangkut lebih banyak muatan. Hal ini membuat bisnis Anda lebih menguntungkan serta membantu memaksimalkan efisiensi biaya operasional.</p>
-            <p class="note">
-            *Isuzu TRAGA Pick Up FD mampu membawa 60 galon dalam satu kali angkut, sedangkan Isuzu TRAGA Box mampu membawa hingga 300 kardus mi instan dalam satu kali angkut.
-            </p>
+        <h2>Kemudahan Service dan Suku Cadang</h2>
+        <p>Jaringan layanan purna jual yang luas dan lengkap, mulai dari bengkel resmi Isuzu, Bengkel Berjalan Isuzu hingga Bengkel Mitra Isuzu yang telah berpengalaman dengan mesin common rail sejak tahun 2011, mampu membantu Anda mempercepat proses perbaikan dan meningkatkan efisiensi bisnis Anda karena mampu meminimalisir downtime atau kerusakan. Suku cadang dapat dengan mudah didapatkan melalui dukungan bengkel resmi, mini depo, toko suku cadang (part shop), Bengkel Mitra Isuzu hingga Bengkel Isuzu Berjalan yang tersebar di seluruh kota di Indonesia.</p>
         </div>
     </div>
 
