@@ -24,7 +24,7 @@ $sql = "
 $conditions = [];
 $params = [];
 
-// Filter slug (ambil 1 artikel berdasarkan slug)
+// Filter slug
 if ($slug) {
     $conditions[] = "a.slug = :slug";
     $params[':slug'] = $slug;
@@ -42,7 +42,7 @@ if ($kategori) {
     $params[':kategori'] = $kategori;
 }
 
-// Tambahkan kondisi jika ada
+// Tambah kondisi
 if (!empty($conditions)) {
     $sql .= " WHERE " . implode(" AND ", $conditions);
 }
@@ -53,7 +53,7 @@ try {
     $stmt = $pdo->prepare($sql);
     $stmt->execute($params);
 
-    // Jika request pakai slug → hanya 1 artikel
+    // Jika pakai slug
     if ($slug) {
         $artikel = $stmt->fetch();
         if ($artikel && !empty($artikel['gambar'])) {
@@ -63,10 +63,9 @@ try {
         exit;
     }
 
-    // Kalau tidak pakai slug → list artikel
+    // List artikel
     $artikel = $stmt->fetchAll();
 
-    // Ubah path gambar ke URL lengkap
     foreach ($artikel as &$row) {
         if (!empty($row['gambar'])) {
             $row['gambar'] = 'https://salesisuzuofficial.com/uploads/artikel/' . $row['gambar'];
