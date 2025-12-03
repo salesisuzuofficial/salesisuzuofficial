@@ -198,7 +198,7 @@
         <img src="/img/product/traga/traga-euro2.webp" alt="Bak Kargo">
         </div>
         <div class="promo-text">
-        <h2>Kargo Terluas di Kelasnya</h2>
+        <h2>Varian Terbaik Pada Isuzu Traga</h2>
         <p>Isuzu TRAGA hadir dengan dua pilihan varian, Isuzu TRAGA Pick Up FD dan Isuzu TRAGA Box yang siap digunakan untuk menunjang bisnis Anda, sehingga mampu meningkatkan efektivitas dan efisiensi proses operasional bisnis Anda. </p>
         </div>
     </div>
