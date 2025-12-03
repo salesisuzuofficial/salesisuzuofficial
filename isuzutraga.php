@@ -150,13 +150,11 @@
     <!-- ========== HERO SECTION ========== -->
     <section class="hero hero-produk">
       <div class="slider">
-        <img src="img/hero3.webp" class="slide" alt="Banner 1" />
-        <img src="img/hero4.webp" class="slide" alt="Banner 2" />
-        <img src="img/hero5.webp" class="slide" alt="Banner 3" />
+        <img src="img/product/traga/traga-slide-01.jpg" class="slide" alt="Isuzu Traga" />
       </div>
 
       <div class="hero-content">
-        <h1>Produk Isuzu</h1>
+        <h1>Isuzu Traga</h1>
       </div>
     </section>
 
@@ -172,7 +170,7 @@
                 <h3>TRAGA PICK UP</h3>
                 <p class="mulai">Mulai Dari</p>
                 <p class="harga">Rp. 271.000.000</p>
-                <a href="#" class="detail-btn">DETAIL</a>
+                <a href="/tragapickup" class="detail-btn">DETAIL</a>
             </div>
 
             <!-- Item 2 -->

@@ -167,7 +167,7 @@
         <div class="product-grid">
           <!-- Produk List -->
           <a
-            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20TRAGA"
+            href="/isuzutraga"
             target="_blank"
             rel="noopener"
             class="product-item"
