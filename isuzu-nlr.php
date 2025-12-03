@@ -254,7 +254,7 @@
                 <h3>ELF NLR</h3>
                 <p class="mulai">Mulai Dari</p>
                 <p class="harga">Rp. 400.000.000</p>
-                <a href="/tragapickup" class="detail-btn">DETAIL</a>
+                <a href="/isuzu-nlr" class="detail-btn">DETAIL</a>
             </div>
 
             <!-- Item 2 -->
