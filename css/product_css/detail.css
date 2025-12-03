@@ -1,19 +1,24 @@
 /* ================================
-SECTION CTA (SESUAI GAMBAR)
+SECTION CTA (WRAPPER LUAR)
 ================================ */
 .cta-section {
-  background: #f1f1f1;
-  padding: 50px 20px;
+  padding: 60px 20px;
+  background: #ffffff;
 }
 
-.cta-container {
+/* ================================
+KOTAK CTA ABU-ABU
+================================ */
+.cta-box {
   max-width: 1200px;
   margin: 0 auto;
-  background: #f1f1f1;
+  background: #f1f1f1; /* ✅ ABU-ABU KOTAK */
+  border: 1px solid #ddd;
+  padding: 40px 50px;
 
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   gap: 30px;
 }
 
@@ -21,10 +26,10 @@ SECTION CTA (SESUAI GAMBAR)
 TEXT
 ================================ */
 .cta-text h2 {
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 800;
   color: #1a1a1a;
-  line-height: 1.2;
+  line-height: 1.25;
   margin-bottom: 8px;
 }
 
@@ -34,32 +39,32 @@ TEXT
 }
 
 /* ================================
-BUTTON
+BUTTON MERAH KANAN
 ================================ */
 .cta-button {
   background: #ff1a1a;
   color: #fff;
-  padding: 18px 38px;
+  padding: 16px 42px;
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
-  border-radius: 2px; /* ✅ SUDUT KOTAK SEPERTI GAMBAR */
-  transition: all 0.25s ease;
+  border-radius: 2px; /* ✅ KOTAK TAJAM */
   white-space: nowrap;
+  transition: background 0.25s ease;
 }
 
 .cta-button:hover {
   background: #cc0f0f;
-  transform: translateY(-1px);
 }
 
 /* ================================
 RESPONSIVE (HP)
 ================================ */
 @media (max-width: 768px) {
-  .cta-container {
+  .cta-box {
     flex-direction: column;
     text-align: center;
+    padding: 32px 24px;
   }
 
   .cta-text h2 {
@@ -72,8 +77,8 @@ RESPONSIVE (HP)
 
   .cta-button {
     margin-top: 16px;
-    padding: 14px 34px;
     font-size: 16px;
+    padding: 14px 34px;
   }
 }
 
