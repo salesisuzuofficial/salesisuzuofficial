@@ -1,178 +1,95 @@
 /* ================================
-RESET & BASE
-================================ */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-  color: #222;
-  line-height: 1.75;
-  background: #fff;
-}
-
-/* ================================
-SECTION CONTAINER
+SECTION CONTAINER (LEBIH RAPAT)
 ================================ */
 .promo-section {
   width: 100%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 120px 20px;
+  padding: 80px 20px; /* ⬅️ dari 120px → 80px */
 
   display: flex;
   flex-direction: column;
-  align-items: center; /* ✅ INI KUNCI UTAMA */
+  align-items: center;
 }
 
 /* ================================
-HEADER
+HEADER (LEBIH RAPAT)
 ================================ */
 .promo-header {
   width: 100%;
-  text-align: center; /* ✅ Pusatkan teks */
+  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center; /* ✅ Pusatkan elemen */
+  align-items: center;
   justify-content: center;
-  margin-bottom: 120px;
-}
-
-.promo-tag {
-  color: #d60000;
-  font-weight: 700;
-  letter-spacing: 1px;
-  margin-bottom: 14px;
-  font-size: 14px;
-  text-transform: uppercase;
+  margin-bottom: 70px; /* ⬅️ dari 120px → 70px */
 }
 
 .promo-header h1 {
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  letter-spacing: 0.3px;
-  text-align: center;
-  max-width: 900px;
+  font-size: 38px; /* ⬅️ sedikit diturunkan */
+  margin-bottom: 14px; /* ⬅️ dari 20px → 14px */
+  max-width: 820px;
 }
 
 .promo-desc {
-  max-width: 720px;
-  margin: 0 auto;
-  color: #666;
-  font-size: 16px;
-  text-align: center;
+  max-width: 680px;
+  font-size: 15.5px;
 }
 
 /* ================================
-GRID UTAMA (SELANG-SELING)
+GRID UTAMA (LEBIH RAPAT)
 ================================ */
 .promo-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 90px;
+  gap: 60px; /* ⬅️ dari 90px → 60px */
   align-items: center;
-  margin-bottom: 140px;
-}
-
-/* Versi dibalik */
-.promo-grid.reverse .promo-text {
-  order: 2;
-}
-.promo-grid.reverse .promo-image {
-  order: 1;
+  margin-bottom: 90px; /* ⬅️ dari 140px → 90px */
 }
 
 /* ================================
-TEKS KONTEN
+TEKS
 ================================ */
 .promo-text {
-  max-width: 520px;
+  max-width: 500px;
 }
 
 .promo-text h2 {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 18px;
-  line-height: 1.3;
+  font-size: 26px;
+  margin-bottom: 14px; /* ⬅️ dari 18px → 14px */
 }
 
 .promo-text p {
-  color: #555;
-  font-size: 16px;
+  font-size: 15.5px;
 }
 
 /* ================================
 GAMBAR
 ================================ */
 .promo-image {
-  width: 100%;
-  border-radius: 22px;
-  overflow: hidden;
-  background: #f2f2f2;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
-}
-
-.promo-image img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: contain;
-  transition: transform 0.4s ease;
-}
-
-.promo-image:hover img {
-  transform: scale(1.05);
+  border-radius: 18px; /* ⬅️ sedikit lebih kecil */
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12); /* ⬅️ lebih halus */
 }
 
 /* ================================
-RESPONSIVE (TABLET & HP)
+RESPONSIVE (LEBIH RAPAT)
 ================================ */
-@media (max-width: 992px) {
-  .promo-grid {
-    gap: 60px;
-  }
-
-  .promo-header h1 {
-    font-size: 32px;
-  }
-
-  .promo-text h2 {
-    font-size: 24px;
-  }
-}
-
 @media (max-width: 768px) {
   .promo-section {
-    padding: 70px 18px;
+    padding: 50px 16px; /* ⬅️ dari 70px → 50px */
   }
 
   .promo-grid {
-    grid-template-columns: 1fr;
-    gap: 50px;
-    margin-bottom: 80px;
-  }
-
-  .promo-grid.reverse .promo-text,
-  .promo-grid.reverse .promo-image {
-    order: unset;
+    gap: 36px; /* ⬅️ dari 50px → 36px */
+    margin-bottom: 60px; /* ⬅️ dari 80px → 60px */
   }
 
   .promo-header {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
 
   .promo-header h1 {
-    font-size: 26px;
-  }
-
-  .promo-text {
-    max-width: 100%;
+    font-size: 24px;
   }
 }
