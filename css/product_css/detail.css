@@ -1,75 +1,65 @@
 /* ================================
-SECTION CTA (CENTER & MODERN)
+SECTION CTA (SESUAI GAMBAR)
 ================================ */
 .cta-section {
-  padding: 80px 20px;
-  background: linear-gradient(135deg, #f3f3f3, #e9e9e9);
+  background: #f1f1f1;
+  padding: 50px 20px;
 }
 
 .cta-container {
   max-width: 1200px;
   margin: 0 auto;
-  background: #ffffff;
-  border-radius: 20px;
-  padding: 60px 40px;
+  background: #f1f1f1;
 
   display: flex;
-  flex-direction: column; /* ✅ JADI TENGAH VERTIKAL */
   align-items: center;
-  text-align: center;
-  gap: 26px;
-
-  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.08);
+  justify-content: space-between;
+  gap: 30px;
 }
 
+/* ================================
+TEXT
+================================ */
 .cta-text h2 {
   font-size: 34px;
   font-weight: 800;
-  color: #222;
-  line-height: 1.25;
-  max-width: 800px;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .cta-text p {
-  margin-top: 10px;
-  color: #555;
-  font-size: 17px;
-  max-width: 600px;
+  font-size: 18px;
+  color: #666;
 }
 
 /* ================================
-BUTTON CTA
+BUTTON
 ================================ */
 .cta-button {
-  background: linear-gradient(135deg, #ff1a1a, #cc0f0f);
+  background: #ff1a1a;
   color: #fff;
-  padding: 16px 42px;
+  padding: 18px 38px;
   font-size: 18px;
-  border-radius: 50px; /* ✅ BULAT PREMIUM */
-  text-decoration: none;
   font-weight: 700;
-  letter-spacing: 0.5px;
-
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
+  text-decoration: none;
+  border-radius: 2px; /* ✅ SUDUT KOTAK SEPERTI GAMBAR */
   transition: all 0.25s ease;
-  box-shadow: 0 12px 25px rgba(230, 18, 18, 0.3);
+  white-space: nowrap;
 }
 
 .cta-button:hover {
-  transform: translateY(-3px) scale(1.02);
-  box-shadow: 0 16px 40px rgba(230, 18, 18, 0.45);
-  background: linear-gradient(135deg, #e61212, #a80b0b);
+  background: #cc0f0f;
+  transform: translateY(-1px);
 }
 
 /* ================================
-RESPONSIVE CTA (HP & TABLET)
+RESPONSIVE (HP)
 ================================ */
 @media (max-width: 768px) {
   .cta-container {
-    padding: 46px 26px;
+    flex-direction: column;
+    text-align: center;
   }
 
   .cta-text h2 {
@@ -81,6 +71,7 @@ RESPONSIVE CTA (HP & TABLET)
   }
 
   .cta-button {
+    margin-top: 16px;
     padding: 14px 34px;
     font-size: 16px;
   }
