@@ -179,7 +179,7 @@
                 <h3>GIGA FTR</h3>
                 <p class="mulai">Mulai Dari</p>
                 <p class="harga">Rp. 693.000.000</p>
-                <a href="/isuzu-nlr" class="detail-btn">DETAIL</a>
+                <a href="/isuzu-ftr" class="detail-btn">DETAIL</a>
             </div>
 
             <!-- Item 3 -->

@@ -203,8 +203,7 @@
           </a>
 
           <a
-            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FTR%20(Giga%20210%20PS)"
-            target="_blank"
+            href="/isuzu-ftr"
             rel="noopener"
             class="product-item"
           >
