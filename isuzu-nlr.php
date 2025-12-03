@@ -254,7 +254,7 @@
                 <h3>ELF NLR</h3>
                 <p class="mulai">Mulai Dari</p>
                 <p class="harga">Rp. 400.000.000</p>
-                <a href="/isuzu-nlr" class="detail-btn">DETAIL</a>
+                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
             </div>
 
             <!-- Item 2 -->
@@ -263,7 +263,7 @@
                 <h3>ELF NLR L</h3>
                 <p class="mulai">Mulai Dari</p>
                 <p class="harga">Rp. 416.000.000</p>
-                <a href="/tragabox" class="detail-btn">DETAIL</a>
+                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
             </div>
 
         </div>
