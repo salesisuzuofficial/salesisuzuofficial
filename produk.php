@@ -212,8 +212,7 @@
           </a>
 
           <a
-            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FVR%20(Giga%20245%20PS)"
-            target="_blank"
+            href="/isuzu-fvr"
             rel="noopener"
             class="product-item"
           >

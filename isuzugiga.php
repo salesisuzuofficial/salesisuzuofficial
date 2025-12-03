@@ -188,7 +188,7 @@
                 <h3>GIGA FVR</h3>
                 <p class="mulai">Mulai Dari</p>
                 <p class="harga">Rp. 773.000.000</p>
-                <a href="/isuzu-nlr" class="detail-btn">DETAIL</a>
+                <a href="/isuzu-fvr" class="detail-btn">DETAIL</a>
             </div>
 
             <!-- Item 4 -->
