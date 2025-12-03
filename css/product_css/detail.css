@@ -1,41 +1,89 @@
-/* ---------------- SECTION CTA ---------------- */
+/* ================================
+SECTION CTA (CENTER & MODERN)
+================================ */
 .cta-section {
-  background: #f1f1f1;
-  padding: 40px 20px;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f3f3f3, #e9e9e9);
 }
 
 .cta-container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 60px 40px;
+
   display: flex;
-  justify-content: space-between;
+  flex-direction: column; /* ✅ JADI TENGAH VERTIKAL */
   align-items: center;
+  text-align: center;
+  gap: 26px;
+
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.08);
 }
 
 .cta-text h2 {
-  font-size: 32px;
-  font-weight: 700;
-  margin: 0;
+  font-size: 34px;
+  font-weight: 800;
+  color: #222;
+  line-height: 1.25;
+  max-width: 800px;
 }
 
 .cta-text p {
   margin-top: 10px;
-  color: #666;
-  font-size: 18px;
+  color: #555;
+  font-size: 17px;
+  max-width: 600px;
 }
 
+/* ================================
+BUTTON CTA
+================================ */
 .cta-button {
-  background: #e61212;
+  background: linear-gradient(135deg, #ff1a1a, #cc0f0f);
   color: #fff;
-  padding: 15px 35px;
-  font-size: 20px;
-  border-radius: 3px;
+  padding: 16px 42px;
+  font-size: 18px;
+  border-radius: 50px; /* ✅ BULAT PREMIUM */
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.25s ease;
+  box-shadow: 0 12px 25px rgba(230, 18, 18, 0.3);
 }
 
 .cta-button:hover {
-  background: #c70f0f;
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 16px 40px rgba(230, 18, 18, 0.45);
+  background: linear-gradient(135deg, #e61212, #a80b0b);
+}
+
+/* ================================
+RESPONSIVE CTA (HP & TABLET)
+================================ */
+@media (max-width: 768px) {
+  .cta-container {
+    padding: 46px 26px;
+  }
+
+  .cta-text h2 {
+    font-size: 24px;
+  }
+
+  .cta-text p {
+    font-size: 15px;
+  }
+
+  .cta-button {
+    padding: 14px 34px;
+    font-size: 16px;
+  }
 }
 
 /* ---------------- SECTION PILIHAN TIPE ---------------- */
