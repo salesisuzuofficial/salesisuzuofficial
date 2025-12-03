@@ -110,6 +110,7 @@
     <link rel="stylesheet" href="css/product_css/header_product.css" />
     <link rel="stylesheet" href="css/product_css/product.css" />
     <link rel="stylesheet" href="css/product_css/detail.css" />
+    <link rel="stylesheet" href="css/product_css/detailproduct.css" />
 
   <!-- Feather Icons (NON-BLOCKING) -->
   <script src="https://unpkg.com/feather-icons" defer></script>
@@ -154,36 +155,104 @@
       </div>
 
       <div class="hero-content">
-        <h1>Isuzu Traga</h1>
+        <h1>Traga Pick Up</h1>
       </div>
     </section>
 
-    <!-- ========== PRODUCT SECTION ========== -->
-    <section class="tipe-section">
-        <h2 class="tipe-title">PILIHAN TIPE</h2>
+    <!-- ========== DETAIL SECTION ========== -->
+    <section class="promo-section">
 
-        <div class="tipe-wrapper">
+    <!-- HEADER -->
+    <div class="promo-header">
+        <p class="promo-tag">#IsuzuEuro4Ready</p>
+        <h1>Bertenaga untuk Keuntungan Usaha Anda</h1>
+        <p class="promo-desc">
+        Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional harian Anda.
+        </p>
+    </div>
 
-            <!-- Item 1 -->
-            <div class="tipe-card">
-                <img src="/img/product/traga/tragapickup.png" alt="Traga Pickup">
-                <h3>TRAGA PICK UP</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 271.000.000</p>
-                <a href="/tragapickup" class="detail-btn">DETAIL</a>
-            </div>
+    <!-- 1 -->
+    <div class="promo-grid">
+        <div class="promo-text">
+        <h2>Fungsional dan Siap Digunakan</h2>
+        <p>
+        Isuzu TRAGA Pick Up FD dan Isuzu TRAGA Box kini menggunakan teknologi mesin Common Rail 4 silinder 4JA1-CR yang dilengkapi dengan VGT Turbo Intercooler, Exhaust Gas Recirculation (EGR), serta Diesel Oxidation Catalyst (DOC). Kombinasi teknologi ini membuat emisi gas buang yang dihasilkan telah memenuhi standar EURO 4.
+        </p>
 
-            <!-- Item 2 -->
-            <div class="tipe-card">
-                <img src="/img/product/traga/tragabox.png" alt="Traga Box">
-                <h3>TRAGA BOX</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 311.000.000</p>
-                <a href="/tragabox" class="detail-btn">DETAIL</a>
-            </div>
+        <p>
+        Isuzu TRAGA hadir dengan kapasitas mesin 2.500 cc yang mampu menghasilkan tenaga sebesar 80 PS serta torsi maksimal 19,5 kg.m pada putaran 1.800–2.400 rpm. Dilengkapi dengan sistem injeksi Common Rail, performa mesin tetap bertenaga sekaligus efisien dalam konsumsi bahan bakar.
+        </p>
 
+        <p>
+        Isuzu TRAGA Pick Up FD dan Isuzu TRAGA Box juga menggunakan timing gear yang lebih presisi dan tahan lama, sehingga mampu memperpanjang usia pakai kendaraan serta menjaga keandalan dalam penggunaan jangka panjang.
+        </p>
         </div>
+        <div class="promo-image">
+        <img src="/img/product/traga/traga-engine1.webp" alt="Kendaraan">
+        </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="promo-grid reverse">
+        <div class="promo-image">
+        <img src="/img/product/traga/traga-euro2.webp" alt="Bak Kargo">
+        </div>
+        <div class="promo-text">
+        <h2>Varian Terbaik Pada Isuzu Traga</h2>
+        <p>Isuzu TRAGA hadir dengan dua pilihan varian, Isuzu TRAGA Pick Up FD dan Isuzu TRAGA Box yang siap digunakan untuk menunjang bisnis Anda, sehingga mampu meningkatkan efektivitas dan efisiensi proses operasional bisnis Anda. </p>
+        </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="promo-grid">
+        <div class="promo-text">
+        <h2>Mudah Bermanuver</h2>
+        <p>Radius putar kecil memudahkan kendaraan bermanuver di jalan sempit maupun area padat.</p>
+        </div>
+        <div class="promo-image">
+        <img src="/img/product/traga/Isuzu-Traga-Mudah-Bermanuver.webp" alt="Radius Putar">
+        </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="promo-grid reverse">
+        <div class="promo-image">
+        <img src="/img/product/traga/Traga-kabin-lega.webp" alt="Interior">
+        </div>
+        <div class="promo-text">
+        <h2>Kenyamanan dan Keamanan Prioritas</h2>
+        <p>Dilengkapi fitur keselamatan, dashboard ergonomis, serta posisi duduk nyaman untuk penggunaan jangka panjang.</p>
+        </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="promo-grid">
+        <div class="promo-text">
+        <h2>Kemudahan Service & Suku Cadang</h2>
+        <p>Didukung jaringan bengkel luas serta ketersediaan suku cadang yang mudah sehingga operasional bisnis lebih tenang.</p>
+        </div>
+        <div class="promo-image">
+        <img src="/img/product/traga/service-dan-suku-cadang.webp" alt="Service & Sparepart">
+        </div>
+    </div>
+
+    <!-- 6 -->
+    <div class="promo-grid reverse">
+        <div class="promo-image">
+        <img src="/img/product/traga/traga-kargo.webp" alt="Interior">
+        </div>
+        <div class="promo-text">
+        <h2>Kargo Terluas di Kelasnya</h2>
+        <p>Isuzu TRAGA dirancang dengan dimensi kargo yang luas untuk memaksimalkan daya angkut. Dengan panjang 2,8 meter dan lebar 1,6 meter, Isuzu TRAGA terbukti memiliki kargo terluas di kelasnya, sehingga mampu mengangkut lebih banyak muatan. Hal ini membuat bisnis Anda lebih menguntungkan serta membantu memaksimalkan efisiensi biaya operasional.</p>
+            <p class="note">
+            *Isuzu TRAGA Pick Up FD mampu membawa 60 galon dalam satu kali angkut, sedangkan Isuzu TRAGA Box mampu membawa hingga 300 kardus mi instan dalam satu kali angkut.
+            </p>
+        </div>
+    </div>
+
+
     </section>
+
 
     <!-- CTA -->
      <section class="cta-section">
