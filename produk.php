@@ -168,7 +168,6 @@
           <!-- Produk List -->
           <a
             href="/isuzutraga"
-            target="_blank"
             rel="noopener"
             class="product-item"
           >
