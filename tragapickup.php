@@ -177,7 +177,17 @@
     <div class="promo-grid">
         <div class="promo-text">
         <h2>Fungsional dan Siap Digunakan</h2>
-        <p>Dirancang dengan kabin luas, visibilitas tinggi, serta kemudahan perawatan untuk meningkatkan produktivitas bisnis Anda.</p>
+        <p>
+        Isuzu TRAGA Pick Up FD dan Isuzu TRAGA Box kini menggunakan teknologi mesin Common Rail 4 silinder 4JA1-CR yang dilengkapi dengan VGT Turbo Intercooler, Exhaust Gas Recirculation (EGR), serta Diesel Oxidation Catalyst (DOC). Kombinasi teknologi ini membuat emisi gas buang yang dihasilkan telah memenuhi standar EURO 4.
+        </p>
+
+        <p>
+        Isuzu TRAGA hadir dengan kapasitas mesin 2.500 cc yang mampu menghasilkan tenaga sebesar 80 PS serta torsi maksimal 19,5 kg.m pada putaran 1.800–2.400 rpm. Dilengkapi dengan sistem injeksi Common Rail, performa mesin tetap bertenaga sekaligus efisien dalam konsumsi bahan bakar.
+        </p>
+
+        <p>
+        Isuzu TRAGA Pick Up FD dan Isuzu TRAGA Box juga menggunakan timing gear yang lebih presisi dan tahan lama, sehingga mampu memperpanjang usia pakai kendaraan serta menjaga keandalan dalam penggunaan jangka panjang.
+        </p>
         </div>
         <div class="promo-image">
         <img src="/img/product/traga/traga-engine1.webp" alt="Kendaraan">
@@ -191,7 +201,7 @@
         </div>
         <div class="promo-text">
         <h2>Kargo Terluas di Kelasnya</h2>
-        <p>Kapasitas angkut optimal memungkinkan pengiriman lebih banyak dalam satu perjalanan sehingga menekan biaya operasional.</p>
+        <p>Isuzu TRAGA hadir dengan dua pilihan varian, Isuzu TRAGA Pick Up FD dan Isuzu TRAGA Box yang siap digunakan untuk menunjang bisnis Anda, sehingga mampu meningkatkan efektivitas dan efisiensi proses operasional bisnis Anda. </p>
         </div>
     </div>
 
