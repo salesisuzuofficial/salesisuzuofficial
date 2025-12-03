@@ -78,85 +78,62 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <!-- JSON-LD Schema Valid -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "name": "Dealer Astra Isuzu Jakarta Resmi",
-        "url": "https://salesisuzuofficial.com/",
-        "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-      },
-      {
-        "@type": "WebSite",
-        "url": "https://salesisuzuofficial.com/",
-        "name": "Dealer Astra Isuzu Jakarta Resmi",
-        "publisher": {
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
           "@type": "Organization",
           "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-          }
-        }
-      },
-      {
-        "@type": "AutoDealer",
-        "name": "Dealer Astra Isuzu Jakarta Resmi",
-        "url": "https://salesisuzuofficial.com/",
-        "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-        "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-        "description": "Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu.",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
-          "addressLocality": "Jakarta Barat",
-          "addressRegion": "DKI Jakarta",
-          "postalCode": "11730",
-          "addressCountry": "ID"
+          "url": "https://salesisuzuofficial.com/",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "sameAs": [
+            "https://www.facebook.com/",
+            "https://www.instagram.com/"
+          ]
         },
-        "telephone": "+6281296632186",
-        "email": "salesisuzuofficial@gmail.com",
-        "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"],
-        "makesOffer": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Isuzu Elf",
-              "description": "Isuzu Elf – Box, Engkel, Double, Microbus."
+        {
+          "@type": "WebSite",
+          "url": "https://salesisuzuofficial.com/",
+          "name": "Dealer Isuzu",
+          "alternateName": "Dealer Astra Isuzu Jakarta Resmi",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Dealer Astra Isuzu Jakarta Resmi",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
             }
           },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Isuzu Giga",
-              "description": "Isuzu Giga – Truk Medium & Berat."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Isuzu Traga",
-              "description": "Isuzu Traga – Pick Up & Box."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Isuzu NLR / NMR",
-              "description": "Isuzu NLR & NMR – Truk Ringan & Medium."
-            }
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://salesisuzuofficial.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
           }
-        ]
-      }
-    ]
-  }
-  </script>
+        },
+        {
+          "@type": "AutoDealer",
+          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "url": "https://salesisuzuofficial.com/",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "description": "Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga, promo, dan kredit mobil Isuzu.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
+            "addressLocality": "Jakarta Barat",
+            "addressRegion": "DKI Jakarta",
+            "postalCode": "11730",
+            "addressCountry": "ID"
+          },
+          "telephone": "+6281296632186",
+          "email": "salesisuzuofficial@gmail.com",
+          "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
+        }
+      ]
+    }
+    </script>
+
 
   <!-- Open Graph -->
   <meta property="og:title" content="Hubungi Kami | Dealer Resmi Astra Isuzu Jakarta" />
@@ -190,14 +167,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <script src="js/script.js" defer></script>
 
   <!-- Feather Icons FIX (Anti-Error) -->
-  <script src="https://unpkg.com/feather-icons"></script>
-  <script>
-      window.addEventListener("load", function () {
-          if (window.feather) {
-              feather.replace();
-          }
+    <script src="/js/feather.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        feather.replace();
       });
-  </script>
+    </script>
 </head>
 
 <body>

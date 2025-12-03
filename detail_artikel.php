@@ -60,70 +60,30 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <!-- JSON-LD (VALID & RAPIH) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "name": "Dealer Astra Isuzu Jakarta Resmi",
-        "url": "https://salesisuzuofficial.com/",
-        "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-      },
-      {
-        "@type": "WebSite",
-        "url": "https://salesisuzuofficial.com/",
-        "name": "Dealer Astra Isuzu Jakarta Resmi",
-        "publisher": {
-          "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-          }
-        }
-      },
-      {
-        "@type": "AutoDealer",
-        "name": "Dealer Astra Isuzu Jakarta Resmi",
-        "url": "https://salesisuzuofficial.com/",
-        "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-        "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-        "description": "Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga, promo, dan kredit mobil Isuzu.",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
-          "addressLocality": "Jakarta Barat",
-          "addressRegion": "DKI Jakarta",
-          "postalCode": "11730",
-          "addressCountry": "ID"
-        },
-        "telephone": "+6281296632186",
-        "email": "salesisuzuofficial@gmail.com",
-        "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
-      },
-      {
-        "@type": "Article",
-        "headline": "<?= htmlspecialchars($judul, ENT_QUOTES); ?>",
-        "description": "<?= htmlspecialchars($deskripsi, ENT_QUOTES); ?>",
-        "image": "<?= $og_image; ?>",
-        "url": "<?= $canonical; ?>",
-        "author": {
-          "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-          }
-        }
-      }
-    ]
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "<?= htmlspecialchars($judul, ENT_QUOTES); ?>",
+  "description": "<?= htmlspecialchars($deskripsi, ENT_QUOTES); ?>",
+  "image": "<?= $og_image; ?>",
+  "url": "<?= $canonical; ?>",
+  "author": {
+    "@type": "Person",
+    "name": "Dedy Chandra"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Dealer Astra Isuzu Jakarta Resmi",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+    }
   }
-  </script>
+}
+</script>
+
+
 
   <!-- OPEN GRAPH -->
   <meta property="og:title" content="<?= htmlspecialchars($judul, ENT_QUOTES); ?>">
@@ -165,12 +125,12 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
   </script>
 
   <!-- Feather Icons (NON-BLOCKING) -->
-  <script src="https://unpkg.com/feather-icons" defer></script>
-  <script>
+    <script src="/js/feather.min.js"></script>
+    <script>
       document.addEventListener("DOMContentLoaded", function () {
-          feather.replace();
+        feather.replace();
       });
-  </script>
+    </script>
   
   <script src="/js/script.js" defer></script>
 </head>
@@ -316,9 +276,12 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
 <script src="https://elfsightcdn.com/platform.js" async></script>
 <div class="elfsight-app-f56c7d51-f2e3-421a-bdba-8f4071e20aba"></div>
 
-<script>
-  feather.replace();
-</script>
+    <script src="/js/feather.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        feather.replace();
+      });
+    </script>
 
 </body>
 </html>

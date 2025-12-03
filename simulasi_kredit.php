@@ -91,80 +91,48 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       "@context": "https://schema.org",
       "@graph": [
         {
+          "@type": "WebSite",
+          "name": "Dealer Isuzu",
+          "url": "https://salesisuzuofficial.com/",
+          "alternateName": "Dealer Isuzu Jakarta",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://salesisuzuofficial.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
           "@type": "Organization",
           "name": "Dealer Astra Isuzu Jakarta Resmi",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
         },
         {
-          "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dealer Astra Isuzu Jakarta Resmi",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-            }
-          }
-        },
-        {
           "@type": "AutoDealer",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "name": "Dealer Astra Isuzu Jakarta - Dedy Chandra",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer Isuzu Jakarta resmi dari Astra. Promo, harga terbaru, dan kredit mobil Isuzu.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
-            "addressLocality": "Jakarta Barat",
-            "addressRegion": "DKI Jakarta",
-            "postalCode": "11730",
-            "addressCountry": "ID"
-          },
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
-          "areaServed": ["Jakarta","Bekasi","Depok","Tangerang","Bogor"],
-          "makesOffer": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Product",
-                "name": "Isuzu Elf",
-                "description": "Isuzu Elf – Box, Engkel, Double, Microbus."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Product",
-                "name": "Isuzu Giga",
-                "description": "Isuzu Giga – Truk Medium & Berat."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Product",
-                "name": "Isuzu Traga",
-                "description": "Isuzu Traga – Pick Up & Box."
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Product",
-                "name": "Isuzu NLR / NMR",
-                "description": "Isuzu NLR & NMR – Truk Ringan & Medium."
-              }
-            }
-          ]
+          "priceRange": "IDR",
+          "url": "https://salesisuzuofficial.com/",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Daan Mogot / Cabang Astra Isuzu (lihat contact page)",
+            "addressLocality": "Jakarta",
+            "addressRegion": "DKI Jakarta",
+            "postalCode": "",
+            "addressCountry": "ID"
+          },
+          "sameAs": [
+            "https://www.facebook.com/",
+            "https://www.instagram.com/"
+          ],
+          "areaServed": ["Jakarta", "Tangerang", "Bekasi", "Jabodetabek"]
         }
       ]
     }
     </script>
+
 
     <!-- Open Graph -->
     <meta property="og:title" content="Simulasi Kredit – Astra Isuzu Jakarta Resmi" />
@@ -195,12 +163,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <link rel="stylesheet" href="/css/simulasikredit_css/simulasi.css" />
 
   <!-- Feather Icons (NON-BLOCKING) -->
-  <script src="https://unpkg.com/feather-icons" defer></script>
-  <script>
+    <script src="/js/feather.min.js"></script>
+    <script>
       document.addEventListener("DOMContentLoaded", function () {
-          feather.replace();
+        feather.replace();
       });
-  </script>
+    </script>
 
     <script src="/js/script.js" defer></script>
 </head>

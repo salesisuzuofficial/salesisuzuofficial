@@ -38,15 +38,23 @@ $artikel = array_slice($artikelData, $offset, $perPage);
 
 // Canonical & OG URL logic
 // Canonical untuk halaman daftar: /artikel.php (tambahkan ?search/kategori/page jika ada)
-$canonicalBase = 'https://salesisuzuofficial.com/artikel.php';
+$canonicalBase = 'https://salesisuzuofficial.com/artikel';
+
 $canonical = $canonicalBase;
+
 $queryParts = [];
 if ($search !== '') $queryParts['search'] = $search;
 if ($selectedKategori !== '') $queryParts['kategori'] = $selectedKategori;
-if ($page > 1) $queryParts['page'] = $page;
+
+// Tambahkan page HANYA untuk page > 1
+if ($page > 1) {
+    $queryParts['page'] = $page;
+}
+
 if (!empty($queryParts)) {
     $canonical .= '?' . http_build_query($queryParts);
 }
+
 
 // Meta description (static fallback)
 $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman. Konsultasi gratis & siap melayani seluruh Jakarta.'; 
@@ -66,9 +74,14 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
     <?php if ($page > 1): 
         $prevQuery = $queryParts;
         $prevQuery['page'] = $page - 1;
+    
+    // Jika kembali ke page 1 → HAPUS ?page=1 agar jadi /artikel.php saja
+        if ($page - 1 == 1) unset($prevQuery['page']);
+    
         $prevHref = $canonicalBase . (empty($prevQuery) ? '' : '?' . http_build_query($prevQuery)); ?>
     <link rel="prev" href="<?= htmlspecialchars($prevHref, ENT_QUOTES); ?>" />
     <?php endif; ?>
+
 
     <?php if ($page < $totalPages): 
         $nextQuery = $queryParts;
@@ -96,12 +109,17 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
           "@type": "Organization",
           "name": "Dealer Astra Isuzu Jakarta Resmi",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "sameAs": [
+            "https://www.facebook.com/",
+            "https://www.instagram.com/"
+          ]
         },
         {
           "@type": "WebSite",
           "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Isuzu",
+          "alternateName": "Dealer Astra Isuzu Jakarta Resmi",
           "publisher": {
             "@type": "Organization",
             "name": "Dealer Astra Isuzu Jakarta Resmi",
@@ -109,6 +127,11 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
               "@type": "ImageObject",
               "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
             }
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://salesisuzuofficial.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
           }
         },
         {
@@ -117,7 +140,7 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu.",
+          "description": "Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga, promo, dan kredit mobil Isuzu.",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
@@ -133,6 +156,7 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
       ]
     }
     </script>
+
 
     <!-- Open Graph -->
     <meta property="og:title" content="Berita Terbaru Isuzu – Astra Isuzu Jakarta Resmi" />
@@ -173,12 +197,12 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
     <link rel="stylesheet" href="css/blog.css" />
 
   <!-- Feather Icons (NON-BLOCKING) -->
-  <script src="https://unpkg.com/feather-icons" defer></script>
-  <script>
+    <script src="/js/feather.min.js"></script>
+    <script>
       document.addEventListener("DOMContentLoaded", function () {
-          feather.replace();
+        feather.replace();
       });
-  </script>
+    </script>
 
     <!-- Custom Style -->
     <style>
@@ -205,10 +229,10 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
 
             <nav class="nav links">
                 <a href="/">Home</a>
-                <a href="produk.php">Produk</a>
-                <a href="simulasi_kredit.php">Simulasi Kredit</a>
-                <a href="artikel.php" class="active">Blog & Artikel</a>
-                <a href="contact.php">Contact</a>
+                <a href="/produk">Produk</a>
+                <a href="/simulasi_kredit">Simulasi Kredit</a>
+                <a href="/artikel" class="active">Blog & Artikel</a>
+                <a href="/contact">Contact</a>
             </nav>
         </div>
     </header>
@@ -295,7 +319,7 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
                 for ($i = 1; $i <= max(1, $totalPages); $i++):
                     $q = $baseQuery;
                     if ($i > 1) $q['page'] = $i;
-                    $href = 'artikel.php' . (empty($q) ? '' : '?' . http_build_query($q));
+                    $href = '/artikel' . (empty($q) ? '' : '?' . http_build_query($q));
                 ?>
                     <a 
                         class="<?= $i === $page ? 'active' : '' ?>" 
@@ -319,6 +343,11 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
 
     <!-- JS -->
     <script src="js/script.js"></script>
-    <script>feather.replace();</script>
+    <script src="/js/feather.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        feather.replace();
+      });
+    </script>
 </body>
 </html>

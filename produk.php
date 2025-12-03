@@ -42,46 +42,48 @@
       "@context": "https://schema.org",
       "@graph": [
         {
+          "@type": "WebSite",
+          "name": "Dealer Isuzu",
+          "url": "https://salesisuzuofficial.com/",
+          "alternateName": "Dealer Isuzu Jakarta",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://salesisuzuofficial.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
           "@type": "Organization",
           "name": "Dealer Astra Isuzu Jakarta Resmi",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
         },
         {
-          "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dealer Astra Isuzu Jakarta Resmi",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-            }
-          }
-        },
-        {
           "@type": "AutoDealer",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "name": "Dealer Astra Isuzu Jakarta - Dedy Chandra",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer Isuzu Jakarta resmi dari Astra. Promo, kredit, dan harga terbaru Isuzu.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
-            "addressLocality": "Jakarta Barat",
-            "addressRegion": "DKI Jakarta",
-            "postalCode": "11730",
-            "addressCountry": "ID"
-          },
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
-          "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
+          "priceRange": "IDR",
+          "url": "https://salesisuzuofficial.com/",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Daan Mogot / Cabang Astra Isuzu (lihat contact page)",
+            "addressLocality": "Jakarta",
+            "addressRegion": "DKI Jakarta",
+            "postalCode": "",
+            "addressCountry": "ID"
+          },
+          "sameAs": [
+            "https://www.facebook.com/",
+            "https://www.instagram.com/"
+          ],
+          "areaServed": ["Jakarta", "Tangerang", "Bekasi", "Jabodetabek"]
         }
       ]
     }
     </script>
+
 
     <!-- FIXED OG -->
     <meta property="og:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
@@ -111,12 +113,12 @@
     <link rel="stylesheet" href="css/product_css/product.css" />
 
   <!-- Feather Icons (NON-BLOCKING) -->
-  <script src="https://unpkg.com/feather-icons" defer></script>
-  <script>
+    <script src="/js/feather.min.js"></script>
+    <script>
       document.addEventListener("DOMContentLoaded", function () {
-          feather.replace();
+        feather.replace();
       });
-  </script>
+    </script>
 
     <script src="js/script.js" defer></script>
   </head>

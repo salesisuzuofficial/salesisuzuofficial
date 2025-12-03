@@ -73,6 +73,17 @@ try {
       "@context": "https://schema.org",
       "@graph": [
         {
+          "@type": "WebSite",
+          "name": "Dealer Isuzu",
+          "url": "https://salesisuzuofficial.com/",
+          "alternateName": "Dealer Isuzu Jakarta",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://salesisuzuofficial.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
           "@type": "Organization",
           "name": "Dealer Astra Isuzu Jakarta Resmi",
           "url": "https://salesisuzuofficial.com/",
@@ -98,46 +109,7 @@ try {
             "https://www.facebook.com/",
             "https://www.instagram.com/"
           ],
-          "areaServed": ["Jakarta","Tangerang","Bekasi","Jabodetabek"]
-        },
-        {
-          "@type": "Product",
-          "name": "Isuzu Traga",
-          "description": "Isuzu Traga - pick up andalan usaha. Kapasitas muat kuat, irit bahan bakar.",
-          "brand": "Isuzu",
-          "url": "https://salesisuzuofficial.com/produk.php",
-          "image": "https://salesisuzuofficial.com/img/product/Isuzu-Traga.webp",
-          "offers": {
-            "@type": "Offer",
-            "priceCurrency": "IDR",
-            "availability": "https://schema.org/InStock"
-          }
-        },
-        {
-          "@type": "Product",
-          "name": "Isuzu ELF",
-          "description": "Isuzu ELF - truk ringan serbaguna untuk angkutan komersial.",
-          "brand": "Isuzu",
-          "url": "https://salesisuzuofficial.com/produk.php",
-          "image": "https://salesisuzuofficial.com/img/product/Isuzu-Elf-NLR.webp",
-          "offers": {
-            "@type": "Offer",
-            "priceCurrency": "IDR",
-            "availability": "https://schema.org/InStock"
-          }
-        },
-        {
-          "@type": "Product",
-          "name": "Isuzu Giga",
-          "description": "Isuzu Giga - truk berat untuk kebutuhan transportasi besar.",
-          "brand": "Isuzu",
-          "url": "https://salesisuzuofficial.com/produk.php",
-          "image": "https://salesisuzuofficial.com/img/product/Isuzu-Giga-FTR.webp",
-          "offers": {
-            "@type": "Offer",
-            "priceCurrency": "IDR",
-            "availability": "https://schema.org/InStock"
-          }
+          "areaServed": ["Jakarta", "Tangerang", "Bekasi", "Jabodetabek"]
         }
       ]
     }
@@ -208,11 +180,11 @@ try {
     </script>
 
     <!-- Feather Icons -->
-    <script src="https://unpkg.com/feather-icons" defer></script>
+    <script src="/js/feather.min.js"></script>
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            feather.replace();
-        });
+      document.addEventListener("DOMContentLoaded", function () {
+        feather.replace();
+      });
     </script>
 
     <!-- JS utama dipindah ke bawah (tidak blocking) -->
@@ -426,7 +398,7 @@ try {
                         ?>
                         <div class="blog-card">
                             <img 
-                                src="https://salesisuzuofficial.com/admin/uploads/artikel/<?= htmlspecialchars($artikel['gambar']) ?>" 
+                                src="https://salesisuzuofficial.com/uploads/artikel/<?= htmlspecialchars($artikel['gambar']) ?>" 
                                 alt="<?= htmlspecialchars($artikel['judul']) ?>" 
                                 loading="lazy" 
                             />
@@ -455,6 +427,11 @@ try {
     <!-- Footer -->
     <?php include 'footer.php'; ?>
 
-    <script>feather.replace();</script>
+    <script src="/js/feather.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        feather.replace();
+      });
+    </script>
 </body>
 </html>
