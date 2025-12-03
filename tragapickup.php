@@ -155,7 +155,7 @@
       </div>
 
       <div class="hero-content">
-        <h1>Produk Isuzu</h1>
+        <h1>Traga Pick Up</h1>
       </div>
     </section>
 
@@ -164,7 +164,7 @@
 
     <!-- HEADER -->
     <div class="promo-header">
-        <p class="promo-tag">#ProdukSiapKerja</p>
+        <p class="promo-tag">#IsuzuEuro4Ready</p>
         <h1>Bertenaga untuk Keuntungan Usaha Anda</h1>
         <p class="promo-desc">
         Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional harian Anda.
