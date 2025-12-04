@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- FIXED TITLE -->
-    <title>Produk Isuzu – Astra Isuzu Jakarta Resmi</title>
+    <title>Isuzu Giga FVM – Dealer Resmi Isuzu Jakarta</title>
 
     <!-- FIXED DESCRIPTION -->
     <meta name="description" content="Lihat daftar produk resmi Isuzu Jakarta dari Astra. Tersedia Isuzu Traga, Elf, Giga, NLR/NMR dan kendaraan niaga lainnya. Harga terbaru, promo, dan paket kredit tersedia." />
@@ -23,7 +23,7 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://salesisuzuofficial.com/produk" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/isuzu-fvm" />
 
     <!-- Favicon utama -->
     <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
@@ -41,61 +41,114 @@
     {
       "@context": "https://schema.org",
       "@graph": [
+
         {
           "@type": "Organization",
           "name": "Dealer Astra Isuzu Jakarta Resmi",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-        },
-        {
-          "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dealer Astra Isuzu Jakarta Resmi",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-            }
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+6281296632186",
+            "contactType": "sales",
+            "areaServed": "ID"
           }
         },
+
         {
           "@type": "AutoDealer",
           "name": "Dealer Astra Isuzu Jakarta Resmi",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer Isuzu Jakarta resmi dari Astra. Promo, kredit, dan harga terbaru Isuzu.",
+          "telephone": "+6281296632186",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
+            "streetAddress": "Jalan Daan Mogot Km 13.9",
             "addressLocality": "Jakarta Barat",
             "addressRegion": "DKI Jakarta",
             "postalCode": "11730",
             "addressCountry": "ID"
           },
-          "telephone": "+6281296632186",
-          "email": "salesisuzuofficial@gmail.com",
           "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
+        },
+
+        {
+          "@type": "Product",
+          "name": "Isuzu Giga FVM",
+          "image": [
+            "https://salesisuzuofficial.com/img/product/fvm/headerfvm.webp"
+          ],
+          "description": "Isuzu Giga FVM adalah truk medium duty dengan mesin 6HK1 bertenaga besar, irit bahan bakar, dan tangguh untuk kebutuhan bisnis logistik dan konstruksi.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Isuzu"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://salesisuzuofficial.com/isuzu-fvm",
+            "priceCurrency": "IDR",
+            "price": "912000000",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Dealer Astra Isuzu Jakarta Resmi"
+            }
+          }
+        },
+
+        {
+          "@type": "WebPage",
+          "name": "Isuzu Giga FVM – Harga & Spesifikasi",
+          "url": "https://salesisuzuofficial.com/isuzu-fvm",
+          "description": "Spesifikasi lengkap, harga, dan promo Isuzu Giga FVM di Dealer Resmi Isuzu Jakarta.",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://salesisuzuofficial.com/img/product/fvm/headerfvm.webp"
+          }
+        },
+
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://salesisuzuofficial.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Produk",
+              "item": "https://salesisuzuofficial.com/produk"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Isuzu Giga FVM",
+              "item": "https://salesisuzuofficial.com/isuzu-fvm"
+            }
+          ]
         }
+
       ]
     }
     </script>
 
-    <!-- FIXED OG -->
-    <meta property="og:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta property="og:description" content="Lihat daftar produk Isuzu resmi Jakarta. Promo & harga terbaru kendaraan niaga Isuzu." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/produk" />
+    <!-- ================= OPEN GRAPH ISUZU GIGA FVM ================= -->
+    <meta property="og:title" content="Isuzu Giga FVM – Harga & Spesifikasi | Dealer Resmi Isuzu Jakarta" />
+    <meta property="og:description" content="Isuzu Giga FVM truk medium duty bertenaga besar, irit BBM, dan tangguh untuk bisnis. Dapatkan harga terbaik & promo kredit resmi Isuzu Jakarta." />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/fvm/headerfvm.webp" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-fvm" />
     <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="product" />
 
-    <!-- FIXED TWITTER -->
+    <!-- ================= TWITTER CARD ================= -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta name="twitter:description" content="Lihat pilihan produk resmi Isuzu Jakarta dari Astra. Cek harga terbaru." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+    <meta name="twitter:title" content="Isuzu Giga FVM – Truk Medium Duty Tangguh & Irit" />
+    <meta name="twitter:description" content="Lihat spesifikasi lengkap, harga terbaru, dan simulasi kredit Isuzu Giga FVM hanya di Dealer Resmi Isuzu Jakarta." />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/fvm/headerfvm.webp" />
+
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
@@ -140,10 +193,11 @@
         <!-- Navigation -->
         <nav class="nav links">
           <a href="/">Home</a>
-          <a href="produk.php">Produk</a>
-          <a href="simulasi_kredit.php">Simulasi Kredit</a>
-          <a href="artikel.php">Blog & Artikel</a>
-          <a href="contact.php">Contact</a>
+          <a href="/showroom">Showroom</a>
+          <a href="/produk">Produk</a>
+          <a href="/simulasi_kredit">Simulasi Kredit</a>
+          <a href="/artikel">Blog & Artikel</a>
+          <a href="/contact">Contact</a>
         </nav>
       </div>
     </header>
@@ -151,126 +205,133 @@
     <!-- ========== HERO SECTION ========== -->
     <section class="hero hero-produk">
       <div class="slider">
-        <img src="img/product/fvm/headerfvm.webp" class="slide" alt="Isuzu Giga FVM" />
+        <img src="img/product/fvm/headerfvm.webp" class="slide" alt="Isuzu Giga FVM tampak depan" />
       </div>
 
       <div class="hero-content">
-        <h1>Isuzu Giga FVM</h1>
+        <!-- ✅ SATU-SATUNYA H1 DI HALAMAN -->
+        <h1>Isuzu Giga FVM – Harga, Spesifikasi & Promo Terbaru</h1>
       </div>
     </section>
 
     <!-- ========== DETAIL SECTION ========== -->
     <section class="promo-section">
 
-    <!-- HEADER -->
-    <div class="promo-header">
+      <!-- ✅ SUB JUDUL UTAMA (TURUN KE H2) -->
+      <div class="promo-header">
         <p class="promo-tag">#IsuzuEuro4Ready</p>
-        <h1>Bertenaga untuk Keuntungan Usaha Anda</h1>
+        <h2>Truk Bertenaga untuk Keuntungan Usaha Anda</h2>
         <p class="promo-desc">
-        Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional harian Anda.
+          Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional harian Anda.
         </p>
-    </div>
+      </div>
 
-    <!-- 1 -->
-    <div class="promo-grid">
+      <!-- 1 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Isuzu GIGA FVM, Efisien untuk Berbagai Kebutuhan</h2>
-        <p>
-        Hadir dengan empat pilihan varian, Isuzu GIGA FVM dibekali teknologi mesin Heavy Duty Common Rail 6HK1 yang dilengkapi Exhaust Gas Recirculation (EGR) dan Diesel Oxidation Catalyst (DOC), sehingga mampu menghasilkan emisi gas buang berstandar EURO4, dengan torsi 80.5 kg.m dan 90 kg.m pada 1,450 – 2,400 rpm. Truk tangguh dengan performa tinggi ini turut dibekali Direct Injection Diesel dengan teknologi Diamond Like Carbon (DLC) dan Double Fuel Filter.
-        </p>
+          <h3>Mesin 6HK1 yang Efisien untuk Berbagai Kebutuhan</h3>
+          <p>
+            Isuzu GIGA FVM tersedia dalam empat varian dan dibekali mesin Heavy Duty Common Rail 6HK1 yang sudah menggunakan teknologi EGR serta Diesel Oxidation Catalyst (DOC) untuk menghasilkan emisi yang memenuhi standar EURO 4. Mesin ini mampu menghasilkan torsi 80,5 kg.m hingga 90 kg.m pada putaran 1.450–2.400 rpm, memberikan tenaga besar dan performa yang dapat diandalkan. Selain itu, truk ini juga dilengkapi sistem Direct Injection Diesel dengan teknologi Diamond Like Carbon (DLC) serta Double Fuel Filter, sehingga semakin tangguh dan efisien untuk mendukung kebutuhan operasional Anda.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/fvr/mesin-giga-fvr.webp" alt="Mesin Isuzu Giga FVM">
+          <img src="/img/product/fvr/mesin-giga-fvr.webp" alt="Mesin diesel Isuzu Giga FVM tipe 6HK1" />
         </div>
-    </div>
+      </div>
 
-    <!-- 2 -->
-    <div class="promo-grid reverse">
+      <!-- 2 -->
+      <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/fvr/giga-fvr-tabel-speed.webp" alt="Tabel Speed Isuzu Giga FVM">
+          <img src="/img/product/fvr/giga-fvr-tabel-speed.webp" alt="Diagram performa kecepatan Isuzu Giga FVM" />
         </div>
         <div class="promo-text">
-        <h2>Tangguh di Segala Jalan</h2>
-        <p>Dilengkapi dengan transmisi 6 percepatan yang lebih efektif, serta torsi 80.5 kg.m dan 90 kg.m yang mengusung tenaga 245 PS dan 285 PS, Isuzu GIGA FVM mampu dijadikan kendaraan andalan yang tangguh menerjang berbagai medan, baik itu jalan rata maupun berbukit. Tersedia juga transmisi 9 percepatan untuk tipe High Power.</p>
+          <h3>Tangguh di Jalan Datar dan Tanjakan</h3>
+          <p>
+            Dengan dukungan transmisi 6 percepatan yang bekerja lebih efisien serta torsi 80,5 kg.m dan 90 kg.m yang menghasilkan tenaga 245 PS hingga 285 PS, Isuzu GIGA FVM mampu menjadi armada andalan untuk menghadapi berbagai kondisi jalan, mulai dari jalur datar hingga tanjakan. Untuk Anda yang membutuhkan performa lebih tinggi, tersedia pula opsi transmisi 9 percepatan pada varian High Power.
+          </p>
         </div>
-    </div>
+      </div>
 
-    <!-- 3 -->
-    <div class="promo-grid">
+      <!-- 3 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Fitur Baru, Maksimalkan Keamanan dan Kenyamanan Pengemudi</h2>
-        <p>Isuzu GIGA FVM Kendaraan ini kini dilengkapi dengan anti-lock brake system baru, sebuah sistem rem yang berfungsi mencegah roda terkunci pada saat terjadi proses pengereman mendadak. Anti-lock brake system ini khusus untuk tipe terbaru FVM N HP ABS. Isuzu GIGA FVM kini dilengkapi dengan Roof Marker Lamp pada kedua sisi atap yang berguna memaksimalkan penerangan dan keamanan pada malam hari serta menjadikan tampilan kendaraan niaga Anda menjadi lebih modern. Dengan Reverse Warning Buzzer, truk akan berbunyi saat mundur sehingga meningkatkan kewaspadaan kendaraan sekitar. Isuzu GIGA FVM dilengkapi dengan slot USB charger, sehingga pengemudi dapat menikmati perjalanan tanpa khawatir kondisi baterai ponsel pengemudi. Isuzu GIGA FVR dilengkapi dengan APAR (Alat Pemadam Api Ringan) untuk memaksimalkan keamanan pada kondisi genting (kebakaran), serta retractable seatbelt (sabuk pengaman) tak hanya memastikan keamanan tapi juga bisa disesuaikan bentuk badan pengemudi agar lebih nyaman.</p>
+          <h3>Fitur Keamanan & Kenyamanan Terbaru</h3>
+          <p>
+            Isuzu GIGA FVM kini hadir dengan fitur keselamatan dan kenyamanan yang lebih lengkap. Varian terbaru FVM N HP ABS sudah dilengkapi anti-lock brake system untuk mencegah roda terkunci saat pengereman mendadak. Roof Marker Lamp di kedua sisi atap menambah visibilitas dan keamanan malam hari, sementara Reverse Warning Buzzer memberikan peringatan suara ketika truk mundur.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/fvm/usbfvm.webp" alt="Kabin Isuzu Giga FVM">
+          <img src="/img/product/fvm/usbfvm.webp" alt="Interior kabin Isuzu Giga FVM dengan USB charger" />
         </div>
-    </div>
+      </div>
 
-    <!-- 4 -->
-    <div class="promo-grid reverse">
+      <!-- 4 -->
+      <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/frr/service-dan-suku-cadang.webp" alt="Service Giga FVM">
+          <img src="/img/product/frr/service-dan-suku-cadang.webp" alt="Layanan servis dan suku cadang Isuzu Giga FVM" />
         </div>
         <div class="promo-text">
-        <h2>Kemudahan Service dan Suku Cadang</h2>
-        <p>Jaringan layanan purna jual yang luas dan lengkap, mulai dari bengkel resmi Isuzu, Bengkel Berjalan Isuzu hingga Bengkel Mitra Isuzu yang telah berpengalaman dengan mesin common rail sejak tahun 2011, mampu membantu Anda mempercepat proses perbaikan dan meningkatkan efisiensi bisnis Anda karena mampu meminimalisir downtime atau kerusakan. Suku cadang dapat dengan mudah didapatkan melalui dukungan bengkel resmi, mini depo, toko suku cadang (part shop), Bengkel Mitra Isuzu hingga Bengkel Isuzu Berjalan yang tersebar di seluruh kota di Indonesia.</p>
+          <h3>Servis Mudah & Suku Cadang Tersedia Nasional</h3>
+          <p>
+            Didukung oleh jaringan bengkel resmi Isuzu, Bengkel Berjalan, hingga Bengkel Mitra
+            yang tersebar di seluruh Indonesia untuk meminimalisir downtime bisnis Anda.
+          </p>
         </div>
-    </div>    
-    
+      </div>    
+
     </section>
 
     <!-- ========== PRODUCT SECTION ========== -->
     <section class="tipe-section">
-        <h2 class="tipe-title">PILIHAN TIPE</h2>
+      <h2 class="tipe-title">Pilihan Tipe Isuzu Giga FVM</h2>
 
-        <div class="tipe-wrapper">
+      <div class="tipe-wrapper">
 
-            <!-- Item 1 -->
-            <div class="tipe-card">
-                <img src="/img/product/fvm/fvmbakbesi.png" alt="GIGA FVM N">
-                <h3>GIGA FVM N</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 912.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 2 -->
-            <div class="tipe-card">
-                <img src="/img/product/fvm/fvmboxbesi.png" alt="GIGA FVM P">
-                <h3>GIGA FVM U</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 924.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 3 -->
-            <div class="tipe-card">
-                <img src="/img/product/fvm/fvmbakbesi.png" alt="GIGA FVM N">
-                <h3>GIGA FVM N ABS</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 992.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 4 -->
-            <div class="tipe-card">
-                <img src="/img/product/fvm/fvmboxbesi.png" alt="GIGA FVM P">
-                <h3>GIGA FVM U HP</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 976.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>            
-
+        <!-- Item 1 -->
+        <div class="tipe-card">
+          <img src="/img/product/fvm/fvmbakbesi.png" alt="Isuzu Giga FVM N bak besi" />
+          <h3>GIGA FVM N</h3>
+          <p class="mulai">Mulai Dari</p>
+          <p class="harga">Rp. 912.000.000</p>
+          <a href="https://wa.me/6281296632186" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
         </div>
-    </section>
 
+        <!-- Item 2 -->
+        <div class="tipe-card">
+          <img src="/img/product/fvm/fvmboxbesi.png" alt="Isuzu Giga FVM U box besi" />
+          <h3>GIGA FVM U</h3>
+          <p class="mulai">Mulai Dari</p>
+          <p class="harga">Rp. 924.000.000</p>
+          <a href="https://wa.me/6281296632186" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="tipe-card">
+          <img src="/img/product/fvm/fvmbakbesi.png" alt="Isuzu Giga FVM N ABS bak besi" />
+          <h3>GIGA FVM N ABS</h3>
+          <p class="mulai">Mulai Dari</p>
+          <p class="harga">Rp. 992.000.000</p>
+          <a href="https://wa.me/6281296632186" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="tipe-card">
+          <img src="/img/product/fvm/fvmboxbesi.png" alt="Isuzu Giga FVM U High Power box besi" />
+          <h3>GIGA FVM U HP</h3>
+          <p class="mulai">Mulai Dari</p>
+          <p class="harga">Rp. 976.000.000</p>
+          <a href="https://wa.me/6281296632186" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
+        </div>            
+
+      </div>
+    </section>
 
     <!-- CTA -->
     <section class="cta-section">
       <div class="cta-box">
         <div class="cta-text">
-          <h2>Konsultasikan Pembelian Anda Dengan Tim Kami</h2>
-          <p>Dapatkan Penawaran Khusus Untuk Pembelian Tunai Maupun Kredit</p>
+          <h2>Konsultasikan Pembelian Isuzu Giga FVM Sekarang</h2>
+          <p>Dapatkan penawaran terbaik untuk pembelian tunai maupun kredit</p>
         </div>
 
         <a href="/kontak" class="cta-button">CHAT SEKARANG</a>
