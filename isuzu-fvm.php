@@ -210,7 +210,7 @@
 
       <div class="hero-content">
         <!-- ✅ SATU-SATUNYA H1 DI HALAMAN -->
-        <h1>Isuzu Giga FVM – Harga, Spesifikasi & Promo Terbaru</h1>
+        <h1>Isuzu Giga FVM</h1>
       </div>
     </section>
 
