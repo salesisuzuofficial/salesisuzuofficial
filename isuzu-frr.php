@@ -15,15 +15,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- FIXED TITLE -->
-    <title>Produk Isuzu – Astra Isuzu Jakarta Resmi</title>
+    <title>Isuzu Giga FRR – Dealer Resmi Isuzu Jakarta</title>
 
     <!-- FIXED DESCRIPTION -->
-    <meta name="description" content="Lihat daftar produk resmi Isuzu Jakarta dari Astra. Tersedia Isuzu Traga, Elf, Giga, NLR/NMR dan kendaraan niaga lainnya. Harga terbaru, promo, dan paket kredit tersedia." />
+    <meta name="description" content="Lihat daftar produk Dealer Resmi Isuzu Jakarta. Tersedia Isuzu Traga, Elf, Giga, NLR/NMR dan kendaraan niaga lainnya. Harga terbaru, promo, dan paket kredit tersedia." />
     
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://salesisuzuofficial.com/produk" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/isuzu-frr" />
 
     <!-- Favicon utama -->
     <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
@@ -35,38 +35,31 @@
     <!-- Apple Touch Icon (iPhone/iPad) -->
     <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
-
-    <!-- FIXED JSON-LD (NO ERROR) -->
+    <!-- Schema Json -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "sameAs": [
+            "https://www.facebook.com/",
+            "https://www.instagram.com/"
+          ]
         },
-        {
-          "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dealer Astra Isuzu Jakarta Resmi",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-            }
-          }
-        },
+
         {
           "@type": "AutoDealer",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer Isuzu Jakarta resmi dari Astra. Promo, kredit, dan harga terbaru Isuzu.",
+          "telephone": "+6281296632186",
+          "email": "salesisuzuofficial@gmail.com",
+          "priceRange": "IDR",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
@@ -75,27 +68,82 @@
             "postalCode": "11730",
             "addressCountry": "ID"
           },
-          "telephone": "+6281296632186",
-          "email": "salesisuzuofficial@gmail.com",
           "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
+        },
+
+        {
+          "@type": "Product",
+          "name": "Isuzu Giga FRR",
+          "image": [
+            "https://salesisuzuofficial.com/img/product/frr/headerfrr.webp"
+          ],
+          "description": "Isuzu Giga FRR adalah truk medium duty berstandar Euro 4 dengan mesin 190 PS, irit bahan bakar, daya angkut besar, dan cocok untuk bisnis logistik serta distribusi.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Isuzu"
+          },
+          "sku": "ISUZU-FRR",
+          "mpn": "FRR-90Q",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://salesisuzuofficial.com/isuzu-frr",
+            "priceCurrency": "IDR",
+            "price": "621000000",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Dealer Astra Isuzu Jakarta Resmi"
+            }
+          }
+        },
+
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://salesisuzuofficial.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Produk Isuzu",
+              "item": "https://salesisuzuofficial.com/produk.php"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Isuzu Giga FRR",
+              "item": "https://salesisuzuofficial.com/isuzu-frr"
+            }
+          ]
         }
       ]
     }
     </script>
 
-    <!-- FIXED OG -->
-    <meta property="og:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta property="og:description" content="Lihat daftar produk Isuzu resmi Jakarta. Promo & harga terbaru kendaraan niaga Isuzu." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/produk" />
-    <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
-    <meta property="og:type" content="website" />
 
-    <!-- FIXED TWITTER -->
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="Isuzu Giga FRR – Harga & Promo Terbaru | Dealer Resmi Isuzu Jakarta" />
+    <meta property="og:description" content="Lihat harga terbaru Isuzu Giga FRR, promo kredit & spesifikasi lengkap hanya di Dealer Resmi Isuzu Jakarta. Konsultasi gratis via WhatsApp." />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/frr/isuzu-giga-frr.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-frr" />
+    <meta property="og:type" content="product" />
+    <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
+    <meta property="og:locale" content="id_ID" />
+
+
+    <!-- TWITTER CARD -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta name="twitter:description" content="Lihat pilihan produk resmi Isuzu Jakarta dari Astra. Cek harga terbaru." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+    <meta name="twitter:title" content="Isuzu Giga FRR – Harga & Promo Terbaru | Dealer Resmi Isuzu Jakarta" />
+    <meta name="twitter:description" content="Cek harga Isuzu Giga FRR terbaru, promo kredit & DP ringan di Dealer Resmi Isuzu Jakarta. Konsultasi cepat via WhatsApp." />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/frr/isuzu-giga-frr.png" />
+
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
@@ -140,10 +188,11 @@
         <!-- Navigation -->
         <nav class="nav links">
           <a href="/">Home</a>
-          <a href="produk.php">Produk</a>
-          <a href="simulasi_kredit.php">Simulasi Kredit</a>
-          <a href="artikel.php">Blog & Artikel</a>
-          <a href="contact.php">Contact</a>
+          <a href="/showroom">Showroom</a>
+          <a href="/produk">Produk</a>
+          <a href="/simulasi_kredit">Simulasi Kredit</a>
+          <a href="/artikel">Blog & Artikel</a>
+          <a href="/contact">Contact</a>
         </nav>
       </div>
     </header>
@@ -151,115 +200,152 @@
     <!-- ========== HERO SECTION ========== -->
     <section class="hero hero-produk">
       <div class="slider">
-        <img src="img/product/frr/headerfrr.webp" class="slide" alt="Isuzu Giga FRR" />
+        <img 
+          src="img/product/frr/headerfrr.webp" 
+          class="slide" 
+          alt="Tampilan depan truk Isuzu Giga FRR di Dealer Resmi Isuzu Jakarta" 
+        />
       </div>
 
       <div class="hero-content">
-        <h1>Isuzu Giga FRR</h1>
+        <!-- ✅ H1 UTAMA -->
+        <h1>Isuzu Giga FRR – Harga, Spesifikasi & Promo Terbaru Jakarta</h1>
       </div>
     </section>
 
     <!-- ========== DETAIL SECTION ========== -->
     <section class="promo-section">
 
-    <!-- HEADER -->
-    <div class="promo-header">
+      <!-- ✅ SUB JUDUL GLOBAL -->
+      <div class="promo-header">
         <p class="promo-tag">#IsuzuEuro4Ready</p>
-        <h1>Bertenaga untuk Keuntungan Usaha Anda</h1>
+        <h2>Keunggulan Isuzu Giga FRR untuk Bisnis Anda</h2>
         <p class="promo-desc">
-        Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional harian Anda.
+          Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional harian Anda.
         </p>
-    </div>
+      </div>
 
-    <!-- 1 -->
-    <div class="promo-grid">
+      <!-- 1 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Efisien untuk Bisnis</h2>
-        <p>
-        Isuzu GIGA FRR dilengkapi dengan teknologi mesin Heavy Duty Common Rail 4HK1-TCC 4 silinder yang dilengkapi Exhaust Gas Recirculation (EGR) dan Diesel Oxidation Catalyst (DOC), sehingga mampu menghasilkan emisi gas buang berstandar EURO4. Memiliki mesin bertenaga 190 PS dan dirancang dengan kombinasi rasio transmisi yang tepat guna menghasilkan performa yang baik dan irit bahan bakar. Kendaraan yang satu ini siap dijadikan andalan untuk keuntungan bisnis yang optimal.
-        </p>
+          <h3>Mesin Efisien & Tangguh untuk Bisnis</h3>
+          <p>
+            Isuzu GIGA FRR dilengkapi mesin Heavy Duty Common Rail 4HK1-TCC 190 PS berstandar EURO4 dengan EGR dan DOC untuk performa optimal dan konsumsi bahan bakar yang hemat.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/frr/mesin-isuzu-giga-frr.webp" alt="Mesin Isuzu Giga FRR">
+          <img 
+            src="/img/product/frr/mesin-isuzu-giga-frr.webp" 
+            alt="Mesin diesel common rail Isuzu Giga FRR 4HK1-TCC Euro 4"
+          >
         </div>
-    </div>
+      </div>
 
-    <!-- 2 -->
-    <div class="promo-grid reverse">
+      <!-- 2 -->
+      <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/frr/isuzu-giga-fvr-dashboard.webp" alt="Tampilan Isuzu Giga FRR">
+          <img 
+            src="/img/product/frr/isuzu-giga-fvr-dashboard.webp" 
+            alt="Dashboard dan interior kabin Isuzu Giga FRR dengan MID dan USB Charger"
+          >
         </div>
         <div class="promo-text">
-        <h2>Tampilan Futuristik dan Fungsional</h2>
-        <p>Isuzu GIGA FRR hadir dengan tampilan meter cluster dan Multi Information Display baru yang tidak hanya menambah kesan modern tetapi meningkatkan kemudahan visibilitas pengemudi terhadap indikator maupun informasi penting saat berkendara. Untuk meningkatkan kenyamanan dan kegunaan fitur dalam kabin, kini Isuzu GIGA FRR dilengkapi dengan slot USB charger, sehingga pengemudi dapat menikmati perjalanan tanpa khawatir kondisi baterai ponsel pengemudi. Isuzu GIGA FRR kini dilengkapi dengan Roof Marker Lamp pada kedua sisi atap yang berguna memaksimalkan penerangan dan keamanan pada malam hari serta menjadikan tampilan kendaraan niaga Anda menjadi lebih modern. Dengan Reverse Warning Buzzer, truk akan berbunyi saat mundur sehingga meningkatkan kewaspadaan kendaraan sekitar.</p>
+          <h3>Interior Modern & Fungsional</h3>
+          <p>
+            Dilengkapi MID, USB charger, Roof Marker Lamp, dan Reverse Warning Buzzer untuk meningkatkan kenyamanan serta keamanan berkendara.
+          </p>
         </div>
-    </div>
+      </div>
 
-    <!-- 3 -->
-    <div class="promo-grid">
+      <!-- 3 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Keamanan yang Maksimal</h2>
-        <p>Isuzu GIGA FRR dilengkapi dengan APAR (Alat Pemadam Api Ringan) untuk memaksimalkan keamanan pada kondisi genting (kebakaran).</p>
+          <h3>Sistem Keamanan Standar Kendaraan Niaga</h3>
+          <p>
+            Isuzu GIGA FRR dilengkapi dengan APAR (Alat Pemadam Api Ringan) untuk keamanan maksimal dalam kondisi darurat.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/frr/isuzu-giga-frr-kabin.webp" alt="Kabin Isuzu Giga FRR">
+          <img 
+            src="/img/product/frr/isuzu-giga-frr-kabin.webp" 
+            alt="Kabin truk Isuzu Giga FRR dengan fitur keselamatan APAR"
+          >
         </div>
-    </div>
+      </div>
 
-    <!-- 4 -->
-    <div class="promo-grid reverse">
+      <!-- 4 -->
+      <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/frr/isuzu-giga-FVR-gallery1.webp" alt="Daya Angkut Isuzu Giga FRR">
+          <img 
+            src="/img/product/frr/isuzu-giga-FVR-gallery1.webp" 
+            alt="Bak dan daya angkut besar Isuzu Giga FRR untuk wing box dan box aluminium"
+          >
         </div>
         <div class="promo-text">
-        <h2>Daya Angkut Luas, Untung Meningkat</h2>
-        <p>Isuzu GIGA FRR tipe FRR 90Q, hadir dengan panjang cabin to end hingga 6.9 meter yang cocok untuk aplikasi wing box, bak besi dan box aluminium. Hal ini tentu menjadikan Isuzu GIGA FRR unggul sebagai angkutan bervolume besar (GVW 10 ton) yang juga teruji hemat bahan bakar sehingga mampu meningkatkan keuntungan bisnis.</p>
+          <h3>Daya Angkut Besar untuk Profit Maksimal</h3>
+          <p>
+            Panjang chassis hingga 6,9 meter dengan GVW 10 ton sangat cocok untuk wing box, bak besi, dan box aluminium.
+          </p>
         </div>
-    </div>
+      </div>
 
-    <!-- 5 -->
-    <div class="promo-grid">
+      <!-- 5 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Kemudahan Service dan Suku Cadang</h2>
-        <p>Jaringan layanan purna jual yang luas dan lengkap, mulai dari bengkel resmi Isuzu, Bengkel Berjalan Isuzu hingga Bengkel Mitra Isuzu yang telah berpengalaman dengan mesin common rail sejak tahun 2011, mampu membantu Anda mempercepat proses perbaikan dan meningkatkan efisiensi bisnis Anda karena mampu meminimalisir downtime atau kerusakan. Suku cadang dapat dengan mudah didapatkan melalui dukungan bengkel resmi, mini depo, toko suku cadang (part shop), Bengkel Mitra Isuzu hingga Bengkel Isuzu Berjalan yang tersebar di seluruh kota di Indonesia.</p>
+          <h3>Service & Suku Cadang Mudah di Seluruh Indonesia</h3>
+          <p>
+            Didukung bengkel resmi, bengkel berjalan, dan bengkel mitra Isuzu untuk meminimalisir downtime bisnis Anda.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/frr/service-dan-suku-cadang.webp" alt="Service dan Suku Cadang">
+          <img 
+            src="/img/product/frr/service-dan-suku-cadang.webp" 
+            alt="Layanan bengkel resmi dan suku cadang asli Isuzu Giga FRR"
+          >
         </div>
-    </div>
-    
+      </div>
+
     </section>
 
     <!-- ========== PRODUCT SECTION ========== -->
     <section class="tipe-section">
-        <h2 class="tipe-title">PILIHAN TIPE</h2>
+      <h2 class="tipe-title">Pilihan Tipe Isuzu Giga FRR</h2>
 
-        <div class="tipe-wrapper">
+      <div class="tipe-wrapper">
 
-            <!-- Item 1 -->
-            <div class="tipe-card">
-                <img src="/img/product/frr/isuzu-giga-frr.png" alt="GIGA FRR Q">
-                <h3>GIGA FRR Q</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 621.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
+        <div class="tipe-card">
+          <img 
+            src="/img/product/frr/isuzu-giga-frr.png" 
+            alt="Truk Isuzu Giga FRR Q warna putih tampak samping"
+          >
+          <h3>Isuzu Giga FRR Q</h3>
+          <p class="mulai">Harga Mulai Dari</p>
+          <p class="harga">Rp. 621.000.000</p>
+          <a 
+            href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" 
+            target="_blank" 
+            aria-label="Chat WhatsApp Dealer Resmi Isuzu Jakarta"
+            class="detail-btn"
+          >
+            DETAIL
+          </a>
         </div>
-    </section>
 
+      </div>
+    </section>
 
     <!-- CTA -->
     <section class="cta-section">
       <div class="cta-box">
         <div class="cta-text">
-          <h2>Konsultasikan Pembelian Anda Dengan Tim Kami</h2>
-          <p>Dapatkan Penawaran Khusus Untuk Pembelian Tunai Maupun Kredit</p>
+          <h2>Promo & Konsultasi Pembelian Isuzu Giga FRR</h2>
+          <p>Dapatkan penawaran terbaik untuk pembelian tunai atau kredit Isuzu Giga FRR.</p>
         </div>
 
         <a href="/kontak" class="cta-button">CHAT SEKARANG</a>
       </div>
     </section>
+
 
     <!-- ========== WHATSAPP CHAT (ELFSIGHT) ========== -->
     <script src="https://elfsightcdn.com/platform.js" async></script>
