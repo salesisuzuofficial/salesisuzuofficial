@@ -200,9 +200,19 @@ RESPONSIVE HP (JADI 1 KOLOM)
   }
 }
 
+/* GAMBAR SELALU DI ATAS DI HP */
 @media (max-width: 992px) {
+  /* ubah grid jadi 1 kolom */
   .promo-grid {
-    display: flex !important;
-    flex-direction: column !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  /* paksa urutan: gambar dulu, lalu teks */
+  .promo-image {
+    order: 1 !important;
+  }
+
+  .promo-text {
+    order: 2 !important;
   }
 }
