@@ -221,8 +221,7 @@
           </a>
 
           <a
-            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FVM%20(GIGA%20WINGBOX)"
-            target="_blank"
+            href="/isuzu-fvm"
             rel="noopener"
             class="product-item"
           >
@@ -231,8 +230,7 @@
           </a>
 
           <a
-            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20FVZ%20(GIGA%20DUMP%20TRUCK)"
-            target="_blank"
+            href="/isuzu-fvz"
             rel="noopener"
             class="product-item"
           >
@@ -241,8 +239,7 @@
           </a>
 
           <a
-            href="https://wa.me/+6281296632186?text=Halo,%20saya%20tertarik%20dengan%20ISUZU%20GVR,%20GVZ,%20GXZ%20(TRAILER%2FTRACTOR%20HEAD)"
-            target="_blank"
+            href="/isuzu-tractor-head"
             rel="noopener"
             class="product-item"
           >
