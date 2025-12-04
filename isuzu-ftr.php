@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- FIXED TITLE -->
-    <title>Produk Isuzu – Astra Isuzu Jakarta Resmi</title>
+    <title>Isuzu Giga FTR – Dealer Resmi Isuzu Jakarta</title>
 
     <!-- FIXED DESCRIPTION -->
     <meta name="description" content="Lihat daftar produk resmi Isuzu Jakarta dari Astra. Tersedia Isuzu Traga, Elf, Giga, NLR/NMR dan kendaraan niaga lainnya. Harga terbaru, promo, dan paket kredit tersedia." />
@@ -23,7 +23,7 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://salesisuzuofficial.com/produk" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/isuzu-ftr" />
 
     <!-- Favicon utama -->
     <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
@@ -35,67 +35,115 @@
     <!-- Apple Touch Icon (iPhone/iPad) -->
     <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
-
-    <!-- FIXED JSON-LD (NO ERROR) -->
+    <!-- Schema JSOn -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
+
         {
           "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+6281296632186",
+            "contactType": "sales",
+            "areaServed": "ID",
+            "availableLanguage": "id"
+          }
         },
+
         {
           "@type": "WebSite",
           "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dealer Astra Isuzu Jakarta Resmi",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-            }
-          }
+          "name": "Dealer Resmi Isuzu Jakarta"
         },
+
         {
           "@type": "AutoDealer",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer Isuzu Jakarta resmi dari Astra. Promo, kredit, dan harga terbaru Isuzu.",
+          "url": "https://salesisuzuofficial.com/",
+          "telephone": "+6281296632186",
+          "priceRange": "Rp600.000.000 - Rp800.000.000",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
+            "streetAddress": "Jl. Daan Mogot KM 13.9, Rawa Buaya",
             "addressLocality": "Jakarta Barat",
             "addressRegion": "DKI Jakarta",
             "postalCode": "11730",
             "addressCountry": "ID"
           },
-          "telephone": "+6281296632186",
-          "email": "salesisuzuofficial@gmail.com",
-          "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
+          "areaServed": ["Jakarta", "Bogor", "Depok", "Tangerang", "Bekasi"]
+        },
+
+        {
+          "@type": "Product",
+          "name": "Isuzu Giga FTR",
+          "image": "https://salesisuzuofficial.com/img/product/ftr/isuzu-giga-ftr.png",
+          "description": "Isuzu Giga FTR adalah truk medium duty 210 PS dengan GVW 14 Ton, tersedia tipe FTR P, FTR S dan FTR T. Cocok untuk wing box, box aluminium, dan refrigerated box.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Isuzu"
+          },
+          "offers": {
+            "@type": "AggregateOffer",
+            "url": "https://salesisuzuofficial.com/isuzu-ftr",
+            "priceCurrency": "IDR",
+            "lowPrice": "693000000",
+            "highPrice": "705000000",
+            "offerCount": 3,
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Dealer Resmi Isuzu Jakarta"
+            }
+          }
+        },
+
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://salesisuzuofficial.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Produk Isuzu",
+              "item": "https://salesisuzuofficial.com/produk"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Isuzu Giga FTR",
+              "item": "https://salesisuzuofficial.com/isuzu-ftr"
+            }
+          ]
         }
+
       ]
     }
     </script>
 
-    <!-- FIXED OG -->
-    <meta property="og:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta property="og:description" content="Lihat daftar produk Isuzu resmi Jakarta. Promo & harga terbaru kendaraan niaga Isuzu." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/produk" />
-    <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
-    <meta property="og:type" content="website" />
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="Isuzu Giga FTR – Harga, Spesifikasi & Promo Terbaru Jakarta" />
+    <meta property="og:description" content="Harga terbaru Isuzu Giga FTR tipe P, S & T di Dealer Resmi Isuzu Jakarta. Mesin 210 PS, GVW 14 Ton, promo & kredit mudah." />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/ftr/isuzu-giga-ftr.png" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-ftr" />
+    <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
+    <meta property="og:type" content="product" />
 
-    <!-- FIXED TWITTER -->
+    <!-- TWITTER CARD -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta name="twitter:description" content="Lihat pilihan produk resmi Isuzu Jakarta dari Astra. Cek harga terbaru." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+    <meta name="twitter:title" content="Isuzu Giga FTR – Harga & Promo Terbaru Jakarta" />
+    <meta name="twitter:description" content="Cek harga Isuzu Giga FTR tipe P, S & T. Promo kredit tersedia di Dealer Resmi Isuzu Jakarta." />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/ftr/isuzu-giga-ftr.png" />
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
@@ -140,10 +188,11 @@
         <!-- Navigation -->
         <nav class="nav links">
           <a href="/">Home</a>
-          <a href="produk.php">Produk</a>
-          <a href="simulasi_kredit.php">Simulasi Kredit</a>
-          <a href="artikel.php">Blog & Artikel</a>
-          <a href="contact.php">Contact</a>
+          <a href="/showroom">Showroom</a>
+          <a href="/produk">Produk</a>
+          <a href="/simulasi_kredit">Simulasi Kredit</a>
+          <a href="/artikel">Blog & Artikel</a>
+          <a href="/contact">Contact</a>
         </nav>
       </div>
     </header>
@@ -151,7 +200,8 @@
     <!-- ========== HERO SECTION ========== -->
     <section class="hero hero-produk">
       <div class="slider">
-        <img src="img/product/ftr/headerftr.webp" class="slide" alt="Isuzu Giga FRR" />
+        <img src="img/product/ftr/headerftr.webp" class="slide"
+            alt="Isuzu Giga FTR Tampak Depan - Truk Medium Duty 210 PS" />
       </div>
 
       <div class="hero-content">
@@ -162,117 +212,131 @@
     <!-- ========== DETAIL SECTION ========== -->
     <section class="promo-section">
 
-    <!-- HEADER -->
-    <div class="promo-header">
+      <!-- HEADER -->
+      <div class="promo-header">
         <p class="promo-tag">#IsuzuEuro4Ready</p>
-        <h1>Bertenaga untuk Keuntungan Usaha Anda</h1>
+        <h2>Bertenaga untuk Keuntungan Maksimal Usaha Anda</h2>
         <p class="promo-desc">
-        Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional harian Anda.
+          Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional harian Anda.
         </p>
-    </div>
+      </div>
 
-    <!-- 1 -->
-    <div class="promo-grid">
+      <!-- 1 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>4 Silinder Mesinnya, Optimal Tenaganya</h2>
-        <p>
-        Isuzu GIGA FTR memiliki beberapa pilihan varian yakni FTR P, FTR S, dan FTR T yang menggunakan teknologi mesin Heavy Duty Common Rail 4HK1-TCS yang dilengkapi Exhaust Gas Recirculation (EGR) dan Diesel Oxidation Catalyst (DOC), sehingga mampu menghasilkan emisi gas buang berstandar EURO4. Mesin ini memiliki efisiensi yang baik, sehingga menjadikan bisnis Anda lancar, dengan keuntungan maksimal.
-        </p>
+          <h3>4 Silinder Bertenaga dengan Teknologi Common Rail Euro 4</h3>
+          <p>Isuzu GIGA FTR hadir dalam beberapa varian, yaitu FTR P, FTR S, dan FTR T. Ketiganya dibekali mesin Heavy Duty Common Rail 4HK1-TCS yang sudah dilengkapi teknologi EGR dan Diesel Oxidation Catalyst (DOC), sehingga mampu memenuhi standar emisi EURO 4. Mesin tersebut terkenal efisien dan responsif, menjadikan operasional bisnis lebih lancar serta membantu Anda meraih keuntungan yang optimal.</p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/frr/mesin-isuzu-giga-frr.webp" alt="Mesin Isuzu Giga FRR">
+          <img src="/img/product/frr/mesin-isuzu-giga-frr.webp"
+              alt="Mesin Isuzu Giga FTR 4HK1-TCS Common Rail Euro 4">
         </div>
-    </div>
+      </div>
 
-    <!-- 2 -->
-    <div class="promo-grid reverse">
+      <!-- 2 -->
+      <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/ftr/isuzu-giga-ftr.png" alt="Tampilan Isuzu Giga FTR">
+          <img src="/img/product/ftr/isuzu-giga-ftr.png"
+              alt="Tampilan Samping Isuzu Giga FTR Truk 210 PS">
         </div>
         <div class="promo-text">
-        <h2>Tenaga Besar Si Truk Handal & Irit</h2>
-        <p>Hadir dengan torsi 72 kg.m pada 1,600 – 2,600 rpm, Isuzu GIGA FTR mampu dijadikan truk andalan dengan tenaga sebesar 210 PS. Mesin ini mampu menghasilkan traksi yang lebih tinggi dan tetap irit bahan bakar. Tidak hanya itu, Isuzu GIGA FTR dilengkapi dengan axle yang kokoh dan berkapasitas besar sehingga dapat meningkatkan dan memaksimalkan produktivitas kendaraan & bisnis Anda.</p>
+          <h3>Mesin 210 PS dengan Torsi Besar & Irit Bahan Bakar</h3>
+          <p>Dengan torsi 72 kg.m pada putaran 1.600–2.600 rpm, Isuzu GIGA FTR menawarkan tenaga 210 PS yang menjadikannya truk yang dapat diandalkan. Performa mesinnya mampu memberikan traksi kuat sekaligus tetap hemat konsumsi bahan bakar. Selain itu, GIGA FTR dibekali axle yang kuat dan berkapasitas besar, sehingga mampu mendukung produktivitas kendaraan dan membantu memaksimalkan kinerja bisnis Anda.</p>
         </div>
-    </div>
+      </div>
 
-    <!-- 3 -->
-    <div class="promo-grid">
+      <!-- 3 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Keamanan & Kenyamanan yang Maksimal</h2>
-        <p>Isuzu GIGA FTR dilengkapi dengan APAR (Alat Pemadam Api Ringan) untuk memaksimalkan keamanan pada kondisi genting (kebakaran).</p>
+          <h3>Kabin Aman & Nyaman dengan Fitur APAR</h3>
+          <p>
+            Isuzu GIGA FTR dilengkapi APAR (Alat Pemadam Api Ringan) untuk memberikan perlindungan ekstra
+            saat kondisi darurat.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/frr/isuzu-giga-frr-kabin.webp" alt="Kabin Isuzu Giga FRR">
+          <img src="/img/product/frr/isuzu-giga-frr-kabin.webp"
+              alt="Interior Kabin Isuzu Giga FTR dengan Fitur APAR">
         </div>
-    </div>
+      </div>
 
-    <!-- 4 -->
-    <div class="promo-grid reverse">
+      <!-- 4 -->
+      <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/frr/isuzu-giga-FVR-gallery1.webp" alt="Daya Angkut Isuzu Giga FRR">
+          <img src="/img/product/frr/isuzu-giga-FVR-gallery1.webp"
+              alt="Bak Belakang Isuzu Giga FTR dengan Daya Angkut 14 Ton">
         </div>
         <div class="promo-text">
-        <h2>Daya Angkut Maksimal, dengan Wheelbase Terpanjang di Kelasnya</h2>
-        <p>Isuzu GIGA FTR tipe FTR S dan FTR T, hadir dengan wheelbase terpanjang di kelasnya sehingga mampu memaksimalkan daya angkut dengan volume yang besar (GVW 14 ton). Kendaraan Isuzu GIGA FTR ini, cocok untuk aplikasi wing box, box besi/aluminium, refrigerated box hingga angkutan motor. Hal ini tentu menjadikan Isuzu GIGA FTR unggul sebagai angkutan bervolume besar yang juga teruji hemat bahan bakar sehingga mampu meningkatkan keuntungan bisnis.</p>
+          <h3>Daya Angkut Besar dengan Wheelbase Terpanjang di Kelasnya</h3>
+          <p>Isuzu GIGA FTR varian FTR S dan FTR T menawarkan wheelbase paling panjang di kelasnya, sehingga mampu membawa muatan ber-volume besar dengan GVW mencapai 14 ton. Model ini sangat ideal untuk berbagai aplikasi seperti wing box, box besi atau aluminium, refrigerated box, hingga angkutan sepeda motor. Kombinasi kapasitas angkut besar dan efisiensi bahan bakarnya menjadikan Isuzu GIGA FTR pilihan unggul untuk transportasi bervolume tinggi yang dapat meningkatkan keuntungan operasional bisnis Anda.</p>
         </div>
-    </div>
+      </div>
 
-    <!-- 5 -->
-    <div class="promo-grid">
+      <!-- 5 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Kemudahan Service dan Suku Cadang</h2>
-        <p>Jaringan layanan purna jual yang luas dan lengkap, mulai dari bengkel resmi Isuzu, Bengkel Berjalan Isuzu hingga Bengkel Mitra Isuzu yang telah berpengalaman dengan mesin common rail sejak tahun 2011, mampu membantu Anda mempercepat proses perbaikan dan meningkatkan efisiensi bisnis Anda karena mampu meminimalisir downtime atau kerusakan. Suku cadang dapat dengan mudah didapatkan melalui dukungan bengkel resmi, mini depo, toko suku cadang (part shop), Bengkel Mitra Isuzu hingga Bengkel Isuzu Berjalan yang tersebar di seluruh kota di Indonesia.</p>
+          <h3>Service Mudah & Suku Cadang Melimpah di Seluruh Indonesia</h3>
+          <p>
+            Didukung jaringan bengkel resmi Isuzu, Bengkel Mitra, hingga Bengkel Isuzu Berjalan yang siap
+            membantu mempercepat perbaikan dan meminimalisir downtime.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/frr/service-dan-suku-cadang.webp" alt="Service dan Suku Cadang">
+          <img src="/img/product/frr/service-dan-suku-cadang.webp"
+              alt="Service Resmi dan Suku Cadang Isuzu Giga FTR">
         </div>
-    </div>
-    
+      </div>
+
     </section>
 
     <!-- ========== PRODUCT SECTION ========== -->
     <section class="tipe-section">
-        <h2 class="tipe-title">PILIHAN TIPE</h2>
+      <h2 class="tipe-title">Pilihan Tipe Isuzu Giga FTR & Harga Terbaru</h2>
 
-        <div class="tipe-wrapper">
+      <div class="tipe-wrapper">
 
-            <!-- Item 1 -->
-            <div class="tipe-card">
-                <img src="/img/product/frr/isuzu-giga-frr.png" alt="GIGA FTR P">
-                <h3>GIGA FTR P</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 693.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 2 -->
-            <div class="tipe-card">
-                <img src="/img/product/frr/isuzu-giga-frr.png" alt="GIGA FTR S">
-                <h3>GIGA FTR S</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 697.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 3 -->
-            <div class="tipe-card">
-                <img src="/img/product/ftr/isuzu-giga-ftr.png" alt="GIGA FTR T">
-                <h3>GIGA FTR T</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 705.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
+        <!-- Item 1 -->
+        <div class="tipe-card">
+          <img src="/img/product/frr/isuzu-giga-frr.png"
+              alt="Isuzu Giga FTR P Truk Medium Duty">
+          <h3>Isuzu Giga FTR P</h3>
+          <p class="mulai">Mulai Dari</p>
+          <p class="harga">Rp. 693.000.000</p>
+          <a href="https://wa.me/6281296632186?text=Halo%20Saya%20tertarik%20dengan%20Isuzu%20Giga%20FTR%20P" 
+            target="_blank" class="detail-btn">DETAIL</a>
         </div>
-    </section>
 
+        <!-- Item 2 -->
+        <div class="tipe-card">
+          <img src="/img/product/frr/isuzu-giga-frr.png"
+              alt="Isuzu Giga FTR S Truk 210 PS">
+          <h3>Isuzu Giga FTR S</h3>
+          <p class="mulai">Mulai Dari</p>
+          <p class="harga">Rp. 697.000.000</p>
+          <a href="https://wa.me/6281296632186?text=Halo%20Saya%20tertarik%20dengan%20Isuzu%20Giga%20FTR%20S" 
+            target="_blank" class="detail-btn">DETAIL</a>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="tipe-card">
+          <img src="/img/product/ftr/isuzu-giga-ftr.png"
+              alt="Isuzu Giga FTR T Truk GVW 14 Ton">
+          <h3>Isuzu Giga FTR T</h3>
+          <p class="mulai">Mulai Dari</p>
+          <p class="harga">Rp. 705.000.000</p>
+          <a href="https://wa.me/6281296632186?text=Halo%20Saya%20tertarik%20dengan%20Isuzu%20Giga%20FTR%20T" 
+            target="_blank" class="detail-btn">DETAIL</a>
+        </div>
+
+      </div>
+    </section>
 
     <!-- CTA -->
     <section class="cta-section">
       <div class="cta-box">
         <div class="cta-text">
-          <h2>Konsultasikan Pembelian Anda Dengan Tim Kami</h2>
-          <p>Dapatkan Penawaran Khusus Untuk Pembelian Tunai Maupun Kredit</p>
+          <h2>Konsultasi Pembelian Isuzu Giga FTR Sekarang</h2>
+          <p>Dapatkan penawaran khusus untuk pembelian cash maupun kredit</p>
         </div>
 
         <a href="/kontak" class="cta-button">CHAT SEKARANG</a>
