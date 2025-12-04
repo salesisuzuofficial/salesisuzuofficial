@@ -100,93 +100,103 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
     <!-- Apple Touch Icon (iPhone/iPad) -->
     <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
-    <!-- Schema JSON (TELEPHONE FIXED & CLEAN) -->
+    <!-- ✅ SEO Optimized Article & Blog Schema for artikel.php -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@graph": [
+    "@context": "https://schema.org",
+    "@graph": [
+
         {
-          "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "sameAs": [
+        "@type": "Organization",
+        "@id": "https://salesisuzuofficial.com/#organization",
+        "name": "Dealer Resmi Isuzu Jakarta",
+        "url": "https://salesisuzuofficial.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+        },
+        "sameAs": [
             "https://www.facebook.com/",
             "https://www.instagram.com/"
-          ]
+        ]
         },
+
         {
-          "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Isuzu",
-          "alternateName": "Dealer Astra Isuzu Jakarta Resmi",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dealer Astra Isuzu Jakarta Resmi",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-            }
-          },
-          "potentialAction": {
+        "@type": "WebSite",
+        "@id": "https://salesisuzuofficial.com/#website",
+        "url": "https://salesisuzuofficial.com/",
+        "name": "Dealer Resmi Isuzu Jakarta",
+        "publisher": {
+            "@id": "https://salesisuzuofficial.com/#organization"
+        },
+        "potentialAction": {
             "@type": "SearchAction",
             "target": "https://salesisuzuofficial.com/?s={search_term_string}",
             "query-input": "required name=search_term_string"
-          }
+        }
         },
+
         {
-          "@type": "AutoDealer",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga, promo, dan kredit mobil Isuzu.",
-          "address": {
+        "@type": "AutoDealer",
+        "@id": "https://salesisuzuofficial.com/#dealer",
+        "name": "Dealer Resmi Isuzu Jakarta",
+        "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+        "url": "https://salesisuzuofficial.com/",
+        "telephone": "+6281296632186",
+        "email": "salesisuzuofficial@gmail.com",
+        "priceRange": "IDR",
+        "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
+            "streetAddress": "Jl. Daan Mogot No.Km 13,9, Cengkareng Timur",
             "addressLocality": "Jakarta Barat",
             "addressRegion": "DKI Jakarta",
             "postalCode": "11730",
             "addressCountry": "ID"
-          },
-          "telephone": "+6281296632186",
-          "email": "salesisuzuofficial@gmail.com",
-          "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
+        },
+        "areaServed": [
+            "Jakarta",
+            "Bekasi",
+            "Depok",
+            "Tangerang",
+            "Bogor"
+        ]
+        },
+
+        {
+        "@type": "WebPage",
+        "@id": "https://salesisuzuofficial.com/artikel#webpage",
+        "url": "https://salesisuzuofficial.com/artikel",
+        "name": "Artikel & Berita Truk Isuzu Terbaru",
+        "description": "Kumpulan artikel, tips perawatan, harga, promo dan berita terbaru seputar truk Isuzu di Jakarta & sekitarnya.",
+        "isPartOf": {
+            "@id": "https://salesisuzuofficial.com/#website"
         }
-      ]
+        }
+
+    ]
     }
     </script>
 
-
     <!-- Open Graph -->
-    <meta property="og:title" content="Berita Terbaru Isuzu – Astra Isuzu Jakarta Resmi" />
+    <meta property="og:title" content="Berita Terbaru Isuzu – Dealer Resmi Isuzu Jakarta" />
     <meta property="og:description" content="<?= htmlspecialchars($metaDescription, ENT_QUOTES); ?>" />
     <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-    <meta property="og:image:alt" content="Dealer Resmi Isuzu Jakarta - Astra Isuzu" />
+    <meta property="og:image:alt" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:url" content="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>" />
-    <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
+    <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="id_ID" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Berita Terbaru Isuzu – Astra Isuzu Jakarta Resmi" />
+    <meta name="twitter:title" content="Berita Terbaru Isuzu – Dealer Resmi Isuzu Jakarta" />
     <meta name="twitter:description" content="<?= htmlspecialchars($metaDescription, ENT_QUOTES); ?>" />
     <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-    <meta name="twitter:image:alt" content="Dealer Resmi Isuzu Jakarta - Astra Isuzu" />
+    <meta name="twitter:image:alt" content="Dealer Resmi Isuzu Jakarta" />
 
     <meta name="robots" content="index, follow" />
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-TV2MJHYKCB');
-    </script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
@@ -229,6 +239,7 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
 
             <nav class="nav links">
                 <a href="/">Home</a>
+                <a href="/showroom">Showroom Isuzu</a>
                 <a href="/produk">Produk</a>
                 <a href="/simulasi_kredit">Simulasi Kredit</a>
                 <a href="/artikel" class="active">Blog & Artikel</a>
@@ -246,10 +257,22 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
         </div>
 
         <div class="hero-content">
-            <h1>Blog & Artikel</h1>
+            <h1>Artikel & Berita Truk Isuzu Terbaru di Jakarta</h1>
         </div>
     </section>
 
+    <!-- Blog Intro -->
+    <section class="blog-intro">
+    <div class="container">
+        <h2>Update Terbaru Seputar Harga, Promo & Tips Truk Isuzu</h2>
+        <p>
+        Temukan artikel lengkap seputar <strong>harga truk Isuzu terbaru</strong>, 
+        <strong>promo dealer Isuzu Jakarta</strong>, serta tips perawatan untuk 
+        Traga, ELF, dan Giga agar bisnis Anda semakin efisien.
+        </p>
+    </div>
+    </section>
+     
     <!-- BLOG CONTENT -->
     <section class="content-section">
         <div class="container">
@@ -281,6 +304,11 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
                 <button type="submit">Filter</button>
             </form>
 
+            <!-- Blog List Title -->
+            <h2 class="blog-list-title">
+            Daftar Artikel Truk Isuzu & Promo Dealer Terbaru
+            </h2>
+
             <!-- Artikel -->
             <div class="blog-grid">
                 <?php if (is_array($artikel) && count($artikel) > 0): ?>
@@ -292,11 +320,11 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
                     ?>
                         <div class="blog-post">
                             <img src="<?= htmlspecialchars($gambarRow, ENT_QUOTES) ?>" alt="<?= htmlspecialchars($judulRow, ENT_QUOTES) ?>">
-                            <h2>
+                            <h3 class="blog-title">
                                 <a href="/detail_artikel/<?= rawurlencode($slugRow) ?>">
                                     <?= htmlspecialchars($judulRow) ?>
                                 </a>
-                            </h2>
+                            </h3>
                             <p><?= htmlspecialchars($excerpt) ?>...</p>
                             <div class="card-footer">
                                 <a href="/detail_artikel/<?= rawurlencode($slugRow) ?>">Baca Selengkapnya</a>
