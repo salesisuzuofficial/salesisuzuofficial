@@ -182,7 +182,7 @@
       </div>
 
       <div class="hero-content">
-        <h1>Isuzu ELF NMR Euro 4 – Truk Ringan Bertenaga & Irit untuk Bisnis</h1>
+        <h1>Isuzu ELF NMR</h1>
       </div>
     </section>
 
