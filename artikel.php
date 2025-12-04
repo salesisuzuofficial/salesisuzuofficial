@@ -64,7 +64,7 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Berita Terbaru Isuzu – Astra Isuzu Jakarta Resmi</title>
+    <title>Berita Terbaru Isuzu – Dealer Resmi Isuzu Jakarta</title>
 
     <meta name="description" content="<?= htmlspecialchars($metaDescription, ENT_QUOTES); ?>" />
     <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, dealer isuzu resmi, promo isuzu terbaru, harga isuzu, harga isuzu traga, isuzu traga pick up, isuzu traga box, isuzu microbus, isuzu elf, isuzu elf box, isuzu elf engkel, isuzu elf double, isuzu cdd long, isuzu cde long, isuzu nlr, isuzu nmr, isuzu giga, isuzu jabodetabek, astra isuzu, jual truk isuzu" />
