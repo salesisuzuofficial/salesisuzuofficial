@@ -44,7 +44,7 @@
     <meta property="og:description" content="Isuzu Giga FVR dengan mesin Euro 4 bertenaga, daya angkut besar & siap karoseri. Dapatkan promo harga terbaik dari dealer resmi Jakarta." />
     <meta property="og:image" content="https://salesisuzuofficial.com/img/product/fvr/headerfvr.webp" />
     <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-fvr" />
-    <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
+    <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="product" />
     <meta property="og:locale" content="id_ID" />
 
@@ -68,7 +68,7 @@
 
         {
           "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "sameAs": [
@@ -79,7 +79,7 @@
 
         {
           "@type": "AutoDealer",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "telephone": "+6281296632186",
@@ -354,7 +354,7 @@
           <p>Dapatkan penawaran harga terbaik, promo kredit, dan diskon khusus hari ini</p>
         </div>
 
-        <a href="/kontak" class="cta-button">CHAT SEKARANG</a>
+        <a href="/contact" class="cta-button">CHAT SEKARANG</a>
       </div>
     </section>
 
