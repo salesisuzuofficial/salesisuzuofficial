@@ -44,21 +44,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <!-- Google Analytics (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-TV2MJHYKCB');
-  </script>
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Hubungi Kami | Dealer Resmi Astra Isuzu Jakarta</title>
+  <title>Hubungi Kami | Dealer Resmi Isuzu Jakarta</title>
 
-  <meta name="description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman. Konsultasi gratis & siap melayani seluruh Jakarta." />
+  <meta name="description" content="Dealer resmi Isuzu Jakarta dengan harga terbaru & promo besar hari ini! Traga, ELF & GIGA tersedia. DP ringan, cicilan mudah, konsultasi gratis." />
 
   <!-- Canonical fixed -->
   <link rel="canonical" href="https://salesisuzuofficial.com/contact" />
@@ -77,77 +68,108 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <!-- JSON-LD Schema Valid -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "sameAs": [
-            "https://www.facebook.com/",
-            "https://www.instagram.com/"
-          ]
+  <!-- JSON-LD Schema Contact Page - SEO & CTR Optimized -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://salesisuzuofficial.com/#organization",
+        "name": "Dealer Resmi Isuzu Jakarta",
+        "url": "https://salesisuzuofficial.com/",
+        "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+        "sameAs": [
+          "https://www.facebook.com/",
+          "https://www.instagram.com/",
+          "https://wa.me/6281296632186"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://salesisuzuofficial.com/#website",
+        "url": "https://salesisuzuofficial.com/",
+        "name": "Dealer Resmi Isuzu Jakarta",
+        "alternateName": "Sales Resmi Isuzu Jakarta",
+        "publisher": {
+          "@id": "https://salesisuzuofficial.com/#organization"
         },
-        {
-          "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Isuzu",
-          "alternateName": "Dealer Astra Isuzu Jakarta Resmi",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dealer Astra Isuzu Jakarta Resmi",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-            }
-          },
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://salesisuzuofficial.com/?s={search_term_string}",
-            "query-input": "required name=search_term_string"
-          }
-        },
-        {
-          "@type": "AutoDealer",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga, promo, dan kredit mobil Isuzu.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
-            "addressLocality": "Jakarta Barat",
-            "addressRegion": "DKI Jakarta",
-            "postalCode": "11730",
-            "addressCountry": "ID"
-          },
-          "telephone": "+6281296632186",
-          "email": "salesisuzuofficial@gmail.com",
-          "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://salesisuzuofficial.com/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
         }
-      ]
-    }
-    </script>
-
+      },
+      {
+        "@type": ["AutoDealer", "LocalBusiness"],
+        "@id": "https://salesisuzuofficial.com/#autodealer",
+        "name": "Dealer Resmi Isuzu Jakarta",
+        "url": "https://salesisuzuofficial.com/",
+        "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+        "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+        "description": "Dealer resmi Isuzu Jakarta dengan harga terbaru & promo besar hari ini. Tersedia Isuzu Traga, ELF, dan GIGA. DP ringan, cicilan fleksibel, pengiriman cepat, konsultasi GRATIS sekarang!",
+        "telephone": "+6281296632186",
+        "email": "salesisuzuofficial@gmail.com",
+        "areaServed": [
+          "Jakarta",
+          "Bekasi",
+          "Depok",
+          "Tangerang",
+          "Bogor"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
+          "addressLocality": "Jakarta Barat",
+          "addressRegion": "DKI Jakarta",
+          "postalCode": "11730",
+          "addressCountry": "ID"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -6.1387,
+          "longitude": 106.7219
+        },
+        "hasMap": "https://www.google.com/maps",
+        "openingHours": "Mo-Sa 08:00-17:00",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+6281296632186",
+          "contactType": "sales",
+          "availableLanguage": ["Indonesian"]
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salesisuzuofficial.com/contact#webpage",
+        "url": "https://salesisuzuofficial.com/contact",
+        "name": "Kontak Dealer Resmi Isuzu Jakarta | Promo Traga, ELF & GIGA",
+        "description": "Hubungi dealer resmi Isuzu Jakarta untuk harga terbaru, promo Traga, ELF & GIGA, simulasi kredit, dan pemesanan cepat via WhatsApp.",
+        "isPartOf": {
+          "@id": "https://salesisuzuofficial.com/#website"
+        },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+        }
+      }
+    ]
+  }
+  </script>
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Hubungi Kami | Dealer Resmi Astra Isuzu Jakarta" />
-  <meta property="og:description" content="Dealer Isuzu Jakarta resmi dari Astra. Konsultasi gratis & siap melayani seluruh area Jakarta dan Jabodetabek." />
+  <meta property="og:title" content="Hubungi Kami | Dealer Resmi Isuzu Jakarta" />
+  <meta property="og:description" content="Dealer resmi Isuzu Jakarta dengan harga terbaru & promo besar hari ini! Traga, ELF & GIGA tersedia. DP ringan, cicilan mudah, konsultasi gratis." />
   <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
   <meta property="og:url" content="https://salesisuzuofficial.com/contact" />
-  <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
+  <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="id_ID" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Hubungi Kami | Dealer Resmi Astra Isuzu Jakarta" />
-  <meta name="twitter:description" content="Dealer Isuzu Jakarta resmi dari Astra. Promo, harga terbaru, dan kredit mobil Isuzu." />
+  <meta name="twitter:title" content="Hubungi Kami | Dealer Resmi Isuzu Jakarta" />
+  <meta name="twitter:description" content="Dealer resmi Isuzu Jakarta dengan harga terbaru & promo besar hari ini! Traga, ELF & GIGA tersedia. DP ringan, cicilan mudah, konsultasi gratis." />
   <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
 
   <!-- Robots -->
@@ -192,6 +214,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       <!-- Navigation -->
       <nav class="nav links">
         <a href="/">Home</a>
+        <a href="/showroom">Showroom</a>
         <a href="/produk">Produk</a>
         <a href="/simulasi_kredit">Simulasi Kredit</a>
         <a href="/artikel">Blog & Artikel</a>
@@ -210,18 +233,22 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     <!-- Teks Overlay -->
     <div class="hero-content">
-      <h1>Contact</h1>
+      <h1>Hubungi Dealer Resmi Isuzu Jakarta</h1>
     </div>
   </section>
 
   <!-- CONTACT FORM -->
   <div class="wrapper">
-    <h2>Contact Us</h2>
-    <p>Fill out the form below to get in touch with us.</p>
+    <h2>Kontak Sales Resmi Isuzu Jakarta</h2>
+    <p>
+    Konsultasi gratis seputar <strong>harga terbaru Isuzu Traga, ELF & GIGA</strong>, 
+    promo DP ringan, serta simulasi kredit cepat & mudah.
+    </p>
 
     <div class="container">
       <!-- Form -->
       <div class="contact-form">
+        <h3>Form Pemesanan & Konsultasi Cepat Dealer Isuzu</h3>
         <form id="contactForm">
           <label for="name">Your Name:</label>
           <input type="text" id="name" name="name" required />
@@ -237,6 +264,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       </div>
 
       <!-- Map -->
+      <h3>Lokasi Dealer Resmi Isuzu Jakarta – Daan Mogot</h3> 
       <div class="map1">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31734.59389305134!2d106.69774901083984!3d-6.154289500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7f2195f5fad%3A0x5a8498a332c8de14!2sASTRA%20ISUZU%20DAAN%20MOGOT!5e0!3m2!1sen!2sid!4v1761570863745!5m2!1sen!2sid"
