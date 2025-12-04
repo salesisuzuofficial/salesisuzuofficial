@@ -320,11 +320,11 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
                     ?>
                         <div class="blog-post">
                             <img src="<?= htmlspecialchars($gambarRow, ENT_QUOTES) ?>" alt="<?= htmlspecialchars($judulRow, ENT_QUOTES) ?>">
-                            <h3>
-                                <a href="/detail_artikel/<?= rawurlencode($slugRow) ?>">
-                                    <?= htmlspecialchars($judulRow) ?>
-                                </a>
-                            </h3>
+                            <h2>
+                            <a href="/detail_artikel/<?= rawurlencode($slugRow) ?>">
+                                <?= htmlspecialchars($judulRow) ?>
+                            </a>
+                            </h2>
                             <p><?= htmlspecialchars($excerpt) ?>...</p>
                             <div class="card-footer">
                                 <a href="/detail_artikel/<?= rawurlencode($slugRow) ?>">Baca Selengkapnya</a>
