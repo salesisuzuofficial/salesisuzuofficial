@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- FIXED TITLE -->
-    <title>Produk Isuzu – Astra Isuzu Jakarta Resmi</title>
+    <title>Isuzu Giga Tractor Head – Dealer Resmi Isuzu Jakarta</title>
 
     <!-- FIXED DESCRIPTION -->
     <meta name="description" content="Lihat daftar produk resmi Isuzu Jakarta dari Astra. Tersedia Isuzu Traga, Elf, Giga, NLR/NMR dan kendaraan niaga lainnya. Harga terbaru, promo, dan paket kredit tersedia." />
@@ -36,37 +36,31 @@
     <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
 
-    <!-- FIXED JSON-LD (NO ERROR) -->
+    <!-- ✅ JSON-LD ISUZU GIGA TRACTOR HEAD (SEO MAKSIMAL) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-        },
-        {
-          "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dealer Astra Isuzu Jakarta Resmi",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-            }
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+6281296632186",
+            "contactType": "sales",
+            "areaServed": "ID",
+            "availableLanguage": ["id"]
           }
         },
         {
           "@type": "AutoDealer",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer Isuzu Jakarta resmi dari Astra. Promo, kredit, dan harga terbaru Isuzu.",
+          "telephone": "+6281296632186",
+          "email": "salesisuzuofficial@gmail.com",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
@@ -75,27 +69,74 @@
             "postalCode": "11730",
             "addressCountry": "ID"
           },
-          "telephone": "+6281296632186",
-          "email": "salesisuzuofficial@gmail.com",
           "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
+        },
+        {
+          "@type": "Product",
+          "name": "Isuzu Giga Tractor Head Euro 4",
+          "image": [
+            "https://salesisuzuofficial.com/img/product/th/headerth.webp",
+            "https://salesisuzuofficial.com/img/product/th/mesinth.jpg",
+            "https://salesisuzuofficial.com/img/product/th/dashboardth.webp"
+          ],
+          "description": "Isuzu Giga Tractor Head Euro 4 dengan mesin 245 PS hingga 350 PS. Cocok untuk trailer, ekspedisi, dan logistik berat. Tersedia varian GVZ, GXZ, dan GVR. Harga dan promo resmi Jakarta.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Isuzu"
+          },
+          "sku": "GIGA-TRACTOR-HEAD-EURO4",
+          "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "IDR",
+            "lowPrice": "813000000",
+            "highPrice": "1326000000",
+            "offerCount": 4,
+            "availability": "https://schema.org/InStock",
+            "url": "https://salesisuzuofficial.com/isuzu-giga-tractor-head"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://salesisuzuofficial.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Produk Isuzu",
+              "item": "https://salesisuzuofficial.com/produk"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Isuzu Giga Tractor Head",
+              "item": "https://salesisuzuofficial.com/isuzu-giga-tractor-head"
+            }
+          ]
         }
       ]
     }
     </script>
 
-    <!-- FIXED OG -->
-    <meta property="og:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta property="og:description" content="Lihat daftar produk Isuzu resmi Jakarta. Promo & harga terbaru kendaraan niaga Isuzu." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/produk" />
-    <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
-    <meta property="og:type" content="website" />
+    <!-- ✅ OPEN GRAPH KHUSUS ISUZU GIGA TRACTOR HEAD -->
+    <meta property="og:title" content="Isuzu Giga Tractor Head Euro 4 – Harga & Promo Jakarta" />
+    <meta property="og:description" content="Isuzu Giga Tractor Head Euro 4 tenaga besar 245–350 PS. Cocok untuk trailer & logistik berat. Harga terbaru & promo resmi Jakarta." />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/th/headerth.webp" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-giga-tractor-head" />
+    <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
+    <meta property="og:type" content="product" />
+    <meta property="og:locale" content="id_ID" />
 
-    <!-- FIXED TWITTER -->
+    <!-- ✅ TWITTER CARD -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta name="twitter:description" content="Lihat pilihan produk resmi Isuzu Jakarta dari Astra. Cek harga terbaru." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+    <meta name="twitter:title" content="Isuzu Giga Tractor Head Euro 4 – Harga & Promo Jakarta" />
+    <meta name="twitter:description" content="Tractor Head Isuzu Giga Euro 4 tenaga 350 PS. Cocok untuk bisnis logistik & trailer. Promo & kredit ringan tersedia." />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/th/headerth.webp" />
+
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
@@ -140,18 +181,19 @@
         <!-- Navigation -->
         <nav class="nav links">
           <a href="/">Home</a>
-          <a href="produk.php">Produk</a>
-          <a href="simulasi_kredit.php">Simulasi Kredit</a>
-          <a href="artikel.php">Blog & Artikel</a>
-          <a href="contact.php">Contact</a>
+          <a href="/showroom">Showroom</a>
+          <a href="/produk">Produk</a>
+          <a href="/simulasi_kredit">Simulasi Kredit</a>
+          <a href="/artikel">Blog & Artikel</a>
+          <a href="/contact">Contact</a>
         </nav>
       </div>
     </header>
 
-    <!-- ========== HERO SECTION ========== -->
+    <!-- ========== HERO SECTION (H1 UTAMA) ========== -->
     <section class="hero hero-produk">
       <div class="slider">
-        <img src="img/product/th/headerth.webp" class="slide" alt="Isuzu Giga Tractor Head" />
+        <img src="img/product/th/headerth.webp" class="slide" alt="Isuzu Giga Tractor Head tampak depan di area industri" />
       </div>
 
       <div class="hero-content">
@@ -162,119 +204,122 @@
     <!-- ========== DETAIL SECTION ========== -->
     <section class="promo-section">
 
-    <!-- HEADER -->
-    <div class="promo-header">
+      <!-- HEADER -->
+      <div class="promo-header">
         <p class="promo-tag">#IsuzuEuro4Ready</p>
-        <h1>Bertenaga untuk Keuntungan Usaha Anda</h1>
+        <h2>Truk Tractor Head Tangguh untuk Keuntungan Bisnis</h2>
         <p class="promo-desc">
-        Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional harian Anda.
+          Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional berat harian Anda.
         </p>
-    </div>
+      </div>
 
-    <!-- 1 -->
-    <div class="promo-grid">
+      <!-- 1 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Efisien untuk Bisnis</h2>
-        <p>
-        Isuzu GIGA Tractor Head memiliki 4 varian yang telah dilengkapi dengan teknologi mesin Heavy Duty Common Rail 6NX1-TCS dengan tenaga 350 PS yang dilengkapi teknologi Selective Catalytic Redaction (SCR), selain itu, terdapat mesin 6HK1-TCS dengan tenaga 285 PS dan 6HK1-TCN tenaga 245 PS yang dilengkapi Exhaust Gas Recirculation (EGR) dan Diesel Oxidation Catalyst (DOC), sehingga mampu menghasilkan emisi gas buang berstandar EURO4. Kendaraan ini memiliki rasio gigi transmisi yang tepat dan sesuai guna menghasilkan performa bertenaga tinggi, namun tetap irit bahan bakar.
-        </p>
+          <h3>Mesin Efisien untuk Operasional Bisnis</h3>
+          <p>
+            Isuzu GIGA Tractor Head hadir dalam 4 varian dengan mesin Heavy Duty Common Rail 6NX1-TCS bertenaga 350 PS yang dilengkapi teknologi Selective Catalytic Reduction (SCR). Selain itu, tersedia mesin 6HK1-TCS 285 PS dan 6HK1-TCN 245 PS dengan teknologi EGR dan Diesel Oxidation Catalyst (DOC), sehingga memenuhi standar emisi EURO 4. Perpaduan rasio transmisi yang tepat membuat truk ini memiliki performa tinggi namun tetap efisien dalam konsumsi bahan bakar.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/th/mesinth.jpg" alt="Mesin Isuzu Giga Tractor Head">
+          <img src="/img/product/th/mesinth.jpg" alt="Mesin Isuzu Giga Tractor Head 6NX1-TCS Euro 4" loading="lazy">
         </div>
-    </div>
+      </div>
 
-    <!-- 2 -->
-    <div class="promo-grid reverse">
+      <!-- 2 -->
+      <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/th/tenagath.webp" alt="Isuzu Tractor Head">
+          <img src="/img/product/th/tenagath.webp" alt="Truk Isuzu Giga Tractor Head membawa trailer bermuatan berat" loading="lazy">
         </div>
         <div class="promo-text">
-        <h2>Tenaga dan Torsi Besar</h2>
-        <p>Khusus untuk varian GXZ, dilengkapi dengan mesin common rail baru 6NX1-TCS dengan tenaga 350 PS dan torsi 80.5 kg.m – 135 kg.m pada 1,300 – 1,700 rpm. Varian ini mampu mengangkut muatan secara maksimal dengan tetap menjaga kestabilan dan keamanan saat kondisi jalanan menanjak.</p>
+          <h3>Tenaga dan Torsi Besar untuk Medan Berat</h3>
+          <p>
+            Khusus varian GXZ, Isuzu GIGA Tractor Head dilengkapi mesin Common Rail 6NX1-TCS bertenaga 350 PS dengan torsi 80,5–135 kg.m pada 1.300–1.700 rpm. Varian ini mampu membawa muatan maksimal sekaligus menjaga kestabilan dan keamanan, terutama saat melintasi jalan menanjak.
+          </p>
         </div>
-    </div>
+      </div>
 
-    <!-- 3 -->
-    <div class="promo-grid">
+      <!-- 3 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Tampilan Baru, Maksimalkan Kenyamanan Pengemudi</h2>
-        <p>Varian GXZ kini hadir dengan tampilan MID baru dan fungsi tambahan yang berguna dalam memberikan informasi akurat terkait kondisi Selective Catalyst Reduction (SCR) kendaraan Anda. SCR sendiri merupakan komponen pendukung untuk menghasilkan emisi gas buang berstandar EURO4. Dilengkapi dengan Air Suspension Seat yang dapat membantu meredam getaran, meningkatkan rasa nyaman saat berkendara dan juga mengurangi kelelahan pada pengemudi. Untuk meningkatkan kenyamanan dan kegunaan fitur dalam kabin, kini Isuzu GIGA TH dilengkapi dengan slot USB charger, sehingga pengemudi dapat menikmati perjalanan tanpa khawatir kondisi baterai ponsel pengemudi. Isuzu GIGA kini juga telah dilengkapi Side Under View Mirror yang berfungsi meningkatkan visibilitas pengemudi ketika berkendara. Fitur ini tentunya meningkatkan standar keamanan dan keselamatan saat pengemudi berkendara dengan inovasi yang lebih mutakhir.</p>
+          <h3>Kabin Baru Lebih Nyaman & Modern</h3>
+          <p>
+            Varian GXZ dari Isuzu GIGA Tractor Head kini dilengkapi MID baru yang menampilkan informasi akurat tentang kondisi Selective Catalyst Reduction (SCR) untuk mendukung emisi EURO 4. Kabin hadir dengan Air Suspension Seat untuk meredam getaran dan mengurangi kelelahan pengemudi, serta slot USB charger agar pengemudi tetap dapat mengisi daya ponsel. Fitur Side Under View Mirror menambah visibilitas, meningkatkan kenyamanan, keselamatan, dan standar keamanan saat berkendara.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/th/dashboardth.webp" alt="Kabin Isuzu Giga FVZ">
+          <img src="/img/product/th/dashboardth.webp" alt="Dashboard dan interior kabin Isuzu Giga Tractor Head terbaru" loading="lazy">
         </div>
-    </div>
+      </div>
 
-    <!-- 4 -->
-    <div class="promo-grid reverse">
+      <!-- 4 -->
+      <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/th/gxz-abs.webp" alt="Keamanan Isuzu Giga Tractor Head">
+          <img src="/img/product/th/gxz-abs.webp" alt="Sistem pengereman ABS Isuzu Giga Tractor Head" loading="lazy">
         </div>
         <div class="promo-text">
-        <h2>Aman Maksimal dengan Anti-Lock Brake System</h2>
-        <p>Sistem pengereman kendaraan ini menggunakan teknologi full air brake yang dikenal kuat menghentikan laju kendaraan dan menjadikan pengereman lebih presisi. Kendaraan ini dilengkapi dengan anti-lock brake system, sebuah sistem rem yang berfungsi mencegah roda terkunci pada saat terjadi proses pengereman mendadak. (Kecuali varian GVR J). Kini Isuzu GIGA GVR, GVZ dan GXZ telah dilengkapi dengan trailer hand brake yang membuat kendaraan lebih aman dan tentunya mudah digunakan.</p>
+          <h3>Sistem Keamanan ABS dan Full Air Brake</h3>
+          <p>
+            Isuzu GIGA menggunakan sistem pengereman full air brake yang kuat dan presisi, dilengkapi anti-lock brake system untuk mencegah roda terkunci saat pengereman mendadak (kecuali varian GVR J). Varian GVR, GVZ, dan GXZ kini juga dilengkapi trailer hand brake, meningkatkan keamanan dan kemudahan penggunaan.
+          </p>
         </div>
-    </div>
+      </div>
 
-    <!-- 5 -->
-    <div class="promo-grid">
+      <!-- 5 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Kemudahan Service dan Suku Cadang</h2>
-        <p>Jaringan layanan purna jual yang luas dan lengkap, mulai dari bengkel resmi Isuzu, Bengkel Berjalan Isuzu hingga Bengkel Mitra Isuzu yang telah berpengalaman dengan mesin common rail sejak tahun 2011, mampu membantu Anda mempercepat proses perbaikan dan meningkatkan efisiensi bisnis Anda karena mampu meminimalisir downtime atau kerusakan. Suku cadang dapat dengan mudah didapatkan melalui dukungan bengkel resmi, mini depo, toko suku cadang (part shop), Bengkel Mitra Isuzu hingga Bengkel Isuzu Berjalan yang tersebar di seluruh kota di Indonesia.</p>
+          <h3>Jaringan Servis & Suku Cadang Terluas</h3>
+          <p>
+            Didukung bengkel resmi Isuzu, Bengkel Berjalan, Bengkel Mitra, serta ketersediaan suku cadang yang cepat dan mudah di seluruh Indonesia.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/frr/service-dan-suku-cadang.webp" alt="Service dan Suku Cadang">
+          <img src="/img/product/frr/service-dan-suku-cadang.webp" alt="Layanan servis dan suku cadang resmi Isuzu" loading="lazy">
         </div>
-    </div>
-    
+      </div>
+
     </section>
 
     <!-- ========== PRODUCT SECTION ========== -->
     <section class="tipe-section">
-        <h2 class="tipe-title">PILIHAN TIPE</h2>
+      <h2 class="tipe-title">Pilihan Tipe Isuzu Giga Tractor Head</h2>
 
-        <div class="tipe-wrapper">
+      <div class="tipe-wrapper">
 
-            <!-- Item 1 -->
-            <div class="tipe-card">
-                <img src="/img/product/th/giga-gvz.png" alt="GIGA GVZ K HP ABS">
-                <h3>GIGA GVZ K HP ABS</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 1.170.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 2 -->
-            <div class="tipe-card">
-                <img src="/img/product/th/isuzugigath.png" alt="GIGA GXZ K ABS">
-                <h3>GIGA GXZ K ABS</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 1.326.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 3 -->
-            <div class="tipe-card">
-                <img src="/img/product/th/giga-gvr-j.png" alt="GIGA GVR J">
-                <h3>GIGA GVR J</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 813.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 4 -->
-            <div class="tipe-card">
-                <img src="/img/product/th/giga-gvr-j.png" alt="GIGA GVR J">
-                <h3>GIGA GVR J HP ABS</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 885.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>            
-
+        <div class="tipe-card">
+          <img src="/img/product/th/giga-gvz.png" alt="Isuzu Giga GVZ K HP ABS" loading="lazy">
+          <h3>GIGA GVZ K HP ABS</h3>
+          <p class="mulai">Harga Mulai Dari</p>
+          <p class="harga">Rp. 1.170.000.000</p>
+          <a href="https://wa.me/6281296632186" target="_blank" class="detail-btn">Detail</a>
         </div>
-    </section>
 
+        <div class="tipe-card">
+          <img src="/img/product/th/isuzugigath.png" alt="Isuzu Giga GXZ K ABS" loading="lazy">
+          <h3>GIGA GXZ K ABS</h3>
+          <p class="mulai">Harga Mulai Dari</p>
+          <p class="harga">Rp. 1.326.000.000</p>
+          <a href="https://wa.me/6281296632186" target="_blank" class="detail-btn">Detail</a>
+        </div>
+
+        <div class="tipe-card">
+          <img src="/img/product/th/giga-gvr-j.png" alt="Isuzu Giga GVR J" loading="lazy">
+          <h3>GIGA GVR J</h3>
+          <p class="mulai">Harga Mulai Dari</p>
+          <p class="harga">Rp. 813.000.000</p>
+          <a href="https://wa.me/6281296632186" target="_blank" class="detail-btn">Detail</a>
+        </div>
+
+        <div class="tipe-card">
+          <img src="/img/product/th/giga-gvr-j.png" alt="Isuzu Giga GVR J HP ABS" loading="lazy">
+          <h3>GIGA GVR J HP ABS</h3>
+          <p class="mulai">Harga Mulai Dari</p>
+          <p class="harga">Rp. 885.000.000</p>
+          <a href="https://wa.me/6281296632186" target="_blank" class="detail-btn">Detail</a>
+        </div>
+
+      </div>
+    </section>
 
     <!-- CTA -->
     <section class="cta-section">
