@@ -95,8 +95,8 @@ KARTU PRODUK (TEKS)
   padding: 8px 6px;
 }
 
-.promo-text h2 {
-  font-size: 20px;
+.promo-text h3 {
+  font-size: 22px;
   font-weight: 700;
   margin-bottom: 8px;
   line-height: 1.3;
@@ -146,7 +146,7 @@ RESPONSIVE TABLET (TETAP 2 KOLOM)
     line-height: 1.3;
   }
 
-  .promo-text h2 {
+  .promo-text h3 {
     font-size: 22px;
   }
 
@@ -186,7 +186,7 @@ RESPONSIVE HP (JADI 1 KOLOM)
     font-size: 14.5px;
   }
 
-  .promo-text h2 {
+  .promo-text h3 {
     font-size: 22px;
   }
 
