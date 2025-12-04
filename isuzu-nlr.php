@@ -335,7 +335,7 @@
           <p>Dapatkan Penawaran Khusus Untuk Pembelian Tunai Maupun Kredit</p>
         </div>
 
-        <a href="/kontak" class="cta-button">CHAT SEKARANG</a>
+        <a href="/contact" class="cta-button">CHAT SEKARANG</a>
       </div>
     </section>
 
