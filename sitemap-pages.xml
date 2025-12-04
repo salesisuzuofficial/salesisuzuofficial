@@ -4,38 +4,115 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-                        
-    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
     <url>
-        <loc>https://salesisuzuofficial.com/</loc>
-        <lastmod>2025-11-29T10:08:48+00:00</lastmod>
+        <loc>https://isuzuindonesia.com/</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/index.php</loc>
-        <lastmod>2025-11-29T10:08:48+00:00</lastmod>
+        <loc>https://isuzuindonesia.com/index.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/produk.php</loc>
-        <lastmod>2025-11-29T08:35:59+00:00</lastmod>
+        <loc>https://isuzuindonesia.com/produk.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/simulasi_kredit.php</loc>
-        <lastmod>2025-08-08T09:29:25+00:00</lastmod>
+        <loc>https://isuzuindonesia.com/artikel.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/artikel.php</loc>
-        <lastmod>2025-11-29T10:08:48+00:00</lastmod>
+        <loc>https://isuzuindonesia.com/detail_artikel.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://isuzuindonesia.com/contact.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/contact.php</loc>
-        <lastmod>2025-11-29T09:29:25+00:00</lastmod>
+        <loc>https://isuzuindonesia.com/simulasi_kredit.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://isuzuindonesia.com/showroom.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <!-- Halaman model Isuzu -->
+    <url>
+        <loc>https://isuzuindonesia.com/isuzu-frr.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://isuzuindonesia.com/isuzu-ftr.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://isuzuindonesia.com/isuzu-fvm.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://isuzuindonesia.com/isuzu-fvr.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://isuzuindonesia.com/isuzu-fvz.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://isuzuindonesia.com/isuzu-nlr.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://isuzuindonesia.com/isuzu-nmr.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://isuzuindonesia.com/isuzu-tractor-head.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://isuzuindonesia.com/isuzuelf.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://isuzuindonesia.com/isuzugiga.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://isuzuindonesia.com/isuzutraga.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    
+    <!-- Halaman Traga -->
+    <url>
+        <loc>https://isuzuindonesia.com/tragabox.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://isuzuindonesia.com/tragapickup.php</loc>
+        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <priority>0.70</priority>
     </url>
 
 </urlset>

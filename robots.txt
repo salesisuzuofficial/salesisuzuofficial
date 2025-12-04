@@ -1,6 +1,6 @@
 # ============================
 # robots.txt (FINAL)
-# salesisuzuofficial.com
+# isuzuindonesia.com
 # ============================
 
 User-agent: *
@@ -18,6 +18,6 @@ Allow: /uploads/
 Allow: /
 
 # 📌 Sitemap utama (xml)
-Sitemap: https://salesisuzuofficial.com/sitemap-index.xml
-Sitemap: https://salesisuzuofficial.com/sitemap-artikel.xml
-Sitemap: https://salesisuzuofficial.com/sitemap-pages.xml
+Sitemap: https://isuzuindonesia.com/sitemap-index.xml
+Sitemap: https://isuzuindonesia.com/sitemap-artikel.xml
+Sitemap: https://isuzuindonesia.com/sitemap-pages.xml

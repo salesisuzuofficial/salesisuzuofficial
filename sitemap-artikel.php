@@ -24,7 +24,7 @@ function printUrl($loc, $lastmod, $changefreq = 'monthly', $priority = '0.7') {
     echo "  </url>\n";
 }
 
-$base_url = 'https://salesisuzuofficial.com';
+$base_url = 'https://isuzuindonesia.com';
 
 // halaman index artikel
 printUrl("$base_url/artikel", date('Y-m-d'), 'weekly', '0.9');
