@@ -183,7 +183,7 @@
         <!-- Navigation -->
         <nav class="nav links">
           <a href="/">Home</a>
-          <a href="/showroo,">Showroom</a>
+          <a href="/showroom">Showroom</a>
           <a href="/produk">Produk</a>
           <a href="/simulasi_kredit">Simulasi Kredit</a>
           <a href="/artikel">Blog & Artikel</a>
