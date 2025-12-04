@@ -342,7 +342,7 @@
           <p>Dapatkan penawaran terbaik untuk pembelian tunai atau kredit Isuzu Giga FRR.</p>
         </div>
 
-        <a href="/kontak" class="cta-button">CHAT SEKARANG</a>
+        <a href="/contact" class="cta-button">CHAT SEKARANG</a>
       </div>
     </section>
 
