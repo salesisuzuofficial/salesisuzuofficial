@@ -186,6 +186,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
             <nav class="nav links">
                 <a href="/">Home</a>
+                <a href="/showroom">Showroom</a>
                 <a href="/produk">Produk</a>
                 <a href="/simulasi_kredit" class="active">Simulasi Kredit</a>
                 <a href="/artikel">Blog & Artikel</a>

@@ -37,11 +37,11 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- TIDAK DIUBAH sesuai permintaan -->
-    <title>Dealer Isuzu Jakarta – Astra Isuzu Jakarta Resmi</title>
+    <title>Showroom Terdekat – Dealer Resmi Isuzu Jakarta</title>
     <meta name="description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru, promo khusus, dan paket kredit mobil Isuzu dengan proses cepat dan aman. Konsultasi gratis & siap melayani seluruh Jakarta" />
     <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, dealer isuzu resmi, promo isuzu terbaru, harga isuzu, harga isuzu traga, isuzu traga pick up, isuzu traga box, isuzu elf, isuzu giga, isuzu jabodetabek, astra isuzu" />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://salesisuzuofficial.com/" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/showroom" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/faviconisuzu.png">
@@ -72,112 +72,112 @@ try {
     {
       "@context": "https://schema.org",
       "@graph": [
+
         {
           "@type": "WebSite",
-          "name": "Dealer Isuzu",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "alternateName": "Dealer Isuzu Jakarta",
+          "alternateName": "Sales Isuzu Jakarta",
           "potentialAction": {
             "@type": "SearchAction",
             "target": "https://salesisuzuofficial.com/?s={search_term_string}",
             "query-input": "required name=search_term_string"
           }
         },
+
         {
           "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
         },
+
         {
           "@type": "AutoDealer",
-          "name": "Dealer Astra Isuzu Jakarta - Dedy Chandra",
-          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "name": "Showroom Dealer Resmi Isuzu Jakarta - Astra Isuzu",
+          "url": "https://salesisuzuofficial.com/showroom",
+          "image": "https://salesisuzuofficial.com/img/dealer.webp",
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
           "priceRange": "IDR",
-          "url": "https://salesisuzuofficial.com/",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Daan Mogot / Cabang Astra Isuzu (lihat contact page)",
+            "streetAddress": "Jalan Daan Mogot, Jakarta Barat",
             "addressLocality": "Jakarta",
             "addressRegion": "DKI Jakarta",
-            "postalCode": "",
+            "postalCode": "11730",
             "addressCountry": "ID"
           },
+          "areaServed": [
+            "Jakarta",
+            "Tangerang",
+            "Bekasi",
+            "Bogor",
+            "Depok"
+          ],
           "sameAs": [
             "https://www.facebook.com/",
             "https://www.instagram.com/"
-          ],
-          "areaServed": ["Jakarta", "Tangerang", "Bekasi", "Jabodetabek"]
+          ]
+        },
+
+        {
+          "@type": "CollectionPage",
+          "name": "Showroom Isuzu Jakarta",
+          "url": "https://salesisuzuofficial.com/showroom",
+          "description": "Showroom resmi Dealer Isuzu Jakarta yang menyediakan unit Isuzu Traga, ELF NLR, ELF NMR, Isuzu GIGA FRR, FTR, FVR, FVM, FVZ, hingga Tractor Head.",
+          "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Isuzu Traga", "url": "https://salesisuzuofficial.com/isuzutraga" },
+              { "@type": "ListItem", "position": 2, "name": "Isuzu ELF NLR", "url": "https://salesisuzuofficial.com/isuzu-nlr" },
+              { "@type": "ListItem", "position": 3, "name": "Isuzu ELF NMR", "url": "https://salesisuzuofficial.com/isuzu-nmr.php" },
+              { "@type": "ListItem", "position": 4, "name": "Isuzu GIGA FRR", "url": "https://salesisuzuofficial.com/isuzu-frr.php" },
+              { "@type": "ListItem", "position": 5, "name": "Isuzu GIGA FTR", "url": "https://salesisuzuofficial.com/isuzu-ftr" },
+              { "@type": "ListItem", "position": 6, "name": "Isuzu GIGA FVR", "url": "https://salesisuzuofficial.com/isuzu-fvr" },
+              { "@type": "ListItem", "position": 7, "name": "Isuzu GIGA FVM", "url": "https://salesisuzuofficial.com/isuzu-fvm" },
+              { "@type": "ListItem", "position": 8, "name": "Isuzu GIGA FVZ", "url": "https://salesisuzuofficial.com/isuzu-fvz" },
+              { "@type": "ListItem", "position": 9, "name": "Isuzu Tractor Head", "url": "https://salesisuzuofficial.com/isuzu-tractor-head" }
+            ]
+          }
+        },
+
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://salesisuzuofficial.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Showroom",
+              "item": "https://salesisuzuofficial.com/showroom"
+            }
+          ]
         }
+
       ]
     }
     </script>
 
-    <!-- FAQ Schema (example common questions for dealer) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Bagaimana cara membeli mobil Isuzu di Dealer Astra Isuzu Jakarta?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Hubungi Sales kami via WhatsApp atau telepon, konsultasikan kebutuhan Anda, pilih unit, dan kami bantu proses kredit atau pembelian tunai sampai serah terima."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Apakah Dealer Isuzu melayani wilayah Tangerang dan Bekasi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ya. Dealer kami melayani pembelian, pengecekan stok, dan pengiriman serta layanan after-sales di wilayah Jakarta, Tangerang, dan Bekasi."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Apakah tersedia paket kredit untuk Isuzu Traga dan ELF?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Tersedia berbagai paket kredit dan simulasi cicilan. Silakan hubungi Sales untuk perhitungan custom sesuai tenor dan DP."
-          }
-        }
-      ]
-    }
-    </script>
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="Dealer Isuzu Jakarta – Astra Isuzu Jakarta Resmi" />
-    <meta property="og:description" content="Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbaru dan promo khusus mobil Isuzu." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/" />
+    <!-- OPEN GRAPH SHOWROOM ISUZU -->
+    <meta property="og:title" content="Showroom Isuzu Jakarta – Dealer Resmi Astra Isuzu" />
+    <meta property="og:description" content="Kunjungi Showroom Isuzu Jakarta resmi Astra. Lihat langsung Isuzu Traga, ELF, NLR, NMR, GIGA, hingga Tractor Head. Harga terbaru & promo kredit tersedia." />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/dealer.webp" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/showroom" />
+    <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="id_ID" />
 
-    <!-- Twitter Card -->
+    <!-- TWITTER CARD SHOWROOM ISUZU -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Dealer Isuzu Jakarta – Astra Isuzu Jakarta Resmi" />
-    <meta name="twitter:description" content="Promo resmi Astra Isuzu Jakarta. Dapatkan harga & kredit mobil Isuzu terbaru." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-
-    <!-- Google Analytics (non-blocking) -->
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){ dataLayer.push(arguments); }
-
-        window.addEventListener("DOMContentLoaded", function(){
-            var s = document.createElement("script");
-            s.src = "https://www.googletagmanager.com/gtag/js?id=G-TV2MJHYKCB";
-            s.async = true;
-            document.body.appendChild(s);
-
-            gtag('js', new Date());
-            gtag('config', 'G-TV2MJHYKCB');
-        });
-    </script>
+    <meta name="twitter:title" content="Showroom Isuzu Jakarta – Dealer Resmi Astra Isuzu" />
+    <meta name="twitter:description" content="Lihat unit Isuzu terbaru di Showroom Resmi Jakarta: Traga, ELF, GIGA, NLR, NMR, Tractor Head. Promo & kredit cepat." />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/dealer.webp" />
 
     <!-- Feather Icons -->
     <script src="/js/feather.min.js"></script>
@@ -206,10 +206,11 @@ try {
 
             <nav class="nav links" aria-label="Main Navigation">
                 <a href="/" title="Beranda Dealer Isuzu">Home</a>
-                <a href="produk.php" title="Produk Isuzu">Produk</a>
-                <a href="simulasi_kredit.php" title="Simulasi Kredit Isuzu">Simulasi Kredit</a>
-                <a href="artikel.php" title="Blog & Artikel Isuzu">Blog & Artikel</a>
-                <a href="contact.php" title="Kontak Dealer Isuzu">Contact</a>
+                <a href="/showroom" title="Beranda Dealer Isuzu">Showroom</a>
+                <a href="/produk" title="Produk Isuzu">Produk</a>
+                <a href="/simulasi_kredit" title="Simulasi Kredit Isuzu">Simulasi Kredit</a>
+                <a href="/artikel" title="Blog & Artikel Isuzu">Blog & Artikel</a>
+                <a href="/contact" title="Kontak Dealer Isuzu">Contact</a>
             </nav>
         </div>
     </header>
