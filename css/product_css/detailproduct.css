@@ -24,7 +24,7 @@ SECTION CONTAINER (RAPI & PADAT)
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 80px 20px;
+  padding: 80px 20px 0 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
