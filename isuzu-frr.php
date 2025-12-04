@@ -209,7 +209,7 @@
 
       <div class="hero-content">
         <!-- ✅ H1 UTAMA -->
-        <h1>Isuzu Giga FRR – Harga, Spesifikasi & Promo Terbaru Jakarta</h1>
+        <h1>Isuzu Giga FRR</h1>
       </div>
     </section>
 
