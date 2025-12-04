@@ -203,7 +203,7 @@ try {
 
             <nav class="nav links" aria-label="Main Navigation">
                 <a href="/" title="Beranda Dealer Isuzu">Home</a>
-                <a href="/showroom" title="Dealer Isuzu">Showroom Isuzu</a>
+                <a href="/showroom" title="Dealer Isuzu">Showroom</a>
                 <a href="/produk" title="Produk Isuzu">Produk</a>
                 <a href="/simulasi_kredit" title="Simulasi Kredit Isuzu">Simulasi Kredit</a>
                 <a href="/artikel" title="Blog & Artikel Isuzu">Blog & Artikel</a>

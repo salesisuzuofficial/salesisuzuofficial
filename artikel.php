@@ -239,7 +239,7 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
 
             <nav class="nav links">
                 <a href="/">Home</a>
-                <a href="/showroom">Showroom Isuzu</a>
+                <a href="/showroom">Showroom</a>
                 <a href="/produk">Produk</a>
                 <a href="/simulasi_kredit">Simulasi Kredit</a>
                 <a href="/artikel" class="active">Blog & Artikel</a>
