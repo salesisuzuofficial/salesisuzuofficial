@@ -32,8 +32,8 @@ printUrl("$base_url/artikel", date('Y-m-d'), 'weekly', '0.9');
 try {
     // koneksi database
     $db_host = getenv('DB_HOST') ?: 'localhost';
-    $db_name = getenv('DB_NAME') ?: 'u142136422_isuzuoffc';
-    $db_user = getenv('DB_USER') ?: 'u142136422_isuzuoffc';
+    $db_name = getenv('DB_NAME') ?: 'u166903321_isuzuofficial';
+    $db_user = getenv('DB_USER') ?: 'u166903321_isuzuofficial';
     $db_pass = getenv('DB_PASS') ?: 'Isuzuoff1c1al22!""';
 
     $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
