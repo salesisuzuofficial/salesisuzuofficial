@@ -187,7 +187,7 @@
     <!-- 2 -->
     <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/fvz/Transmisi-Baru-fvz-17.webp" alt="Transmisi Baru Giga FVZ">
+        <img src="/img/product/fvz/Transmisi-Baru-fvz-17.jpg" alt="Transmisi Baru Giga FVZ">
         </div>
         <div class="promo-text">
         <h2>Tangguh di Berbagai Medan</h2>
@@ -209,7 +209,7 @@
     <!-- 4 -->
     <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/frr/isuzu-giga-FVR-gallery1.webp" alt="Keamanan Isuzu Giga FVZ">
+        <img src="/img/product/fvz/Panel-Multi-Informasi-fvz-4-768x576.jpg" alt="Keamanan Isuzu Giga FVZ">
         </div>
         <div class="promo-text">
         <h2>Maksimalkan Keamanan dan Kenyamanan Pengemudi</h2>
