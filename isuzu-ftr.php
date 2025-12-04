@@ -339,7 +339,7 @@
           <p>Dapatkan penawaran khusus untuk pembelian cash maupun kredit</p>
         </div>
 
-        <a href="/kontak" class="cta-button">CHAT SEKARANG</a>
+        <a href="/contact" class="cta-button">CHAT SEKARANG</a>
       </div>
     </section>
 
