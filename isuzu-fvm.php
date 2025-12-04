@@ -44,7 +44,7 @@
 
         {
           "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "contactPoint": {
@@ -57,7 +57,7 @@
 
         {
           "@type": "AutoDealer",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "telephone": "+6281296632186",
@@ -91,7 +91,7 @@
             "availability": "https://schema.org/InStock",
             "seller": {
               "@type": "AutoDealer",
-              "name": "Dealer Astra Isuzu Jakarta Resmi"
+              "name": "Dealer Resmi Isuzu Jakarta"
             }
           }
         },
@@ -140,7 +140,7 @@
     <meta property="og:description" content="Isuzu Giga FVM truk medium duty bertenaga besar, irit BBM, dan tangguh untuk bisnis. Dapatkan harga terbaik & promo kredit resmi Isuzu Jakarta." />
     <meta property="og:image" content="https://salesisuzuofficial.com/img/product/fvm/headerfvm.webp" />
     <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-fvm" />
-    <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
+    <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="product" />
 
     <!-- ================= TWITTER CARD ================= -->
@@ -334,7 +334,7 @@
           <p>Dapatkan penawaran terbaik untuk pembelian tunai maupun kredit</p>
         </div>
 
-        <a href="/kontak" class="cta-button">CHAT SEKARANG</a>
+        <a href="/contact" class="cta-button">CHAT SEKARANG</a>
       </div>
     </section>
 
