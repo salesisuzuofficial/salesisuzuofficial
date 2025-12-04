@@ -320,7 +320,7 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
                     ?>
                         <div class="blog-post">
                             <img src="<?= htmlspecialchars($gambarRow, ENT_QUOTES) ?>" alt="<?= htmlspecialchars($judulRow, ENT_QUOTES) ?>">
-                            <h3 class="blog-title">
+                            <h3>
                                 <a href="/detail_artikel/<?= rawurlencode($slugRow) ?>">
                                     <?= htmlspecialchars($judulRow) ?>
                                 </a>

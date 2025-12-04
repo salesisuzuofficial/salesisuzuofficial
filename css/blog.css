@@ -1,14 +1,14 @@
 /* ================================
-   Section: Blog / Artikel Website
-   ================================ */
-
-/* Container Section */
+SECTION: BLOG / ARTIKEL
+================================ */
 .content-section {
   padding: 60px 20px;
   background: linear-gradient(180deg, #f7f7f7 0%, #e8f5e9 100%);
 }
 
-/* Grid Layout */
+/* ================================
+GRID BLOG
+================================ */
 .blog-grid {
   display: flex;
   flex-wrap: wrap;
@@ -18,77 +18,80 @@
   margin: 0 auto;
 }
 
-/* Card Artikel */
+/* ================================
+CARD BLOG
+================================ */
 .blog-post {
   background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   width: 300px;
-  min-height: 480px;
-  position: relative; /* diperlukan untuk full-link */
+  min-height: 460px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Efek Hover */
+/* Hover Card */
 .blog-post:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-6px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
 }
 
-/* Gambar Artikel */
+/* ================================
+GAMBAR BLOG
+================================ */
 .blog-post img {
   width: 100%;
   height: 180px;
   object-fit: cover;
 }
 
-/* Judul Artikel */
+/* ================================
+JUDUL ARTIKEL
+================================ */
 .blog-post h2 {
   font-size: 18px;
-  color: #333;
-  margin: 20px 20px 10px 20px;
+  color: #1a1a1a;
+  margin: 18px 18px 10px;
   font-weight: 700;
   line-height: 1.4;
-  min-height: 56px;
+  min-height: 54px;
 }
 
 .blog-post h2 a {
   text-decoration: none;
-  color: #333;
-  position: relative;
-  z-index: 2;
+  color: inherit;
+  transition: color 0.2s ease;
 }
 
 .blog-post h2 a:hover {
-  color: #007bff;
+  color: #d60000;
 }
 
-/* Deskripsi Singkat */
+/* ================================
+DESKRIPSI ARTIKEL
+================================ */
 .blog-post p {
   font-size: 14px;
   color: #555;
-  margin: 0 20px 20px 20px;
+  margin: 0 18px 18px;
   line-height: 1.6;
   flex-grow: 1;
-  min-height: 72px;
-  position: relative;
-  z-index: 2;
 }
 
-/* Tombol Baca Selengkapnya */
+/* ================================
+FOOTER CARD
+================================ */
 .blog-post .card-footer {
-  margin: auto 20px 20px 20px;
-  position: relative;
-  z-index: 2;
+  margin: 0 18px 18px;
 }
 
 .blog-post .card-footer a {
   font-size: 14px;
   color: #007bff;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -96,24 +99,17 @@
   text-decoration: underline;
 }
 
-/* Artikel Isi */
+/* ================================
+ISI DETAIL ARTIKEL
+================================ */
 .artikel-isi {
   font-size: 16px;
   line-height: 1.8;
   color: #333;
 }
 
-/* Full clickable link */
-.blog-post a.full-link {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  text-indent: -9999px;
-  overflow: hidden;
-}
-
 /* ================================
-BLOG INTRO (RAPI & SEO FRIENDLY)
+BLOG INTRO
 ================================ */
 .blog-intro {
   width: 100%;
@@ -149,45 +145,29 @@ BLOG INTRO (RAPI & SEO FRIENDLY)
 }
 
 /* ================================
+BLOG LIST TITLE
+================================ */
+.blog-list-title {
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin: 45px 0 30px;
+  letter-spacing: 0.3px;
+}
+
+/* ================================
 RESPONSIVE TABLET
 ================================ */
 @media (max-width: 992px) {
   .blog-intro h2 {
     font-size: 24px;
   }
-
   .blog-intro p {
     font-size: 15px;
   }
-}
 
-/* ================================
-RESPONSIVE HP
-================================ */
-@media (max-width: 768px) {
-  .blog-intro {
-    padding: 38px 16px 30px;
-  }
-
-  .blog-intro h2 {
-    font-size: 21px;
-    line-height: 1.3;
-  }
-
-  .blog-intro p {
-    font-size: 14.5px;
-    line-height: 1.65;
-  }
-}
-
-/* ================================
-BLOG LIST TITLE (RAPI & MENARIK)
-================================ */
-
-/* ================================
-RESPONSIVE TABLET
-================================ */
-@media (max-width: 992px) {
   .blog-list-title {
     font-size: 23px;
     margin: 38px 0 26px;
@@ -195,12 +175,31 @@ RESPONSIVE TABLET
 }
 
 /* ================================
-RESPONSIVE HP
+RESPONSIVE MOBILE
 ================================ */
 @media (max-width: 768px) {
+  .content-section {
+    padding: 45px 16px;
+  }
+
+  .blog-post {
+    width: 100%;
+  }
+
+  .blog-intro {
+    padding: 38px 16px 30px;
+  }
+
+  .blog-intro h2 {
+    font-size: 21px;
+  }
+
+  .blog-intro p {
+    font-size: 14.5px;
+  }
+
   .blog-list-title {
     font-size: 20px;
     margin: 32px 0 22px;
-    line-height: 1.3;
   }
 }
