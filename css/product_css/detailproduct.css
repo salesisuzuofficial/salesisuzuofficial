@@ -77,7 +77,7 @@ GRID PRODUK DEFAULT 2x2 (TANPA CLASS TAMBAHAN)
   grid-template-columns: repeat(2, 1fr); /* ✅ LANGSUNG 2–2 */
   gap: 28px; /* ✅ lebih rapat & rapi */
   align-items: stretch;
-  margin-bottom: 70px;
+  margin-bottom: 45px;
 }
 
 /* MATIKAN TOTAL MODE SELANG-SELING */
@@ -113,7 +113,7 @@ KARTU PRODUK (GAMBAR)
 ================================ */
 .promo-image {
   width: 100%;
-  min-height: 230px;
+  min-height: 180px;
   border-radius: 16px;
   overflow: hidden;
   background: #f3f3f3;
@@ -138,7 +138,7 @@ RESPONSIVE TABLET (TETAP 2 KOLOM)
   .promo-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 22px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   .promo-header h1 {
@@ -155,7 +155,7 @@ RESPONSIVE TABLET (TETAP 2 KOLOM)
   }
 
   .promo-image {
-    min-height: 210px;
+    min-height: 180px;
   }
 }
 
@@ -170,7 +170,7 @@ RESPONSIVE HP (JADI 1 KOLOM)
   .promo-grid {
     grid-template-columns: 1fr;
     gap: 26px;
-    margin-bottom: 55px;
+    margin-bottom: 40px;
   }
 
   .promo-header {
@@ -195,7 +195,7 @@ RESPONSIVE HP (JADI 1 KOLOM)
   }
 
   .promo-image {
-    min-height: 240px;
+    min-height: 180px;
     border-radius: 16px;
   }
 }
