@@ -44,7 +44,7 @@
 
         {
           "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "contactPoint": {
@@ -57,7 +57,7 @@
 
         {
           "@type": "AutoDealer",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
@@ -133,7 +133,7 @@
     <meta property="og:description" content="Harga terbaru Isuzu Giga FVZ Jakarta. Truk heavy duty 285 PS, kapasitas besar, cocok untuk dump truck & kargo. Promo & kredit tersedia." />
     <meta property="og:image" content="https://salesisuzuofficial.com/img/product/fvz/isuzugigafvz.png" />
     <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-fvz" />
-    <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
+    <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="product" />
 
     <!-- ========== TWITTER CARD ========== -->
@@ -329,7 +329,7 @@
           <p>Dapatkan Promo Kredit, Diskon & Bonus Terbaik Hari Ini</p>
         </div>
 
-        <a href="/kontak" class="cta-button">CHAT SEKARANG</a>
+        <a href="/contact" class="cta-button">CHAT SEKARANG</a>
       </div>
     </section>
 
