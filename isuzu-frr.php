@@ -230,7 +230,7 @@
         <div class="promo-text">
           <h3>Mesin Efisien & Tangguh untuk Bisnis</h3>
           <p>
-            Isuzu GIGA FRR dilengkapi mesin Heavy Duty Common Rail 4HK1-TCC 190 PS berstandar EURO4 dengan EGR dan DOC untuk performa optimal dan konsumsi bahan bakar yang hemat.
+            Isuzu GIGA FRR dibekali mesin Heavy Duty Common Rail 4HK1-TCC berkonfigurasi 4 silinder, lengkap dengan sistem EGR dan Diesel Oxidation Catalyst (DOC) untuk memastikan emisi buang memenuhi standar EURO 4. Tenaganya mencapai 190 PS, dipadukan dengan rasio transmisi yang dirancang optimal untuk memberikan performa kuat sekaligus efisiensi bahan bakar. Kendaraan ini siap menjadi partner bisnis yang handal dan membantu memaksimalkan keuntungan operasional.
           </p>
         </div>
         <div class="promo-image">
@@ -252,7 +252,7 @@
         <div class="promo-text">
           <h3>Interior Modern & Fungsional</h3>
           <p>
-            Dilengkapi MID, USB charger, Roof Marker Lamp, dan Reverse Warning Buzzer untuk meningkatkan kenyamanan serta keamanan berkendara.
+            Isuzu GIGA FRR kini dibekali meter cluster dan Multi Information Display terbaru yang memberikan kesan lebih modern serta membantu pengemudi membaca berbagai indikator dengan lebih jelas. Untuk menambah kenyamanan di kabin, tersedia pula USB charger sehingga pengemudi dapat mengisi daya ponsel kapan saja selama perjalanan.
           </p>
         </div>
       </div>
@@ -284,7 +284,7 @@
         <div class="promo-text">
           <h3>Daya Angkut Besar untuk Profit Maksimal</h3>
           <p>
-            Panjang chassis hingga 6,9 meter dengan GVW 10 ton sangat cocok untuk wing box, bak besi, dan box aluminium.
+            Isuzu GIGA FRR tipe FRR 90Q menawarkan panjang cabin to end hingga 6,9 meter, membuatnya ideal digunakan untuk beragam aplikasi seperti wing box, bak besi, maupun box aluminium. Dengan kemampuan membawa muatan besar (GVW 10 ton) serta konsumsi bahan bakar yang efisien, model ini menjadi pilihan unggulan untuk operasional angkutan berkapasitas tinggi yang mendukung peningkatan profit bisnis.
           </p>
         </div>
       </div>
@@ -294,7 +294,7 @@
         <div class="promo-text">
           <h3>Service & Suku Cadang Mudah di Seluruh Indonesia</h3>
           <p>
-            Didukung bengkel resmi, bengkel berjalan, dan bengkel mitra Isuzu untuk meminimalisir downtime bisnis Anda.
+            Jaringan layanan purna jual Isuzu sangat luas dan lengkap, mulai dari bengkel resmi, Bengkel Berjalan Isuzu, hingga Bengkel Mitra yang telah berpengalaman menangani mesin common rail sejak 2011. Dukungan ini membantu mempercepat proses perbaikan kendaraan, mengurangi potensi downtime, serta meningkatkan efisiensi operasional bisnis Anda.
           </p>
         </div>
         <div class="promo-image">
