@@ -257,7 +257,7 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
         </div>
 
         <div class="hero-content">
-            <h1>Artikel & Berita Truk Isuzu Terbaru di Jakarta</h1>
+            <h1>Artikel & Berita Isuzu Terbaru</h1>
         </div>
     </section>
 
