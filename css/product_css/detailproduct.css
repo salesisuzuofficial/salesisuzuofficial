@@ -200,17 +200,23 @@ RESPONSIVE HP (JADI 1 KOLOM)
   }
 }
 
-/* GAMBAR SELALU DI ATAS DI HP */
+/* ================================
+GAMBAR SELALU DI ATAS (HP ONLY)
+================================ */
 @media (max-width: 768px) {
+  /* Ubah grid menjadi flex agar order bisa bekerja */
   .promo-grid {
     display: flex !important;
     flex-direction: column !important;
+    gap: 26px !important;
   }
 
+  /* Gambar selalu di atas */
   .promo-image {
     order: 1 !important;
   }
 
+  /* Teks selalu di bawah */
   .promo-text {
     order: 2 !important;
   }
