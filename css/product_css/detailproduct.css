@@ -199,3 +199,17 @@ RESPONSIVE HP (JADI 1 KOLOM)
     border-radius: 16px;
   }
 }
+
+/* NONAKTIFKAN SELANG-SELING DI TABLET & HP */
+@media (max-width: 992px) {
+  .promo-grid .promo-text,
+  .promo-grid .promo-image {
+    order: unset !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .promo-grid {
+    grid-auto-flow: row !important;
+  }
+}
