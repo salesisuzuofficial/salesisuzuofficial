@@ -2,7 +2,7 @@
 SECTION CTA (WRAPPER LUAR)
 ================================ */
 .cta-section {
-  padding: 60px 20px;
+  padding: 50px 16px; /* ✅ lebih rapat */
   background: #ffffff;
 }
 
@@ -10,38 +10,36 @@ SECTION CTA (WRAPPER LUAR)
 KOTAK CTA ABU-ABU (FIXED SIZE)
 ================================ */
 .cta-box {
-  max-width: 1080px; /* ✅ PANJANG DISAMAKAN PERSIS */
+  max-width: 1080px;
   width: 100%;
   margin: 0 auto;
-  background: #f3f3f3; /* ✅ ABU-ABU PERSIS */
+  background: #f3f3f3;
   border: 1px solid #dddddd;
-  padding: 42px 55px; /* ✅ TINGGI & DALAM BOX PAS */
-
+  padding: 34px 44px; /* ✅ dipadatkan */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
-
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06); /* ✅ SHADOW HALUS */
+  gap: 24px;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.05); /* ✅ lebih halus */
 }
 
 /* ================================
 TEXT KIRI
 ================================ */
 .cta-text h2 {
-  font-size: 34px; /* ✅ UKURAN JUDUL DISAMAKAN */
+  font-size: 30px; /* ✅ lebih padat */
   font-weight: 800;
   color: #1a1a1a;
-  line-height: 1.2;
-  margin-bottom: 10px;
-  max-width: 720px;
+  line-height: 1.25;
+  margin-bottom: 8px;
+  max-width: 700px;
 }
 
 .cta-text p {
-  font-size: 17px; /* ✅ UKURAN DESKRIPSI PAS */
+  font-size: 16px;
   color: #666;
-  line-height: 1.6;
-  max-width: 620px;
+  line-height: 1.55;
+  max-width: 600px;
 }
 
 /* ================================
@@ -50,11 +48,11 @@ BUTTON MERAH KANAN
 .cta-button {
   background: #ff1a1a;
   color: #fff;
-  padding: 18px 46px; /* ✅ UKURAN TOMBOL DISAMAKAN */
-  font-size: 18px;
+  padding: 14px 38px; /* ✅ lebih ramping */
+  font-size: 16px;
   font-weight: 700;
   text-decoration: none;
-  border-radius: 2px;
+  border-radius: 3px;
   white-space: nowrap;
   transition: background 0.25s ease, transform 0.25s ease;
 }
@@ -65,85 +63,113 @@ BUTTON MERAH KANAN
 }
 
 /* ================================
-RESPONSIVE (HP)
+RESPONSIVE CTA (HP)
 ================================ */
 @media (max-width: 768px) {
   .cta-box {
     flex-direction: column;
     text-align: center;
-    padding: 34px 24px;
+    padding: 26px 20px;
   }
 
   .cta-text h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .cta-text p {
-    font-size: 15px;
+    font-size: 14.5px;
   }
 
   .cta-button {
-    margin-top: 18px;
-    font-size: 16px;
-    padding: 14px 34px;
+    margin-top: 16px;
+    font-size: 15px;
+    padding: 12px 32px;
   }
 }
 
 /* ---------------- SECTION PILIHAN TIPE ---------------- */
 .tipe-section {
   text-align: center;
-  padding: 5px 20px;
+  padding: 40px 16px; /* ✅ dipadatkan */
 }
 
 .tipe-title {
-  font-size: 36px;
-  margin-bottom: 40px;
+  font-size: 32px; /* ✅ lebih proporsional */
+  margin-bottom: 36px;
 }
 
+/* WRAPPER CARD */
 .tipe-wrapper {
   display: flex;
   justify-content: center;
-  gap: 150px;
+  gap: 80px; /* ✅ dari 150px → 80px */
   flex-wrap: wrap;
 }
 
+/* CARD */
 .tipe-card {
-  width: 300px;
+  width: 280px; /* ✅ diperkecil dikit */
   text-align: center;
 }
 
 .tipe-card img {
   width: 100%;
+  display: block;
 }
 
+/* JUDUL */
 .tipe-card h3 {
-  margin-top: 20px;
-  font-size: 24px;
+  margin-top: 16px;
+  font-size: 22px;
   font-weight: 700;
 }
 
+/* SUBTITLE */
 .mulai {
-  font-size: 16px;
-  margin: 5px 0;
+  font-size: 15px;
+  margin: 4px 0;
+  color: #666;
 }
 
+/* HARGA */
 .harga {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
+  margin-bottom: 8px;
 }
 
+/* BUTTON */
 .detail-btn {
   display: inline-block;
-  margin-top: 15px;
-  padding: 10px 25px;
+  margin-top: 10px;
+  padding: 9px 22px; /* ✅ lebih ramping */
   border: 2px solid #e61212;
   color: #e61212;
   text-decoration: none;
   font-weight: bold;
   border-radius: 4px;
+  transition: all 0.25s ease;
 }
 
 .detail-btn:hover {
   background: #e61212;
   color: #fff;
+}
+
+/* ================================
+RESPONSIVE TIPE (HP)
+================================ */
+@media (max-width: 768px) {
+  .tipe-wrapper {
+    gap: 40px;
+  }
+
+  .tipe-title {
+    font-size: 26px;
+  }
+
+  .tipe-card {
+    width: 100%;
+    max-width: 300px;
+  }
 }
