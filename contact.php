@@ -246,9 +246,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </p>
 
     <div class="container">
+
+      <h3>Form Pemesanan & Konsultasi Cepat Dealer Isuzu</h3>
+      
       <!-- Form -->
       <div class="contact-form">
-        <h3>Form Pemesanan & Konsultasi Cepat Dealer Isuzu</h3>
         <form id="contactForm">
           <label for="name">Your Name:</label>
           <input type="text" id="name" name="name" required />
@@ -262,9 +264,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
           <button type="submit"><strong>Submit</strong></button>
         </form>
       </div>
-
-      <!-- Map -->
+      
       <h3>Lokasi Dealer Resmi Isuzu Jakarta – Daan Mogot</h3> 
+      <!-- Map -->
       <div class="map1">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31734.59389305134!2d106.69774901083984!3d-6.154289500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7f2195f5fad%3A0x5a8498a332c8de14!2sASTRA%20ISUZU%20DAAN%20MOGOT!5e0!3m2!1sen!2sid!4v1761570863745!5m2!1sen!2sid"
