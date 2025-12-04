@@ -179,3 +179,37 @@ RESPONSIVE HP
     line-height: 1.65;
   }
 }
+
+/* ================================
+BLOG LIST TITLE (RAPI & MENARIK)
+================================ */
+.blog-list-title {
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin: 45px 0 30px;
+  letter-spacing: 0.3px;
+}
+
+/* ================================
+RESPONSIVE TABLET
+================================ */
+@media (max-width: 992px) {
+  .blog-list-title {
+    font-size: 23px;
+    margin: 38px 0 26px;
+  }
+}
+
+/* ================================
+RESPONSIVE HP
+================================ */
+@media (max-width: 768px) {
+  .blog-list-title {
+    font-size: 20px;
+    margin: 32px 0 22px;
+    line-height: 1.3;
+  }
+}
