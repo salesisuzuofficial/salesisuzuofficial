@@ -206,7 +206,6 @@ try {
 
             <nav class="nav links" aria-label="Main Navigation">
                 <a href="/" title="Beranda Dealer Isuzu">Home</a>
-                <a href="/showroom" title="Dealer Isuzu">Showroom Kami</a>
                 <a href="produk.php" title="Produk Isuzu">Produk</a>
                 <a href="simulasi_kredit.php" title="Simulasi Kredit Isuzu">Simulasi Kredit</a>
                 <a href="artikel.php" title="Blog & Artikel Isuzu">Blog & Artikel</a>
@@ -267,84 +266,6 @@ try {
         </div>
     </section>
 
-    <!-- Produk -->
-    <section id="products-section" class="products-section fade-element" aria-labelledby="products-title">
-        <h2 id="products-title" class="section-title">Produk Truk Isuzu Unggulan</h2>
-        <div class="products">
-            <a href="/isuzutraga" class="product" aria-label="Isuzu Traga">
-                <img src="img/product/Isuzu-Traga.webp" alt="Isuzu Traga - Harga & Spesifikasi" loading="lazy" />
-                <h3>Isuzu Traga</h3>
-                <p>Truk ringan dan tangguh, cocok untuk usaha kecil dan menengah.</p>
-            </a>
-
-            <a href="/isuzuelf" class="product" aria-label="Isuzu ELF">
-                <img src="img/product/Isuzu-Elf-NLR.webp" alt="Isuzu ELF NLR - Truk Niaga" loading="lazy" />
-                <h3>Isuzu ELF</h3>
-                <p>Performa handal untuk pengangkutan berat dan jarak jauh.</p>
-            </a>
-
-            <a href="/isuzugiga" class="product" aria-label="Isuzu Giga">
-                <img src="img/product/Isuzu-Giga-FTR.webp" alt="Isuzu Giga - Truk Berat" loading="lazy" />
-                <h3>Isuzu Giga</h3>
-                <p>Solusi transportasi truk dengan kenyamanan terbaik.</p>
-            </a>
-        </div>
-    </section>
-
-    <!-- Promo Utama -->
-    <section id="promo-utama" class="promo-section fade-element" aria-labelledby="promo-title">
-        <div class="promo-text">
-            <h2 id="promo-title">Dapatkan Harga & Penawaran Terbaik Langsung dari Dealer Resmi Isuzu Indonesia</h2>
-            <ul>
-                <li>Ingin harga terbaik untuk semua jenis truk Isuzu?</li>
-                <li>Bingung memilih kendaraan yang tepat untuk bisnis Anda?</li>
-                <li>Butuh pelayanan cepat, ramah, dan profesional?</li>
-                <li>Hubungi Dedy Chandra sekarang juga dan dapatkan solusi terbaik!</li>
-            </ul>
-            <p>
-                Anda berada di tempat yang tepat! Dedy Chandra siap membantu Anda mendapatkan truk Isuzu baru dengan harga kompetitif untuk seluruh Indonesia, <strong>terutama di Jabodetabek</strong>.
-            </p>
-            <div class="promo-buttons">
-                <a href="https://wa.me/6281296632186" class="btn-primary" target="_blank" rel="noopener noreferrer">Konsultasi Pembelian</a>
-            </div>
-        </div>
-        <img src="img/product/Isuzu-Giga-FVM.webp" alt="Truk Isuzu Giga - Promo & Harga" loading="lazy" class="promo-main-image" />
-    </section>
-
-    <!-- Feature Section -->
-    <section class="features-section" aria-labelledby="why-title">
-        <div class="section-title">
-            <h2 id="why-title">Kenapa Harus Isuzu?</h2>
-            <p>Pilih Isuzu untuk performa tangguh, efisiensi bahan bakar tinggi, dan layanan purna jual terbaik di Indonesia.</p>
-        </div>
-
-        <div class="features-container">
-            <div class="feature-box">
-                <div class="icon">
-                    <img src="img/icons/fast-process.svg" alt="Proses Cepat" />
-                </div>
-                <h3>Proses Cepat</h3>
-                <p>Kami mengutamakan pelayanan cepat dan mudah tanpa ribet.</p>
-            </div>
-
-            <div class="feature-box">
-                <div class="icon">
-                    <img src="img/icons/experienced-sales.svg" alt="Sales Berpengalaman" />
-                </div>
-                <h3>Sales Berpengalaman</h3>
-                <p>Dibantu dengan tim profesional yang siap menjelaskan produk secara lengkap.</p>
-            </div>
-
-            <div class="feature-box">
-                <div class="icon">
-                    <img src="img/icons/after-sales.svg" alt="After Sales" />
-                </div>
-                <h3>After Sales</h3>
-                <p>Kami siap membantu Anda setelah pembelian dengan dukungan penuh.</p>
-            </div>
-        </div>
-    </section>
-
     <!-- Contact -->
     <div class="contact-container fade-element" role="region" aria-label="Kontak Dealer">
         <div class="contact-tabs">
@@ -381,45 +302,6 @@ try {
             </div>
         </div>
     </div>
-
-    <!-- Blog -->
-    <section class="blog-section fade-element" aria-labelledby="blog-title">
-        <div class="container">
-            <h2 id="blog-title">Blog & Artikel</h2>
-            <p>Dapatkan informasi terbaru seputar truk Isuzu, perawatan, dan promo terbaik.</p>
-
-            <div class="blog-grid">
-                <?php if (!empty($artikelData)): ?>
-                    <?php foreach ($artikelData as $artikel): ?>
-                        <?php
-                            // Pakai slug kalau ada, fallback ke id
-                            $artikelLink = !empty($artikel['slug'])
-                                ? 'detail_artikel.php?slug=' . urlencode($artikel['slug'])
-                                : 'detail_artikel.php?id=' . urlencode($artikel['id']);
-                        ?>
-                        <div class="blog-card">
-                            <img 
-                                src="https://salesisuzuofficial.com/uploads/artikel/<?= htmlspecialchars($artikel['gambar']) ?>" 
-                                alt="<?= htmlspecialchars($artikel['judul']) ?>" 
-                                loading="lazy" 
-                            />
-                            <div class="blog-card-content">
-                                <h3>
-                                    <a href="<?= $artikelLink ?>">
-                                        <?= htmlspecialchars($artikel['judul']) ?>
-                                    </a>
-                                </h3>
-                                <p><?= htmlspecialchars(mb_strimwidth(strip_tags($artikel['isi']), 0, 100, '...')) ?></p>
-                                <a href="<?= $artikelLink ?>" class="read-more">Baca Selengkapnya</a>
-                            </div>
-                        </div>
-                    <?php endforeach; ?>
-                <?php else: ?>
-                    <p>Tidak ada artikel ditemukan.</p>
-                <?php endif; ?>
-            </div>
-        </div>
-    </section>
 
     <!-- WhatsApp Widget -->
     <script src="https://elfsightcdn.com/platform.js" async></script>
