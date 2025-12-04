@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- FIXED TITLE -->
-    <title>Produk Isuzu – Astra Isuzu Jakarta Resmi</title>
+    <title>Isuzu Elf NLR – Dealer Resmi Isuzu Jakarta</title>
 
     <!-- FIXED DESCRIPTION -->
     <meta name="description" content="Lihat daftar produk resmi Isuzu Jakarta dari Astra. Tersedia Isuzu Traga, Elf, Giga, NLR/NMR dan kendaraan niaga lainnya. Harga terbaru, promo, dan paket kredit tersedia." />
@@ -23,7 +23,7 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://salesisuzuofficial.com/produk" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/isuzu-nlr" />
 
     <!-- Favicon utama -->
     <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
@@ -35,41 +35,31 @@
     <!-- Apple Touch Icon (iPhone/iPad) -->
     <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
-
-    <!-- FIXED JSON-LD (NO ERROR) -->
+    <!-- Schema JSON -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "sameAs": [
+            "https://wa.me/6281296632186"
+          ]
         },
-        {
-          "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dealer Astra Isuzu Jakarta Resmi",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-            }
-          }
-        },
+
         {
           "@type": "AutoDealer",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer Isuzu Jakarta resmi dari Astra. Promo, kredit, dan harga terbaru Isuzu.",
+          "description": "Dealer resmi Isuzu Jakarta dari Astra. Menyediakan Isuzu NLR, Traga, Elf, dan Giga dengan promo kredit & harga terbaik.",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
+            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya",
             "addressLocality": "Jakarta Barat",
             "addressRegion": "DKI Jakarta",
             "postalCode": "11730",
@@ -78,24 +68,82 @@
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
           "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
+        },
+
+        {
+          "@type": "Product",
+          "name": "Isuzu ELF NLR",
+          "image": "https://salesisuzuofficial.com/img/product/nlr/nlrbanner.webp",
+          "description": "Isuzu ELF NLR Euro 4 adalah truk ringan irit BBM, bertenaga, dan cocok untuk usaha distribusi perkotaan.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Isuzu"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://salesisuzuofficial.com/isuzu-nlr",
+            "priceCurrency": "IDR",
+            "price": "400000000",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://salesisuzuofficial.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Produk Isuzu",
+              "item": "https://salesisuzuofficial.com/produk.php"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Isuzu ELF NLR",
+              "item": "https://salesisuzuofficial.com/isuzu-nlr"
+            }
+          ]
+        },
+
+        {
+          "@type": "WebSite",
+          "url": "https://salesisuzuofficial.com/",
+          "name": "Dealer Resmi Isuzu Jakarta",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Dealer Resmi Isuzu Jakarta",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+            }
+          }
         }
       ]
     }
     </script>
 
-    <!-- FIXED OG -->
-    <meta property="og:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta property="og:description" content="Lihat daftar produk Isuzu resmi Jakarta. Promo & harga terbaru kendaraan niaga Isuzu." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/produk" />
-    <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
-    <meta property="og:type" content="website" />
 
-    <!-- FIXED TWITTER -->
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="Isuzu ELF NLR – Harga Terbaru & Promo Dealer Resmi Jakarta" />
+    <meta property="og:description" content="Jual Isuzu ELF NLR & NLR L terbaru di dealer resmi Isuzu Jakarta. Mesin Euro 4, super irit, kuat angkut. Tersedia promo & kredit ringan hari ini." />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/nlr/nlrbanner.webp" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-nlr" />
+    <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
+    <meta property="og:type" content="product" />
+
+    <!-- TWITTER CARD -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta name="twitter:description" content="Lihat pilihan produk resmi Isuzu Jakarta dari Astra. Cek harga terbaru." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+    <meta name="twitter:title" content="Isuzu ELF NLR – Harga Terbaru & Promo Dealer Resmi Jakarta" />
+    <meta name="twitter:description" content="Dealer resmi Isuzu Jakarta jual ELF NLR & NLR L Euro 4. Harga terbaik, promo besar & cicilan ringan tersedia sekarang." />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/nlr/nlrbanner.webp" />
+
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
@@ -140,10 +188,11 @@
         <!-- Navigation -->
         <nav class="nav links">
           <a href="/">Home</a>
-          <a href="produk.php">Produk</a>
-          <a href="simulasi_kredit.php">Simulasi Kredit</a>
-          <a href="artikel.php">Blog & Artikel</a>
-          <a href="contact.php">Contact</a>
+          <a href="/showroom">Showroom</a>
+          <a href="/produk">Produk</a>
+          <a href="/simulasi_kredit">Simulasi Kredit</a>
+          <a href="/artikel">Blog & Artikel</a>
+          <a href="/contact">Contact</a>
         </nav>
       </div>
     </header>
@@ -151,136 +200,145 @@
     <!-- ========== HERO SECTION ========== -->
     <section class="hero hero-produk">
       <div class="slider">
-        <img src="img/product/nlr/nlrbanner.webp" class="slide" alt="Isuzu Traga" />
+        <img src="img/product/nlr/nlrbanner.webp" class="slide" alt="Isuzu ELF NLR Euro 4 tampak depan" />
       </div>
 
       <div class="hero-content">
-        <h1>Isuzu NLR</h1>
+        <h1>Isuzu ELF NLR</h1>
       </div>
     </section>
 
     <!-- ========== DETAIL SECTION ========== -->
     <section class="promo-section">
 
-    <!-- HEADER -->
-    <div class="promo-header">
+      <!-- HEADER -->
+      <div class="promo-header">
         <p class="promo-tag">#IsuzuEuro4Ready</p>
-        <h1>Bertenaga untuk Keuntungan Usaha Anda</h1>
+        <h2>Truk Ringan Isuzu NLR untuk Keuntungan Maksimal</h2>
         <p class="promo-desc">
-        Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional harian Anda.
+          Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional harian Anda.
         </p>
-    </div>
+      </div>
 
-    <!-- 1 -->
-    <div class="promo-grid">
+      <!-- 1 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Untung Maksimal: Lebih Irit dan Lebih Bertenaga</h2>
-        <p>
-        Isuzu ELF NLR dan Isuzu ELF NLR L kini menggunakan teknologi mesin Common Rail 4JJ1-TC yang dilengkapi Exhaust Gas Recirculation (EGR) dan Diesel Oxidation Catalyst (DOC), sehingga mampu menghasilkan emisi gas buang berstandar Euro4. Dengan Engine Control Unit (ECU) yang terdapat pada mesin common rail, kini Isuzu ELF NLR mampu menghasilkan tenaga dan torsi yang lebih besar (120 PS/2.600 rpm dan 36 kg.m/1.500 rpm) namun lebih irit dan mampu mengoptimalkan efisiensi bisnis Anda.
-        </p>
+          <h3>Mesin Common Rail Euro 4 Lebih Irit & Bertenaga</h3>
+          <p>
+            Isuzu ELF NLR dan NLR L kini dibekali mesin Common Rail 4JJ1-TC dengan teknologi EGR dan Diesel Oxidation Catalyst (DOC), sehingga memenuhi standar emisi Euro 4. Dilengkapi Engine Control Unit (ECU), mesin ini mampu menghasilkan tenaga 120 PS pada 2.600 rpm dan torsi 36 kg.m pada 1.500 rpm, tetap efisien dalam konsumsi bahan bakar, sekaligus membantu mengoptimalkan operasional bisnis Anda.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/nlr/mesinnlr.webp" alt="Isuzu Elf NLR Mesin">
+          <img src="/img/product/nlr/mesinnlr.webp" alt="Mesin diesel Isuzu ELF NLR Euro 4 Common Rail" />
         </div>
-    </div>
+      </div>
 
-    <!-- 2 -->
-    <div class="promo-grid reverse">
+      <!-- 2 -->
+      <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/nlr/nlrjalan.webp" alt="ELF NLR">
+          <img src="/img/product/nlr/nlrjalan.webp" alt="Isuzu ELF NLR melaju di jalan perkotaan" />
         </div>
         <div class="promo-text">
-        <h2>Handal di Perkotaan</h2>
-        <p>Isuzu ELF NLR hadir dengan panjang yang optimal sehingga memiliki kapasitas dan daya angkut yang sesuai untuk penggunaan di perkotaan, cocok untuk aplikasi box alumunium & bak besi. Hal ini tentu menjadikan Isuzu ELF NLR unggul sebagai truk ringan 4 ban yang juga teruji hemat bahan bakar sehingga mampu meningkatkan keuntungan bisnis. </p>
+          <h3>Handal untuk Distribusi di Perkotaan</h3>
+          <p>
+            Isuzu ELF NLR memiliki panjang bodi yang ideal, memberikan kapasitas dan daya angkut optimal untuk penggunaan perkotaan. Truk ini cocok untuk aplikasi box aluminium maupun bak besi, serta terbukti hemat bahan bakar, menjadikannya pilihan unggul sebagai truk ringan 4 ban yang mendukung peningkatan keuntungan bisnis.
+          </p>
         </div>
-    </div>
+      </div>
 
-    <!-- 3 -->
-    <div class="promo-grid">
+      <!-- 3 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Daya Angkut Luas, Untung Meningkat</h2>
-        <p>Isuzu ELF NLR L hadir dengan panjang wheelbase 3,360 mm, sehingga memiliki kapasitas dan daya angkut yang luas, cocok untuk aplikasi box alumunium & bak besi. Hal ini tentu menjadikan Isuzu ELF NLR L unggul sebagai truk ringan 4 ban yang juga teruji hemat bahan bakar sehingga mampu meningkatkan keuntungan bisnis.</p>
+          <h3>Wheelbase Panjang untuk Daya Angkut Lebih Luas</h3>
+          <p>
+            Isuzu ELF NLR L memiliki wheelbase sepanjang 3.360 mm, memberikan kapasitas dan daya angkut yang lebih luas. Truk ini cocok untuk aplikasi box aluminium maupun bak besi, serta terbukti hemat bahan bakar, menjadikannya truk ringan 4 ban yang handal untuk mendukung peningkatan keuntungan bisnis.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/nlr/nlrtoko.webp" alt="Radius Putar">
+          <img src="/img/product/nlr/nlrtoko.webp" alt="Isuzu ELF NLR L untuk distribusi barang ke toko" />
         </div>
-    </div>
+      </div>
 
-    <!-- 4 -->
-    <div class="promo-grid reverse">
+      <!-- 4 -->
+      <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/nlr/nlrtransmisi.webp" alt="Interior">
+          <img src="/img/product/nlr/nlrtransmisi.webp" alt="Transmisi 6 percepatan Isuzu ELF NLR" />
         </div>
         <div class="promo-text">
-        <h2>Transmisi Baru dengan 6 Tingkat Percepatan</h2>
-        <p>Kini Isuzu ELF NLR dan Isuzu ELF NLR L menggunakan transmisi MYY6S dengan 6 tingkat percepatan yang mampu memaksimalkan efisiensi bahan bakar, serta memiliki first gear ratio yang lebih besar, sehingga menghasilkan tenaga lebih besar. Waktu tempuh lebih cepat, ritase meningkat dan tentunya biaya operasional makin efisien.</p>
+          <h3>Transmisi 6 Percepatan Lebih Efisien</h3>
+          <p>
+            Isuzu ELF NLR dan NLR L kini menggunakan transmisi MYY6S 6 percepatan yang meningkatkan efisiensi bahan bakar. Dengan first gear ratio lebih besar, tenaga yang dihasilkan lebih optimal, perjalanan lebih cepat, ritase meningkat, dan biaya operasional menjadi lebih efisien.
+          </p>
         </div>
-    </div>
+      </div>
 
-    <!-- 5 -->
-    <div class="promo-grid">
+      <!-- 5 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Lebih Aman dan Nyaman Dengan Fitur-fitur Fungsional</h2>
-        <p>Isuzu ELF NLR dan Isuzu ELF NLR L memiliki kaca depan yang lebih tegak dan besar, membuat jarak pandang lebih luas, siap memberikan rasa aman dan nyaman yang ekstra bagi pengemudi. Juga dilengkapi dengan sensor Cabin Lock Warning Buzzer yang memberikan tanda peringatan saat kabin belum terkunci, sehingga membantu memaksimalkan keselamatan pengemudi saat berkendara. Fan blower guna meningkatkan sirkulasi udara di dalam kabin, dengan slot USB charger pengemudi dapat menikmati perjalanan tanpa khawatir kondisi baterai ponsel. Isuzu ELF NLR dan Isuzu ELF NLR L juga dilengkapi dengan APAR (Alat Pemadam Api Ringan) untuk memaksimalkan keamanan pada kondisi genting (kebakaran) serta kamera mundur agar pengemudi dapat melihat kondisi dibagian belakang kendaraan, sehingga memudahkan pengemudi saat mundur atau memarkir kendaraan.</p>
+          <h3>Fitur Keamanan & Kenyamanan Lebih Lengkap</h3>
+          <p>
+            Isuzu ELF NLR dan NLR L hadir dengan kaca depan lebih besar dan tegak, memberikan jarak pandang luas untuk kenyamanan dan keamanan pengemudi. Fitur Cabin Lock Warning Buzzer memberi peringatan saat kabin belum terkunci, sementara fan blower menjaga sirkulasi udara di dalam kabin. Slot USB charger memudahkan pengisian ponsel, APAR tersedia untuk keamanan saat kebakaran, dan kamera mundur membantu pengemudi melihat kondisi di belakang kendaraan saat parkir atau mundur.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/nlr/kabinnlr.webp" alt="Service & Sparepart">
+          <img src="/img/product/nlr/kabinnlr.webp" alt="Interior kabin Isuzu ELF NLR dengan fitur modern" />
         </div>
-    </div>
+      </div>
 
-    <!-- 6 -->
-    <div class="promo-grid reverse">
+      <!-- 6 -->
+      <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/nlr/map.webp" alt="Interior">
+          <img src="/img/product/nlr/map.webp" alt="Jaringan bengkel dan layanan purna jual Isuzu di Indonesia" />
         </div>
         <div class="promo-text">
-        <h2>Kemudahan Service dan Suku Cadang</h2>
-        <p>Jaringan layanan purna jual yang luas dan lengkap, mulai dari bengkel resmi Isuzu, Bengkel Berjalan Isuzu hingga Bengkel Mitra Isuzu yang telah berpengalaman dengan mesin common rail sejak tahun 2011, mampu membantu Anda mempercepat proses perbaikan dan meningkatkan efisiensi bisnis Anda karena mampu meminimalisir downtime atau kerusakan. Suku cadang dapat dengan mudah didapatkan melalui dukungan bengkel resmi, mini depo, toko suku cadang (part shop), Bengkel Mitra Isuzu hingga Bengkel Isuzu Berjalan yang tersebar di seluruh kota di Indonesia.</p>
+          <h3>Jaringan Service & Suku Cadang Terluas</h3>
+          <p>
+            Bengkel resmi Isuzu tersebar di seluruh Indonesia dengan ketersediaan suku cadang yang cepat dan lengkap.
+          </p>
         </div>
-    </div>
-
+      </div>
 
     </section>
 
     <!-- ========== PRODUCT SECTION ========== -->
     <section class="tipe-section">
-        <h2 class="tipe-title">PILIHAN TIPE</h2>
+      <h2 class="tipe-title">Harga & Pilihan Tipe Isuzu ELF NLR</h2>
 
-        <div class="tipe-wrapper">
+      <div class="tipe-wrapper">
 
-            <!-- Item 1 -->
-            <div class="tipe-card">
-                <img src="/img/product/nlr/isuzu-elf-nlr-s.png" alt="Elf Nlr">
-                <h3>ELF NLR</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 400.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 2 -->
-            <div class="tipe-card">
-                <img src="/img/product/nlr/isuzu-elf-nlr-s.png" alt="Elf Nlr L">
-                <h3>ELF NLR L</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 416.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
+        <!-- Item 1 -->
+        <div class="tipe-card">
+          <img src="/img/product/nlr/isuzu-elf-nlr-s.png" alt="Isuzu ELF NLR standar bak terbuka" />
+          <h3>ELF NLR</h3>
+          <p class="mulai">Harga Mulai Dari</p>
+          <p class="harga">Rp. 400.000.000</p>
+          <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20NLR%20dari%20website%20salesisuzuofficial.com" target="_blank" class="detail-btn">DETAIL</a>
         </div>
+
+        <!-- Item 2 -->
+        <div class="tipe-card">
+          <img src="/img/product/nlr/isuzu-elf-nlr-s.png" alt="Isuzu ELF NLR L wheelbase panjang" />
+          <h3>ELF NLR L</h3>
+          <p class="mulai">Harga Mulai Dari</p>
+          <p class="harga">Rp. 416.000.000</p>
+          <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20NLR%20dari%20website%20salesisuzuofficial.com" target="_blank" class="detail-btn">DETAIL</a>
+        </div>
+
+      </div>
     </section>
 
-
-    <!-- CTA -->
+    <!-- ========== CTA SECTION ========== -->
     <section class="cta-section">
       <div class="cta-box">
         <div class="cta-text">
-          <h2>Konsultasikan Pembelian Anda Dengan Tim Kami</h2>
+          <h2>Konsultasikan Pembelian Isuzu NLR Sekarang</h2>
           <p>Dapatkan Penawaran Khusus Untuk Pembelian Tunai Maupun Kredit</p>
         </div>
 
         <a href="/kontak" class="cta-button">CHAT SEKARANG</a>
       </div>
     </section>
+
 
     <!-- ========== WHATSAPP CHAT (ELFSIGHT) ========== -->
     <script src="https://elfsightcdn.com/platform.js" async></script>
