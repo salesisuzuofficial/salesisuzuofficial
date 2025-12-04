@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- FIXED TITLE -->
-    <title>Produk Isuzu – Astra Isuzu Jakarta Resmi</title>
+    <title>Isuzu Giga FVR – Dealer Resmi Isuzu Jakarta</title>
 
     <!-- FIXED DESCRIPTION -->
     <meta name="description" content="Lihat daftar produk resmi Isuzu Jakarta dari Astra. Tersedia Isuzu Traga, Elf, Giga, NLR/NMR dan kendaraan niaga lainnya. Harga terbaru, promo, dan paket kredit tersedia." />
@@ -36,66 +36,111 @@
     <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
 
-    <!-- FIXED JSON-LD (NO ERROR) -->
+    <!-- ========================= -->
+    <!-- OPEN GRAPH ISUZU GIGA FVR -->
+    <!-- ========================= -->
+
+    <meta property="og:title" content="Isuzu Giga FVR – Harga & Promo Dealer Resmi Jakarta" />
+    <meta property="og:description" content="Isuzu Giga FVR dengan mesin Euro 4 bertenaga, daya angkut besar & siap karoseri. Dapatkan promo harga terbaik dari dealer resmi Jakarta." />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/fvr/headerfvr.webp" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-fvr" />
+    <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
+    <meta property="og:type" content="product" />
+    <meta property="og:locale" content="id_ID" />
+
+    <!-- ========================= -->
+    <!-- TWITTER CARD -->
+    <!-- ========================= -->
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Isuzu Giga FVR – Harga & Promo Dealer Jakarta" />
+    <meta name="twitter:description" content="Truk Isuzu Giga FVR Euro4, kuat, irit & siap karoseri. Cek harga & promo kredit terbaru sekarang." />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/fvr/headerfvr.webp" />
+
+    <!-- ========================= -->
+    <!-- SCHEMA JSON-LD (SUPER LENGKAP SEO) -->
+    <!-- ========================= -->
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
+
         {
           "@type": "Organization",
           "name": "Dealer Astra Isuzu Jakarta Resmi",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "sameAs": [
+            "https://www.facebook.com/",
+            "https://www.instagram.com/"
+          ]
         },
-        {
-          "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dealer Astra Isuzu Jakarta Resmi",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-            }
-          }
-        },
+
         {
           "@type": "AutoDealer",
           "name": "Dealer Astra Isuzu Jakarta Resmi",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer Isuzu Jakarta resmi dari Astra. Promo, kredit, dan harga terbaru Isuzu.",
+          "telephone": "+6281296632186",
+          "email": "salesisuzuofficial@gmail.com",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
+            "streetAddress": "Jalan Daan Mogot Km 13.9, Rawa Buaya",
             "addressLocality": "Jakarta Barat",
             "addressRegion": "DKI Jakarta",
             "postalCode": "11730",
             "addressCountry": "ID"
           },
-          "telephone": "+6281296632186",
-          "email": "salesisuzuofficial@gmail.com",
-          "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
+          "areaServed": ["Jakarta", "Bogor", "Depok", "Tangerang", "Bekasi"]
+        },
+
+        {
+          "@type": "Product",
+          "name": "Isuzu Giga FVR",
+          "image": "https://salesisuzuofficial.com/img/product/fvr/headerfvr.webp",
+          "description": "Isuzu Giga FVR adalah truk medium duty dengan mesin 6HK1-TCN Euro4, torsi besar, irit bahan bakar dan siap berbagai aplikasi karoseri.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Isuzu"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://salesisuzuofficial.com/isuzu-fvr",
+            "priceCurrency": "IDR",
+            "price": "773000000",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition"
+          }
+        },
+
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://salesisuzuofficial.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Produk Isuzu",
+              "item": "https://salesisuzuofficial.com/produk"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Isuzu Giga FVR",
+              "item": "https://salesisuzuofficial.com/isuzu-fvr"
+            }
+          ]
         }
+
       ]
     }
     </script>
-
-    <!-- FIXED OG -->
-    <meta property="og:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta property="og:description" content="Lihat daftar produk Isuzu resmi Jakarta. Promo & harga terbaru kendaraan niaga Isuzu." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/produk" />
-    <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
-    <meta property="og:type" content="website" />
-
-    <!-- FIXED TWITTER -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta name="twitter:description" content="Lihat pilihan produk resmi Isuzu Jakarta dari Astra. Cek harga terbaru." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
@@ -140,10 +185,11 @@
         <!-- Navigation -->
         <nav class="nav links">
           <a href="/">Home</a>
-          <a href="produk.php">Produk</a>
-          <a href="simulasi_kredit.php">Simulasi Kredit</a>
-          <a href="artikel.php">Blog & Artikel</a>
-          <a href="contact.php">Contact</a>
+          <a href="/showroom">Showroom</a>
+          <a href="/produk">Produk</a>
+          <a href="/simulasi_kredit">Simulasi Kredit</a>
+          <a href="/artikel">Blog & Artikel</a>
+          <a href="/contact">Contact</a>
         </nav>
       </div>
     </header>
@@ -151,7 +197,7 @@
     <!-- ========== HERO SECTION ========== -->
     <section class="hero hero-produk">
       <div class="slider">
-        <img src="img/product/fvr/headerfvr.webp" class="slide" alt="Isuzu Giga FVR" />
+        <img src="img/product/fvr/headerfvr.webp" class="slide" alt="Isuzu Giga FVR truk medium duty Euro 4 tampilan depan" />
       </div>
 
       <div class="hero-content">
@@ -162,146 +208,150 @@
     <!-- ========== DETAIL SECTION ========== -->
     <section class="promo-section">
 
-    <!-- HEADER -->
-    <div class="promo-header">
+      <!-- HEADER -->
+      <div class="promo-header">
         <p class="promo-tag">#IsuzuEuro4Ready</p>
-        <h1>Bertenaga untuk Keuntungan Usaha Anda</h1>
+        <h2>Truk Medium Duty Tangguh untuk Keuntungan Usaha Anda</h2>
         <p class="promo-desc">
-        Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional harian Anda.
+          Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional bisnis harian Anda.
         </p>
-    </div>
+      </div>
 
-    <!-- 1 -->
-    <div class="promo-grid">
+      <!-- 1 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Isuzu GIGA FVR, Efisien untuk Berbagai Kebutuhan</h2>
-        <p>
-        Hadir dengan lima pilihan varian, Isuzu GIGA FVR dibekali teknologi mesin Heavy Duty Common Rail 6HK1-TCN yang dilengkapi Exhaust Gas Recirculation (EGR) dan Diesel Oxidation Catalyst (DOC), sehingga mampu menghasilkan emisi gas buang berstandar EURO4, dengan torsi 80.5 kg.m pada 1,450 – 2,400 rpm. Truk tangguh dengan performa tinggi ini turut dibekali Direct Injection Diesel dengan teknologi Diamond Like Carbon (DLC) dan Double Fuel Filter.
-        </p>
+          <h3>Mesin Isuzu Giga FVR Euro 4 yang Efisien dan Bertenaga</h3>
+          <p>
+            Isuzu GIGA FVR tersedia dalam lima varian dan menggunakan mesin Heavy Duty Common Rail 6HK1-TCN yang dilengkapi teknologi EGR serta Diesel Oxidation Catalyst (DOC), sehingga memenuhi standar emisi EURO 4. Mesin ini menghasilkan torsi 80,5 kg.m pada putaran 1.450–2.400 rpm, memberikan performa tinggi dan ketangguhan yang handal. Truk ini juga dilengkapi Direct Injection Diesel dengan teknologi Diamond Like Carbon (DLC) serta Double Fuel Filter untuk efisiensi dan daya tahan optimal.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/fvr/mesin-giga-fvr.webp" alt="Mesin Isuzu Giga FVR">
+          <img src="/img/product/fvr/mesin-giga-fvr.webp" alt="Mesin Isuzu Giga FVR 6HK1-TCN Euro 4" />
         </div>
-    </div>
+      </div>
 
-    <!-- 2 -->
-    <div class="promo-grid reverse">
+      <!-- 2 -->
+      <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/fvr/giga-fvr-tabel-speed.webp" alt="Tabel Speed Isuzu Giga FVR">
+          <img src="/img/product/fvr/giga-fvr-tabel-speed.webp" alt="Tabel kecepatan dan rasio transmisi Isuzu Giga FVR" />
         </div>
         <div class="promo-text">
-        <h2>Tangguh di Segala Jalan</h2>
-        <p>Dilengkapi dengan transmisi 6 percepatan yang lebih efektif, serta mengusung tenaga 245 PS, torsi 80.5 kg.m dan final gear ratio 5.571, Isuzu GIGA FVR mampu dijadikan kendaraan andalan dengan tarikan bertenaga, yang tangguh menerjang segala jalan, baik itu jalan rata maupun berbukit.</p>
+          <h3>Performa Isuzu Giga FVR Tangguh di Segala Medan Jalan</h3>
+          <p>
+            Isuzu GIGA FVR dibekali transmisi 6 percepatan yang lebih efisien, tenaga 245 PS, torsi 80,5 kg.m, serta final gear ratio 5,571. Kombinasi ini membuat truk ini menjadi armada andalan yang bertenaga dan tangguh, siap melibas berbagai kondisi jalan, mulai dari jalur datar hingga medan berbukit.
+          </p>
         </div>
-    </div>
+      </div>
 
-    <!-- 3 -->
-    <div class="promo-grid">
+      <!-- 3 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Daya Angkut Maksimal dengan Wheelbase Terpanjang di Kelasnya</h2>
-        <p>Memiliki cabin to end hingga 9.8m (pada tipe FVR U) menjadikan Isuzu GIGA FVR kendaraan yang layak Anda andalkan untuk kebutuhan usaha dengan daya angkut maksimal dan volume yang besar (GVW 16 ton). Tepat untuk dijadikan aplikasi box besi/aluminium, bak terbuka, wing box, flat bed, angkutan kendaraan bermotor hingga tangki. Khusus untuk tipe FVR Q, kami menambahkan pemanjangan ROH sepanjang 200 mm yang mampu meningkatkan kapasitas rear body kendaraan, sehingga keuntungan lebih optimal.</p>
+          <h3>Daya Angkut Maksimal dengan Wheelbase Terpanjang di Kelasnya</h3>
+          <p>
+            Isuzu GIGA FVR, khususnya tipe FVR U, menawarkan cabin to end hingga 9,8 meter, sehingga ideal untuk kebutuhan usaha dengan muatan besar (GVW 16 ton). Truk ini cocok untuk berbagai aplikasi, mulai dari box besi/aluminium, bak terbuka, wing box, flat bed, angkutan kendaraan bermotor, hingga tangki. Untuk tipe FVR Q, tambahan pemanjangan ROH 200 mm meningkatkan kapasitas rear body, sehingga operasional bisnis dapat lebih optimal.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/fvr/giga-fvr-panjang.webp" alt="Kabin Isuzu Giga FVR">
+          <img src="/img/product/fvr/giga-fvr-panjang.webp" alt="Wheelbase panjang Isuzu Giga FVR untuk karoseri besar" />
         </div>
-    </div>
+      </div>
 
-    <!-- 4 -->
-    <div class="promo-grid reverse">
+      <!-- 4 -->
+      <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/frr/isuzu-giga-FVR-gallery1.webp" alt="Keamanan Isuzu Giga FVR">
+          <img src="/img/product/frr/isuzu-giga-FVR-gallery1.webp" alt="Kabin Isuzu Giga FVR dengan fitur keamanan lengkap" />
         </div>
         <div class="promo-text">
-        <h2>Maksimalkan Keamanan dan Kenyamanan Pengemudi</h2>
-        <p>Isuzu GIGA FVR dilengkapi dengan Air Suspension Seat guna mengurangi kelelahan pengemudi ketika berkendara dan meningkatkan rasa nyaman saat mengemudi. Juga dilengkapi under guard sehingga semakin aman ketika berkendara pada kondisi jalanan yang ekstrem. Tersedia khusus untuk varian FVR L D. Isuzu GIGA FVR Varian FVR L D dilengkapi dengan transmisi PTO sehingga tidak perlu dimodifikasi dan dapat mempermudah aktivitas operasional kendaraan yang tentunya akan meningkatkan keuntungan operasional bisnis Anda. Untuk meningkatkan kenyamanan dan kegunaan fitur dalam kabin, kini Isuzu GIGA FVR dilengkapi dengan slot USB charger, sehingga pengemudi dapat menikmati perjalanan tanpa khawatir kondisi baterai ponsel pengemudi. Isuzu GIGA FVR dilengkapi dengan APAR (Alat Pemadam Api Ringan) untuk memaksimalkan keamanan pada kondisi genting (kebakaran), serta retractable seatbelt (sabuk pengaman) tak hanya memastikan keamanan tapi juga bisa disesuaikan bentuk badan pengemudi agar lebih nyaman.</p>
+          <h3>Keamanan dan Kenyamanan Kabin Isuzu Giga FVR</h3>
+          <p>
+            Isuzu GIGA FVR dilengkapi dengan Air Suspension Seat, under guard, transmisi PTO khusus varian tertentu, USB charger, APAR, serta retractable seatbelt untuk meningkatkan keselamatan dan kenyamanan pengemudi.
+          </p>
         </div>
-    </div>
+      </div>
 
-    <!-- 5 -->
-    <div class="promo-grid">
+      <!-- 5 -->
+      <div class="promo-grid">
         <div class="promo-text">
-        <h2>Chassis Isuzu Giga FVR</h2>
-        <p>Chassis Isuzu GIGA FVR dilengkapi dengan body mounting hole yang mampu memudahkan proses serta mempersingkat waktu pembuatan dan pemasangan karoseri. Tidak hanya itu, khusus untuk tipe varian FVR L D, ukuran diameter final gear telah ditingkatkan menjadi 5.857 dengan mengadopsi gear yang lebih dalam sehingga durabilitas meningkat dan kemampuan driving force kendaraan menjadi lebih superior.</p>
+          <h3>Chassis Isuzu Giga FVR Kuat untuk Berbagai Karoseri</h3>
+          <p>
+            Chassis Isuzu GIGA FVR dilengkapi body mounting hole untuk mempermudah dan mempercepat proses pembuatan serta pemasangan karoseri. Pada varian FVR L D, diameter final gear ditingkatkan menjadi 5,857 dengan gear lebih dalam, sehingga durabilitas lebih tinggi dan kemampuan driving force kendaraan menjadi lebih unggul.
+          </p>
         </div>
         <div class="promo-image">
-        <img src="/img/product/fvr/chasis-giga-fvr.webp" alt="Chasis">
+          <img src="/img/product/fvr/chasis-giga-fvr.webp" alt="Rangka sasis Isuzu Giga FVR heavy duty" />
         </div>
-    </div>
+      </div>
 
-    <!-- 6 -->
-    <div class="promo-grid reverse">
+      <!-- 6 -->
+      <div class="promo-grid reverse">
         <div class="promo-image">
-        <img src="/img/product/frr/service-dan-suku-cadang.webp" alt="Service Giga FVR">
+          <img src="/img/product/frr/service-dan-suku-cadang.webp" alt="Layanan bengkel resmi dan suku cadang Isuzu Giga FVR" />
         </div>
         <div class="promo-text">
-        <h2>Kemudahan Service dan Suku Cadang</h2>
-        <p>Jaringan layanan purna jual yang luas dan lengkap, mulai dari bengkel resmi Isuzu, Bengkel Berjalan Isuzu hingga Bengkel Mitra Isuzu yang telah berpengalaman dengan mesin common rail sejak tahun 2011, mampu membantu Anda mempercepat proses perbaikan dan meningkatkan efisiensi bisnis Anda karena mampu meminimalisir downtime atau kerusakan. Suku cadang dapat dengan mudah didapatkan melalui dukungan bengkel resmi, mini depo, toko suku cadang (part shop), Bengkel Mitra Isuzu hingga Bengkel Isuzu Berjalan yang tersebar di seluruh kota di Indonesia.</p>
+          <h3>Layanan Servis & Suku Cadang Resmi Isuzu Giga FVR</h3>
+          <p>
+            Jaringan bengkel resmi Isuzu, Bengkel Berjalan, Bengkel Mitra, dan ketersediaan suku cadang di seluruh Indonesia membantu meminimalkan downtime kendaraan dan menjaga performa bisnis Anda tetap optimal.
+          </p>
         </div>
-    </div>    
-    
+      </div>    
+
     </section>
 
     <!-- ========== PRODUCT SECTION ========== -->
     <section class="tipe-section">
-        <h2 class="tipe-title">PILIHAN TIPE</h2>
+      <h2 class="tipe-title">Pilihan Tipe Isuzu Giga FVR & Harga Terbaru</h2>
 
-        <div class="tipe-wrapper">
+      <div class="tipe-wrapper">
 
-            <!-- Item 1 -->
-            <div class="tipe-card">
-                <img src="/img/product/fvr/isuzugigafvr.png" alt="GIGA FVR L D">
-                <h3>GIGA FVR L D</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 773.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 2 -->
-            <div class="tipe-card">
-                <img src="/img/product/fvr/isuzugigafvr.png" alt="GIGA FVR P">
-                <h3>GIGA FVR P</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 779.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 3 -->
-            <div class="tipe-card">
-                <img src="/img/product/fvr/isuzugigafvr.png" alt="GIGA FVR S">
-                <h3>GIGA FVR S</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 789.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 4 -->
-            <div class="tipe-card">
-                <img src="/img/product/fvr/isuzugigafvr.png" alt="GIGA FVR Q">
-                <h3>GIGA FVR Q</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 784.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
-            <!-- Item 5 -->
-            <div class="tipe-card">
-                <img src="/img/product/fvr/isuzugigafvr.png" alt="GIGA FVR U">
-                <h3>GIGA FVR U</h3>
-                <p class="mulai">Mulai Dari</p>
-                <p class="harga">Rp. 798.000.000</p>
-                <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official" class="detail-btn">DETAIL</a>
-            </div>
-
+        <div class="tipe-card">
+          <img src="/img/product/fvr/isuzugigafvr.png" alt="Isuzu Giga FVR L D" />
+          <h3>Isuzu Giga FVR L D</h3>
+          <p class="mulai">Mulai Dari</p>
+          <p class="harga">Rp. 773.000.000</p>
+          <a href="https://wa.me/6281296632186" target="_blank" class="detail-btn">DETAIL</a>
         </div>
-    </section>
 
+        <div class="tipe-card">
+          <img src="/img/product/fvr/isuzugigafvr.png" alt="Isuzu Giga FVR P" />
+          <h3>Isuzu Giga FVR P</h3>
+          <p class="mulai">Mulai Dari</p>
+          <p class="harga">Rp. 779.000.000</p>
+          <a href="https://wa.me/6281296632186" target="_blank" class="detail-btn">DETAIL</a>
+        </div>
+
+        <div class="tipe-card">
+          <img src="/img/product/fvr/isuzugigafvr.png" alt="Isuzu Giga FVR S" />
+          <h3>Isuzu Giga FVR S</h3>
+          <p class="mulai">Mulai Dari</p>
+          <p class="harga">Rp. 789.000.000</p>
+          <a href="https://wa.me/6281296632186" target="_blank" class="detail-btn">DETAIL</a>
+        </div>
+
+        <div class="tipe-card">
+          <img src="/img/product/fvr/isuzugigafvr.png" alt="Isuzu Giga FVR Q" />
+          <h3>Isuzu Giga FVR Q</h3>
+          <p class="mulai">Mulai Dari</p>
+          <p class="harga">Rp. 784.000.000</p>
+          <a href="https://wa.me/6281296632186" target="_blank" class="detail-btn">DETAIL</a>
+        </div>
+
+        <div class="tipe-card">
+          <img src="/img/product/fvr/isuzugigafvr.png" alt="Isuzu Giga FVR U" />
+          <h3>Isuzu Giga FVR U</h3>
+          <p class="mulai">Mulai Dari</p>
+          <p class="harga">Rp. 798.000.000</p>
+          <a href="https://wa.me/6281296632186" target="_blank" class="detail-btn">DETAIL</a>
+        </div>
+
+      </div>
+    </section>
 
     <!-- CTA -->
     <section class="cta-section">
       <div class="cta-box">
         <div class="cta-text">
-          <h2>Konsultasikan Pembelian Anda Dengan Tim Kami</h2>
-          <p>Dapatkan Penawaran Khusus Untuk Pembelian Tunai Maupun Kredit</p>
+          <h2>Konsultasi Pembelian Isuzu Giga FVR Sekarang</h2>
+          <p>Dapatkan penawaran harga terbaik, promo kredit, dan diskon khusus hari ini</p>
         </div>
 
         <a href="/kontak" class="cta-button">CHAT SEKARANG</a>
