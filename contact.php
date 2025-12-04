@@ -247,8 +247,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     <div class="container">
 
-      <h3>Form Pemesanan & Konsultasi Cepat Dealer Isuzu</h3>
-      
       <!-- Form -->
       <div class="contact-form">
         <form id="contactForm">
@@ -265,7 +263,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </form>
       </div>
       
-      <h3>Lokasi Dealer Resmi Isuzu Jakarta – Daan Mogot</h3> 
       <!-- Map -->
       <div class="map1">
         <iframe
