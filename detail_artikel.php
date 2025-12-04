@@ -59,31 +59,48 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <!-- JSON-LD (VALID & RAPIH) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "<?= htmlspecialchars($judul, ENT_QUOTES); ?>",
-  "description": "<?= htmlspecialchars($deskripsi, ENT_QUOTES); ?>",
-  "image": "<?= $og_image; ?>",
-  "url": "<?= $canonical; ?>",
-  "author": {
-    "@type": "Person",
-    "name": "Dedy Chandra"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Dealer Astra Isuzu Jakarta Resmi",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-    }
+  <!-- JSON-LD ARTICLE (SEO MAX & CTR FRIENDLY) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "<?= $canonical; ?>"
+    },
+    "headline": "<?= htmlspecialchars($judul, ENT_QUOTES); ?>",
+    "description": "<?= htmlspecialchars($deskripsi, ENT_QUOTES); ?>",
+    "image": [
+      "<?= $og_image; ?>"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Dedy Chandra",
+      "jobTitle": "Sales Consultant Isuzu",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Dealer Resmi Isuzu Jakarta"
+      }
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Dealer Resmi Isuzu Jakarta",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "datePublished": "<?= date('Y-m-d', strtotime($tanggal)); ?>",
+    "dateModified": "<?= date('Y-m-d', strtotime($tanggal)); ?>",
+    "url": "<?= $canonical; ?>",
+    "inLanguage": "id-ID",
+    "articleSection": "Blog Dealer Isuzu",
+    "keywords": "dealer isuzu jakarta, harga isuzu terbaru, isuzu traga, isuzu elf, isuzu giga, promo isuzu",
+    "isAccessibleForFree": true
   }
-}
-</script>
-
-
+  </script>
 
   <!-- OPEN GRAPH -->
   <meta property="og:title" content="<?= htmlspecialchars($judul, ENT_QUOTES); ?>">
@@ -91,7 +108,7 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
   <meta property="og:image" content="<?= $og_image; ?>">
   <meta property="og:url" content="<?= $canonical; ?>">
   <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi">
+  <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta">
   <meta property="og:locale" content="id_ID">
 
   <!-- TWITTER CARD -->
@@ -111,19 +128,6 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
   <link rel="stylesheet" href="/css/footer.css">
   <link rel="stylesheet" href="/css/artikel.css">
 
-  <!-- GOOGLE TAG MANAGER -->
-  <script>
-    (function(w,d,s,l,i){
-      w[l]=w[l]||[];
-      w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
-      var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-      j.async=true;
-      j.src='https://googletagmanager.com/gtm.js?id='+i+dl;
-      f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-K58SQXH7');
-  </script>
-
   <!-- Feather Icons (NON-BLOCKING) -->
     <script src="/js/feather.min.js"></script>
     <script>
@@ -136,8 +140,6 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
 </head>
 <body>
 
-<noscript><iframe src="https://googletagmanager.com/ns.html?id=GTM-K58SQXH7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
 <header>
   <div class="container header-content navbar">
     <div class="header-title">
@@ -148,6 +150,7 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
     <div class="hamburger-menu">&#9776;</div>
     <nav class="nav links">
       <a href="/">Home</a>
+      <a href="/showroom">Showroom Isuzu</a>
       <a href="/produk.php">Produk</a>
       <a href="/simulasi_kredit.php">Simulasi Kredit</a>
       <a href="/artikel.php">Blog & Artikel</a>
@@ -191,7 +194,7 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
 
         <!-- Recent Posts (PERBAIKAN URL) -->
         <div class="sidebar-section">
-          <h3>Recent Posts</h3>
+          <h3>Artikel Terbaru Isuzu</h3>
           <div class="recent-posts-list">
             <?php foreach (array_slice($data, 0, 5) as $recent): ?>
               <?php if ($recent['slug'] != $slug): ?>
@@ -215,7 +218,7 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
 
         <!-- Kategori -->
         <div class="sidebar-section">
-          <h3>Kategori</h3>
+          <h3>Kategori Artikel Isuzu</h3>
           <ul style="list-style:none; padding-left:0;">
             <?php foreach (array_unique(array_column($data, 'kategori')) as $kat): ?>
               <?php if (!empty($kat)): ?>
@@ -235,7 +238,7 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
     <!-- Related Posts (PERBAIKAN URL) -->
     <?php if ($artikel): ?>
     <div class="related-posts" style="margin-top:60px;">
-      <h2 style="margin-bottom:25px; font-size:26px;">Related Posts</h2>
+      <h2 style="margin-bottom:25px; font-size:26px;">Artikel Terkait Seputar Isuzu</h2>
 
       <div class="related-list" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:25px;">
         <?php

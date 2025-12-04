@@ -5,15 +5,15 @@
       <div class="footer-container">
         <div class="footer-section">
           <img src="/img/logo.png" alt="Logo" class="footer-logo" />
-          <p>Dealer Astra Isuzu Jakarta melayani kebutuhan pembelian kendaraan niaga Isuzu untuk wilayah Jakarta, Tangerang, dan Bekasi dengan menyediakan pelayanan profesional dari Sales Isuzu berpengalaman. Kami menawarkan berbagai pilihan kendaraan seperti Isuzu Traga, Isuzu Elf, dan Isuzu Giga yang siap mendukung operasional bisnis Anda. Sebagai dealer resmi Isuzu, kami memberikan layanan konsultasi lengkap, proses pemesanan yang mudah, serta dukungan purna jual yang terpercaya dari jaringan Astra Isuzu. Komitmen kami adalah memberikan pengalaman pembelian kendaraan yang aman, nyaman, dan sesuai dengan kebutuhan usaha Anda, sehingga setiap pelanggan mendapatkan solusi terbaik untuk armada Isuzu yang mereka butuhkan.</p>
+          <p>Dealer resmi Isuzu Jakarta dengan harga terbaru & promo besar hari ini! Traga, ELF & GIGA tersedia. DP ringan, cicilan mudah, konsultasi gratis.</p>
         </div>
         <div class="footer-section">
-          <h4>HUBUNGI KAMI</h4>
+          <h1>HUBUNGI KAMI</h1>
           <p>📞 0812-9663-2186
           <p>📧 salesisuzuofficial@gmail.com</p>
           <p>📍 Jl. Daan Mogot No.Km 13,9, RT.5/RW.1, Cengkareng Tim., Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11730</p>
           <div class="footer-social">
-            <h4>SOSIAL MEDIA</h4>
+            <h2>SOSIAL MEDIA</h2>
           <div class="social-icons">
             <a href="javascript:void(0)" target="_blank" aria-label="Instagram Isuzu Official">
               <i data-feather="instagram"></i>
