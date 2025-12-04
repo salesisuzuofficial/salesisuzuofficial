@@ -229,26 +229,19 @@ try {
             <div class="about-content">
                 <div class="text">
                     <!-- H1 (only one H1 on page) -->
-                    <h1>Dealer Isuzu Jakarta Resmi | Sales Astra Isuzu Terpercaya</h1>
+                    <h1>Dealer Isuzu Jakarta Resmi | Astra Isuzu Daan Mogot</h1>
                     <div class="divider"></div>
                     <p>
-                        <strong>Dedy Chandra</strong> adalah Sales Executive resmi dari 
-                        <strong>Astra Isuzu Jakarta</strong> yang melayani pembelian unit Isuzu untuk wilayah 
-                        <strong>Jakarta, Tangerang, dan Bekasi</strong>. Dengan pengalaman profesional dalam penjualan kendaraan niaga, 
-                        Dedy siap membantu Anda memilih unit Isuzu terbaik mulai dari <em>Isuzu Traga, ELF, hingga Giga</em> sesuai kebutuhan bisnis Anda.
+                        <strong>Astra Isuzu Daan Mogot</strong> adalah dealer resmi Isuzu di Jakarta Barat yang melayani pembelian, perawatan, dan purna jual kendaraan niaga Isuzu untuk wilayah <strong>Jakarta, Tangerang, dan Bekasi</strong>. Dealer ini menyediakan berbagai unit Isuzu mulai dari <em>Traga, ELF, NLR, NMR, FVR, FVM, hingga GIGA</em>, lengkap dengan harga resmi terbaru, promo menarik, dan paket kredit fleksibel untuk mendukung kebutuhan bisnis Anda.
                     </p>
 
                     <p>
-                        Sebagai bagian dari jaringan <strong>Dealer Isuzu Resmi</strong>, kami menawarkan harga terbaru, promo khusus, 
-                        serta paket kredit yang fleksibel. Proses cepat, konsultasi jelas, dan pelayanan ramah menjadi komitmen utama kami 
-                        untuk memberikan pengalaman pembelian yang mudah dan aman.
+                        Dengan layanan profesional dan showroom modern, Astra Isuzu Daan Mogot memastikan pengalaman pembelian kendaraan yang mudah dan nyaman. Dukungan bengkel resmi, suku cadang asli, dan fasilitas perawatan berkala membuat kendaraan Anda tetap dalam kondisi optimal.
                     </p>
 
                     <p>
-                        Jika Anda mencari <strong>Dealer Isuzu di Jakarta, Tangerang, atau Bekasi</strong>, percayakan kebutuhan kendaraan niaga 
-                        Anda kepada <strong>Dedy Chandra – Sales Astra Isuzu Daan Mogot</strong>. Hubungi kami untuk mendapatkan penawaran terbaik hari ini.
+                        Jika Anda mencari <strong>dealer Isuzu resmi di Jakarta Barat</strong>, Astra Isuzu Daan Mogot siap menjadi solusi terpercaya untuk kendaraan niaga Anda. Hubungi <strong>Dedy Chandra – Sales Astra Isuzu Daan Mogot</strong> untuk mendapatkan penawaran terbaik hari ini.
                     </p>
-
                     <div class="contact-buttons">
                         <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" class="btn whatsapp-btn" aria-label="Hubungi via WhatsApp">
                             <i class="fab fa-whatsapp" aria-hidden="true"></i> Whatsapp
@@ -260,7 +253,7 @@ try {
                 </div>
 
                 <div class="image-gallery">
-                    <img src="img/salesisuzuu.webp" alt="Sales Isuzu Dedy Chandra - Dealer Astra Isuzu Jakarta" loading="lazy" />
+                    <img src="img/dealer.webp" alt="Dealer Resmi Isuzu Jakarta - Dealer Astra Isuzu Jakarta" loading="lazy" />
                 </div>
             </div>
         </div>

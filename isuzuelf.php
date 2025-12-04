@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- FIXED TITLE -->
-    <title>Produk Isuzu – Astra Isuzu Jakarta Resmi</title>
+    <title>Isuzu ELF – Dealer Resmi Isuzu Jakarta</title>
 
     <!-- FIXED DESCRIPTION -->
     <meta name="description" content="Lihat daftar produk resmi Isuzu Jakarta dari Astra. Tersedia Isuzu Traga, Elf, Giga, NLR/NMR dan kendaraan niaga lainnya. Harga terbaru, promo, dan paket kredit tersedia." />
@@ -23,7 +23,7 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://salesisuzuofficial.com/produk" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/isuzuelf" />
 
     <!-- Favicon utama -->
     <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
@@ -35,67 +35,130 @@
     <!-- Apple Touch Icon (iPhone/iPad) -->
     <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
-
-    <!-- FIXED JSON-LD (NO ERROR) -->
+    <!-- Schema JSOn -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-        },
-        {
-          "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dealer Astra Isuzu Jakarta Resmi",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-            }
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+6281296632186",
+            "contactType": "customer service",
+            "areaServed": "ID",
+            "availableLanguage": ["id"]
           }
         },
         {
           "@type": "AutoDealer",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer Isuzu Jakarta resmi dari Astra. Promo, kredit, dan harga terbaru Isuzu.",
+          "description": "Dealer Resmi Isuzu Jakarta melayani penjualan Traga, ELF, NLR, NMR, dan GIGA. Promo dan kredit tersedia.",
+          "telephone": "+6281296632186",
+          "email": "salesisuzuofficial@gmail.com",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
+            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya",
             "addressLocality": "Jakarta Barat",
             "addressRegion": "DKI Jakarta",
             "postalCode": "11730",
             "addressCountry": "ID"
           },
-          "telephone": "+6281296632186",
-          "email": "salesisuzuofficial@gmail.com",
-          "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
+          "areaServed": [
+            "Jakarta",
+            "Bekasi",
+            "Depok",
+            "Tangerang",
+            "Bogor"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "url": "https://salesisuzuofficial.com/",
+          "name": "Dealer Resmi Isuzu Jakarta",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Dealer Resmi Isuzu Jakarta"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://salesisuzuofficial.com/isuzuelf.php",
+          "url": "https://salesisuzuofficial.com/isuzuelf.php",
+          "name": "Isuzu ELF NMR & NLR – Dealer Resmi Isuzu Jakarta",
+          "description": "Halaman resmi penjualan Isuzu ELF NMR & NLR dari dealer Astra Isuzu Jakarta. Tersedia harga terbaru dan promo kredit."
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://salesisuzuofficial.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Produk",
+              "item": "https://salesisuzuofficial.com/produk.php"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Isuzu ELF",
+              "item": "https://salesisuzuofficial.com/isuzuelf.php"
+            }
+          ]
+        },
+        {
+          "@type": "Product",
+          "name": "Isuzu ELF NMR & NLR",
+          "image": [
+            "https://salesisuzuofficial.com/img/product/nmr/nmrhead.webp",
+            "https://salesisuzuofficial.com/img/product/nlr/nlrbanner.webp"
+          ],
+          "description": "Isuzu ELF NMR dan NLR adalah truk ringan tangguh untuk distribusi dan bisnis harian dengan mesin irit dan bertenaga.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Isuzu"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://salesisuzuofficial.com/isuzuelf.php",
+            "priceCurrency": "IDR",
+            "price": "400000000",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@type": "Organization",
+              "name": "Dealer Resmi Isuzu Jakarta"
+            }
+          }
         }
       ]
     }
     </script>
 
-    <!-- FIXED OG -->
-    <meta property="og:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta property="og:description" content="Lihat daftar produk Isuzu resmi Jakarta. Promo & harga terbaru kendaraan niaga Isuzu." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/produk" />
-    <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
+    <!-- ========== OPEN GRAPH ISUZU ELF ========== -->
+    <meta property="og:title" content="Isuzu ELF NMR & NLR – Harga & Promo Terbaru Jakarta" />
+    <meta property="og:description" content="Dealer Resmi Isuzu Jakarta menyediakan Isuzu ELF NMR & NLR. Harga terbaru, promo menarik, dan kredit ringan tersedia." />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/nmr/nmrhead.webp" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/isuzuelf.php" />
+    <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="website" />
 
-    <!-- FIXED TWITTER -->
+    <!-- ========== TWITTER CARD ISUZU ELF ========== -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta name="twitter:description" content="Lihat pilihan produk resmi Isuzu Jakarta dari Astra. Cek harga terbaru." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+    <meta name="twitter:title" content="Isuzu ELF NMR & NLR – Harga Terbaru Jakarta" />
+    <meta name="twitter:description" content="Dapatkan harga terbaik Isuzu ELF NMR & NLR di Dealer Resmi Isuzu Jakarta. Promo dan kredit tersedia." />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/nmr/nmrhead.webp" />
+
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
@@ -139,10 +202,11 @@
         <!-- Navigation -->
         <nav class="nav links">
           <a href="/">Home</a>
-          <a href="produk.php">Produk</a>
-          <a href="simulasi_kredit.php">Simulasi Kredit</a>
-          <a href="artikel.php">Blog & Artikel</a>
-          <a href="contact.php">Contact</a>
+          <a href="/showroom">Showroom</a>
+          <a href="/produk">Produk</a>
+          <a href="/simulasi_kredit">Simulasi Kredit</a>
+          <a href="/artikel">Blog & Artikel</a>
+          <a href="/contact">Contact</a>
         </nav>
       </div>
     </header>
@@ -190,11 +254,11 @@
     <section class="cta-section">
     <div class="cta-box">
         <div class="cta-text">
-        <h2>Konsultasikan Pembelian Anda Dengan Tim Kami</h2>
+        <h4>Konsultasikan Pembelian Anda Dengan Tim Kami</h4>
         <p>Dapatkan Penawaran Khusus Untuk Pembelian Tunai Maupun Kredit</p>
         </div>
 
-        <a href="/kontak" class="cta-button">CHAT SEKARANG</a>
+        <a href="/contact" class="cta-button">CHAT SEKARANG</a>
     </div>
     </section>
 

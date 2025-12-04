@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- FIXED TITLE -->
-    <title>Produk Isuzu – Astra Isuzu Jakarta Resmi</title>
+    <title>Produk Isuzu – Dealer Resmi Isuzu Jakarta</title>
 
     <!-- FIXED DESCRIPTION -->
     <meta name="description" content="Lihat daftar produk resmi Isuzu Jakarta dari Astra. Tersedia Isuzu Traga, Elf, Giga, NLR/NMR dan kendaraan niaga lainnya. Harga terbaru, promo, dan paket kredit tersedia." />
@@ -41,63 +41,106 @@
     {
       "@context": "https://schema.org",
       "@graph": [
+
         {
           "@type": "WebSite",
-          "name": "Dealer Isuzu",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "alternateName": "Dealer Isuzu Jakarta",
+          "alternateName": "Sales Isuzu Jakarta",
           "potentialAction": {
             "@type": "SearchAction",
             "target": "https://salesisuzuofficial.com/?s={search_term_string}",
             "query-input": "required name=search_term_string"
           }
         },
+
         {
           "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
         },
+
         {
           "@type": "AutoDealer",
-          "name": "Dealer Astra Isuzu Jakarta - Dedy Chandra",
+          "name": "Dealer Resmi Isuzu Jakarta - Dedy Chandra",
+          "url": "https://salesisuzuofficial.com/",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
           "priceRange": "IDR",
-          "url": "https://salesisuzuofficial.com/",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Daan Mogot / Cabang Astra Isuzu (lihat contact page)",
+            "streetAddress": "Jalan Daan Mogot, Jakarta Barat",
             "addressLocality": "Jakarta",
             "addressRegion": "DKI Jakarta",
-            "postalCode": "",
+            "postalCode": "11730",
             "addressCountry": "ID"
           },
           "sameAs": [
             "https://www.facebook.com/",
             "https://www.instagram.com/"
           ],
-          "areaServed": ["Jakarta", "Tangerang", "Bekasi", "Jabodetabek"]
+          "areaServed": ["Jakarta", "Tangerang", "Bekasi", "Bogor", "Depok"]
+        },
+
+        {
+          "@type": "CollectionPage",
+          "name": "Produk Isuzu Jakarta",
+          "url": "https://salesisuzuofficial.com/produk",
+          "description": "Daftar lengkap produk Isuzu Jakarta: Traga, Elf NLR/NMR, Giga FRR, FTR, FVR, FVM, FVZ, Tractor Head, Microbus, hingga D-MAX.",
+          "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Isuzu Traga", "url": "https://salesisuzuofficial.com/isuzutraga" },
+              { "@type": "ListItem", "position": 2, "name": "Isuzu NLR", "url": "https://salesisuzuofficial.com/isuzu-nlr" },
+              { "@type": "ListItem", "position": 3, "name": "Isuzu NMR", "url": "https://salesisuzuofficial.com/isuzu-nmr.php" },
+              { "@type": "ListItem", "position": 4, "name": "Isuzu FRR", "url": "https://salesisuzuofficial.com/isuzu-frr.php" },
+              { "@type": "ListItem", "position": 5, "name": "Isuzu FTR", "url": "https://salesisuzuofficial.com/isuzu-ftr" },
+              { "@type": "ListItem", "position": 6, "name": "Isuzu FVR", "url": "https://salesisuzuofficial.com/isuzu-fvr" },
+              { "@type": "ListItem", "position": 7, "name": "Isuzu FVM", "url": "https://salesisuzuofficial.com/isuzu-fvm" },
+              { "@type": "ListItem", "position": 8, "name": "Isuzu FVZ", "url": "https://salesisuzuofficial.com/isuzu-fvz" },
+              { "@type": "ListItem", "position": 9, "name": "Isuzu Tractor Head", "url": "https://salesisuzuofficial.com/isuzu-tractor-head" }
+            ]
+          }
+        },
+
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://salesisuzuofficial.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Produk Isuzu",
+              "item": "https://salesisuzuofficial.com/produk"
+            }
+          ]
         }
+
       ]
     }
     </script>
 
 
-    <!-- FIXED OG -->
-    <meta property="og:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta property="og:description" content="Lihat daftar produk Isuzu resmi Jakarta. Promo & harga terbaru kendaraan niaga Isuzu." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+    <!-- OPEN GRAPH PRODUK ISUZU -->
+    <meta property="og:title" content="Produk Isuzu Jakarta – Harga Terbaru & Promo Resmi Dealer" />
+    <meta property="og:description" content="Lihat daftar lengkap produk Isuzu Jakarta: Traga, NLR, NMR, FRR, FTR, FVR, FVM, FVZ, Tractor Head, Microbus, hingga D-MAX. Harga terbaru, promo & kredit mudah." />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/hero3.webp" />
     <meta property="og:url" content="https://salesisuzuofficial.com/produk" />
-    <meta property="og:site_name" content="Dealer Astra Isuzu Jakarta Resmi" />
+    <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="website" />
 
-    <!-- FIXED TWITTER -->
+    <!-- TWITTER CARD PRODUK ISUZU -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Produk Isuzu – Astra Isuzu Jakarta Resmi" />
-    <meta name="twitter:description" content="Lihat pilihan produk resmi Isuzu Jakarta dari Astra. Cek harga terbaru." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+    <meta name="twitter:title" content="Produk Isuzu Jakarta – Harga Terbaru & Promo Resmi Dealer" />
+    <meta name="twitter:description" content="Dealer Resmi Isuzu Jakarta. Tersedia Traga, Elf NLR/NMR, Giga FRR–FVZ, Tractor Head, Microbus, D-MAX. Promo & kredit cepat." />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/hero3.webp" />
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
