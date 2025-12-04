@@ -37,7 +37,7 @@ $offset = ($page - 1) * $perPage;
 $artikel = array_slice($artikelData, $offset, $perPage);
 
 // Canonical & OG URL logic
-// Canonical untuk halaman daftar: /artikel.php (tambahkan ?search/kategori/page jika ada)
+// Canonical untuk halaman daftar: /artikel (tambahkan ?search/kategori/page jika ada)
 $canonicalBase = 'https://isuzuindonesia.com/artikel';
 
 $canonical = $canonicalBase;

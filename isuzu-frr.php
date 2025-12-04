@@ -23,17 +23,17 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://salesisuzuofficial.com/isuzu-frr" />
+    <link rel="canonical" href="https://isuzuindonesia.com/isuzu-frr" />
 
     <!-- Favicon utama -->
-    <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://isuzuindonesia.com/faviconisuzu.png">
 
     <!-- Favicon untuk browser (ICO multi-size) -->
-    <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
+    <link rel="icon" type="image/x-icon" href="https://isuzuindonesia.com/faviconisuzu.ico">
 
     <!-- Apple Touch Icon (iPhone/iPad) -->
-    <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="apple-touch-icon" href="https://isuzuindonesia.com/faviconisuzu.png">
 
     <!-- Schema Json -->
     <script type="application/ld+json">
@@ -43,8 +43,8 @@
         {
           "@type": "Organization",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "url": "https://isuzuindonesia.com/",
+          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
           "sameAs": [
             "https://www.facebook.com/",
             "https://www.instagram.com/"
@@ -54,9 +54,9 @@
         {
           "@type": "AutoDealer",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "url": "https://isuzuindonesia.com/",
+          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
+          "image": "https://isuzuindonesia.com/img/isuzu1.jpeg",
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
           "priceRange": "IDR",
@@ -75,7 +75,7 @@
           "@type": "Product",
           "name": "Isuzu Giga FRR",
           "image": [
-            "https://salesisuzuofficial.com/img/product/frr/headerfrr.webp"
+            "https://isuzuindonesia.com/img/product/frr/headerfrr.webp"
           ],
           "description": "Isuzu Giga FRR adalah truk medium duty berstandar Euro 4 dengan mesin 190 PS, irit bahan bakar, daya angkut besar, dan cocok untuk bisnis logistik serta distribusi.",
           "brand": {
@@ -86,7 +86,7 @@
           "mpn": "FRR-90Q",
           "offers": {
             "@type": "Offer",
-            "url": "https://salesisuzuofficial.com/isuzu-frr",
+            "url": "https://isuzuindonesia.com/isuzu-frr",
             "priceCurrency": "IDR",
             "price": "621000000",
             "availability": "https://schema.org/InStock",
@@ -105,19 +105,19 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://salesisuzuofficial.com/"
+              "item": "https://isuzuindonesia.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Produk Isuzu",
-              "item": "https://salesisuzuofficial.com/produk.php"
+              "item": "https://isuzuindonesia.com/produk"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Isuzu Giga FRR",
-              "item": "https://salesisuzuofficial.com/isuzu-frr"
+              "item": "https://isuzuindonesia.com/isuzu-frr"
             }
           ]
         }
@@ -129,10 +129,10 @@
     <!-- OPEN GRAPH -->
     <meta property="og:title" content="Isuzu Giga FRR – Harga & Promo Terbaru | Dealer Resmi Isuzu Jakarta" />
     <meta property="og:description" content="Lihat harga terbaru Isuzu Giga FRR, promo kredit & spesifikasi lengkap hanya di Dealer Resmi Isuzu Jakarta. Konsultasi gratis via WhatsApp." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/frr/isuzu-giga-frr.png" />
+    <meta property="og:image" content="https://isuzuindonesia.com/img/product/frr/isuzu-giga-frr.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-frr" />
+    <meta property="og:url" content="https://isuzuindonesia.com/isuzu-frr" />
     <meta property="og:type" content="product" />
     <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:locale" content="id_ID" />
@@ -142,7 +142,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Isuzu Giga FRR – Harga & Promo Terbaru | Dealer Resmi Isuzu Jakarta" />
     <meta name="twitter:description" content="Cek harga Isuzu Giga FRR terbaru, promo kredit & DP ringan di Dealer Resmi Isuzu Jakarta. Konsultasi cepat via WhatsApp." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/frr/isuzu-giga-frr.png" />
+    <meta name="twitter:image" content="https://isuzuindonesia.com/img/product/frr/isuzu-giga-frr.png" />
 
 
     <!-- Robots -->
@@ -177,7 +177,7 @@
       <div class="container header-content navbar">
         <!-- Logo -->
         <div class="header-title">
-          <a href="https://salesisuzuofficial.com">
+          <a href="https://isuzuindonesia.com">
             <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
           </a>
         </div>
@@ -322,7 +322,7 @@
           <p class="mulai">Harga Mulai Dari</p>
           <p class="harga">Rp. 621.000.000</p>
           <a 
-            href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" 
+            href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20isuzuindonesia.com" 
             target="_blank" 
             aria-label="Chat WhatsApp Dealer Resmi Isuzu Jakarta"
             class="detail-btn"

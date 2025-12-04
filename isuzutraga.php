@@ -23,17 +23,17 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://salesisuzuofficial.com/isuzutraga" />
+    <link rel="canonical" href="https://isuzuindonesia.com/isuzutraga" />
 
     <!-- Favicon utama -->
-    <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://isuzuindonesia.com/faviconisuzu.png">
 
     <!-- Favicon untuk browser (ICO multi-size) -->
-    <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
+    <link rel="icon" type="image/x-icon" href="https://isuzuindonesia.com/faviconisuzu.ico">
 
     <!-- Apple Touch Icon (iPhone/iPad) -->
-    <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="apple-touch-icon" href="https://isuzuindonesia.com/faviconisuzu.png">
 
 
     <!-- FIXED JSON-LD (NO ERROR) -->
@@ -44,7 +44,7 @@
         {
           "@type": "Product",
           "name": "Isuzu Traga",
-          "image": "https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg",
+          "image": "https://isuzuindonesia.com/img/product/traga/traga-slide-01.jpg",
           "description": "Isuzu Traga Jakarta harga terbaru 2025. Tersedia tipe Pickup & Box. Cocok untuk usaha logistik, UMKM, dan distribusi. DP ringan, kredit mudah, stok ready.",
           "brand": {
             "@type": "Brand",
@@ -52,7 +52,7 @@
           },
           "offers": {
             "@type": "Offer",
-            "url": "https://salesisuzuofficial.com/isuzu-traga",
+            "url": "https://isuzuindonesia.com/isuzu-traga",
             "priceCurrency": "IDR",
             "price": "271000000",
             "availability": "https://schema.org/InStock",
@@ -66,9 +66,9 @@
         {
           "@type": "AutoDealer",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "url": "https://isuzuindonesia.com/",
+          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
+          "image": "https://isuzuindonesia.com/img/isuzu1.jpeg",
           "description": "Dealer resmi Astra Isuzu Jakarta dengan promo terbaru Isuzu Traga, Elf, Giga, dan N-Series. Melayani kredit & cash.",
           "address": {
             "@type": "PostalAddress",
@@ -89,19 +89,19 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://salesisuzuofficial.com/"
+              "item": "https://isuzuindonesia.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Produk Isuzu",
-              "item": "https://salesisuzuofficial.com/produk"
+              "item": "https://isuzuindonesia.com/produk"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Isuzu Traga",
-              "item": "https://salesisuzuofficial.com/isuzu-traga"
+              "item": "https://isuzuindonesia.com/isuzu-traga"
             }
           ]
         }
@@ -112,8 +112,8 @@
     <!-- OPEN GRAPH ISUZU TRAGA -->
     <meta property="og:title" content="Isuzu Traga Jakarta – Harga Terbaru & Promo Kredit Ringan" />
     <meta property="og:description" content="Jual Isuzu Traga Pickup & Box Jakarta. Harga terbaru, DP ringan, cicilan mudah, stok ready & pengiriman cepat. Dealer Resmi Astra Isuzu." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-traga" />
+    <meta property="og:image" content="https://isuzuindonesia.com/img/product/traga/traga-slide-01.jpg" />
+    <meta property="og:url" content="https://isuzuindonesia.com/isuzu-traga" />
     <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="product" />
 
@@ -121,7 +121,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Isuzu Traga Jakarta – Harga Terbaru & Promo Kredit Ringan" />
     <meta name="twitter:description" content="Dealer Resmi Isuzu Traga Jakarta. Tersedia Traga Pickup & Box, harga terbaru, promo besar, ready stock & kredit mudah." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg" />
+    <meta name="twitter:image" content="https://isuzuindonesia.com/img/product/traga/traga-slide-01.jpg" />
 
 
     <!-- Robots -->
@@ -155,7 +155,7 @@
       <div class="container header-content navbar">
         <!-- Logo -->
         <div class="header-title">
-          <a href="https://salesisuzuofficial.com">
+          <a href="https://isuzuindonesia.com">
             <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
           </a>
         </div>

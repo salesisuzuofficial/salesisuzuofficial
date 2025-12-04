@@ -23,17 +23,17 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://salesisuzuofficial.com/isuzu-nmr" />
+    <link rel="canonical" href="https://isuzuindonesia.com/isuzu-nmr" />
 
     <!-- Favicon utama -->
-    <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://isuzuindonesia.com/faviconisuzu.png">
 
     <!-- Favicon untuk browser (ICO multi-size) -->
-    <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
+    <link rel="icon" type="image/x-icon" href="https://isuzuindonesia.com/faviconisuzu.ico">
 
     <!-- Apple Touch Icon (iPhone/iPad) -->
-    <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="apple-touch-icon" href="https://isuzuindonesia.com/faviconisuzu.png">
 
 
     <!-- FIXED JSON-LD (NO ERROR) -->
@@ -44,7 +44,7 @@
         {
           "@type": "Product",
           "name": "Isuzu ELF NMR Euro 4",
-          "image": "https://salesisuzuofficial.com/img/product/nmr/nmrhead.webp",
+          "image": "https://isuzuindonesia.com/img/product/nmr/nmrhead.webp",
           "description": "Isuzu NMR Euro 4 adalah truk ringan 6 ban dengan mesin 150 PS, irit bahan bakar, tangguh untuk usaha distribusi, logistik, dan konstruksi.",
           "brand": {
             "@type": "Brand",
@@ -53,7 +53,7 @@
           "sku": "ISUZU-NMR",
           "offers": {
             "@type": "Offer",
-            "url": "https://salesisuzuofficial.com/isuzu-nmr",
+            "url": "https://isuzuindonesia.com/isuzu-nmr",
             "priceCurrency": "IDR",
             "price": "474000000",
             "availability": "https://schema.org/InStock",
@@ -67,9 +67,9 @@
         {
           "@type": "AutoDealer",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "url": "https://isuzuindonesia.com/",
+          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
+          "image": "https://isuzuindonesia.com/img/isuzu1.jpeg",
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
           "address": {
@@ -89,19 +89,19 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://salesisuzuofficial.com/"
+              "item": "https://isuzuindonesia.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Produk Isuzu",
-              "item": "https://salesisuzuofficial.com/produk"
+              "item": "https://isuzuindonesia.com/produk"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Isuzu NMR",
-              "item": "https://salesisuzuofficial.com/isuzu-nmr"
+              "item": "https://isuzuindonesia.com/isuzu-nmr"
             }
           ]
         }
@@ -112,8 +112,8 @@
     <!-- ✅ OPEN GRAPH ISUZU NMR -->
     <meta property="og:title" content="Isuzu NMR Euro 4 – Harga Terbaru & Promo Kredit Jakarta" />
     <meta property="og:description" content="Jual Isuzu NMR Euro 4 Jakarta resmi Astra. Mesin bertenaga 150 PS, irit BBM, cocok untuk bisnis. Cek harga, promo & simulasi kredit hari ini." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/nmr/nmrhead.webp" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-nmr" />
+    <meta property="og:image" content="https://isuzuindonesia.com/img/product/nmr/nmrhead.webp" />
+    <meta property="og:url" content="https://isuzuindonesia.com/isuzu-nmr" />
     <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="product" />
 
@@ -121,7 +121,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Isuzu NMR Euro 4 – Harga & Promo Jakarta" />
     <meta name="twitter:description" content="Isuzu NMR resmi Astra Jakarta. Truk 6 ban, 150 PS, irit dan kuat. Promo DP ringan & kredit mudah." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/nmr/nmrhead.webp" />
+    <meta name="twitter:image" content="https://isuzuindonesia.com/img/product/nmr/nmrhead.webp" />
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
@@ -155,7 +155,7 @@
       <div class="container header-content navbar">
         <!-- Logo -->
         <div class="header-title">
-          <a href="https://salesisuzuofficial.com">
+          <a href="https://isuzuindonesia.com">
             <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
           </a>
         </div>

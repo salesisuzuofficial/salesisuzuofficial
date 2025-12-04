@@ -23,17 +23,17 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://salesisuzuofficial.com/isuzu-nlr" />
+    <link rel="canonical" href="https://isuzuindonesia.com/isuzu-nlr" />
 
     <!-- Favicon utama -->
-    <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://isuzuindonesia.com/faviconisuzu.png">
 
     <!-- Favicon untuk browser (ICO multi-size) -->
-    <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
+    <link rel="icon" type="image/x-icon" href="https://isuzuindonesia.com/faviconisuzu.ico">
 
     <!-- Apple Touch Icon (iPhone/iPad) -->
-    <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="apple-touch-icon" href="https://isuzuindonesia.com/faviconisuzu.png">
 
     <!-- Schema JSON -->
     <script type="application/ld+json">
@@ -43,8 +43,8 @@
         {
           "@type": "Organization",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "url": "https://isuzuindonesia.com/",
+          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
           "sameAs": [
             "https://wa.me/6281296632186"
           ]
@@ -53,9 +53,9 @@
         {
           "@type": "AutoDealer",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "url": "https://isuzuindonesia.com/",
+          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
+          "image": "https://isuzuindonesia.com/img/isuzu1.jpeg",
           "description": "Dealer resmi Isuzu Jakarta dari Astra. Menyediakan Isuzu NLR, Traga, Elf, dan Giga dengan promo kredit & harga terbaik.",
           "address": {
             "@type": "PostalAddress",
@@ -73,7 +73,7 @@
         {
           "@type": "Product",
           "name": "Isuzu ELF NLR",
-          "image": "https://salesisuzuofficial.com/img/product/nlr/nlrbanner.webp",
+          "image": "https://isuzuindonesia.com/img/product/nlr/nlrbanner.webp",
           "description": "Isuzu ELF NLR Euro 4 adalah truk ringan irit BBM, bertenaga, dan cocok untuk usaha distribusi perkotaan.",
           "brand": {
             "@type": "Brand",
@@ -81,7 +81,7 @@
           },
           "offers": {
             "@type": "Offer",
-            "url": "https://salesisuzuofficial.com/isuzu-nlr",
+            "url": "https://isuzuindonesia.com/isuzu-nlr",
             "priceCurrency": "IDR",
             "price": "400000000",
             "availability": "https://schema.org/InStock"
@@ -95,33 +95,33 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://salesisuzuofficial.com/"
+              "item": "https://isuzuindonesia.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Produk Isuzu",
-              "item": "https://salesisuzuofficial.com/produk.php"
+              "item": "https://isuzuindonesia.com/produk"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Isuzu ELF NLR",
-              "item": "https://salesisuzuofficial.com/isuzu-nlr"
+              "item": "https://isuzuindonesia.com/isuzu-nlr"
             }
           ]
         },
 
         {
           "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
+          "url": "https://isuzuindonesia.com/",
           "name": "Dealer Resmi Isuzu Jakarta",
           "publisher": {
             "@type": "Organization",
             "name": "Dealer Resmi Isuzu Jakarta",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+              "url": "https://isuzuindonesia.com/img/isuzu1.jpeg"
             }
           }
         }
@@ -133,8 +133,8 @@
     <!-- OPEN GRAPH -->
     <meta property="og:title" content="Isuzu ELF NLR – Harga Terbaru & Promo Dealer Resmi Jakarta" />
     <meta property="og:description" content="Jual Isuzu ELF NLR & NLR L terbaru di dealer resmi Isuzu Jakarta. Mesin Euro 4, super irit, kuat angkut. Tersedia promo & kredit ringan hari ini." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/nlr/nlrbanner.webp" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-nlr" />
+    <meta property="og:image" content="https://isuzuindonesia.com/img/product/nlr/nlrbanner.webp" />
+    <meta property="og:url" content="https://isuzuindonesia.com/isuzu-nlr" />
     <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="product" />
 
@@ -142,7 +142,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Isuzu ELF NLR – Harga Terbaru & Promo Dealer Resmi Jakarta" />
     <meta name="twitter:description" content="Dealer resmi Isuzu Jakarta jual ELF NLR & NLR L Euro 4. Harga terbaik, promo besar & cicilan ringan tersedia sekarang." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/nlr/nlrbanner.webp" />
+    <meta name="twitter:image" content="https://isuzuindonesia.com/img/product/nlr/nlrbanner.webp" />
 
 
     <!-- Robots -->
@@ -177,7 +177,7 @@
       <div class="container header-content navbar">
         <!-- Logo -->
         <div class="header-title">
-          <a href="https://salesisuzuofficial.com">
+          <a href="https://isuzuindonesia.com">
             <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
           </a>
         </div>
@@ -312,7 +312,7 @@
           <h3>ELF NLR</h3>
           <p class="mulai">Harga Mulai Dari</p>
           <p class="harga">Rp. 400.000.000</p>
-          <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20NLR%20dari%20website%20salesisuzuofficial.com" target="_blank" class="detail-btn">DETAIL</a>
+          <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20NLR%20dari%20website%20isuzuindonesia.com" target="_blank" class="detail-btn">DETAIL</a>
         </div>
 
         <!-- Item 2 -->
@@ -321,7 +321,7 @@
           <h3>ELF NLR L</h3>
           <p class="mulai">Harga Mulai Dari</p>
           <p class="harga">Rp. 416.000.000</p>
-          <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20NLR%20dari%20website%20salesisuzuofficial.com" target="_blank" class="detail-btn">DETAIL</a>
+          <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20NLR%20dari%20website%20isuzuindonesia.com" target="_blank" class="detail-btn">DETAIL</a>
         </div>
 
       </div>

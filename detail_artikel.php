@@ -3,7 +3,7 @@
 $slug = $_GET['slug'] ?? null;
 
 // Ambil data artikel dari API
-$data = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/get_artikel.php"), true);
+$data = json_decode(file_get_contents("https://isuzuindonesia.com/admin/api/get_artikel.php"), true);
 $artikel = null;
 
 // Cari artikel berdasarkan slug
@@ -23,11 +23,11 @@ $deskripsi = substr($deskripsi, 0, 160);
 
 // Canonical URL (PERBAIKAN)
 $canonical = $artikel
-  ? "https://salesisuzuofficial.com/detail_artikel/{$slug}"
-  : "https://salesisuzuofficial.com/produk.php";
+  ? "https://isuzuindonesia.com/detail_artikel/{$slug}"
+  : "https://isuzuindonesia.com/produk";
 
 // Gambar OG
-$og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpeg";
+$og_image = $artikel['gambar'] ?? "https://isuzuindonesia.com/img/isuzu1.jpeg";
 ?>
 
 <!DOCTYPE html>
@@ -46,14 +46,14 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
   <link rel="canonical" href="<?= $canonical; ?>">
 
   <!-- Favicon utama -->
-  <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://isuzuindonesia.com/faviconisuzu.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="https://isuzuindonesia.com/faviconisuzu.png">
 
   <!-- Favicon untuk browser (ICO multi-size) -->
-  <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
+  <link rel="icon" type="image/x-icon" href="https://isuzuindonesia.com/faviconisuzu.ico">
 
   <!-- Apple Touch Icon (iPhone/iPad) -->
-  <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
+  <link rel="apple-touch-icon" href="https://isuzuindonesia.com/faviconisuzu.png">
 
   <!-- PERFORMANCE BOOST -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -87,7 +87,7 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
       "name": "Dealer Resmi Isuzu Jakarta",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+        "url": "https://isuzuindonesia.com/img/isuzu1.jpeg",
         "width": 600,
         "height": 60
       }
@@ -143,7 +143,7 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
 <header>
   <div class="container header-content navbar">
     <div class="header-title">
-      <a href="https://salesisuzuofficial.com">
+      <a href="https://isuzuindonesia.com">
         <img src="/img/logo.png" alt="Logo Isuzu" style="height:60px">
       </a>
     </div>
@@ -151,10 +151,10 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
     <nav class="nav links">
       <a href="/">Home</a>
       <a href="/showroom">Showroom Isuzu</a>
-      <a href="/produk.php">Produk</a>
-      <a href="/simulasi_kredit.php">Simulasi Kredit</a>
-      <a href="/artikel.php">Blog & Artikel</a>
-      <a href="/contact.php">Contact</a>
+      <a href="/produk">Produk</a>
+      <a href="/simulasi_kredit">Simulasi Kredit</a>
+      <a href="/artikel">Blog & Artikel</a>
+      <a href="/contact">Contact</a>
     </nav>
   </div>
 </header>

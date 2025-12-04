@@ -52,17 +52,17 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <meta name="description" content="Dealer resmi Isuzu Jakarta dengan harga terbaru & promo besar hari ini! Traga, ELF & GIGA tersedia. DP ringan, cicilan mudah, konsultasi gratis." />
 
   <!-- Canonical fixed -->
-  <link rel="canonical" href="https://salesisuzuofficial.com/contact" />
+  <link rel="canonical" href="https://isuzuindonesia.com/contact" />
 
   <!-- Favicon utama -->
-  <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://isuzuindonesia.com/faviconisuzu.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="https://isuzuindonesia.com/faviconisuzu.png">
 
   <!-- Favicon untuk browser (ICO multi-size) -->
-  <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
+  <link rel="icon" type="image/x-icon" href="https://isuzuindonesia.com/faviconisuzu.ico">
 
   <!-- Apple Touch Icon (iPhone/iPad) -->
-  <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
+  <link rel="apple-touch-icon" href="https://isuzuindonesia.com/faviconisuzu.png">
 
   <!-- Preconnect for speed -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -75,10 +75,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://salesisuzuofficial.com/#organization",
+        "@id": "https://isuzuindonesia.com/#organization",
         "name": "Dealer Resmi Isuzu Jakarta",
-        "url": "https://salesisuzuofficial.com/",
-        "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+        "url": "https://isuzuindonesia.com/",
+        "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
         "sameAs": [
           "https://www.facebook.com/",
           "https://www.instagram.com/",
@@ -87,26 +87,26 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       },
       {
         "@type": "WebSite",
-        "@id": "https://salesisuzuofficial.com/#website",
-        "url": "https://salesisuzuofficial.com/",
+        "@id": "https://isuzuindonesia.com/#website",
+        "url": "https://isuzuindonesia.com/",
         "name": "Dealer Resmi Isuzu Jakarta",
         "alternateName": "Sales Resmi Isuzu Jakarta",
         "publisher": {
-          "@id": "https://salesisuzuofficial.com/#organization"
+          "@id": "https://isuzuindonesia.com/#organization"
         },
         "potentialAction": {
           "@type": "SearchAction",
-          "target": "https://salesisuzuofficial.com/?s={search_term_string}",
+          "target": "https://isuzuindonesia.com/?s={search_term_string}",
           "query-input": "required name=search_term_string"
         }
       },
       {
         "@type": ["AutoDealer", "LocalBusiness"],
-        "@id": "https://salesisuzuofficial.com/#autodealer",
+        "@id": "https://isuzuindonesia.com/#autodealer",
         "name": "Dealer Resmi Isuzu Jakarta",
-        "url": "https://salesisuzuofficial.com/",
-        "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-        "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+        "url": "https://isuzuindonesia.com/",
+        "image": "https://isuzuindonesia.com/img/isuzu1.jpeg",
+        "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
         "description": "Dealer resmi Isuzu Jakarta dengan harga terbaru & promo besar hari ini. Tersedia Isuzu Traga, ELF, dan GIGA. DP ringan, cicilan fleksibel, pengiriman cepat, konsultasi GRATIS sekarang!",
         "telephone": "+6281296632186",
         "email": "salesisuzuofficial@gmail.com",
@@ -141,16 +141,16 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       },
       {
         "@type": "WebPage",
-        "@id": "https://salesisuzuofficial.com/contact#webpage",
-        "url": "https://salesisuzuofficial.com/contact",
+        "@id": "https://isuzuindonesia.com/contact#webpage",
+        "url": "https://isuzuindonesia.com/contact",
         "name": "Kontak Dealer Resmi Isuzu Jakarta | Promo Traga, ELF & GIGA",
         "description": "Hubungi dealer resmi Isuzu Jakarta untuk harga terbaru, promo Traga, ELF & GIGA, simulasi kredit, dan pemesanan cepat via WhatsApp.",
         "isPartOf": {
-          "@id": "https://salesisuzuofficial.com/#website"
+          "@id": "https://isuzuindonesia.com/#website"
         },
         "primaryImageOfPage": {
           "@type": "ImageObject",
-          "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+          "url": "https://isuzuindonesia.com/img/isuzu1.jpeg"
         }
       }
     ]
@@ -160,8 +160,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <!-- Open Graph -->
   <meta property="og:title" content="Hubungi Kami | Dealer Resmi Isuzu Jakarta" />
   <meta property="og:description" content="Dealer resmi Isuzu Jakarta dengan harga terbaru & promo besar hari ini! Traga, ELF & GIGA tersedia. DP ringan, cicilan mudah, konsultasi gratis." />
-  <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
-  <meta property="og:url" content="https://salesisuzuofficial.com/contact" />
+  <meta property="og:image" content="https://isuzuindonesia.com/img/isuzu1.jpeg" />
+  <meta property="og:url" content="https://isuzuindonesia.com/contact" />
   <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="id_ID" />
@@ -170,7 +170,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Hubungi Kami | Dealer Resmi Isuzu Jakarta" />
   <meta name="twitter:description" content="Dealer resmi Isuzu Jakarta dengan harga terbaru & promo besar hari ini! Traga, ELF & GIGA tersedia. DP ringan, cicilan mudah, konsultasi gratis." />
-  <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+  <meta name="twitter:image" content="https://isuzuindonesia.com/img/isuzu1.jpeg" />
 
   <!-- Robots -->
   <meta name="robots" content="index, follow" />
@@ -203,7 +203,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <div class="container header-content navbar">
       <!-- Logo -->
       <div class="header-title">
-        <a href="https://salesisuzuofficial.com">
+        <a href="https://isuzuindonesia.com">
           <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
         </a>
       </div>

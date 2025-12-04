@@ -18,7 +18,7 @@
             <a href="javascript:void(0)" target="_blank" aria-label="Instagram Isuzu Official">
               <i data-feather="instagram"></i>
             </a>
-            <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" target="_blank" aria-label="Whatsapp Isuzu Official">
+            <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20isuzuindonesia.com" target="_blank" aria-label="Whatsapp Isuzu Official">
               <i data-feather="phone"></i>
             </a>
             <a href="javascript:void(0)" target="_blank" aria-label="Facebook Isuzu Official">

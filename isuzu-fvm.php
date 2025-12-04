@@ -23,17 +23,17 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://salesisuzuofficial.com/isuzu-fvm" />
+    <link rel="canonical" href="https://isuzuindonesia.com/isuzu-fvm" />
 
     <!-- Favicon utama -->
-    <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://isuzuindonesia.com/faviconisuzu.png">
 
     <!-- Favicon untuk browser (ICO multi-size) -->
-    <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
+    <link rel="icon" type="image/x-icon" href="https://isuzuindonesia.com/faviconisuzu.ico">
 
     <!-- Apple Touch Icon (iPhone/iPad) -->
-    <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="apple-touch-icon" href="https://isuzuindonesia.com/faviconisuzu.png">
 
 
     <!-- FIXED JSON-LD (NO ERROR) -->
@@ -45,8 +45,8 @@
         {
           "@type": "Organization",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "url": "https://isuzuindonesia.com/",
+          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
           "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+6281296632186",
@@ -58,8 +58,8 @@
         {
           "@type": "AutoDealer",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://salesisuzuofficial.com/",
-          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "url": "https://isuzuindonesia.com/",
+          "image": "https://isuzuindonesia.com/img/isuzu1.jpeg",
           "telephone": "+6281296632186",
           "address": {
             "@type": "PostalAddress",
@@ -76,7 +76,7 @@
           "@type": "Product",
           "name": "Isuzu Giga FVM",
           "image": [
-            "https://salesisuzuofficial.com/img/product/fvm/headerfvm.webp"
+            "https://isuzuindonesia.com/img/product/fvm/headerfvm.webp"
           ],
           "description": "Isuzu Giga FVM adalah truk medium duty dengan mesin 6HK1 bertenaga besar, irit bahan bakar, dan tangguh untuk kebutuhan bisnis logistik dan konstruksi.",
           "brand": {
@@ -85,7 +85,7 @@
           },
           "offers": {
             "@type": "Offer",
-            "url": "https://salesisuzuofficial.com/isuzu-fvm",
+            "url": "https://isuzuindonesia.com/isuzu-fvm",
             "priceCurrency": "IDR",
             "price": "912000000",
             "availability": "https://schema.org/InStock",
@@ -99,11 +99,11 @@
         {
           "@type": "WebPage",
           "name": "Isuzu Giga FVM – Harga & Spesifikasi",
-          "url": "https://salesisuzuofficial.com/isuzu-fvm",
+          "url": "https://isuzuindonesia.com/isuzu-fvm",
           "description": "Spesifikasi lengkap, harga, dan promo Isuzu Giga FVM di Dealer Resmi Isuzu Jakarta.",
           "primaryImageOfPage": {
             "@type": "ImageObject",
-            "url": "https://salesisuzuofficial.com/img/product/fvm/headerfvm.webp"
+            "url": "https://isuzuindonesia.com/img/product/fvm/headerfvm.webp"
           }
         },
 
@@ -114,19 +114,19 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://salesisuzuofficial.com/"
+              "item": "https://isuzuindonesia.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Produk",
-              "item": "https://salesisuzuofficial.com/produk"
+              "item": "https://isuzuindonesia.com/produk"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Isuzu Giga FVM",
-              "item": "https://salesisuzuofficial.com/isuzu-fvm"
+              "item": "https://isuzuindonesia.com/isuzu-fvm"
             }
           ]
         }
@@ -138,8 +138,8 @@
     <!-- ================= OPEN GRAPH ISUZU GIGA FVM ================= -->
     <meta property="og:title" content="Isuzu Giga FVM – Harga & Spesifikasi | Dealer Resmi Isuzu Jakarta" />
     <meta property="og:description" content="Isuzu Giga FVM truk medium duty bertenaga besar, irit BBM, dan tangguh untuk bisnis. Dapatkan harga terbaik & promo kredit resmi Isuzu Jakarta." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/fvm/headerfvm.webp" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-fvm" />
+    <meta property="og:image" content="https://isuzuindonesia.com/img/product/fvm/headerfvm.webp" />
+    <meta property="og:url" content="https://isuzuindonesia.com/isuzu-fvm" />
     <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="product" />
 
@@ -147,7 +147,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Isuzu Giga FVM – Truk Medium Duty Tangguh & Irit" />
     <meta name="twitter:description" content="Lihat spesifikasi lengkap, harga terbaru, dan simulasi kredit Isuzu Giga FVM hanya di Dealer Resmi Isuzu Jakarta." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/fvm/headerfvm.webp" />
+    <meta name="twitter:image" content="https://isuzuindonesia.com/img/product/fvm/headerfvm.webp" />
 
 
     <!-- Robots -->
@@ -182,7 +182,7 @@
       <div class="container header-content navbar">
         <!-- Logo -->
         <div class="header-title">
-          <a href="https://salesisuzuofficial.com">
+          <a href="https://isuzuindonesia.com">
             <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
           </a>
         </div>

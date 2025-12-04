@@ -23,17 +23,17 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://salesisuzuofficial.com/isuzugiga" />
+    <link rel="canonical" href="https://isuzuindonesia.com/isuzugiga" />
 
     <!-- Favicon utama -->
-    <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://isuzuindonesia.com/faviconisuzu.png">
 
     <!-- Favicon untuk browser (ICO multi-size) -->
-    <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
+    <link rel="icon" type="image/x-icon" href="https://isuzuindonesia.com/faviconisuzu.ico">
 
     <!-- Apple Touch Icon (iPhone/iPad) -->
-    <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="apple-touch-icon" href="https://isuzuindonesia.com/faviconisuzu.png">
 
 
     <!-- FIXED JSON-LD (NO ERROR) -->
@@ -44,8 +44,8 @@
         {
           "@type": "Organization",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "url": "https://isuzuindonesia.com/",
+          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
           "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+6281296632186",
@@ -57,9 +57,9 @@
         {
           "@type": "AutoDealer",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "url": "https://isuzuindonesia.com/",
+          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
+          "image": "https://isuzuindonesia.com/img/isuzu1.jpeg",
           "description": "Dealer Resmi Isuzu Jakarta melayani penjualan Isuzu Traga, ELF, NLR, NMR dan GIGA dengan promo serta kredit.",
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
@@ -81,7 +81,7 @@
         },
         {
           "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
+          "url": "https://isuzuindonesia.com/",
           "name": "Dealer Resmi Isuzu Jakarta",
           "publisher": {
             "@type": "Organization",
@@ -90,8 +90,8 @@
         },
         {
           "@type": "WebPage",
-          "@id": "https://salesisuzuofficial.com/isuzugiga.php",
-          "url": "https://salesisuzuofficial.com/isuzugiga.php",
+          "@id": "https://isuzuindonesia.com/isuzugiga",
+          "url": "https://isuzuindonesia.com/isuzugiga",
           "name": "Isuzu GIGA – Dealer Resmi Isuzu Jakarta",
           "description": "Halaman resmi penjualan Isuzu GIGA FRR, FTR, FVR, FVM, FVZ dan Tractor Head. Harga terbaru & promo dealer resmi."
         },
@@ -102,19 +102,19 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://salesisuzuofficial.com/"
+              "item": "https://isuzuindonesia.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Produk",
-              "item": "https://salesisuzuofficial.com/produk.php"
+              "item": "https://isuzuindonesia.com/produk"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Isuzu GIGA",
-              "item": "https://salesisuzuofficial.com/isuzugiga.php"
+              "item": "https://isuzuindonesia.com/isuzugiga"
             }
           ]
         },
@@ -122,12 +122,12 @@
           "@type": "Product",
           "name": "Isuzu GIGA",
           "image": [
-            "https://salesisuzuofficial.com/img/product/frr/isuzu-giga-frr.png",
-            "https://salesisuzuofficial.com/img/product/ftr/isuzu-giga-ftr.png",
-            "https://salesisuzuofficial.com/img/product/fvr/isuzugigafvr.png",
-            "https://salesisuzuofficial.com/img/product/fvm/isuzugigafvm.png",
-            "https://salesisuzuofficial.com/img/product/fvz/isuzugigafvz.png",
-            "https://salesisuzuofficial.com/img/product/th/isuzugigath.png"
+            "https://isuzuindonesia.com/img/product/frr/isuzu-giga-frr.png",
+            "https://isuzuindonesia.com/img/product/ftr/isuzu-giga-ftr.png",
+            "https://isuzuindonesia.com/img/product/fvr/isuzugigafvr.png",
+            "https://isuzuindonesia.com/img/product/fvm/isuzugigafvm.png",
+            "https://isuzuindonesia.com/img/product/fvz/isuzugigafvz.png",
+            "https://isuzuindonesia.com/img/product/th/isuzugigath.png"
           ],
           "description": "Isuzu GIGA merupakan truk medium & heavy duty untuk kebutuhan logistik, konstruksi, dan industri dengan mesin bertenaga dan irit.",
           "brand": {
@@ -136,7 +136,7 @@
           },
           "offers": {
             "@type": "Offer",
-            "url": "https://salesisuzuofficial.com/isuzugiga.php",
+            "url": "https://isuzuindonesia.com/isuzugiga",
             "priceCurrency": "IDR",
             "price": "621000000",
             "availability": "https://schema.org/InStock",
@@ -154,8 +154,8 @@
     <!-- ================= ISUZU GIGA OPEN GRAPH ================= -->
     <meta property="og:title" content="Isuzu GIGA – Harga & Promo Terbaru Dealer Resmi Jakarta" />
     <meta property="og:description" content="Dealer Resmi Isuzu Jakarta menyediakan Isuzu GIGA FRR, FTR, FVR, FVM, FVZ & Tractor Head. Harga terbaru & promo kredit tersedia." />
-    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/frr/isuzu-giga-frr.png" />
-    <meta property="og:url" content="https://salesisuzuofficial.com/isuzugiga.php" />
+    <meta property="og:image" content="https://isuzuindonesia.com/img/product/frr/isuzu-giga-frr.png" />
+    <meta property="og:url" content="https://isuzuindonesia.com/isuzugiga" />
     <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="website" />
 
@@ -163,7 +163,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Isuzu GIGA – Harga & Promo Dealer Resmi Jakarta" />
     <meta name="twitter:description" content="Dapatkan harga terbaik Isuzu GIGA di Dealer Resmi Isuzu Jakarta. Promo & kredit ringan tersedia." />
-    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/frr/isuzu-giga-frr.png" />
+    <meta name="twitter:image" content="https://isuzuindonesia.com/img/product/frr/isuzu-giga-frr.png" />
 
 
     <!-- Robots -->
@@ -197,7 +197,7 @@
       <div class="container header-content navbar">
         <!-- Logo -->
         <div class="header-title">
-          <a href="https://salesisuzuofficial.com">
+          <a href="https://isuzuindonesia.com">
             <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
           </a>
         </div>
