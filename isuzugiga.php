@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="id">
   <head>
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV2MJHYKCB"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17737236287"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-TV2MJHYKCB');
+
+      gtag('config', 'AW-17737236287');
     </script>
+
+    <!-- Event snippet for Website lead conversion page -->
+    <script>
+      gtag('event', 'conversion', {'send_to': 'AW-17737236287/arbmCI6H8MwbEL_-4olC'});
+    </script>
+
+
 
     <!-- Basic Meta -->
     <meta charset="UTF-8" />
