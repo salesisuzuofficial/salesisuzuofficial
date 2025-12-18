@@ -31,17 +31,17 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://isuzuindonesia.com/isuzuelf" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/isuzuelf" />
 
     <!-- Favicon utama -->
-    <link rel="icon" type="image/png" sizes="32x32" href="https://isuzuindonesia.com/faviconisuzu.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
     <!-- Favicon untuk browser (ICO multi-size) -->
-    <link rel="icon" type="image/x-icon" href="https://isuzuindonesia.com/faviconisuzu.ico">
+    <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
 
     <!-- Apple Touch Icon (iPhone/iPad) -->
-    <link rel="apple-touch-icon" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
     <!-- Schema JSOn -->
     <script type="application/ld+json">
@@ -51,8 +51,8 @@
         {
           "@type": "Organization",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://isuzuindonesia.com/",
-          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
+          "url": "https://salesisuzuofficial.com/",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+6281296632186",
@@ -64,9 +64,9 @@
         {
           "@type": "AutoDealer",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://isuzuindonesia.com/",
-          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
-          "image": "https://isuzuindonesia.com/img/isuzu1.jpeg",
+          "url": "https://salesisuzuofficial.com/",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "description": "Dealer Resmi Isuzu Jakarta melayani penjualan Traga, ELF, NLR, NMR, dan GIGA. Promo dan kredit tersedia.",
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
@@ -88,7 +88,7 @@
         },
         {
           "@type": "WebSite",
-          "url": "https://isuzuindonesia.com/",
+          "url": "https://salesisuzuofficial.com/",
           "name": "Dealer Resmi Isuzu Jakarta",
           "publisher": {
             "@type": "Organization",
@@ -97,8 +97,8 @@
         },
         {
           "@type": "WebPage",
-          "@id": "https://isuzuindonesia.com/isuzuelf",
-          "url": "https://isuzuindonesia.com/isuzuelf",
+          "@id": "https://salesisuzuofficial.com/isuzuelf",
+          "url": "https://salesisuzuofficial.com/isuzuelf",
           "name": "Isuzu ELF NMR & NLR – Dealer Resmi Isuzu Jakarta",
           "description": "Halaman resmi penjualan Isuzu ELF NMR & NLR dari dealer Astra Isuzu Jakarta. Tersedia harga terbaru dan promo kredit."
         },
@@ -109,19 +109,19 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://isuzuindonesia.com/"
+              "item": "https://salesisuzuofficial.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Produk",
-              "item": "https://isuzuindonesia.com/produk"
+              "item": "https://salesisuzuofficial.com/produk"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Isuzu ELF",
-              "item": "https://isuzuindonesia.com/isuzuelf"
+              "item": "https://salesisuzuofficial.com/isuzuelf"
             }
           ]
         },
@@ -129,8 +129,8 @@
           "@type": "Product",
           "name": "Isuzu ELF NMR & NLR",
           "image": [
-            "https://isuzuindonesia.com/img/product/nmr/nmrhead.webp",
-            "https://isuzuindonesia.com/img/product/nlr/nlrbanner.webp"
+            "https://salesisuzuofficial.com/img/product/nmr/nmrhead.webp",
+            "https://salesisuzuofficial.com/img/product/nlr/nlrbanner.webp"
           ],
           "description": "Isuzu ELF NMR dan NLR adalah truk ringan tangguh untuk distribusi dan bisnis harian dengan mesin irit dan bertenaga.",
           "brand": {
@@ -139,7 +139,7 @@
           },
           "offers": {
             "@type": "Offer",
-            "url": "https://isuzuindonesia.com/isuzuelf",
+            "url": "https://salesisuzuofficial.com/isuzuelf",
             "priceCurrency": "IDR",
             "price": "400000000",
             "availability": "https://schema.org/InStock",
@@ -156,8 +156,8 @@
     <!-- ========== OPEN GRAPH ISUZU ELF ========== -->
     <meta property="og:title" content="Isuzu ELF NMR & NLR – Harga & Promo Terbaru Jakarta" />
     <meta property="og:description" content="Dealer Resmi Isuzu Jakarta menyediakan Isuzu ELF NMR & NLR. Harga terbaru, promo menarik, dan kredit ringan tersedia." />
-    <meta property="og:image" content="https://isuzuindonesia.com/img/product/nmr/nmrhead.webp" />
-    <meta property="og:url" content="https://isuzuindonesia.com/isuzuelf" />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/nmr/nmrhead.webp" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/isuzuelf" />
     <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="website" />
 
@@ -165,7 +165,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Isuzu ELF NMR & NLR – Harga Terbaru Jakarta" />
     <meta name="twitter:description" content="Dapatkan harga terbaik Isuzu ELF NMR & NLR di Dealer Resmi Isuzu Jakarta. Promo dan kredit tersedia." />
-    <meta name="twitter:image" content="https://isuzuindonesia.com/img/product/nmr/nmrhead.webp" />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/nmr/nmrhead.webp" />
 
 
     <!-- Robots -->
@@ -199,7 +199,7 @@
       <div class="container header-content navbar">
         <!-- Logo -->
         <div class="header-title">
-          <a href="https://isuzuindonesia.com">
+          <a href="https://salesisuzuofficial.com">
             <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
           </a>
         </div>

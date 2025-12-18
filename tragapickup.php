@@ -31,17 +31,17 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://isuzuindonesia.com/tragapickup" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/tragapickup" />
 
     <!-- Favicon utama -->
-    <link rel="icon" type="image/png" sizes="32x32" href="https://isuzuindonesia.com/faviconisuzu.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
     <!-- Favicon untuk browser (ICO multi-size) -->
-    <link rel="icon" type="image/x-icon" href="https://isuzuindonesia.com/faviconisuzu.ico">
+    <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
 
     <!-- Apple Touch Icon (iPhone/iPad) -->
-    <link rel="apple-touch-icon" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
 
     <!-- ================= OPTIMIZED JSON-LD FOR SEO ================= -->
@@ -52,8 +52,8 @@
         {
           "@type": "Organization",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://isuzuindonesia.com/",
-          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
+          "url": "https://salesisuzuofficial.com/",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "sameAs": [
             "https://www.facebook.com/salesisuzuofficial",
             "https://www.instagram.com/salesisuzuofficial",
@@ -62,23 +62,23 @@
         },
         {
           "@type": "WebSite",
-          "url": "https://isuzuindonesia.com/",
+          "url": "https://salesisuzuofficial.com/",
           "name": "Dealer Resmi Isuzu Jakarta",
           "publisher": {
             "@type": "Organization",
             "name": "Dealer Resmi Isuzu Jakarta",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://isuzuindonesia.com/img/isuzu1.jpeg"
+              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
             }
           }
         },
         {
           "@type": "AutoDealer",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://isuzuindonesia.com/tragapickup",
-          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
-          "image": "https://isuzuindonesia.com/img/product/traga/traga-slide-01.jpg",
+          "url": "https://salesisuzuofficial.com/tragapickup",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "image": "https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg",
           "description": "Isuzu Traga Pick Up FD resmi dari Astra Jakarta. Harga terbaru, promo, kredit, dan info spesifikasi lengkap tersedia.",
           "address": {
             "@type": "PostalAddress",
@@ -96,9 +96,9 @@
           "@type": "Product",
           "name": "Isuzu Traga Pick Up FD",
           "image": [
-            "https://isuzuindonesia.com/img/product/traga/traga-slide-01.jpg",
-            "https://isuzuindonesia.com/img/product/traga/traga-engine1.webp",
-            "https://isuzuindonesia.com/img/product/traga/traga-euro2.webp"
+            "https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg",
+            "https://salesisuzuofficial.com/img/product/traga/traga-engine1.webp",
+            "https://salesisuzuofficial.com/img/product/traga/traga-euro2.webp"
           ],
           "description": "Isuzu Traga Pick Up FD resmi dari Astra Jakarta. Mesin bertenaga, irit bahan bakar, dan kargo luas. Tersedia promo, kredit, dan harga terbaru.",
           "brand": {
@@ -109,7 +109,7 @@
           "mpn": "TRAGA-FD-2025",
           "offers": {
             "@type": "Offer",
-            "url": "https://isuzuindonesia.com/tragapickup",
+            "url": "https://salesisuzuofficial.com/tragapickup",
             "priceCurrency": "IDR",
             "price": "285000000",
             "availability": "https://schema.org/InStock",
@@ -132,16 +132,16 @@
     <!-- ================= OPTIMIZED OG & TWITTER ================= -->
     <meta property="og:title" content="Isuzu Traga Pick Up FD – Dealer Resmi Isuzu Jakarta" />
     <meta property="og:description" content="Dapatkan Isuzu Traga Pick Up FD resmi dari Astra Jakarta. Info harga, promo, kredit, spesifikasi mesin Euro 4 dan kargo luas." />
-    <meta property="og:image" content="https://isuzuindonesia.com/img/product/traga/traga-slide-01.jpg" />
-    <meta property="og:url" content="https://isuzuindonesia.com/tragapickup" />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/tragapickup" />
     <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="product" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Isuzu Traga Pick Up FD – Dealer Resmi Isuzu Jakarta" />
     <meta name="twitter:description" content="Dapatkan promo dan kredit Isuzu Traga Pick Up FD resmi Astra Jakarta. Spesifikasi mesin Euro 4, kargo luas, dan harga terbaru." />
-    <meta name="twitter:image" content="https://isuzuindonesia.com/img/product/traga/traga-slide-01.jpg" />
-    <meta name="twitter:url" content="https://isuzuindonesia.com/tragapickup" />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg" />
+    <meta name="twitter:url" content="https://salesisuzuofficial.com/tragapickup" />
 
 
     <!-- Robots -->
@@ -176,7 +176,7 @@
       <div class="container header-content navbar">
         <!-- Logo -->
         <div class="header-title">
-          <a href="https://isuzuindonesia.com">
+          <a href="https://salesisuzuofficial.com">
             <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
           </a>
         </div>

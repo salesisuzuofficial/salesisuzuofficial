@@ -10,8 +10,8 @@ if (session_status() === PHP_SESSION_NONE) {
 // Konfigurasi Database
 // =======================
 $db_host = getenv('DB_HOST') ?: 'localhost';
-$db_name = getenv('DB_NAME') ?: 'u166903321_isuzuofficial';
-$db_user = getenv('DB_USER') ?: 'u166903321_isuzuofficial';
+$db_name = getenv('DB_NAME') ?: 'u166903321_isuzuofficial1';
+$db_user = getenv('DB_USER') ?: 'u166903321_isuzuofficial1';
 $db_pass = getenv('DB_PASS') ?: 'Isuzuoff1c1al22!""'; // ✔ tetap hanya sebagai fallback
 
 $dsn = "mysql:host={$db_host};dbname={$db_name};charset=utf8mb4";

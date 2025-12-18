@@ -31,17 +31,17 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://isuzuindonesia.com/tragabox" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/tragabox" />
 
     <!-- Favicon utama -->
-    <link rel="icon" type="image/png" sizes="32x32" href="https://isuzuindonesia.com/faviconisuzu.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
     <!-- Favicon untuk browser (ICO multi-size) -->
-    <link rel="icon" type="image/x-icon" href="https://isuzuindonesia.com/faviconisuzu.ico">
+    <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
 
     <!-- Apple Touch Icon (iPhone/iPad) -->
-    <link rel="apple-touch-icon" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
 
     <!-- FIXED JSON-LD (NO ERROR) -->
@@ -53,15 +53,15 @@
         {
           "@type": "Organization",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://isuzuindonesia.com/",
-          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg"
+          "url": "https://salesisuzuofficial.com/",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
         },
 
         {
           "@type": "AutoDealer",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "image": "https://isuzuindonesia.com/img/isuzu1.jpeg",
-          "url": "https://isuzuindonesia.com/",
+          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "url": "https://salesisuzuofficial.com/",
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
           "priceRange": "IDR",
@@ -80,9 +80,9 @@
           "@type": "Product",
           "name": "Isuzu Traga Box",
           "image": [
-            "https://isuzuindonesia.com/img/product/traga/traga-slide-01.jpg",
-            "https://isuzuindonesia.com/img/product/traga/traga-kargo.webp",
-            "https://isuzuindonesia.com/img/product/traga/traga-engine1.webp"
+            "https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg",
+            "https://salesisuzuofficial.com/img/product/traga/traga-kargo.webp",
+            "https://salesisuzuofficial.com/img/product/traga/traga-engine1.webp"
           ],
           "description": "Isuzu Traga Box Euro 4 dengan mesin 2500cc Common Rail, kargo terluas di kelasnya, irit bahan bakar, cocok untuk usaha distribusi.",
           "brand": {
@@ -90,10 +90,10 @@
             "name": "Isuzu"
           },
           "sku": "TRAGA-BOX-EURO4",
-          "url": "https://isuzuindonesia.com/tragabox",
+          "url": "https://salesisuzuofficial.com/tragabox",
           "offers": {
             "@type": "Offer",
-            "url": "https://isuzuindonesia.com/tragabox",
+            "url": "https://salesisuzuofficial.com/tragabox",
             "priceCurrency": "IDR",
             "availability": "https://schema.org/InStock",
             "seller": {
@@ -110,19 +110,19 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://isuzuindonesia.com/"
+              "item": "https://salesisuzuofficial.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Produk",
-              "item": "https://isuzuindonesia.com/produk"
+              "item": "https://salesisuzuofficial.com/produk"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Isuzu Traga Box",
-              "item": "https://isuzuindonesia.com/tragabox"
+              "item": "https://salesisuzuofficial.com/tragabox"
             }
           ]
         },
@@ -165,8 +165,8 @@
     <!-- OPEN GRAPH TRAGA BOX -->
     <meta property="og:title" content="Isuzu Traga Box Jakarta – Harga & Kredit Dealer Resmi" />
     <meta property="og:description" content="Isuzu Traga Box resmi Astra Jakarta. Mesin Euro 4, kargo terluas, cocok untuk usaha. Promo DP ringan & kredit cepat tersedia." />
-    <meta property="og:image" content="https://isuzuindonesia.com/img/product/traga/traga-slide-01.jpg" />
-    <meta property="og:url" content="https://isuzuindonesia.com/tragabox" />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/tragabox" />
     <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="product" />
     <meta property="og:locale" content="id_ID" />
@@ -175,7 +175,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Isuzu Traga Box Jakarta – Harga & Kredit Dealer Resmi" />
     <meta name="twitter:description" content="Lihat spesifikasi lengkap Isuzu Traga Box Euro 4. Cocok untuk usaha, DP ringan & promo tersedia." />
-    <meta name="twitter:image" content="https://isuzuindonesia.com/img/product/traga/traga-slide-01.jpg" />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg" />
 
 
     <!-- Robots -->
@@ -210,7 +210,7 @@
       <div class="container header-content navbar">
         <!-- Logo -->
         <div class="header-title">
-          <a href="https://isuzuindonesia.com">
+          <a href="https://salesisuzuofficial.com">
             <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
           </a>
         </div>

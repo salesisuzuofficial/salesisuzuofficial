@@ -31,17 +31,17 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://isuzuindonesia.com/produk" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/produk" />
 
     <!-- Favicon utama -->
-    <link rel="icon" type="image/png" sizes="32x32" href="https://isuzuindonesia.com/faviconisuzu.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
     <!-- Favicon untuk browser (ICO multi-size) -->
-    <link rel="icon" type="image/x-icon" href="https://isuzuindonesia.com/faviconisuzu.ico">
+    <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
 
     <!-- Apple Touch Icon (iPhone/iPad) -->
-    <link rel="apple-touch-icon" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
 
     <!-- FIXED JSON-LD (NO ERROR) -->
@@ -53,11 +53,11 @@
         {
           "@type": "WebSite",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://isuzuindonesia.com/",
+          "url": "https://salesisuzuofficial.com/",
           "alternateName": "Sales Isuzu Jakarta",
           "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://isuzuindonesia.com/?s={search_term_string}",
+            "target": "https://salesisuzuofficial.com/?s={search_term_string}",
             "query-input": "required name=search_term_string"
           }
         },
@@ -65,15 +65,15 @@
         {
           "@type": "Organization",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://isuzuindonesia.com/",
-          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg"
+          "url": "https://salesisuzuofficial.com/",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
         },
 
         {
           "@type": "AutoDealer",
           "name": "Dealer Resmi Isuzu Jakarta - Dedy Chandra",
-          "url": "https://isuzuindonesia.com/",
-          "image": "https://isuzuindonesia.com/img/isuzu1.jpeg",
+          "url": "https://salesisuzuofficial.com/",
+          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
           "priceRange": "IDR",
@@ -95,20 +95,20 @@
         {
           "@type": "CollectionPage",
           "name": "Produk Isuzu Jakarta",
-          "url": "https://isuzuindonesia.com/produk",
+          "url": "https://salesisuzuofficial.com/produk",
           "description": "Daftar lengkap produk Isuzu Jakarta: Traga, Elf NLR/NMR, Giga FRR, FTR, FVR, FVM, FVZ, Tractor Head, Microbus, hingga D-MAX.",
           "mainEntity": {
             "@type": "ItemList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Isuzu Traga", "url": "https://isuzuindonesia.com/isuzutraga" },
-              { "@type": "ListItem", "position": 2, "name": "Isuzu NLR", "url": "https://isuzuindonesia.com/isuzu-nlr" },
-              { "@type": "ListItem", "position": 3, "name": "Isuzu NMR", "url": "https://isuzuindonesia.com/isuzu-nmr" },
-              { "@type": "ListItem", "position": 4, "name": "Isuzu FRR", "url": "https://isuzuindonesia.com/isuzu-frr" },
-              { "@type": "ListItem", "position": 5, "name": "Isuzu FTR", "url": "https://isuzuindonesia.com/isuzu-ftr" },
-              { "@type": "ListItem", "position": 6, "name": "Isuzu FVR", "url": "https://isuzuindonesia.com/isuzu-fvr" },
-              { "@type": "ListItem", "position": 7, "name": "Isuzu FVM", "url": "https://isuzuindonesia.com/isuzu-fvm" },
-              { "@type": "ListItem", "position": 8, "name": "Isuzu FVZ", "url": "https://isuzuindonesia.com/isuzu-fvz" },
-              { "@type": "ListItem", "position": 9, "name": "Isuzu Tractor Head", "url": "https://isuzuindonesia.com/isuzu-tractor-head" }
+              { "@type": "ListItem", "position": 1, "name": "Isuzu Traga", "url": "https://salesisuzuofficial.com/isuzutraga" },
+              { "@type": "ListItem", "position": 2, "name": "Isuzu NLR", "url": "https://salesisuzuofficial.com/isuzu-nlr" },
+              { "@type": "ListItem", "position": 3, "name": "Isuzu NMR", "url": "https://salesisuzuofficial.com/isuzu-nmr" },
+              { "@type": "ListItem", "position": 4, "name": "Isuzu FRR", "url": "https://salesisuzuofficial.com/isuzu-frr" },
+              { "@type": "ListItem", "position": 5, "name": "Isuzu FTR", "url": "https://salesisuzuofficial.com/isuzu-ftr" },
+              { "@type": "ListItem", "position": 6, "name": "Isuzu FVR", "url": "https://salesisuzuofficial.com/isuzu-fvr" },
+              { "@type": "ListItem", "position": 7, "name": "Isuzu FVM", "url": "https://salesisuzuofficial.com/isuzu-fvm" },
+              { "@type": "ListItem", "position": 8, "name": "Isuzu FVZ", "url": "https://salesisuzuofficial.com/isuzu-fvz" },
+              { "@type": "ListItem", "position": 9, "name": "Isuzu Tractor Head", "url": "https://salesisuzuofficial.com/isuzu-tractor-head" }
             ]
           }
         },
@@ -120,13 +120,13 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://isuzuindonesia.com/"
+              "item": "https://salesisuzuofficial.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Produk Isuzu",
-              "item": "https://isuzuindonesia.com/produk"
+              "item": "https://salesisuzuofficial.com/produk"
             }
           ]
         }
@@ -139,8 +139,8 @@
     <!-- OPEN GRAPH PRODUK ISUZU -->
     <meta property="og:title" content="Produk Isuzu Jakarta – Harga Terbaru & Promo Resmi Dealer" />
     <meta property="og:description" content="Lihat daftar lengkap produk Isuzu Jakarta: Traga, NLR, NMR, FRR, FTR, FVR, FVM, FVZ, Tractor Head, Microbus, hingga D-MAX. Harga terbaru, promo & kredit mudah." />
-    <meta property="og:image" content="https://isuzuindonesia.com/img/hero3.webp" />
-    <meta property="og:url" content="https://isuzuindonesia.com/produk" />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/hero3.webp" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/produk" />
     <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="website" />
 
@@ -148,7 +148,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Produk Isuzu Jakarta – Harga Terbaru & Promo Resmi Dealer" />
     <meta name="twitter:description" content="Dealer Resmi Isuzu Jakarta. Tersedia Traga, Elf NLR/NMR, Giga FRR–FVZ, Tractor Head, Microbus, D-MAX. Promo & kredit cepat." />
-    <meta name="twitter:image" content="https://isuzuindonesia.com/img/hero3.webp" />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/hero3.webp" />
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
@@ -180,7 +180,7 @@
       <div class="container header-content navbar">
         <!-- Logo -->
         <div class="header-title">
-          <a href="https://isuzuindonesia.com">
+          <a href="https://salesisuzuofficial.com">
             <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
           </a>
         </div>

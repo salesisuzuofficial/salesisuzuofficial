@@ -10,7 +10,9 @@ RewriteBase /
 # --------------------------
 # Force HTTPS
 RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 
 # --------------------------
 # SEO Friendly URL (detail_artikel)
@@ -73,18 +75,6 @@ RewriteRule .* - [F,L]
 <IfModule mod_headers.c>
     Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
 </IfModule>
-
-# ===========================
-# Allow Google Ads & Googlebot user-agent
-# ===========================
-
-SetEnvIfNoCase User-Agent "AdsBot-Google" allow_googlebot
-SetEnvIfNoCase User-Agent "Googlebot" allow_googlebot
-
-<RequireAll>
-    Require all granted
-    Require expr %{ENV:allow_googlebot} == '1'
-</RequireAll>
 
 # ===========================
 # End of config

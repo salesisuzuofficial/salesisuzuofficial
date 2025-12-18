@@ -58,7 +58,7 @@ try {
     <meta name="description" content="Dealer resmi Isuzu Jakarta dengan harga terbaru & promo besar hari ini! Traga, ELF & GIGA tersedia. DP ringan, cicilan mudah, konsultasi gratis." />
     <meta name="keywords" content="sales isuzu, dealer isuzu jakarta, dealer isuzu resmi, promo isuzu terbaru, harga isuzu, harga isuzu traga, isuzu traga pick up, isuzu traga box, isuzu elf, isuzu giga, isuzu jabodetabek, astra isuzu" />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://isuzuindonesia.com/" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/faviconisuzu.png">
@@ -92,19 +92,19 @@ try {
         {
         "@type": "WebSite",
         "name": "Dealer Resmi Isuzu Jakarta",
-        "url": "https://isuzuindonesia.com/",
+        "url": "https://salesisuzuofficial.com/",
         "alternateName": "Dealer Isuzu Jakarta",
         "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://isuzuindonesia.com/?s={search_term_string}",
+            "target": "https://salesisuzuofficial.com/?s={search_term_string}",
             "query-input": "required name=search_term_string"
         }
         },
         {
         "@type": "Organization",
         "name": "Dealer Resmi Isuzu Jakarta",
-        "url": "https://isuzuindonesia.com/",
-        "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
+        "url": "https://salesisuzuofficial.com/",
+        "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+6281296632186",
@@ -116,8 +116,8 @@ try {
         {
         "@type": "AutoDealer",
         "name": "Dealer Resmi Isuzu Jakarta",
-        "image": "https://isuzuindonesia.com/img/isuzu1.jpeg",
-        "url": "https://isuzuindonesia.com/",
+        "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+        "url": "https://salesisuzuofficial.com/",
         "telephone": "+6281296632186",
         "email": "salesisuzuofficial@gmail.com",
         "priceRange": "IDR",
@@ -182,8 +182,8 @@ try {
     <!-- Open Graph -->
     <meta property="og:title" content="Dealer Resmi Isuzu Jakarta | Harga Terbaru & Promo Hari Ini" />
     <meta property="og:description" content="Dealer resmi Isuzu Jakarta dengan harga terbaru & promo besar hari ini! Traga, ELF & GIGA tersedia. DP ringan, cicilan mudah, konsultasi gratis." />
-    <meta property="og:image" content="https://isuzuindonesia.com/img/isuzu1.jpeg" />
-    <meta property="og:url" content="https://isuzuindonesia.com/" />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="id_ID" />
 
@@ -191,7 +191,7 @@ try {
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Dealer Resmi Isuzu Jakarta | Harga Terbaru & Promo Hari Ini" />
     <meta name="twitter:description" content="Dealer resmi Isuzu Jakarta dengan harga terbaru & promo besar hari ini! Traga, ELF & GIGA tersedia. DP ringan, cicilan mudah, konsultasi gratis." />
-    <meta name="twitter:image" content="https://isuzuindonesia.com/img/isuzu1.jpeg" />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
 
     <!-- Feather Icons -->
     <script src="/js/feather.min.js"></script>
@@ -211,7 +211,7 @@ try {
     <header>
         <div class="container header-content navbar">
             <div class="header-title">
-                <a href="https://isuzuindonesia.com">
+                <a href="https://salesisuzuofficial.com">
                     <img src="img/logo.png" alt="Logo Dealer Isuzu Astra Jakarta" style="height: 55px" />
                 </a>
             </div>
@@ -265,7 +265,7 @@ try {
                     </p>
 
                     <div class="contact-buttons">
-                        <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20isuzuindonesia.com" class="btn whatsapp-btn" aria-label="Hubungi via WhatsApp">
+                        <a href="https://wa.me/6281296632186?text=Halo%20Chandra%2C%20Saya%20tertarik%20dengan%20mobil%20Isuzu%20dari%20website%20salesisuzuofficial.com" class="btn whatsapp-btn" aria-label="Hubungi via WhatsApp">
                             <i class="fab fa-whatsapp" aria-hidden="true"></i> Whatsapp
                         </a>
                         <a href="mailto:dedychandra99@gmail.com" class="btn email-btn" aria-label="Kirim Email">
@@ -413,7 +413,7 @@ try {
                         ?>
                         <div class="blog-card">
                             <img 
-                                src="https://isuzuindonesia.com/uploads/artikel/<?= htmlspecialchars($artikel['gambar']) ?>" 
+                                src="https://salesisuzuofficial.com/uploads/artikel/<?= htmlspecialchars($artikel['gambar']) ?>" 
                                 alt="<?= htmlspecialchars($artikel['judul']) ?>" 
                                 loading="lazy" 
                             />

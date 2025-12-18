@@ -10,11 +10,11 @@ if ($page < 1) $page = 1;
 $perPage = 6;
 
 // Ambil data kategori (cek error fetching)
-$kategoriJson = @file_get_contents("https://isuzuindonesia.com/admin/api/get_kategori.php");
+$kategoriJson = @file_get_contents("https://salesisuzuofficial.com/admin/api/get_kategori.php");
 $kategoriData = $kategoriJson ? json_decode($kategoriJson, true) : [];
 
 // Bangun URL API dengan filter (pakai rawurlencode)
-$apiUrl = "https://isuzuindonesia.com/admin/api/get_artikel.php";
+$apiUrl = "https://salesisuzuofficial.com/admin/api/get_artikel.php";
 $params = [];
 if ($search !== '') {
     $params[] = "search=" . rawurlencode($search);
@@ -38,7 +38,7 @@ $artikel = array_slice($artikelData, $offset, $perPage);
 
 // Canonical & OG URL logic
 // Canonical untuk halaman daftar: /artikel (tambahkan ?search/kategori/page jika ada)
-$canonicalBase = 'https://isuzuindonesia.com/artikel';
+$canonicalBase = 'https://salesisuzuofficial.com/artikel';
 
 $canonical = $canonicalBase;
 
@@ -107,14 +107,14 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
     <?php endif; ?>
 
     <!-- Favicon utama -->
-    <link rel="icon" type="image/png" sizes="32x32" href="https://isuzuindonesia.com/faviconisuzu.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
     <!-- Favicon untuk browser (ICO multi-size) -->
-    <link rel="icon" type="image/x-icon" href="https://isuzuindonesia.com/faviconisuzu.ico">
+    <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
 
     <!-- Apple Touch Icon (iPhone/iPad) -->
-    <link rel="apple-touch-icon" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
     <!-- ✅ SEO Optimized Article & Blog Schema for artikel.php -->
     <script type="application/ld+json">
@@ -124,12 +124,12 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
 
         {
         "@type": "Organization",
-        "@id": "https://isuzuindonesia.com/#organization",
+        "@id": "https://salesisuzuofficial.com/#organization",
         "name": "Dealer Resmi Isuzu Jakarta",
-        "url": "https://isuzuindonesia.com/",
+        "url": "https://salesisuzuofficial.com/",
         "logo": {
             "@type": "ImageObject",
-            "url": "https://isuzuindonesia.com/img/isuzu1.jpeg"
+            "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
         },
         "sameAs": [
             "https://www.facebook.com/",
@@ -139,25 +139,25 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
 
         {
         "@type": "WebSite",
-        "@id": "https://isuzuindonesia.com/#website",
-        "url": "https://isuzuindonesia.com/",
+        "@id": "https://salesisuzuofficial.com/#website",
+        "url": "https://salesisuzuofficial.com/",
         "name": "Dealer Resmi Isuzu Jakarta",
         "publisher": {
-            "@id": "https://isuzuindonesia.com/#organization"
+            "@id": "https://salesisuzuofficial.com/#organization"
         },
         "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://isuzuindonesia.com/?s={search_term_string}",
+            "target": "https://salesisuzuofficial.com/?s={search_term_string}",
             "query-input": "required name=search_term_string"
         }
         },
 
         {
         "@type": "AutoDealer",
-        "@id": "https://isuzuindonesia.com/#dealer",
+        "@id": "https://salesisuzuofficial.com/#dealer",
         "name": "Dealer Resmi Isuzu Jakarta",
-        "image": "https://isuzuindonesia.com/img/isuzu1.jpeg",
-        "url": "https://isuzuindonesia.com/",
+        "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+        "url": "https://salesisuzuofficial.com/",
         "telephone": "+6281296632186",
         "email": "salesisuzuofficial@gmail.com",
         "priceRange": "IDR",
@@ -180,12 +180,12 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
 
         {
         "@type": "WebPage",
-        "@id": "https://isuzuindonesia.com/artikel#webpage",
-        "url": "https://isuzuindonesia.com/artikel",
+        "@id": "https://salesisuzuofficial.com/artikel#webpage",
+        "url": "https://salesisuzuofficial.com/artikel",
         "name": "Artikel & Berita Truk Isuzu Terbaru",
         "description": "Kumpulan artikel, tips perawatan, harga, promo dan berita terbaru seputar truk Isuzu di Jakarta & sekitarnya.",
         "isPartOf": {
-            "@id": "https://isuzuindonesia.com/#website"
+            "@id": "https://salesisuzuofficial.com/#website"
         }
         }
 
@@ -196,7 +196,7 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
     <!-- Open Graph -->
     <meta property="og:title" content="Berita Terbaru Isuzu – Dealer Resmi Isuzu Jakarta" />
     <meta property="og:description" content="<?= htmlspecialchars($metaDescription, ENT_QUOTES); ?>" />
-    <meta property="og:image" content="https://isuzuindonesia.com/img/isuzu1.jpeg" />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
     <meta property="og:image:alt" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -209,7 +209,7 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Berita Terbaru Isuzu – Dealer Resmi Isuzu Jakarta" />
     <meta name="twitter:description" content="<?= htmlspecialchars($metaDescription, ENT_QUOTES); ?>" />
-    <meta name="twitter:image" content="https://isuzuindonesia.com/img/isuzu1.jpeg" />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/isuzu1.jpeg" />
     <meta name="twitter:image:alt" content="Dealer Resmi Isuzu Jakarta" />
 
     <meta name="robots" content="index, follow" />
@@ -246,7 +246,7 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
     <header>
         <div class="container header-content navbar">
             <div class="header-title">
-                <a href="https://isuzuindonesia.com">
+                <a href="https://salesisuzuofficial.com">
                     <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px;" />
                 </a>
             </div>

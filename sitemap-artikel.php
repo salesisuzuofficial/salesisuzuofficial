@@ -24,7 +24,7 @@ function printUrl($loc, $lastmod, $changefreq = 'monthly', $priority = '0.7') {
     echo "  </url>\n";
 }
 
-$base_url = 'https://isuzuindonesia.com';
+$base_url = 'https://salesisuzuofficial.com';
 
 // halaman index artikel
 printUrl("$base_url/artikel", date('Y-m-d'), 'weekly', '0.9');
@@ -32,8 +32,8 @@ printUrl("$base_url/artikel", date('Y-m-d'), 'weekly', '0.9');
 try {
     // koneksi database
     $db_host = getenv('DB_HOST') ?: 'localhost';
-    $db_name = getenv('DB_NAME') ?: 'u166903321_isuzuofficial';
-    $db_user = getenv('DB_USER') ?: 'u166903321_isuzuofficial';
+    $db_name = getenv('DB_NAME') ?: 'u166903321_isuzuofficial1';
+    $db_user = getenv('DB_USER') ?: 'u166903321_isuzuofficial1';
     $db_pass = getenv('DB_PASS') ?: 'Isuzuoff1c1al22!""';
 
     $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);

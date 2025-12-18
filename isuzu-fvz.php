@@ -31,17 +31,17 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://isuzuindonesia.com/isuzu-fvz" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/isuzu-fvz" />
 
     <!-- Favicon utama -->
-    <link rel="icon" type="image/png" sizes="32x32" href="https://isuzuindonesia.com/faviconisuzu.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
     <!-- Favicon untuk browser (ICO multi-size) -->
-    <link rel="icon" type="image/x-icon" href="https://isuzuindonesia.com/faviconisuzu.ico">
+    <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
 
     <!-- Apple Touch Icon (iPhone/iPad) -->
-    <link rel="apple-touch-icon" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
 
     <!-- FIXED JSON-LD (NO ERROR) -->
@@ -53,8 +53,8 @@
         {
           "@type": "Organization",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://isuzuindonesia.com/",
-          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
+          "url": "https://salesisuzuofficial.com/",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+6281296632186",
@@ -66,9 +66,9 @@
         {
           "@type": "AutoDealer",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://isuzuindonesia.com/",
-          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
-          "image": "https://isuzuindonesia.com/img/isuzu1.jpeg",
+          "url": "https://salesisuzuofficial.com/",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "telephone": "+6281296632186",
           "priceRange": "Rp",
           "address": {
@@ -86,7 +86,7 @@
           "@type": "Product",
           "name": "Isuzu Giga FVZ",
           "image": [
-            "https://isuzuindonesia.com/img/product/fvz/isuzugigafvz.png"
+            "https://salesisuzuofficial.com/img/product/fvz/isuzugigafvz.png"
           ],
           "description": "Isuzu Giga FVZ adalah truk heavy duty 285 PS dengan transmisi 9 percepatan, cocok untuk dump truck dan kargo berat. Tersedia kredit & promo Jakarta.",
           "brand": {
@@ -95,7 +95,7 @@
           },
           "offers": {
             "@type": "Offer",
-            "url": "https://isuzuindonesia.com/isuzu-fvz",
+            "url": "https://salesisuzuofficial.com/isuzu-fvz",
             "priceCurrency": "IDR",
             "price": "1140000000",
             "availability": "https://schema.org/InStock",
@@ -115,19 +115,19 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://isuzuindonesia.com/"
+              "item": "https://salesisuzuofficial.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Produk Isuzu",
-              "item": "https://isuzuindonesia.com/produk"
+              "item": "https://salesisuzuofficial.com/produk"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Isuzu Giga FVZ",
-              "item": "https://isuzuindonesia.com/isuzu-fvz"
+              "item": "https://salesisuzuofficial.com/isuzu-fvz"
             }
           ]
         }
@@ -139,8 +139,8 @@
     <!-- ========== OPEN GRAPH (ISUZU FVZ) ========== -->
     <meta property="og:title" content="Harga Isuzu Giga FVZ Terbaru | Dealer Resmi Isuzu Jakarta" />
     <meta property="og:description" content="Harga terbaru Isuzu Giga FVZ Jakarta. Truk heavy duty 285 PS, kapasitas besar, cocok untuk dump truck & kargo. Promo & kredit tersedia." />
-    <meta property="og:image" content="https://isuzuindonesia.com/img/product/fvz/isuzugigafvz.png" />
-    <meta property="og:url" content="https://isuzuindonesia.com/isuzu-fvz" />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/fvz/isuzugigafvz.png" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-fvz" />
     <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="product" />
 
@@ -148,7 +148,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Harga Isuzu Giga FVZ Terbaru | Dealer Resmi Isuzu Jakarta" />
     <meta name="twitter:description" content="Cek harga & promo terbaru Isuzu Giga FVZ Jakarta. Tersedia kredit ringan & bonus menarik." />
-    <meta name="twitter:image" content="https://isuzuindonesia.com/img/product/fvz/isuzugigafvz.png" />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/fvz/isuzugigafvz.png" />
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />
@@ -182,7 +182,7 @@
       <div class="container header-content navbar">
         <!-- Logo -->
         <div class="header-title">
-          <a href="https://isuzuindonesia.com">
+          <a href="https://salesisuzuofficial.com">
             <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
           </a>
         </div>

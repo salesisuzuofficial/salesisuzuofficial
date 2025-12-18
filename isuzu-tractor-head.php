@@ -31,17 +31,17 @@
     <meta name="keywords" content="produk isuzu, dealer isuzu jakarta, harga isuzu, isuzu traga, isuzu elf, isuzu giga, isuzu nlr, isuzu nmr" />
 
     <!-- FIXED CANONICAL -->
-    <link rel="canonical" href="https://isuzuindonesia.com/isuzu-tractor-head" />
+    <link rel="canonical" href="https://salesisuzuofficial.com/isuzu-tractor-head" />
 
     <!-- Favicon utama -->
-    <link rel="icon" type="image/png" sizes="32x32" href="https://isuzuindonesia.com/faviconisuzu.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://salesisuzuofficial.com/faviconisuzu.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
     <!-- Favicon untuk browser (ICO multi-size) -->
-    <link rel="icon" type="image/x-icon" href="https://isuzuindonesia.com/faviconisuzu.ico">
+    <link rel="icon" type="image/x-icon" href="https://salesisuzuofficial.com/faviconisuzu.ico">
 
     <!-- Apple Touch Icon (iPhone/iPad) -->
-    <link rel="apple-touch-icon" href="https://isuzuindonesia.com/faviconisuzu.png">
+    <link rel="apple-touch-icon" href="https://salesisuzuofficial.com/faviconisuzu.png">
 
 
     <!-- ✅ JSON-LD ISUZU GIGA TRACTOR HEAD (SEO MAKSIMAL) -->
@@ -52,8 +52,8 @@
         {
           "@type": "Organization",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://isuzuindonesia.com/",
-          "logo": "https://isuzuindonesia.com/img/isuzu1.jpeg",
+          "url": "https://salesisuzuofficial.com/",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+6281296632186",
@@ -65,8 +65,8 @@
         {
           "@type": "AutoDealer",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://isuzuindonesia.com/",
-          "image": "https://isuzuindonesia.com/img/isuzu1.jpeg",
+          "url": "https://salesisuzuofficial.com/",
+          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
           "address": {
@@ -83,9 +83,9 @@
           "@type": "Product",
           "name": "Isuzu Giga Tractor Head Euro 4",
           "image": [
-            "https://isuzuindonesia.com/img/product/th/headerth.webp",
-            "https://isuzuindonesia.com/img/product/th/mesinth.jpg",
-            "https://isuzuindonesia.com/img/product/th/dashboardth.webp"
+            "https://salesisuzuofficial.com/img/product/th/headerth.webp",
+            "https://salesisuzuofficial.com/img/product/th/mesinth.jpg",
+            "https://salesisuzuofficial.com/img/product/th/dashboardth.webp"
           ],
           "description": "Isuzu Giga Tractor Head Euro 4 dengan mesin 245 PS hingga 350 PS. Cocok untuk trailer, ekspedisi, dan logistik berat. Tersedia varian GVZ, GXZ, dan GVR. Harga dan promo resmi Jakarta.",
           "brand": {
@@ -100,7 +100,7 @@
             "highPrice": "1326000000",
             "offerCount": 4,
             "availability": "https://schema.org/InStock",
-            "url": "https://isuzuindonesia.com/isuzu-giga-tractor-head"
+            "url": "https://salesisuzuofficial.com/isuzu-giga-tractor-head"
           }
         },
         {
@@ -110,19 +110,19 @@
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://isuzuindonesia.com/"
+              "item": "https://salesisuzuofficial.com/"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Produk Isuzu",
-              "item": "https://isuzuindonesia.com/produk"
+              "item": "https://salesisuzuofficial.com/produk"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": "Isuzu Giga Tractor Head",
-              "item": "https://isuzuindonesia.com/isuzu-giga-tractor-head"
+              "item": "https://salesisuzuofficial.com/isuzu-giga-tractor-head"
             }
           ]
         }
@@ -133,8 +133,8 @@
     <!-- ✅ OPEN GRAPH KHUSUS ISUZU GIGA TRACTOR HEAD -->
     <meta property="og:title" content="Isuzu Giga Tractor Head Euro 4 – Harga & Promo Jakarta" />
     <meta property="og:description" content="Isuzu Giga Tractor Head Euro 4 tenaga besar 245–350 PS. Cocok untuk trailer & logistik berat. Harga terbaru & promo resmi Jakarta." />
-    <meta property="og:image" content="https://isuzuindonesia.com/img/product/th/headerth.webp" />
-    <meta property="og:url" content="https://isuzuindonesia.com/isuzu-giga-tractor-head" />
+    <meta property="og:image" content="https://salesisuzuofficial.com/img/product/th/headerth.webp" />
+    <meta property="og:url" content="https://salesisuzuofficial.com/isuzu-giga-tractor-head" />
     <meta property="og:site_name" content="Dealer Resmi Isuzu Jakarta" />
     <meta property="og:type" content="product" />
     <meta property="og:locale" content="id_ID" />
@@ -143,7 +143,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Isuzu Giga Tractor Head Euro 4 – Harga & Promo Jakarta" />
     <meta name="twitter:description" content="Tractor Head Isuzu Giga Euro 4 tenaga 350 PS. Cocok untuk bisnis logistik & trailer. Promo & kredit ringan tersedia." />
-    <meta name="twitter:image" content="https://isuzuindonesia.com/img/product/th/headerth.webp" />
+    <meta name="twitter:image" content="https://salesisuzuofficial.com/img/product/th/headerth.webp" />
 
 
     <!-- Robots -->
@@ -178,7 +178,7 @@
       <div class="container header-content navbar">
         <!-- Logo -->
         <div class="header-title">
-          <a href="https://isuzuindonesia.com">
+          <a href="https://salesisuzuofficial.com">
             <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px" />
           </a>
         </div>
