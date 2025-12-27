@@ -5,6 +5,7 @@ $slug = $_GET['slug'] ?? null;
 // Ambil data artikel dari API
 $data = json_decode(file_get_contents("https://salesisuzuofficial.com/admin/api/get_artikel.php"), true);
 $artikel = null;
+$tanggal = $artikel['tanggal'] ?? date('Y-m-d');
 
 // Cari artikel berdasarkan slug
 if ($slug && is_array($data)) {
@@ -29,6 +30,7 @@ $canonical = $artikel
 // Gambar OG
 $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpeg";
 ?>
+
 
 <!DOCTYPE html>
 <html lang="id">
@@ -79,7 +81,8 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
+    "@id": "<?= $canonical; ?>#blogposting",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "<?= $canonical; ?>"
@@ -91,32 +94,26 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
     ],
     "author": {
       "@type": "Person",
-      "name": "Dedy Chandra",
-      "jobTitle": "Sales Consultant Isuzu",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Dealer Resmi Isuzu Jakarta"
-      }
+      "name": "<?= htmlspecialchars($artikel['author'] ?? 'Dedy Chandra'); ?>"
     },
     "publisher": {
       "@type": "Organization",
+      "@id": "https://salesisuzuofficial.com/#organization",
       "name": "Dealer Resmi Isuzu Jakarta",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-        "width": 600,
-        "height": 60
+        "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
       }
     },
-    "datePublished": "<?= date('Y-m-d', strtotime($tanggal)); ?>",
-    "dateModified": "<?= date('Y-m-d', strtotime($tanggal)); ?>",
+    "datePublished": "<?= date('Y-m-d', strtotime($artikel['tanggal'] ?? 'now')); ?>",
+    "dateModified": "<?= date('Y-m-d', strtotime($artikel['tanggal'] ?? 'now')); ?>",
     "url": "<?= $canonical; ?>",
     "inLanguage": "id-ID",
     "articleSection": "Blog Dealer Isuzu",
-    "keywords": "dealer isuzu jakarta, harga isuzu terbaru, isuzu traga, isuzu elf, isuzu giga, promo isuzu",
     "isAccessibleForFree": true
   }
   </script>
+
 
   <!-- OPEN GRAPH -->
   <meta property="og:title" content="<?= htmlspecialchars($judul, ENT_QUOTES); ?>">

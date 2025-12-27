@@ -48,26 +48,21 @@
     {
       "@context": "https://schema.org",
       "@graph": [
+
         {
           "@type": "Organization",
+          "@id": "https://salesisuzuofficial.com/#organization",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+6281296632186",
-            "contactType": "customer service",
-            "areaServed": "ID",
-            "availableLanguage": ["id"]
-          }
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
         },
+
         {
           "@type": "AutoDealer",
+          "@id": "https://salesisuzuofficial.com/#autodealer",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer Resmi Isuzu Jakarta melayani penjualan Traga, ELF, NLR, NMR, dan GIGA. Promo dan kredit tersedia.",
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
           "address": {
@@ -78,32 +73,20 @@
             "postalCode": "11730",
             "addressCountry": "ID"
           },
-          "areaServed": [
-            "Jakarta",
-            "Bekasi",
-            "Depok",
-            "Tangerang",
-            "Bogor"
-          ]
+          "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
         },
-        {
-          "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Resmi Isuzu Jakarta",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dealer Resmi Isuzu Jakarta"
-          }
-        },
+
         {
           "@type": "WebPage",
           "@id": "https://salesisuzuofficial.com/isuzuelf",
           "url": "https://salesisuzuofficial.com/isuzuelf",
-          "name": "Isuzu ELF NMR & NLR – Dealer Resmi Isuzu Jakarta",
-          "description": "Halaman resmi penjualan Isuzu ELF NMR & NLR dari dealer Astra Isuzu Jakarta. Tersedia harga terbaru dan promo kredit."
+          "name": "Isuzu ELF – Dealer Resmi Isuzu Jakarta",
+          "description": "Halaman kategori Isuzu ELF yang menampilkan pilihan Isuzu ELF NMR dan NLR dari dealer resmi Isuzu Jakarta."
         },
+
         {
           "@type": "BreadcrumbList",
+          "@id": "https://salesisuzuofficial.com/isuzuelf#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -124,34 +107,12 @@
               "item": "https://salesisuzuofficial.com/isuzuelf"
             }
           ]
-        },
-        {
-          "@type": "Product",
-          "name": "Isuzu ELF NMR & NLR",
-          "image": [
-            "https://salesisuzuofficial.com/img/product/nmr/nmrhead.webp",
-            "https://salesisuzuofficial.com/img/product/nlr/nlrbanner.webp"
-          ],
-          "description": "Isuzu ELF NMR dan NLR adalah truk ringan tangguh untuk distribusi dan bisnis harian dengan mesin irit dan bertenaga.",
-          "brand": {
-            "@type": "Brand",
-            "name": "Isuzu"
-          },
-          "offers": {
-            "@type": "Offer",
-            "url": "https://salesisuzuofficial.com/isuzuelf",
-            "priceCurrency": "IDR",
-            "price": "400000000",
-            "availability": "https://schema.org/InStock",
-            "seller": {
-              "@type": "Organization",
-              "name": "Dealer Resmi Isuzu Jakarta"
-            }
-          }
         }
+
       ]
     }
     </script>
+
 
     <!-- ========== OPEN GRAPH ISUZU ELF ========== -->
     <meta property="og:title" content="Isuzu ELF NMR & NLR – Harga & Promo Terbaru Jakarta" />

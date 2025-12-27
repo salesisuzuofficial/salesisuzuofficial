@@ -49,49 +49,64 @@
     {
       "@context": "https://schema.org",
       "@graph": [
+
         {
-          "@type": "Product",
-          "name": "Isuzu Traga",
-          "image": "https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg",
-          "description": "Isuzu Traga Jakarta harga terbaru 2025. Tersedia tipe Pickup & Box. Cocok untuk usaha logistik, UMKM, dan distribusi. DP ringan, kredit mudah, stok ready.",
-          "brand": {
-            "@type": "Brand",
-            "name": "Isuzu"
-          },
-          "offers": {
-            "@type": "Offer",
-            "url": "https://salesisuzuofficial.com/isuzu-traga",
-            "priceCurrency": "IDR",
-            "price": "271000000",
-            "availability": "https://schema.org/InStock",
-            "priceValidUntil": "2026-12-31",
-            "seller": {
-              "@type": "AutoDealer",
-              "name": "Dealer Resmi Isuzu Jakarta"
-            }
-          }
-        },
-        {
-          "@type": "AutoDealer",
+          "@type": "Organization",
+          "@id": "https://salesisuzuofficial.com/#organization",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+        },
+
+        {
+          "@type": "AutoDealer",
+          "@id": "https://salesisuzuofficial.com/#autodealer",
+          "name": "Dealer Resmi Isuzu Jakarta",
+          "url": "https://salesisuzuofficial.com/",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer resmi Astra Isuzu Jakarta dengan promo terbaru Isuzu Traga, Elf, Giga, dan N-Series. Melayani kredit & cash.",
+          "telephone": "+6281296632186",
+          "email": "salesisuzuofficial@gmail.com",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
+            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya",
             "addressLocality": "Jakarta Barat",
             "addressRegion": "DKI Jakarta",
             "postalCode": "11730",
             "addressCountry": "ID"
           },
-          "telephone": "+6281296632186",
-          "email": "salesisuzuofficial@gmail.com",
           "areaServed": ["Jakarta", "Depok", "Tangerang", "Bekasi", "Bogor"]
         },
+
+        {
+          "@type": "Product",
+          "@id": "https://salesisuzuofficial.com/isuzutraga#product",
+          "name": "Isuzu Traga",
+          "image": [
+            "https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg"
+          ],
+          "description": "Isuzu Traga adalah kendaraan niaga ringan dengan bak luas, tersedia tipe Pickup dan Box, cocok untuk usaha logistik, UMKM, dan distribusi.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Isuzu"
+          },
+          "offers": {
+            "@type": "AggregateOffer",
+            "url": "https://salesisuzuofficial.com/isuzutraga",
+            "priceCurrency": "IDR",
+            "lowPrice": "271000000",
+            "highPrice": "311000000",
+            "offerCount": 2,
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@type": "Organization",
+              "name": "Dealer Resmi Isuzu Jakarta"
+            }
+          }
+        },
+
         {
           "@type": "BreadcrumbList",
+          "@id": "https://salesisuzuofficial.com/isuzutraga#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -109,13 +124,15 @@
               "@type": "ListItem",
               "position": 3,
               "name": "Isuzu Traga",
-              "item": "https://salesisuzuofficial.com/isuzu-traga"
+              "item": "https://salesisuzuofficial.com/isuzutraga"
             }
           ]
         }
+
       ]
     }
     </script>
+
 
     <!-- OPEN GRAPH ISUZU TRAGA -->
     <meta property="og:title" content="Isuzu Traga Jakarta – Harga Terbaru & Promo Kredit Ringan" />

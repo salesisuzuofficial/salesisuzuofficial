@@ -52,25 +52,23 @@
 
         {
           "@type": "Organization",
+          "@id": "https://salesisuzuofficial.com/#organization",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+6281296632186",
-            "contactType": "sales",
-            "areaServed": "ID"
-          }
+          "sameAs": [
+            "https://www.facebook.com/",
+            "https://www.instagram.com/"
+          ]
         },
 
         {
           "@type": "AutoDealer",
+          "@id": "https://salesisuzuofficial.com/#autodealer",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "telephone": "+6281296632186",
-          "priceRange": "Rp",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya",
@@ -84,32 +82,32 @@
 
         {
           "@type": "Product",
+          "@id": "https://salesisuzuofficial.com/isuzu-fvz#product",
           "name": "Isuzu Giga FVZ",
-          "image": [
-            "https://salesisuzuofficial.com/img/product/fvz/isuzugigafvz.png"
-          ],
-          "description": "Isuzu Giga FVZ adalah truk heavy duty 285 PS dengan transmisi 9 percepatan, cocok untuk dump truck dan kargo berat. Tersedia kredit & promo Jakarta.",
+          "image": "https://salesisuzuofficial.com/img/product/fvz/isuzugigafvz.png",
+          "description": "Isuzu Giga FVZ adalah truk heavy duty 285 PS dengan transmisi 9 percepatan, cocok untuk dump truck dan kargo berat.",
           "brand": {
             "@type": "Brand",
             "name": "Isuzu"
           },
           "offers": {
-            "@type": "Offer",
+            "@type": "AggregateOffer",
             "url": "https://salesisuzuofficial.com/isuzu-fvz",
             "priceCurrency": "IDR",
-            "price": "1140000000",
+            "lowPrice": "1140000000",
+            "highPrice": "1166000000",
+            "offerCount": 3,
             "availability": "https://schema.org/InStock",
-            "itemCondition": "https://schema.org/NewCondition"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "127"
+            "seller": {
+              "@type": "Organization",
+              "name": "Dealer Resmi Isuzu Jakarta"
+            }
           }
         },
 
         {
           "@type": "BreadcrumbList",
+          "@id": "https://salesisuzuofficial.com/isuzu-fvz#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -135,6 +133,7 @@
       ]
     }
     </script>
+
 
     <!-- ========== OPEN GRAPH (ISUZU FVZ) ========== -->
     <meta property="og:title" content="Harga Isuzu Giga FVZ Terbaru | Dealer Resmi Isuzu Jakarta" />

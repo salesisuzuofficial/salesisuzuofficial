@@ -89,6 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   {
     "@context": "https://schema.org",
     "@graph": [
+
       {
         "@type": "Organization",
         "@id": "https://salesisuzuofficial.com/#organization",
@@ -101,41 +102,19 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
           "https://wa.me/6281296632186"
         ]
       },
+
       {
-        "@type": "WebSite",
-        "@id": "https://salesisuzuofficial.com/#website",
-        "url": "https://salesisuzuofficial.com/",
-        "name": "Dealer Resmi Isuzu Jakarta",
-        "alternateName": "Sales Resmi Isuzu Jakarta",
-        "publisher": {
-          "@id": "https://salesisuzuofficial.com/#organization"
-        },
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://salesisuzuofficial.com/?s={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
-      },
-      {
-        "@type": ["AutoDealer", "LocalBusiness"],
+        "@type": "AutoDealer",
         "@id": "https://salesisuzuofficial.com/#autodealer",
         "name": "Dealer Resmi Isuzu Jakarta",
-        "url": "https://salesisuzuofficial.com/",
+        "url": "https://salesisuzuofficial.com/contact",
         "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-        "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-        "description": "Dealer resmi Isuzu Jakarta dengan harga terbaru & promo besar hari ini. Tersedia Isuzu Traga, ELF, dan GIGA. DP ringan, cicilan fleksibel, pengiriman cepat, konsultasi GRATIS sekarang!",
         "telephone": "+6281296632186",
         "email": "salesisuzuofficial@gmail.com",
-        "areaServed": [
-          "Jakarta",
-          "Bekasi",
-          "Depok",
-          "Tangerang",
-          "Bogor"
-        ],
+        "priceRange": "IDR",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
+          "streetAddress": "Jalan Daan Mogot Km 13.9, Rawa Buaya, Cengkareng",
           "addressLocality": "Jakarta Barat",
           "addressRegion": "DKI Jakarta",
           "postalCode": "11730",
@@ -146,32 +125,31 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
           "latitude": -6.1387,
           "longitude": 106.7219
         },
-        "hasMap": "https://www.google.com/maps",
+        "hasMap": "https://www.google.com/maps/place/ASTRA+ISUZU+DAAN+MOGOT",
         "openingHours": "Mo-Sa 08:00-17:00",
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+6281296632186",
           "contactType": "sales",
-          "availableLanguage": ["Indonesian"]
+          "availableLanguage": ["id"]
         }
       },
+
       {
         "@type": "WebPage",
-        "@id": "https://salesisuzuofficial.com/contact#webpage",
+        "@id": "https://salesisuzuofficial.com/contact",
         "url": "https://salesisuzuofficial.com/contact",
-        "name": "Kontak Dealer Resmi Isuzu Jakarta | Promo Traga, ELF & GIGA",
-        "description": "Hubungi dealer resmi Isuzu Jakarta untuk harga terbaru, promo Traga, ELF & GIGA, simulasi kredit, dan pemesanan cepat via WhatsApp.",
+        "name": "Hubungi Dealer Resmi Isuzu Jakarta",
+        "description": "Hubungi dealer resmi Isuzu Jakarta untuk konsultasi harga terbaru, promo Traga, ELF & GIGA, simulasi kredit, dan pemesanan cepat.",
         "isPartOf": {
-          "@id": "https://salesisuzuofficial.com/#website"
-        },
-        "primaryImageOfPage": {
-          "@type": "ImageObject",
-          "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+          "@id": "https://salesisuzuofficial.com/#organization"
         }
       }
+
     ]
   }
   </script>
+
 
   <!-- Open Graph -->
   <meta property="og:title" content="Hubungi Kami | Dealer Resmi Isuzu Jakarta" />

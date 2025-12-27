@@ -52,23 +52,24 @@
 
         {
           "@type": "Organization",
+          "@id": "https://salesisuzuofficial.com/#organization",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+6281296632186",
-            "contactType": "sales",
-            "areaServed": "ID"
-          }
+          "sameAs": [
+            "https://www.facebook.com/",
+            "https://www.instagram.com/"
+          ]
         },
 
         {
           "@type": "AutoDealer",
+          "@id": "https://salesisuzuofficial.com/#autodealer",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "telephone": "+6281296632186",
+          "priceRange": "IDR",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Jalan Daan Mogot Km 13.9",
@@ -82,6 +83,7 @@
 
         {
           "@type": "Product",
+          "@id": "https://salesisuzuofficial.com/isuzu-fvm#product",
           "name": "Isuzu Giga FVM",
           "image": [
             "https://salesisuzuofficial.com/img/product/fvm/headerfvm.webp"
@@ -92,31 +94,23 @@
             "name": "Isuzu"
           },
           "offers": {
-            "@type": "Offer",
+            "@type": "AggregateOffer",
             "url": "https://salesisuzuofficial.com/isuzu-fvm",
             "priceCurrency": "IDR",
-            "price": "912000000",
+            "lowPrice": "912000000",
+            "highPrice": "992000000",
+            "offerCount": 4,
             "availability": "https://schema.org/InStock",
             "seller": {
-              "@type": "AutoDealer",
+              "@type": "Organization",
               "name": "Dealer Resmi Isuzu Jakarta"
             }
           }
         },
 
         {
-          "@type": "WebPage",
-          "name": "Isuzu Giga FVM – Harga & Spesifikasi",
-          "url": "https://salesisuzuofficial.com/isuzu-fvm",
-          "description": "Spesifikasi lengkap, harga, dan promo Isuzu Giga FVM di Dealer Resmi Isuzu Jakarta.",
-          "primaryImageOfPage": {
-            "@type": "ImageObject",
-            "url": "https://salesisuzuofficial.com/img/product/fvm/headerfvm.webp"
-          }
-        },
-
-        {
           "@type": "BreadcrumbList",
+          "@id": "https://salesisuzuofficial.com/isuzu-fvm#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -127,7 +121,7 @@
             {
               "@type": "ListItem",
               "position": 2,
-              "name": "Produk",
+              "name": "Produk Isuzu",
               "item": "https://salesisuzuofficial.com/produk"
             },
             {
@@ -142,6 +136,7 @@
       ]
     }
     </script>
+
 
     <!-- ================= OPEN GRAPH ISUZU GIGA FVM ================= -->
     <meta property="og:title" content="Isuzu Giga FVM – Harga & Spesifikasi | Dealer Resmi Isuzu Jakarta" />

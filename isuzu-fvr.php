@@ -68,7 +68,6 @@
     <!-- ========================= -->
     <!-- SCHEMA JSON-LD (SUPER LENGKAP SEO) -->
     <!-- ========================= -->
-
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -76,6 +75,7 @@
 
         {
           "@type": "Organization",
+          "@id": "https://salesisuzuofficial.com/#organization",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
@@ -87,6 +87,7 @@
 
         {
           "@type": "AutoDealer",
+          "@id": "https://salesisuzuofficial.com/#autodealer",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
@@ -105,25 +106,32 @@
 
         {
           "@type": "Product",
+          "@id": "https://salesisuzuofficial.com/isuzu-fvr#product",
           "name": "Isuzu Giga FVR",
           "image": "https://salesisuzuofficial.com/img/product/fvr/headerfvr.webp",
-          "description": "Isuzu Giga FVR adalah truk medium duty dengan mesin 6HK1-TCN Euro4, torsi besar, irit bahan bakar dan siap berbagai aplikasi karoseri.",
+          "description": "Isuzu Giga FVR adalah truk medium duty dengan mesin 6HK1-TCN Euro 4, torsi besar, irit bahan bakar, dan siap berbagai aplikasi karoseri.",
           "brand": {
             "@type": "Brand",
             "name": "Isuzu"
           },
           "offers": {
-            "@type": "Offer",
+            "@type": "AggregateOffer",
             "url": "https://salesisuzuofficial.com/isuzu-fvr",
             "priceCurrency": "IDR",
-            "price": "773000000",
+            "lowPrice": "773000000",
+            "highPrice": "798000000",
+            "offerCount": 5,
             "availability": "https://schema.org/InStock",
-            "itemCondition": "https://schema.org/NewCondition"
+            "seller": {
+              "@type": "Organization",
+              "name": "Dealer Resmi Isuzu Jakarta"
+            }
           }
         },
 
         {
           "@type": "BreadcrumbList",
+          "@id": "https://salesisuzuofficial.com/isuzu-fvr#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -149,6 +157,7 @@
       ]
     }
     </script>
+
 
     <!-- Robots -->
     <meta name="robots" content="index, follow" />

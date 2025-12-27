@@ -49,8 +49,10 @@
     {
       "@context": "https://schema.org",
       "@graph": [
+
         {
           "@type": "Organization",
+          "@id": "https://salesisuzuofficial.com/#organization",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
@@ -60,47 +62,36 @@
             "https://www.youtube.com/@salesisuzuofficial"
           ]
         },
-        {
-          "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Resmi Isuzu Jakarta",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dealer Resmi Isuzu Jakarta",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-            }
-          }
-        },
+
         {
           "@type": "AutoDealer",
+          "@id": "https://salesisuzuofficial.com/#autodealer",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://salesisuzuofficial.com/tragapickup",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "image": "https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg",
-          "description": "Isuzu Traga Pick Up FD resmi dari Astra Jakarta. Harga terbaru, promo, kredit, dan info spesifikasi lengkap tersedia.",
+          "url": "https://salesisuzuofficial.com/",
+          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "telephone": "+6281296632186",
+          "email": "salesisuzuofficial@gmail.com",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
+            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya",
             "addressLocality": "Jakarta Barat",
             "addressRegion": "DKI Jakarta",
             "postalCode": "11730",
             "addressCountry": "ID"
           },
-          "telephone": "+6281296632186",
-          "email": "salesisuzuofficial@gmail.com",
           "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
         },
+
         {
           "@type": "Product",
+          "@id": "https://salesisuzuofficial.com/tragapickup#product",
           "name": "Isuzu Traga Pick Up FD",
           "image": [
             "https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg",
             "https://salesisuzuofficial.com/img/product/traga/traga-engine1.webp",
             "https://salesisuzuofficial.com/img/product/traga/traga-euro2.webp"
           ],
-          "description": "Isuzu Traga Pick Up FD resmi dari Astra Jakarta. Mesin bertenaga, irit bahan bakar, dan kargo luas. Tersedia promo, kredit, dan harga terbaru.",
+          "description": "Isuzu Traga Pick Up FD adalah kendaraan niaga ringan dengan mesin Common Rail 2.500 cc Euro 4, irit bahan bakar, dan kargo terluas di kelasnya.",
           "brand": {
             "@type": "Brand",
             "name": "Isuzu"
@@ -115,19 +106,16 @@
             "availability": "https://schema.org/InStock",
             "itemCondition": "https://schema.org/NewCondition",
             "seller": {
-              "@type": "AutoDealer",
+              "@type": "Organization",
               "name": "Dealer Resmi Isuzu Jakarta"
             }
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.7",
-            "reviewCount": "56"
           }
         }
+
       ]
     }
     </script>
+
 
     <!-- ================= OPTIMIZED OG & TWITTER ================= -->
     <meta property="og:title" content="Isuzu Traga Pick Up FD – Dealer Resmi Isuzu Jakarta" />
@@ -213,7 +201,7 @@
       <!-- HEADER -->
       <div class="promo-header">
           <p class="promo-tag">#IsuzuEuro4Ready</p>
-          <h1>Keunggulan Isuzu Traga Pick Up untuk Usaha Anda</h1>
+          <h2>Keunggulan Isuzu Traga Pick Up untuk Usaha Anda</h2>
           <p class="promo-desc">
           Mesin bertenaga, irit bahan bakar, dan tangguh untuk kebutuhan operasional harian bisnis Anda.
           </p>

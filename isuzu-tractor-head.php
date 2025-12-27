@@ -49,21 +49,18 @@
     {
       "@context": "https://schema.org",
       "@graph": [
+
         {
           "@type": "Organization",
+          "@id": "https://salesisuzuofficial.com/#organization",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+6281296632186",
-            "contactType": "sales",
-            "areaServed": "ID",
-            "availableLanguage": ["id"]
-          }
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
         },
+
         {
           "@type": "AutoDealer",
+          "@id": "https://salesisuzuofficial.com/#autodealer",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
@@ -71,7 +68,7 @@
           "email": "salesisuzuofficial@gmail.com",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
+            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya",
             "addressLocality": "Jakarta Barat",
             "addressRegion": "DKI Jakarta",
             "postalCode": "11730",
@@ -79,15 +76,17 @@
           },
           "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
         },
+
         {
           "@type": "Product",
+          "@id": "https://salesisuzuofficial.com/isuzu-giga-tractor-head#product",
           "name": "Isuzu Giga Tractor Head Euro 4",
           "image": [
             "https://salesisuzuofficial.com/img/product/th/headerth.webp",
             "https://salesisuzuofficial.com/img/product/th/mesinth.jpg",
             "https://salesisuzuofficial.com/img/product/th/dashboardth.webp"
           ],
-          "description": "Isuzu Giga Tractor Head Euro 4 dengan mesin 245 PS hingga 350 PS. Cocok untuk trailer, ekspedisi, dan logistik berat. Tersedia varian GVZ, GXZ, dan GVR. Harga dan promo resmi Jakarta.",
+          "description": "Isuzu Giga Tractor Head Euro 4 dengan pilihan mesin 245 PS hingga 350 PS, cocok untuk trailer, ekspedisi, dan logistik berat.",
           "brand": {
             "@type": "Brand",
             "name": "Isuzu"
@@ -95,16 +94,22 @@
           "sku": "GIGA-TRACTOR-HEAD-EURO4",
           "offers": {
             "@type": "AggregateOffer",
+            "url": "https://salesisuzuofficial.com/isuzu-giga-tractor-head",
             "priceCurrency": "IDR",
             "lowPrice": "813000000",
             "highPrice": "1326000000",
             "offerCount": 4,
             "availability": "https://schema.org/InStock",
-            "url": "https://salesisuzuofficial.com/isuzu-giga-tractor-head"
+            "seller": {
+              "@type": "Organization",
+              "name": "Dealer Resmi Isuzu Jakarta"
+            }
           }
         },
+
         {
           "@type": "BreadcrumbList",
+          "@id": "https://salesisuzuofficial.com/isuzu-giga-tractor-head#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -126,9 +131,11 @@
             }
           ]
         }
+
       ]
     }
     </script>
+
 
     <!-- ✅ OPEN GRAPH KHUSUS ISUZU GIGA TRACTOR HEAD -->
     <meta property="og:title" content="Isuzu Giga Tractor Head Euro 4 – Harga & Promo Jakarta" />

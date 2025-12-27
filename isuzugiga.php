@@ -49,26 +49,21 @@
     {
       "@context": "https://schema.org",
       "@graph": [
+
         {
           "@type": "Organization",
+          "@id": "https://salesisuzuofficial.com/#organization",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+6281296632186",
-            "contactType": "customer service",
-            "areaServed": "ID",
-            "availableLanguage": ["id"]
-          }
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
         },
+
         {
           "@type": "AutoDealer",
+          "@id": "https://salesisuzuofficial.com/#autodealer",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer Resmi Isuzu Jakarta melayani penjualan Isuzu Traga, ELF, NLR, NMR dan GIGA dengan promo serta kredit.",
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
           "address": {
@@ -79,32 +74,20 @@
             "postalCode": "11730",
             "addressCountry": "ID"
           },
-          "areaServed": [
-            "Jakarta",
-            "Bekasi",
-            "Depok",
-            "Tangerang",
-            "Bogor"
-          ]
+          "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
         },
-        {
-          "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Resmi Isuzu Jakarta",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dealer Resmi Isuzu Jakarta"
-          }
-        },
+
         {
           "@type": "WebPage",
           "@id": "https://salesisuzuofficial.com/isuzugiga",
           "url": "https://salesisuzuofficial.com/isuzugiga",
           "name": "Isuzu GIGA – Dealer Resmi Isuzu Jakarta",
-          "description": "Halaman resmi penjualan Isuzu GIGA FRR, FTR, FVR, FVM, FVZ dan Tractor Head. Harga terbaru & promo dealer resmi."
+          "description": "Halaman kategori Isuzu GIGA yang menampilkan pilihan FRR, FTR, FVR, FVM, FVZ, dan Tractor Head dari dealer resmi Isuzu Jakarta."
         },
+
         {
           "@type": "BreadcrumbList",
+          "@id": "https://salesisuzuofficial.com/isuzugiga#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -125,38 +108,12 @@
               "item": "https://salesisuzuofficial.com/isuzugiga"
             }
           ]
-        },
-        {
-          "@type": "Product",
-          "name": "Isuzu GIGA",
-          "image": [
-            "https://salesisuzuofficial.com/img/product/frr/isuzu-giga-frr.png",
-            "https://salesisuzuofficial.com/img/product/ftr/isuzu-giga-ftr.png",
-            "https://salesisuzuofficial.com/img/product/fvr/isuzugigafvr.png",
-            "https://salesisuzuofficial.com/img/product/fvm/isuzugigafvm.png",
-            "https://salesisuzuofficial.com/img/product/fvz/isuzugigafvz.png",
-            "https://salesisuzuofficial.com/img/product/th/isuzugigath.png"
-          ],
-          "description": "Isuzu GIGA merupakan truk medium & heavy duty untuk kebutuhan logistik, konstruksi, dan industri dengan mesin bertenaga dan irit.",
-          "brand": {
-            "@type": "Brand",
-            "name": "Isuzu"
-          },
-          "offers": {
-            "@type": "Offer",
-            "url": "https://salesisuzuofficial.com/isuzugiga",
-            "priceCurrency": "IDR",
-            "price": "621000000",
-            "availability": "https://schema.org/InStock",
-            "seller": {
-              "@type": "Organization",
-              "name": "Dealer Resmi Isuzu Jakarta"
-            }
-          }
         }
+
       ]
     }
     </script>
+
 
 
     <!-- ================= ISUZU GIGA OPEN GRAPH ================= -->

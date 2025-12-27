@@ -95,50 +95,68 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <!-- Schema JSON-LD -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@graph": [
+    "@context": "https://schema.org",
+    "@graph": [
+
         {
-          "@type": "WebSite",
-          "name": "Dealer Isuzu",
-          "url": "https://salesisuzuofficial.com/",
-          "alternateName": "Dealer Isuzu Jakarta",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://salesisuzuofficial.com/?s={search_term_string}",
-            "query-input": "required name=search_term_string"
-          }
+        "@type": "Organization",
+        "@id": "https://salesisuzuofficial.com/#organization",
+        "name": "Dealer Resmi Isuzu Jakarta",
+        "url": "https://salesisuzuofficial.com/",
+        "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
         },
+
         {
-          "@type": "Organization",
-          "name": "Dealer Astra Isuzu Jakarta Resmi",
-          "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-        },
-        {
-          "@type": "AutoDealer",
-          "name": "Dealer Astra Isuzu Jakarta - Dedy Chandra",
-          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "telephone": "+6281296632186",
-          "email": "salesisuzuofficial@gmail.com",
-          "priceRange": "IDR",
-          "url": "https://salesisuzuofficial.com/",
-          "address": {
+        "@type": "AutoDealer",
+        "@id": "https://salesisuzuofficial.com/#autodealer",
+        "name": "Dealer Resmi Isuzu Jakarta",
+        "url": "https://salesisuzuofficial.com/",
+        "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+        "telephone": "+6281296632186",
+        "email": "salesisuzuofficial@gmail.com",
+        "priceRange": "IDR",
+        "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Daan Mogot / Cabang Astra Isuzu (lihat contact page)",
-            "addressLocality": "Jakarta",
+            "streetAddress": "Jalan Daan Mogot Km 13.9, Jakarta Barat",
+            "addressLocality": "Jakarta Barat",
             "addressRegion": "DKI Jakarta",
-            "postalCode": "",
+            "postalCode": "11730",
             "addressCountry": "ID"
-          },
-          "sameAs": [
-            "https://www.facebook.com/",
-            "https://www.instagram.com/"
-          ],
-          "areaServed": ["Jakarta", "Tangerang", "Bekasi", "Jabodetabek"]
+        },
+        "areaServed": ["Jakarta", "Tangerang", "Bekasi", "Bogor", "Depok"]
+        },
+
+        {
+        "@type": "WebPage",
+        "@id": "https://salesisuzuofficial.com/simulasi_kredit",
+        "url": "https://salesisuzuofficial.com/simulasi_kredit",
+        "name": "Simulasi Kredit Isuzu – Dealer Resmi Isuzu Jakarta",
+        "description": "Halaman simulasi kredit Isuzu untuk menghitung cicilan dan mengajukan pembelian kendaraan Isuzu melalui dealer resmi Astra Isuzu Jakarta."
+        },
+
+        {
+        "@type": "BreadcrumbList",
+        "@id": "https://salesisuzuofficial.com/simulasi_kredit#breadcrumb",
+        "itemListElement": [
+            {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salesisuzuofficial.com/"
+            },
+            {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Simulasi Kredit",
+            "item": "https://salesisuzuofficial.com/simulasi_kredit"
+            }
+        ]
         }
-      ]
+
+    ]
     }
     </script>
+
 
 
     <!-- Open Graph -->

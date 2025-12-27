@@ -138,60 +138,63 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
         },
 
         {
-        "@type": "WebSite",
-        "@id": "https://salesisuzuofficial.com/#website",
-        "url": "https://salesisuzuofficial.com/",
-        "name": "Dealer Resmi Isuzu Jakarta",
-        "publisher": {
-            "@id": "https://salesisuzuofficial.com/#organization"
-        },
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://salesisuzuofficial.com/?s={search_term_string}",
-            "query-input": "required name=search_term_string"
-        }
-        },
-
-        {
         "@type": "AutoDealer",
-        "@id": "https://salesisuzuofficial.com/#dealer",
+        "@id": "https://salesisuzuofficial.com/#autodealer",
         "name": "Dealer Resmi Isuzu Jakarta",
-        "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
         "url": "https://salesisuzuofficial.com/",
+        "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
         "telephone": "+6281296632186",
         "email": "salesisuzuofficial@gmail.com",
         "priceRange": "IDR",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Jl. Daan Mogot No.Km 13,9, Cengkareng Timur",
+            "streetAddress": "Jl. Daan Mogot Km 13.9, Jakarta Barat",
             "addressLocality": "Jakarta Barat",
             "addressRegion": "DKI Jakarta",
             "postalCode": "11730",
             "addressCountry": "ID"
         },
-        "areaServed": [
-            "Jakarta",
-            "Bekasi",
-            "Depok",
-            "Tangerang",
-            "Bogor"
-        ]
+        "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
         },
 
         {
-        "@type": "WebPage",
-        "@id": "https://salesisuzuofficial.com/artikel#webpage",
-        "url": "https://salesisuzuofficial.com/artikel",
-        "name": "Artikel & Berita Truk Isuzu Terbaru",
-        "description": "Kumpulan artikel, tips perawatan, harga, promo dan berita terbaru seputar truk Isuzu di Jakarta & sekitarnya.",
+        "@type": "CollectionPage",
+        "@id": "<?= htmlspecialchars($canonical, ENT_QUOTES); ?>",
+        "url": "<?= htmlspecialchars($canonical, ENT_QUOTES); ?>",
+        "name": "Artikel & Berita Isuzu Terbaru",
+        "description": "Kumpulan artikel, berita, promo, dan tips seputar truk Isuzu terbaru dari dealer resmi Isuzu Jakarta.",
         "isPartOf": {
-            "@id": "https://salesisuzuofficial.com/#website"
+            "@id": "https://salesisuzuofficial.com/#organization"
+        },
+        "mainEntity": {
+            "@type": "ItemList",
+            "itemListOrder": "https://schema.org/ItemListOrderDescending"
         }
+        },
+
+        {
+        "@type": "BreadcrumbList",
+        "@id": "https://salesisuzuofficial.com/artikel#breadcrumb",
+        "itemListElement": [
+            {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salesisuzuofficial.com/"
+            },
+            {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Artikel",
+            "item": "https://salesisuzuofficial.com/artikel"
+            }
+        ]
         }
 
     ]
     }
     </script>
+
 
     <!-- Open Graph -->
     <meta property="og:title" content="Berita Terbaru Isuzu – Dealer Resmi Isuzu Jakarta" />

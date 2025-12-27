@@ -49,34 +49,20 @@
     {
       "@context": "https://schema.org",
       "@graph": [
+
         {
-          "@type": "Product",
-          "name": "Isuzu ELF NMR Euro 4",
-          "image": "https://salesisuzuofficial.com/img/product/nmr/nmrhead.webp",
-          "description": "Isuzu NMR Euro 4 adalah truk ringan 6 ban dengan mesin 150 PS, irit bahan bakar, tangguh untuk usaha distribusi, logistik, dan konstruksi.",
-          "brand": {
-            "@type": "Brand",
-            "name": "Isuzu"
-          },
-          "sku": "ISUZU-NMR",
-          "offers": {
-            "@type": "Offer",
-            "url": "https://salesisuzuofficial.com/isuzu-nmr",
-            "priceCurrency": "IDR",
-            "price": "474000000",
-            "availability": "https://schema.org/InStock",
-            "itemCondition": "https://schema.org/NewCondition",
-            "seller": {
-              "@type": "AutoDealer",
-              "name": "Dealer Resmi Isuzu Jakarta"
-            }
-          }
-        },
-        {
-          "@type": "AutoDealer",
+          "@type": "Organization",
+          "@id": "https://salesisuzuofficial.com/#organization",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
+          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
+        },
+
+        {
+          "@type": "AutoDealer",
+          "@id": "https://salesisuzuofficial.com/#autodealer",
+          "name": "Dealer Resmi Isuzu Jakarta",
+          "url": "https://salesisuzuofficial.com/",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
@@ -90,8 +76,36 @@
           },
           "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
         },
+
+        {
+          "@type": "Product",
+          "@id": "https://salesisuzuofficial.com/isuzu-nmr#product",
+          "name": "Isuzu ELF NMR Euro 4",
+          "image": "https://salesisuzuofficial.com/img/product/nmr/nmrhead.webp",
+          "description": "Isuzu NMR Euro 4 adalah truk ringan 6 ban dengan mesin 150 PS, irit bahan bakar, dan tangguh untuk usaha distribusi, logistik, dan konstruksi.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Isuzu"
+          },
+          "sku": "ISUZU-NMR",
+          "offers": {
+            "@type": "AggregateOffer",
+            "url": "https://salesisuzuofficial.com/isuzu-nmr",
+            "priceCurrency": "IDR",
+            "lowPrice": "474000000",
+            "highPrice": "575000000",
+            "offerCount": 5,
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@type": "Organization",
+              "name": "Dealer Resmi Isuzu Jakarta"
+            }
+          }
+        },
+
         {
           "@type": "BreadcrumbList",
+          "@id": "https://salesisuzuofficial.com/isuzu-nmr#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -113,9 +127,11 @@
             }
           ]
         }
+
       ]
     }
     </script>
+
 
     <!-- ✅ OPEN GRAPH ISUZU NMR -->
     <meta property="og:title" content="Isuzu NMR Euro 4 – Harga Terbaru & Promo Kredit Jakarta" />

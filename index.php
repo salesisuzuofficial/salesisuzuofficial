@@ -145,39 +145,6 @@ try {
     }
     </script>
 
-    <!-- FAQ Schema -->
-    <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-        "@type": "Question",
-        "name": "Bagaimana cara membeli mobil Isuzu di Dealer Resmi Isuzu Jakarta?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Hubungi Sales kami melalui WhatsApp atau telepon, konsultasikan kebutuhan Anda, pilih unit Isuzu yang diinginkan, lalu kami bantu proses kredit atau pembelian tunai hingga serah terima."
-        }
-        },
-        {
-        "@type": "Question",
-        "name": "Apakah Dealer Resmi Isuzu Jakarta melayani wilayah Tangerang dan Bekasi?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ya, Dealer Resmi Isuzu Jakarta melayani pembelian unit, pengecekan stok, pengiriman, serta layanan after-sales untuk wilayah Jakarta, Tangerang, Bekasi, dan sekitarnya."
-        }
-        },
-        {
-        "@type": "Question",
-        "name": "Apakah tersedia paket kredit untuk Isuzu Traga dan ELF?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Tersedia berbagai pilihan paket kredit untuk Isuzu Traga dan ELF dengan DP ringan dan tenor hingga 5 tahun. Silakan hubungi Sales kami untuk simulasi cicilan terbaik."
-        }
-        }
-    ]
-    }
-    </script>
 
     <!-- Open Graph -->
     <meta property="og:title" content="Dealer Resmi Isuzu Jakarta | Harga Terbaru & Promo Hari Ini" />

@@ -48,8 +48,10 @@
     {
       "@context": "https://schema.org",
       "@graph": [
+
         {
           "@type": "Organization",
+          "@id": "https://salesisuzuofficial.com/#organization",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
@@ -61,31 +63,38 @@
 
         {
           "@type": "AutoDealer",
+          "@id": "https://salesisuzuofficial.com/#autodealer",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "telephone": "+6281296632186",
           "email": "salesisuzuofficial@gmail.com",
           "priceRange": "IDR",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya RT 12 RW 3 Cengkareng Timur",
+            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya, Cengkareng Timur",
             "addressLocality": "Jakarta Barat",
             "addressRegion": "DKI Jakarta",
             "postalCode": "11730",
             "addressCountry": "ID"
           },
-          "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
+          "areaServed": [
+            "Jakarta",
+            "Bekasi",
+            "Depok",
+            "Tangerang",
+            "Bogor"
+          ]
         },
 
         {
           "@type": "Product",
+          "@id": "https://salesisuzuofficial.com/isuzu-frr#product",
           "name": "Isuzu Giga FRR",
           "image": [
             "https://salesisuzuofficial.com/img/product/frr/headerfrr.webp"
           ],
-          "description": "Isuzu Giga FRR adalah truk medium duty berstandar Euro 4 dengan mesin 190 PS, irit bahan bakar, daya angkut besar, dan cocok untuk bisnis logistik serta distribusi.",
+          "description": "Isuzu Giga FRR adalah truk medium duty Euro 4 dengan mesin 190 PS yang irit bahan bakar, daya angkut besar, dan cocok untuk bisnis logistik serta distribusi.",
           "brand": {
             "@type": "Brand",
             "name": "Isuzu"
@@ -100,14 +109,15 @@
             "availability": "https://schema.org/InStock",
             "itemCondition": "https://schema.org/NewCondition",
             "seller": {
-              "@type": "AutoDealer",
-              "name": "Dealer Astra Isuzu Jakarta Resmi"
+              "@type": "Organization",
+              "name": "Dealer Resmi Isuzu Jakarta"
             }
           }
         },
 
         {
           "@type": "BreadcrumbList",
+          "@id": "https://salesisuzuofficial.com/isuzu-frr#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -129,9 +139,11 @@
             }
           ]
         }
+
       ]
     }
     </script>
+
 
 
     <!-- OPEN GRAPH -->

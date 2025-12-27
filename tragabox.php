@@ -52,6 +52,7 @@
 
         {
           "@type": "Organization",
+          "@id": "https://salesisuzuofficial.com/#organization",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
@@ -59,45 +60,39 @@
 
         {
           "@type": "AutoDealer",
+          "@id": "https://salesisuzuofficial.com/#autodealer",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "url": "https://salesisuzuofficial.com/",
+          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "telephone": "+6281296632186",
-          "email": "salesisuzuofficial@gmail.com",
-          "priceRange": "IDR",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya Cengkareng",
+            "streetAddress": "Jalan Daan Mogot Km 13.9, Jakarta Barat",
             "addressLocality": "Jakarta Barat",
             "addressRegion": "DKI Jakarta",
             "postalCode": "11730",
             "addressCountry": "ID"
-          },
-          "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
+          }
         },
 
         {
           "@type": "Product",
-          "name": "Isuzu Traga Box",
-          "image": [
-            "https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg",
-            "https://salesisuzuofficial.com/img/product/traga/traga-kargo.webp",
-            "https://salesisuzuofficial.com/img/product/traga/traga-engine1.webp"
-          ],
-          "description": "Isuzu Traga Box Euro 4 dengan mesin 2500cc Common Rail, kargo terluas di kelasnya, irit bahan bakar, cocok untuk usaha distribusi.",
+          "@id": "https://salesisuzuofficial.com/tragabox#product",
+          "name": "Isuzu Traga Box Euro 4",
+          "image": "https://salesisuzuofficial.com/img/product/traga/traga-slide-01.jpg",
+          "description": "Isuzu Traga Box Euro 4 dengan mesin Common Rail 2500cc, cocok untuk usaha distribusi dan logistik.",
           "brand": {
             "@type": "Brand",
             "name": "Isuzu"
           },
-          "sku": "TRAGA-BOX-EURO4",
-          "url": "https://salesisuzuofficial.com/tragabox",
           "offers": {
             "@type": "Offer",
             "url": "https://salesisuzuofficial.com/tragabox",
             "priceCurrency": "IDR",
+            "price": "311000000",
             "availability": "https://schema.org/InStock",
             "seller": {
-              "@type": "AutoDealer",
+              "@type": "Organization",
               "name": "Dealer Resmi Isuzu Jakarta"
             }
           }
@@ -105,6 +100,7 @@
 
         {
           "@type": "BreadcrumbList",
+          "@id": "https://salesisuzuofficial.com/tragabox#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -125,41 +121,12 @@
               "item": "https://salesisuzuofficial.com/tragabox"
             }
           ]
-        },
-
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Berapa harga Isuzu Traga Box terbaru?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Harga Isuzu Traga Box tergantung varian dan karoseri. Hubungi sales resmi untuk mendapatkan harga, promo, dan simulasi kredit terbaru."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Apakah Isuzu Traga Box tersedia kredit?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ya, tersedia kredit dengan DP ringan dan tenor hingga 5 tahun melalui leasing resmi."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Apakah Isuzu Traga Box sudah Euro 4?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ya, Isuzu Traga Box menggunakan mesin Common Rail Euro 4 yang lebih ramah lingkungan dan irit bahan bakar."
-              }
-            }
-          ]
         }
 
       ]
     }
     </script>
+
 
 
     <!-- OPEN GRAPH TRAGA BOX -->
@@ -249,7 +216,7 @@
         <p class="promo-tag">#IsuzuEuro4Ready</p>
 
         <!-- H1 UTAMA PRODUK (PENTING UNTUK SEO) -->
-        <h1>Isuzu Traga Box Euro 4 – Pick Up Box Niaga Terbaik untuk Usaha</h1>
+        <h2>Isuzu Traga Box Euro 4 – Pick Up Box Niaga Terbaik untuk Usaha</h2>
 
         <p class="promo-desc">
           Isuzu Traga Box hadir dengan mesin bertenaga, irit bahan bakar, serta kargo terluas di kelasnya untuk menunjang operasional bisnis harian Anda.

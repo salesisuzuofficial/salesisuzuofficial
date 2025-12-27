@@ -50,31 +50,24 @@
 
         {
           "@type": "Organization",
+          "@id": "https://salesisuzuofficial.com/#organization",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+6281296632186",
-            "contactType": "sales",
-            "areaServed": "ID",
-            "availableLanguage": "id"
-          }
-        },
-
-        {
-          "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Resmi Isuzu Jakarta"
+          "sameAs": [
+            "https://www.facebook.com/",
+            "https://www.instagram.com/"
+          ]
         },
 
         {
           "@type": "AutoDealer",
+          "@id": "https://salesisuzuofficial.com/#autodealer",
           "name": "Dealer Resmi Isuzu Jakarta",
-          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "url": "https://salesisuzuofficial.com/",
+          "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "telephone": "+6281296632186",
-          "priceRange": "Rp600.000.000 - Rp800.000.000",
+          "priceRange": "IDR",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Jl. Daan Mogot KM 13.9, Rawa Buaya",
@@ -88,6 +81,7 @@
 
         {
           "@type": "Product",
+          "@id": "https://salesisuzuofficial.com/isuzu-ftr#product",
           "name": "Isuzu Giga FTR",
           "image": "https://salesisuzuofficial.com/img/product/ftr/isuzu-giga-ftr.png",
           "description": "Isuzu Giga FTR adalah truk medium duty 210 PS dengan GVW 14 Ton, tersedia tipe FTR P, FTR S dan FTR T. Cocok untuk wing box, box aluminium, dan refrigerated box.",
@@ -104,7 +98,7 @@
             "offerCount": 3,
             "availability": "https://schema.org/InStock",
             "seller": {
-              "@type": "AutoDealer",
+              "@type": "Organization",
               "name": "Dealer Resmi Isuzu Jakarta"
             }
           }
@@ -112,6 +106,7 @@
 
         {
           "@type": "BreadcrumbList",
+          "@id": "https://salesisuzuofficial.com/isuzu-ftr#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",

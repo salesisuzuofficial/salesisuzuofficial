@@ -90,19 +90,8 @@ try {
       "@graph": [
 
         {
-          "@type": "WebSite",
-          "name": "Dealer Resmi Isuzu Jakarta",
-          "url": "https://salesisuzuofficial.com/",
-          "alternateName": "Sales Isuzu Jakarta",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://salesisuzuofficial.com/?s={search_term_string}",
-            "query-input": "required name=search_term_string"
-          }
-        },
-
-        {
           "@type": "Organization",
+          "@id": "https://salesisuzuofficial.com/#organization",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
@@ -110,7 +99,8 @@ try {
 
         {
           "@type": "AutoDealer",
-          "name": "Showroom Dealer Resmi Isuzu Jakarta - Astra Isuzu",
+          "@id": "https://salesisuzuofficial.com/showroom#autodealer",
+          "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/showroom",
           "image": "https://salesisuzuofficial.com/img/dealer.webp",
           "telephone": "+6281296632186",
@@ -118,19 +108,13 @@ try {
           "priceRange": "IDR",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Jalan Daan Mogot, Jakarta Barat",
-            "addressLocality": "Jakarta",
+            "streetAddress": "Jalan Daan Mogot Km 13.9, Jakarta Barat",
+            "addressLocality": "Jakarta Barat",
             "addressRegion": "DKI Jakarta",
             "postalCode": "11730",
             "addressCountry": "ID"
           },
-          "areaServed": [
-            "Jakarta",
-            "Tangerang",
-            "Bekasi",
-            "Bogor",
-            "Depok"
-          ],
+          "areaServed": ["Jakarta", "Tangerang", "Bekasi", "Bogor", "Depok"],
           "sameAs": [
             "https://www.facebook.com/",
             "https://www.instagram.com/"
@@ -139,9 +123,10 @@ try {
 
         {
           "@type": "CollectionPage",
-          "name": "Showroom Isuzu Jakarta",
+          "@id": "https://salesisuzuofficial.com/showroom",
           "url": "https://salesisuzuofficial.com/showroom",
-          "description": "Showroom resmi Dealer Isuzu Jakarta yang menyediakan unit Isuzu Traga, ELF NLR, ELF NMR, Isuzu GIGA FRR, FTR, FVR, FVM, FVZ, hingga Tractor Head.",
+          "name": "Showroom Isuzu Jakarta – Dealer Resmi Astra Isuzu",
+          "description": "Showroom resmi Dealer Isuzu Jakarta yang menyediakan unit Isuzu Traga, ELF NLR/NMR, Isuzu GIGA FRR, FTR, FVR, FVM, FVZ, hingga Tractor Head.",
           "mainEntity": {
             "@type": "ItemList",
             "itemListElement": [
@@ -160,6 +145,7 @@ try {
 
         {
           "@type": "BreadcrumbList",
+          "@id": "https://salesisuzuofficial.com/showroom#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -179,6 +165,7 @@ try {
       ]
     }
     </script>
+
 
     <!-- OPEN GRAPH SHOWROOM ISUZU -->
     <meta property="og:title" content="Showroom Isuzu Jakarta – Dealer Resmi Astra Isuzu" />

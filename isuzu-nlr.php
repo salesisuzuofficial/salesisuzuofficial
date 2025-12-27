@@ -48,8 +48,10 @@
     {
       "@context": "https://schema.org",
       "@graph": [
+
         {
           "@type": "Organization",
+          "@id": "https://salesisuzuofficial.com/#organization",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
           "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
@@ -60,11 +62,12 @@
 
         {
           "@type": "AutoDealer",
+          "@id": "https://salesisuzuofficial.com/#autodealer",
           "name": "Dealer Resmi Isuzu Jakarta",
           "url": "https://salesisuzuofficial.com/",
-          "logo": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
           "image": "https://salesisuzuofficial.com/img/isuzu1.jpeg",
-          "description": "Dealer resmi Isuzu Jakarta dari Astra. Menyediakan Isuzu NLR, Traga, Elf, dan Giga dengan promo kredit & harga terbaik.",
+          "telephone": "+6281296632186",
+          "email": "salesisuzuofficial@gmail.com",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Jalan Daan Mogot Km 13.9 Rawa Buaya",
@@ -73,13 +76,12 @@
             "postalCode": "11730",
             "addressCountry": "ID"
           },
-          "telephone": "+6281296632186",
-          "email": "salesisuzuofficial@gmail.com",
           "areaServed": ["Jakarta", "Bekasi", "Depok", "Tangerang", "Bogor"]
         },
 
         {
           "@type": "Product",
+          "@id": "https://salesisuzuofficial.com/isuzu-nlr#product",
           "name": "Isuzu ELF NLR",
           "image": "https://salesisuzuofficial.com/img/product/nlr/nlrbanner.webp",
           "description": "Isuzu ELF NLR Euro 4 adalah truk ringan irit BBM, bertenaga, dan cocok untuk usaha distribusi perkotaan.",
@@ -88,16 +90,23 @@
             "name": "Isuzu"
           },
           "offers": {
-            "@type": "Offer",
+            "@type": "AggregateOffer",
             "url": "https://salesisuzuofficial.com/isuzu-nlr",
             "priceCurrency": "IDR",
-            "price": "400000000",
-            "availability": "https://schema.org/InStock"
+            "lowPrice": "400000000",
+            "highPrice": "416000000",
+            "offerCount": 2,
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@type": "Organization",
+              "name": "Dealer Resmi Isuzu Jakarta"
+            }
           }
         },
 
         {
           "@type": "BreadcrumbList",
+          "@id": "https://salesisuzuofficial.com/isuzu-nlr#breadcrumb",
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -118,24 +127,12 @@
               "item": "https://salesisuzuofficial.com/isuzu-nlr"
             }
           ]
-        },
-
-        {
-          "@type": "WebSite",
-          "url": "https://salesisuzuofficial.com/",
-          "name": "Dealer Resmi Isuzu Jakarta",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Dealer Resmi Isuzu Jakarta",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://salesisuzuofficial.com/img/isuzu1.jpeg"
-            }
-          }
         }
+
       ]
     }
     </script>
+
 
 
     <!-- OPEN GRAPH -->
