@@ -27,7 +27,7 @@ function printUrl($loc, $lastmod, $changefreq = 'monthly', $priority = '0.7') {
 $base_url = 'https://salesisuzuofficial.com';
 
 // halaman index artikel
-printUrl("$base_url/artikel", date('Y-m-d'), 'weekly', '0.9');
+printUrl("$base_url/detail_artikel", date('Y-m-d'), 'weekly', '0.9');
 
 try {
     // koneksi database
@@ -55,7 +55,7 @@ try {
                 ? date('Y-m-d', strtotime($row['tanggal']))
                 : date('Y-m-d');
 
-            $url = $base_url . '/artikel/' . $slug_raw;
+            $url = $base_url . '/detail_artikel/' . $slug_raw;
             printUrl($url, $lastmod, 'monthly', '0.6');
         }
         $stmt->close();
