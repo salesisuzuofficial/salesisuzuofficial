@@ -8,7 +8,7 @@
           <p>Dealer resmi Isuzu Jakarta dengan harga terbaru & promo besar hari ini! Traga, ELF & GIGA tersedia. DP ringan, cicilan mudah, konsultasi gratis.</p>
         </div>
         <div class="footer-section">
-          <h1>HUBUNGI KAMI</h1>
+          <h2>HUBUNGI KAMI</h2>
           <p>📞 0812-9663-2186
           <p>📧 salesisuzuofficial@gmail.com</p>
           <p>📍 Jl. Daan Mogot No.Km 13,9, RT.5/RW.1, Cengkareng Tim., Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11730</p>
