@@ -7,111 +7,101 @@
 
     <url>
         <loc>https://salesisuzuofficial.com/</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/index.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/produk</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/produk.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/artikel</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/artikel.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/contact</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/detail_artikel.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
-        <priority>0.70</priority>
-    </url>
-    <url>
-        <loc>https://salesisuzuofficial.com/contact.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/simulasi_kredit</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/simulasi_kredit.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://salesisuzuofficial.com/showroom.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/showroom</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     
     <!-- Halaman model Isuzu -->
     <url>
-        <loc>https://salesisuzuofficial.com/isuzu-frr.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/isuzu-frr</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/isuzu-ftr.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/isuzu-ftr</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/isuzu-fvm.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/isuzu-fvm</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/isuzu-fvr.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/isuzu-fvr</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/isuzu-fvz.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/isuzu-fvz</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/isuzu-nlr.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/isuzu-nlr</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/isuzu-nmr.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/isuzu-nmr</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/isuzu-tractor-head.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/isuzu-tractor-head</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/isuzuelf.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/isuzuelf</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/isuzugiga.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/isuzugiga</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/isuzutraga.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/isuzutraga</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     
     <!-- Halaman Traga -->
     <url>
-        <loc>https://salesisuzuofficial.com/tragabox.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/tragabox</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
     <url>
-        <loc>https://salesisuzuofficial.com/tragapickup.php</loc>
-        <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+        <loc>https://salesisuzuofficial.com/tragapickup</loc>
+        <lastmod>2025-12-28T00:00:00+00:00</lastmod>
         <priority>0.70</priority>
     </url>
 
