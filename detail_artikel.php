@@ -156,18 +156,18 @@ $og_image = $artikel['gambar'] ?? "https://salesisuzuofficial.com/img/isuzu1.jpe
 <header>
   <div class="container header-content navbar">
     <div class="header-title">
-      <a href="https://salesisuzuofficial.com">
+      <a href="https://salesisuzuofficial.com/">
         <img src="/img/logo.png" alt="Logo Isuzu" style="height:60px">
       </a>
     </div>
     <div class="hamburger-menu">&#9776;</div>
     <nav class="nav links">
-      <a href="/">Home</a>
-      <a href="/showroom">Showroom Isuzu</a>
-      <a href="/produk">Produk</a>
-      <a href="/simulasi_kredit">Simulasi Kredit</a>
-      <a href="/artikel">Blog & Artikel</a>
-      <a href="/contact">Contact</a>
+      <a href="https://salesisuzuofficial.com/">Home</a>
+      <a href="https://salesisuzuofficial.com/showroom">Showroom Isuzu</a>
+      <a href="https://salesisuzuofficial.com/produk">Produk</a>
+      <a href="https://salesisuzuofficial.com/simulasi_kredit">Simulasi Kredit</a>
+      <a href="https://salesisuzuofficial.com/artikel">Blog & Artikel</a>
+      <a href="https://salesisuzuofficial.com/contact">Contact</a>
     </nav>
   </div>
 </header>

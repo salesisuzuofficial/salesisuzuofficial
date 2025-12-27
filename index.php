@@ -178,7 +178,7 @@ try {
     <header>
         <div class="container header-content navbar">
             <div class="header-title">
-                <a href="https://salesisuzuofficial.com">
+                <a href="https://salesisuzuofficial.com/">
                     <img src="img/logo.png" alt="Logo Dealer Isuzu Astra Jakarta" style="height: 55px" />
                 </a>
             </div>
@@ -186,12 +186,12 @@ try {
             <div class="hamburger-menu" aria-label="Menu">&#9776;</div>
 
             <nav class="nav links" aria-label="Main Navigation">
-                <a href="/" title="Beranda Dealer Isuzu">Home</a>
-                <a href="/showroom" title="Dealer Isuzu">Showroom</a>
-                <a href="/produk" title="Produk Isuzu">Produk</a>
-                <a href="/simulasi_kredit" title="Simulasi Kredit Isuzu">Simulasi Kredit</a>
-                <a href="/artikel" title="Blog & Artikel Isuzu">Blog & Artikel</a>
-                <a href="/contact" title="Kontak Dealer Isuzu">Contact</a>
+                <a href="https://salesisuzuofficial.com/" title="Beranda Dealer Isuzu">Home</a>
+                <a href="https://salesisuzuofficial.com/showroom" title="Dealer Isuzu">Showroom</a>
+                <a href="https://salesisuzuofficial.com/produk" title="Produk Isuzu">Produk</a>
+                <a href="https://salesisuzuofficial.com/simulasi_kredit" title="Simulasi Kredit Isuzu">Simulasi Kredit</a>
+                <a href="https://salesisuzuofficial.com/artikel" title="Blog & Artikel Isuzu">Blog & Artikel</a>
+                <a href="https://salesisuzuofficial.com/contact" title="Kontak Dealer Isuzu">Contact</a>
             </nav>
         </div>
     </header>

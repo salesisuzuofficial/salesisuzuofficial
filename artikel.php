@@ -249,7 +249,7 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
     <header>
         <div class="container header-content navbar">
             <div class="header-title">
-                <a href="https://salesisuzuofficial.com">
+                <a href="https://salesisuzuofficial.com/">
                     <img src="img/logo.png" alt="Logo Isuzu" style="height: 55px;" />
                 </a>
             </div>
@@ -257,12 +257,12 @@ $metaDescription = 'Dealer Isuzu Jakarta resmi dari Astra. Dapatkan harga terbar
             <div class="hamburger-menu">&#9776;</div>
 
             <nav class="nav links">
-                <a href="/">Home</a>
-                <a href="/showroom">Showroom</a>
-                <a href="/produk">Produk</a>
-                <a href="/simulasi_kredit">Simulasi Kredit</a>
-                <a href="/artikel" class="active">Blog & Artikel</a>
-                <a href="/contact">Contact</a>
+                <a href="https://salesisuzuofficial.com/">Home</a>
+                <a href="https://salesisuzuofficial.com/showroom">Showroom</a>
+                <a href="https://salesisuzuofficial.com/produk">Produk</a>
+                <a href="https://salesisuzuofficial.com/simulasi_kredit">Simulasi Kredit</a>
+                <a href="https://salesisuzuofficial.com/artikel" class="active">Blog & Artikel</a>
+                <a href="https://salesisuzuofficial.com/contact">Contact</a>
             </nav>
         </div>
     </header>
