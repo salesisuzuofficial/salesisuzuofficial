@@ -7,11 +7,19 @@ Options -Indexes
 RewriteEngine On
 RewriteBase /
 
-# --------------------------
-# Force HTTPS
-RewriteCond %{HTTPS} !=on
-RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# ===========================
+# FORCE CANONICAL (FINAL)
+# ===========================
+
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.salesisuzuofficial\.com$ [NC]
+RewriteRule ^(.*)$ https://salesisuzuofficial.com/$1 [R=301,L]
+
+# Force homepage slash
+RewriteCond %{REQUEST_URI} ^/?$ [OR]
+RewriteCond %{REQUEST_URI} ^/index\.php$ [NC]
+RewriteRule ^ https://salesisuzuofficial.com/ [R=301,L]
+
 
 
 # --------------------------
